@@ -498,6 +498,8 @@
             cursor: pointer;
             display: flex;
             flex-direction: column;
+            text-decoration: none;
+            color: inherit;
         }
 
         .album-card:hover {
@@ -541,6 +543,18 @@
         }
 
         /* abstract art lines on covers */
+        .album-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .album-card:hover .album-cover img {
+            transform: scale(1.05);
+        }
+
         .album-cover::before,
         .album-cover::after {
             content: '';
@@ -564,6 +578,12 @@
             left: 50%;
             transform: translate(-50%, -50%);
             border-color: rgba(57, 255, 20, 0.25);
+        }
+
+        /* Hide pseudo-elements when a real cover image is present */
+        .album-cover:has(img)::before,
+        .album-cover:has(img)::after {
+            display: none;
         }
 
         .album-cover-text {
@@ -1013,10 +1033,10 @@
     <nav aria-label="Navigation principale">
         <span class="nav-logo">SMS</span>
         <ul class="nav-links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">Le Groupe</a></li>
             <li><a href="#albums">Albums</a></li>
-            <li><a href="#social">Contact</a></li>
+            <li><a href="#social">Nous joindre</a></li>
         </ul>
         <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
             <span></span><span></span><span></span>
@@ -1101,83 +1121,62 @@
         <!-- ─── ALBUMS ───────────────────────────────── -->
         <section id="albums">
             <div class="section-inner">
-                <p class="section-label">Discography</p>
-                <h2 class="section-title">Albums</h2>
+                <p class="section-label">Discographie</p>
+                <h2 class="section-title">Albums &amp; Singles</h2>
 
                 <div class="album-grid">
 
-                    <!-- Album 1 -->
-                    <div class="album-card reveal">
+                    <!-- Single 1 – 2026 -->
+                    <a class="album-card reveal"
+                        href="https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="album-cover">
-                            <div class="album-cover-text">SMS</div>
+                            <img src="assets/img/Avec_Politesse.jpg" alt="Avec Politesse – cover" loading="lazy" />
                         </div>
                         <div class="album-info">
-                            <div class="album-title">Sad Mazda Song</div>
-                            <div class="album-meta">2020 &nbsp;·&nbsp; Debut Album</div>
-                            <div class="album-tracks">10 Tracks &nbsp;·&nbsp; 38 min</div>
+                            <div class="album-title">Avec Politesse</div>
+                            <div class="album-meta">2026 &nbsp;·&nbsp; Single</div>
                         </div>
-                    </div>
+                    </a>
 
-                    <!-- Album 2 -->
-                    <div class="album-card reveal">
+                    <!-- Single 2 – 2025 -->
+                    <a class="album-card reveal"
+                        href="https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="album-cover">
-                            <div class="album-cover-text">SMS</div>
+                            <img src="assets/img/Eric_Duhaime.jpg" alt="Éric Duhaime – cover" loading="lazy" />
                         </div>
                         <div class="album-info">
-                            <div class="album-title">Hiver / Hiver</div>
-                            <div class="album-meta">2021 &nbsp;·&nbsp; EP</div>
-                            <div class="album-tracks">6 Tracks &nbsp;·&nbsp; 22 min</div>
+                            <div class="album-title">Éric Duhaime</div>
+                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
                         </div>
-                    </div>
+                    </a>
 
-                    <!-- Album 3 -->
-                    <div class="album-card reveal">
+                    <!-- Single 3 – 2025 -->
+                    <a class="album-card reveal"
+                        href="https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="album-cover">
-                            <div class="album-cover-text">SMS</div>
+                            <img src="assets/img/Miss_Steak.jpg" alt="Miss Steak – cover" loading="lazy" />
                         </div>
                         <div class="album-info">
-                            <div class="album-title">Route 175</div>
-                            <div class="album-meta">2022 &nbsp;·&nbsp; Studio Album</div>
-                            <div class="album-tracks">11 Tracks &nbsp;·&nbsp; 44 min</div>
+                            <div class="album-title">Miss Steak</div>
+                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
                         </div>
-                    </div>
+                    </a>
 
-                    <!-- Album 4 -->
-                    <div class="album-card reveal">
+                    <!-- Single 4 – 2025 -->
+                    <a class="album-card reveal"
+                        href="https://open.spotify.com/intl-fr/album/3VCPMKGzF9SM4dGr8gjdAb?si=GjkK25ZUTFS3vpoPBSe75w"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="album-cover">
-                            <div class="album-cover-text">SMS</div>
+                            <img src="assets/img/Nadine.jpg" alt="Nadine – cover" loading="lazy" />
                         </div>
                         <div class="album-info">
-                            <div class="album-title">Le Grand Nord</div>
-                            <div class="album-meta">2023 &nbsp;·&nbsp; Studio Album</div>
-                            <div class="album-tracks">12 Tracks &nbsp;·&nbsp; 48 min</div>
+                            <div class="album-title">Nadine</div>
+                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
                         </div>
-                    </div>
-
-                    <!-- Album 5 -->
-                    <div class="album-card reveal">
-                        <div class="album-cover">
-                            <div class="album-cover-text">SMS</div>
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Vieux-Québec Sessions</div>
-                            <div class="album-meta">2024 &nbsp;·&nbsp; Live Album</div>
-                            <div class="album-tracks">9 Tracks &nbsp;·&nbsp; 51 min</div>
-                        </div>
-                    </div>
-
-                    <!-- Album 6 -->
-                    <div class="album-card reveal">
-                        <div class="album-cover">
-                            <div class="album-cover-text">SMS</div>
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Décrochage</div>
-                            <div class="album-meta">2025 &nbsp;·&nbsp; Studio Album</div>
-                            <div class="album-tracks">13 Tracks &nbsp;·&nbsp; 52 min</div>
-                        </div>
-                    </div>
-
+                    </a>
                 </div><!-- /album-grid -->
             </div>
         </section>
@@ -1187,10 +1186,10 @@
         <!-- ─── SOCIAL ───────────────────────────────── -->
         <section id="social">
             <div class="section-inner reveal" style="text-align:center;">
-                <p class="section-label">Stay Connected</p>
-                <h2 class="section-title" style="display:block; text-align:center;">Follow SMS</h2>
+                <p class="section-label">Nous joindre</p>
+                <h2 class="section-title" style="display:block; text-align:center;">Suivez SMS</h2>
                 <p style="color:var(--text-muted); max-width:480px; margin: 0 auto 0.5rem; font-size:0.95rem;">
-                    Keep up with new releases, tour dates, and behind-the-scenes content from the band.
+                    Restez à l’affût des nouvelles sorties, des shows à venir et des coulisses du groupe.
                 </p>
             </div>
 
@@ -1222,7 +1221,7 @@
         <!-- ─── FOOTER ────────────────────────────────── -->
         <footer>
             <div class="footer-logo">SMS</div>
-            <p>© 2026 Sad Mazda Song &nbsp;·&nbsp; Quebec City, QC &nbsp;·&nbsp; All Rights Reserved</p>
+            <p>© 2026 Sad Mazda Song &nbsp;·&nbsp; Ville de Québec, QC &nbsp;·&nbsp; Tous droits réservés</p>
         </footer>
 
     </div><!-- /#main-content -->
