@@ -1,0 +1,7 @@
+# robots.txt for sms.10-4.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sms.10-4.app/sitemap.xml
