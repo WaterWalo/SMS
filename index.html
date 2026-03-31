@@ -14,17 +14,17 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SMS – Sad Mazda Song</title>
+    <title>Sad Mazda Songs (SMS) – Groupe de Rap Underground | Musique Québécoise</title>
 
     <!-- SEO -->
     <meta name="description"
-        content="Sad Mazda Song (SMS) — trio de rap underground de Québec, Québec. Punchlines absurdes, humour de sous-sol et beats inattendus depuis 2024." />
+        content="Sad Mazda Songs (SMS) est un groupe de rap underground de Québec. Trio formé de Marc, L-P et Sam créant des punchlines absurdes, beats inattendus et humour de sous-sol depuis 2024. Découvrez notre musique rap québécoise." />
     <meta name="theme-color" content="#39ff14" />
 
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.svg" />
-    <meta property="og:title" content="SMS – Sad Mazda Song" />
+    <meta property="og:title" content="Sad Mazda Songs (SMS) – Groupe de Rap Underground" />
     <meta property="og:description"
         content="Trio de rap underground de Québec, Québec. Punchlines absurdes, humour de sous-sol et beats inattendus depuis 2024." />
     <meta property="og:type" content="music.band" />
@@ -47,7 +47,7 @@
     {
       "@context": "https://schema.org",
       "@type": "MusicGroup",
-      "name": "Sad Mazda Song",
+      "name": "Sad Mazda Songs",
       "alternateName": "SMS",
       "genre": ["Rap", "Underground Hip Hop", "Rap Québécois", "Rap Queb"],
       "foundingDate": "2024",
@@ -62,10 +62,13 @@
         }
       },
       "url": "https://sms.10-4.app",
-      "description": "Trio de rap underground de Québec. Punchlines absurdes, humour de sous-sol et beats inattendus depuis 2024.",
+      "image": "https://sms.10-4.app/assets/img/og-image.png",
+      "description": "Sad Mazda Songs (SMS) est un groupe de rap underground de Québec formé en 2024. Le trio composé de Marc, L-P et Sam crée un style unique mélangeant punchlines absurdes, humour de sous-sol et beats inattendus.",
       "sameAs": [
         "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
-        "https://www.instagram.com/sad_mazda_songs/"
+        "https://www.instagram.com/sad_mazda_songs/",
+        "https://www.youtube.com/@SMSofficiel",
+        "https://www.tiktok.com/@sms_officiel"
       ]
     }
     </script>
@@ -126,6 +129,21 @@
 
         ::-webkit-scrollbar-thumb:hover {
             background: var(--green-neon);
+        }
+
+        /* ─────────────────────────────────────────────
+       SCREEN READER ONLY (keeps text for SEO)
+    ───────────────────────────────────────────── */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
         }
 
         /* ─────────────────────────────────────────────
@@ -418,6 +436,36 @@
             margin: 0 auto;
         }
 
+        /* ─────────────────────────────────────────────
+       ARTIST INTRO (SEO-focused section)
+    ───────────────────────────────────────────── */
+        .artist-intro-section {
+            background: var(--bg-section);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .artist-intro-inner {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .artist-intro {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-muted);
+            letter-spacing: 0.3px;
+        }
+
+        .artist-intro strong {
+            color: var(--green-neon);
+            font-weight: 600;
+            text-shadow: 0 0 8px rgba(57, 255, 20, 0.3);
+        }
+
+        /* ─────────────────────────────────────────────
+       SECTION HEADERS & LABELS
+    ───────────────────────────────────────────── */
         .section-label {
             font-family: 'Oswald', sans-serif;
             font-size: 0.72rem;
@@ -565,26 +613,30 @@
 
         /* Each album has a unique gradient cover */
         .album-card:nth-child(1) .album-cover {
-            background: linear-gradient(135deg, #061206 0%, #0d3b0d 30%, #145214 55%, #1e6b1e 80%, #0a2a0a 100%);
+            background: linear-gradient(135deg, #1a4a0a 0%, #2d7d1a 30%, #39ff14 50%, #2d7d1a 70%, #1a4a0a 100%);
         }
 
         .album-card:nth-child(2) .album-cover {
-            background: linear-gradient(160deg, #0d0d0d 0%, #0a2a1a 40%, #0f4a0f 70%, #0a1a0a 100%);
+            background: linear-gradient(135deg, #061206 0%, #0d3b0d 30%, #145214 55%, #1e6b1e 80%, #0a2a0a 100%);
         }
 
         .album-card:nth-child(3) .album-cover {
-            background: linear-gradient(120deg, #020802 0%, #0a200a 35%, #183218 60%, #0a2a10 90%, #030c03 100%);
+            background: linear-gradient(160deg, #0d0d0d 0%, #0a2a1a 40%, #0f4a0f 70%, #0a1a0a 100%);
         }
 
         .album-card:nth-child(4) .album-cover {
-            background: linear-gradient(150deg, #060c06 0%, #102210 30%, #1a401a 55%, #0d1f0d 80%, #040804 100%);
+            background: linear-gradient(120deg, #020802 0%, #0a200a 35%, #183218 60%, #0a2a10 90%, #030c03 100%);
         }
 
         .album-card:nth-child(5) .album-cover {
-            background: linear-gradient(135deg, #080e08 0%, #0f2f0f 40%, #175017 65%, #081808 100%);
+            background: linear-gradient(150deg, #060c06 0%, #102210 30%, #1a401a 55%, #0d1f0d 80%, #040804 100%);
         }
 
         .album-card:nth-child(6) .album-cover {
+            background: linear-gradient(135deg, #080e08 0%, #0f2f0f 40%, #175017 65%, #081808 100%);
+        }
+
+        .album-card:nth-child(7) .album-cover {
             background: linear-gradient(165deg, #040a04 0%, #0d280d 35%, #143c14 60%, #0a1e0a 90%, #020502 100%);
         }
 
@@ -653,6 +705,7 @@
             display: flex;
             flex-direction: column;
             gap: 0.3rem;
+            position: relative;
         }
 
         .album-title {
@@ -668,6 +721,34 @@
             letter-spacing: 2px;
             text-transform: uppercase;
             color: var(--text-muted);
+        }
+
+        .new-badge {
+            position: absolute;
+            top: -12px;
+            right: 1.4rem;
+            background: var(--green-neon);
+            color: var(--bg-dark);
+            font-family: 'Oswald', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            padding: 0.35rem 0.8rem;
+            border-radius: 4px;
+            box-shadow: 0 0 15px rgba(57, 255, 20, 0.6);
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 15px rgba(57, 255, 20, 0.6);
+            }
+
+            50% {
+                box-shadow: 0 0 25px rgba(57, 255, 20, 0.9);
+            }
         }
 
         .album-tracks {
@@ -767,6 +848,10 @@
 
         .album-card.reveal:nth-child(6) {
             transition-delay: 350ms;
+        }
+
+        .album-card.reveal:nth-child(7) {
+            transition-delay: 420ms;
         }
 
         /* ─────────────────────────────────────────────
@@ -1004,6 +1089,68 @@
         }
 
         /* ─────────────────────────────────────────────
+       CTA SECTION
+    ───────────────────────────────────────────── */
+        .cta-section {
+            background: radial-gradient(ellipse at 50% 50%, rgba(57, 255, 20, 0.06) 0%, transparent 70%),
+                var(--bg-section);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1.2rem 2.8rem;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--bg-dark);
+            background: var(--green-neon);
+            border: 2px solid var(--green-neon);
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.4),
+                inset 0 0 20px rgba(255, 255, 255, 0.1);
+            transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, transparent 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100%);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .cta-button:hover::before {
+            transform: translateX(100%);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(57, 255, 20, 0.6),
+                inset 0 0 30px rgba(255, 255, 255, 0.2);
+        }
+
+        .cta-button svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-button:hover svg {
+            transform: translateX(4px);
+        }
+
+        /* ─────────────────────────────────────────────
        SOCIAL SECTION CARDS  (2-up, fuller)
     ───────────────────────────────────────────── */
         .social-links {
@@ -1080,7 +1227,7 @@
         <span class="nav-logo">SMS</span>
         <ul class="nav-links">
             <li><a href="#hero">Accueil</a></li>
-            <li><a href="#about">Le Groupe</a></li>
+            <li><a href="about.html">Qui sommes-nous?</a></li>
             <li><a href="#albums">Albums</a></li>
             <li><a href="#social">Nous joindre</a></li>
         </ul>
@@ -1099,8 +1246,8 @@
         <!-- foreground content -->
         <div class="hero-content">
             <div class="hero-title-wrap">
-                <h1 class="hero-band-name">SMS</h1>
-                <p class="hero-subtitle">Sad Mazda Song</p>
+                <h1 class="hero-band-name"><span class="sr-only">Sad Mazda Songs</span>SMS</h1>
+                <p class="hero-subtitle">Groupe de Rap Underground de Québec</p>
                 <p class="hero-origin">Quebec City &nbsp;·&nbsp; Est. 2024</p>
             </div>
 
@@ -1113,54 +1260,41 @@
 
     <div id="main-content">
 
-        <div class="divider"></div>
-
-        <!-- ─── ABOUT ────────────────────────────────── -->
-        <section id="about">
-            <div class="section-inner">
-                <p class="section-label">Sommes-nous qui ?</p>
-                <h2 class="section-title">Le Groupe</h2>
-                <div class="about-grid">
-                    <div class="about-text reveal">
-                        <p>
-                            <strong>Sad Mazda Song</strong> est un groupe de rap underground fondé en 2024 dans les rues
-                            dangereusement tranquilles de Québec.
-                            Composé de Marc, L-P et Sam, le trio s’est donné une mission simple : prouver qu’on peut
-                            faire du rap, être off-beat… et quand même sonner meilleur que ton artiste préféré.
-                        </p>
-                        <p>
-                            Leur style mélange
-                            <strong>
-                                punchlines absurdes, humour de gars de sous-sol et références technologiques
-                                douteuses</strong>,
-                            le tout livré avec une confiance digne d’un modem 3G qui pense encore dominer l’internet
-                        </p>
-                        <p>
-                            Entre deux rides en Mazda avec le volume au fond, SMS balance des bars qui parlent autant
-                            d’algorithmes que de feat… ou de feet pics à 40$. Leur philosophie est simple :
-                            si le beat sonne croche, c’est pas une erreur <strong>—<em>c’est juste que le futur est
-                                    arrivé trop
-                                    tôt pour toi.</em></strong>
-                        </p>
-                    </div>
-
-                    <div class="about-stats reveal">
-                        <div class="stat-card">
-                            <div class="stat-number" data-target="42">0</div>
-                            <div class="stat-label">Chansons</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">QC</div>
-                            <div class="stat-label">Quebec City</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number" data-target="769">0</div>
-                            <div class="stat-label">Instagram Stories</div>
-                        </div>
-                    </div>
-                </div>
+        <!-- ─── ARTIST INTRO (SEO) ──────────────────── -->
+        <section class="artist-intro-section">
+            <div class="artist-intro-inner">
+                <p class="artist-intro">
+                    <strong>Sad Mazda Songs (SMS)</strong> est un groupe de musique rap underground de Québec, Canada.
+                    Formé en 2024, le trio composé de Marc, L-P et Sam crée un style unique mélangeant
+                    punchlines absurdes, humour de sous-sol et beats inattendus. Découvrez la musique
+                    de Sad Mazda Songs, artiste rap québécois indépendant.
+                </p>
             </div>
         </section>
+
+        <div class="divider"></div>
+
+        <!-- ─── CTA TO ABOUT ────────────────────────── -->
+        <section class="cta-section reveal">
+            <div class="section-inner">
+                <p class="section-label">Sommes-nous qui ?</p>
+                <h2 class="section-title" style="display:block; text-align:center;">Découvrir Notre Histoire</h2>
+                <p
+                    style="color:var(--text-muted); max-width:580px; margin: 0 auto 2rem; font-size:1.05rem; line-height:1.8;">
+                    Trois gars, un Mazda, et une mission : prouver qu'on peut être off-beat et quand même sonner
+                    meilleur que ton artiste préféré.
+                </p>
+                <a href="about.html" class="cta-button">
+                    En savoir plus sur SMS
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" fill="none" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <div class="divider"></div>
 
         <div class="divider"></div>
 
@@ -1171,6 +1305,20 @@
                 <h2 class="section-title">Albums &amp; Singles</h2>
 
                 <div class="album-grid">
+
+                    <!-- ★ NEW SINGLE – 2026 ★ -->
+                    <a class="album-card reveal"
+                        href="https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="album-cover">
+                            <img src="assets/img/gaufre_spaghetti.jpg" alt="Gaufre, spaghetti – cover" loading="lazy" />
+                        </div>
+                        <div class="album-info">
+                            <span class="new-badge">NOUVEAU</span>
+                            <div class="album-title">Gaufre, spaghetti</div>
+                            <div class="album-meta">2026 &nbsp;·&nbsp; Single</div>
+                        </div>
+                    </a>
 
                     <!-- Single 1 – 2026 -->
                     <a class="album-card reveal"
@@ -1267,7 +1415,7 @@
         <!-- ─── FOOTER ────────────────────────────────── -->
         <footer>
             <div class="footer-logo">SMS</div>
-            <p>© 2026 Sad Mazda Song &nbsp;·&nbsp; Ville de Québec, QC &nbsp;·&nbsp; Tous droits réservés</p>
+            <p>© 2026 Sad Mazda Songs &nbsp;·&nbsp; Ville de Québec, QC &nbsp;·&nbsp; Tous droits réservés</p>
         </footer>
 
     </div><!-- /#main-content -->
