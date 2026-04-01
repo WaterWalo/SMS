@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr-CA">
+<html lang="en">
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -8,17 +8,16 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-KPRGFE7G0D');
     </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sad Mazda Songs (SMS) – Groupe de Rap Underground | Musique Québécoise</title>
+    <title>Sad Mazda Songs (SMS) – Underground Rap | Musique Québécoise</title>
 
     <!-- SEO -->
     <meta name="description"
-        content="Sad Mazda Songs (SMS) est un groupe de rap underground de Québec. Trio formé de Marc, L-P et Sam créant des punchlines absurdes, beats inattendus et humour de sous-sol depuis 2024. Découvrez notre musique rap québécoise." />
+        content="Sad Mazda Songs (SMS) - Groupe de rap underground de Québec. Choose your language / Choisissez votre langue." />
     <meta name="theme-color" content="#39ff14" />
 
     <!-- Favicons -->
@@ -28,22 +27,30 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
     <link rel="manifest" href="assets/img/site.webmanifest" />
 
-    <meta property="og:title" content="Sad Mazda Songs (SMS) – Groupe de Rap Underground" />
+    <!-- Hreflang tags -->
+    <link rel="alternate" hreflang="fr-CA" href="https://sms.10-4.app/fr/" />
+    <link rel="alternate" hreflang="en-CA" href="https://sms.10-4.app/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://sms.10-4.app/fr/" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://sms.10-4.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sad Mazda Songs (SMS) – Underground Rap" />
     <meta property="og:description"
-        content="Trio de rap underground de Québec, Québec. Punchlines absurdes, humour de sous-sol et beats inattendus depuis 2024." />
-    <meta property="og:type" content="music.band" />
-    <meta property="og:url" content="https://sms.10-4.app" />
+        content="Groupe de rap underground de Québec. Choose your language / Choisissez votre langue." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sms.10-4.app/" />
     <meta property="og:image" content="https://sms.10-4.app/assets/img/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:type" content="image/png" />
-    <link rel="canonical" href="https://sms.10-4.app/" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sad Mazda Songs (SMS) – Groupe de Rap Underground" />
+    <meta name="twitter:title" content="Sad Mazda Songs (SMS) – Underground Rap" />
     <meta name="twitter:description"
-        content="Trio de rap underground de Québec, Québec. Punchlines absurdes, humour de sous-sol et beats inattendus depuis 2024." />
+        content="Groupe de rap underground de Québec. Choose your language / Choisissez votre langue." />
     <meta name="twitter:image" content="https://sms.10-4.app/assets/img/og-image.png" />
 
     <!-- Fonts -->
@@ -53,41 +60,7 @@
         href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald:wght@300;400;600&family=Raleway:wght@300;400&display=swap"
         rel="stylesheet" />
 
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MusicGroup",
-      "name": "Sad Mazda Songs",
-      "alternateName": "SMS",
-      "genre": ["Rap", "Underground Hip Hop", "Rap Québécois", "Rap Queb"],
-      "foundingDate": "2024",
-      "foundingLocation": {
-        "@type": "Place",
-        "name": "Quebec City",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Quebec City",
-          "addressRegion": "QC",
-          "addressCountry": "CA"
-        }
-      },
-      "url": "https://sms.10-4.app",
-      "image": "https://sms.10-4.app/assets/img/og-image.png",
-      "description": "Sad Mazda Songs (SMS) est un groupe de rap underground de Québec formé en 2024. Le trio composé de Marc, L-P et Sam crée un style unique mélangeant punchlines absurdes, humour de sous-sol et beats inattendus.",
-      "sameAs": [
-        "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
-        "https://www.instagram.com/sad_mazda_songs/",
-        "https://www.youtube.com/@SMSofficiel",
-        "https://www.tiktok.com/@sms_officiel"
-      ]
-    }
-    </script>
-
     <style>
-        /* ─────────────────────────────────────────────
-       RESET & BASE
-    ───────────────────────────────────────────── */
         *,
         *::before,
         *::after {
@@ -99,145 +72,41 @@
         :root {
             --bg-dark: #060c06;
             --bg-card: #0d1f0d;
-            --bg-section: #0a160a;
             --green-neon: #39ff14;
             --green-soft: #00c44f;
             --green-dim: #1a4a1a;
-            --green-mid: #2e7d2e;
             --text-light: #d4f7d4;
             --text-muted: #7aab7a;
-            --nav-height: 64px;
         }
 
-        html {
-            scroll-behavior: smooth;
+        html,
+        body {
+            height: 100%;
+            margin: 0;
         }
 
         body {
-            background-color: var(--bg-dark);
+            background: var(--bg-dark);
             color: var(--text-light);
             font-family: 'Raleway', sans-serif;
-            font-weight: 300;
-            line-height: 1.7;
-            overflow-x: hidden;
-        }
-
-        /* ─────────────────────────────────────────────
-       SCROLLBAR
-    ───────────────────────────────────────────── */
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: var(--bg-dark);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: var(--green-mid);
-            border-radius: 3px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--green-neon);
-        }
-
-        /* ─────────────────────────────────────────────
-       TEXT SELECTION
-    ───────────────────────────────────────────── */
-        ::selection {
-            background: var(--green-neon);
-            color: var(--bg-dark);
-        }
-
-        ::-moz-selection {
-            background: var(--green-neon);
-            color: var(--bg-dark);
-        }
-
-        /* ─────────────────────────────────────────────
-       SCREEN READER ONLY (keeps text for SEO)
-    ───────────────────────────────────────────── */
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border-width: 0;
-        }
-
-        /* ─────────────────────────────────────────────
-       NAV  –  hidden on hero, flies in after
-    ───────────────────────────────────────────── */
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 100;
-            height: var(--nav-height);
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            padding: 0 2.5rem;
-            background: rgba(6, 12, 6, 0.82);
-            backdrop-filter: blur(14px);
-            -webkit-backdrop-filter: blur(14px);
-            border-bottom: 1px solid rgba(57, 255, 20, 0.12);
-            /* hidden state */
-            transform: translateY(-100%);
-            opacity: 0;
-            pointer-events: none;
-            transition:
-                transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
-                opacity 0.35s ease;
+            justify-content: center;
+            overflow: hidden;
         }
 
-        nav.nav--visible {
-            transform: translateY(0);
-            opacity: 1;
-            pointer-events: auto;
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 600px;
+            width: 100%;
+            animation: fade-in 0.8s ease both;
         }
 
-        /* SMS logo flies from hero-center into the corner */
-        nav.nav--visible .nav-logo {
-            animation: logo-fly-in 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
-        }
-
-        /* nav links stagger in after logo */
-        nav.nav--visible .nav-links {
-            animation: links-fade-in 0.45s ease 0.3s both;
-        }
-
-        @keyframes logo-fly-in {
-            0% {
-                opacity: 0;
-                transform: translateX(42vw) scale(4);
-                text-shadow:
-                    0 0 8px #fff,
-                    0 0 28px var(--green-neon),
-                    0 0 80px var(--green-neon),
-                    0 0 140px var(--green-soft);
-            }
-
-            50% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-                transform: translateX(0) scale(1);
-            }
-        }
-
-        @keyframes links-fade-in {
+        @keyframes fade-in {
             from {
                 opacity: 0;
-                transform: translateY(-10px);
+                transform: translateY(20px);
             }
 
             to {
@@ -246,125 +115,18 @@
             }
         }
 
-        .nav-logo {
+        .logo {
             font-family: 'Metal Mania', cursive;
-            font-size: 1.6rem;
-            color: var(--green-neon);
-            text-shadow:
-                0 0 4px #fff,
-                0 0 10px var(--green-neon),
-                0 0 20px var(--green-neon),
-                0 0 40px var(--green-soft);
-            letter-spacing: 4px;
-            cursor: default;
-            user-select: none;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            font-family: 'Oswald', sans-serif;
-            font-weight: 300;
-            font-size: 0.82rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            text-decoration: none;
-            transition: color 0.25s, text-shadow 0.25s;
-        }
-
-        .nav-links a:hover {
-            color: var(--green-neon);
-            text-shadow: 0 0 8px var(--green-neon);
-        }
-
-        /* ─────────────────────────────────────────────
-       HERO
-    ───────────────────────────────────────────── */
-        #hero {
-            position: relative;
-            height: 100vh;
-            padding: 0;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: var(--bg-dark);
-        }
-
-        #main-content {
-            position: relative;
-            z-index: 10;
-            background: var(--bg-dark);
-        }
-
-        /* fullscreen background video */
-        .hero-bg-video {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center center;
-            z-index: 0;
-            pointer-events: none;
-            transform-origin: center center;
-            will-change: transform;
-        }
-
-        /* dark overlay so content stays readable */
-        .hero-overlay {
-            position: absolute;
-            inset: 0;
-            background:
-                linear-gradient(to bottom,
-                    rgba(6, 12, 6, 0.55) 0%,
-                    rgba(6, 12, 6, 0.30) 40%,
-                    rgba(6, 12, 6, 0.55) 100%),
-                radial-gradient(ellipse at 50% 50%, rgba(57, 255, 20, 0.04) 0%, transparent 70%);
-            z-index: 1;
-        }
-
-        /* content sits above video + overlay */
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 2.5rem;
-            padding: 2rem;
-            height: 100vh;
-            will-change: opacity, transform;
-        }
-
-        .hero-title-wrap {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .hero-band-name {
-            font-family: 'Metal Mania', cursive;
-            font-size: clamp(5rem, 18vw, 12rem);
+            font-size: clamp(3.5rem, 12vw, 7rem);
             letter-spacing: 12px;
-            line-height: 1;
             color: #fff;
             text-shadow:
                 0 0 6px #fff,
                 0 0 14px #fff,
                 0 0 28px var(--green-neon),
                 0 0 60px var(--green-neon),
-                0 0 100px var(--green-soft),
-                0 0 160px rgba(57, 255, 20, 0.4);
+                0 0 100px var(--green-soft);
+            margin-bottom: 1.5rem;
             animation: neon-pulse 3s ease-in-out infinite alternate;
         }
 
@@ -375,8 +137,7 @@
                     0 0 14px #fff,
                     0 0 28px var(--green-neon),
                     0 0 60px var(--green-neon),
-                    0 0 100px var(--green-soft),
-                    0 0 160px rgba(57, 255, 20, 0.4);
+                    0 0 100px var(--green-soft);
             }
 
             100% {
@@ -385,1178 +146,161 @@
                     0 0 10px #fff,
                     0 0 20px var(--green-neon),
                     0 0 44px var(--green-neon),
-                    0 0 80px var(--green-soft),
-                    0 0 120px rgba(57, 255, 20, 0.25);
+                    0 0 80px var(--green-soft);
             }
         }
 
-        .hero-subtitle {
+        .subtitle {
             font-family: 'Oswald', sans-serif;
-            font-weight: 300;
-            font-size: clamp(0.9rem, 2.5vw, 1.3rem);
-            letter-spacing: 8px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-        }
-
-        .hero-origin {
-            font-size: 0.8rem;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            color: var(--green-mid);
-        }
-
-
-
-        /* scroll cue */
-        .scroll-cue {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            margin-top: 1rem;
-        }
-
-        .scroll-cue span {
-            font-size: 0.65rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-        }
-
-        .scroll-arrow {
-            width: 22px;
-            height: 22px;
-            border-right: 2px solid var(--green-neon);
-            border-bottom: 2px solid var(--green-neon);
-            transform: rotate(45deg);
-            animation: bounce-down 1.6s ease-in-out infinite;
-            box-shadow: 2px 2px 8px rgba(57, 255, 20, 0.5);
-        }
-
-        @keyframes bounce-down {
-
-            0%,
-            100% {
-                transform: rotate(45deg) translate(0, 0);
-                opacity: 1;
-            }
-
-            50% {
-                transform: rotate(45deg) translate(5px, 5px);
-                opacity: 0.5;
-            }
-        }
-
-        /* ─────────────────────────────────────────────
-       SECTION SHARED
-    ───────────────────────────────────────────── */
-        section {
-            padding: 6rem 2rem;
-        }
-
-        .section-inner {
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        /* ─────────────────────────────────────────────
-       ARTIST INTRO (SEO-focused section)
-    ───────────────────────────────────────────── */
-        .artist-intro-section {
-            background: var(--bg-section);
-            padding: 3rem 2rem;
-            text-align: center;
-        }
-
-        .artist-intro-inner {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .artist-intro {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: var(--text-muted);
-            letter-spacing: 0.3px;
-        }
-
-        .artist-intro strong {
-            color: var(--green-neon);
-            font-weight: 600;
-            text-shadow: 0 0 8px rgba(57, 255, 20, 0.3);
-        }
-
-        /* ─────────────────────────────────────────────
-       SECTION HEADERS & LABELS
-    ───────────────────────────────────────────── */
-        .section-label {
-            font-family: 'Oswald', sans-serif;
-            font-size: 0.72rem;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            color: var(--green-neon);
-            margin-bottom: 0.5rem;
-        }
-
-        .section-title {
-            font-family: 'Oswald', sans-serif;
-            font-size: clamp(1.8rem, 4vw, 2.8rem);
-            font-weight: 600;
-            color: var(--text-light);
-            margin-bottom: 2.5rem;
-            position: relative;
-            display: inline-block;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -8px;
-            left: 0;
-            width: 48px;
-            height: 3px;
-            background: var(--green-neon);
-            box-shadow: 0 0 10px var(--green-neon);
-            border-radius: 2px;
-        }
-
-        /* ─────────────────────────────────────────────
-       ABOUT
-    ───────────────────────────────────────────── */
-        #about {
-            background:
-                radial-gradient(ellipse at 80% 50%, rgba(57, 255, 20, 0.04) 0%, transparent 60%),
-                var(--bg-section);
-        }
-
-        .about-grid {
-            display: flex;
-            gap: 4rem;
-            align-items: flex-start;
-            flex-wrap: wrap;
-        }
-
-        .about-text {
-            flex: 1 1 320px;
-        }
-
-        .about-text p {
-            color: var(--text-muted);
-            font-size: 1.05rem;
-            line-height: 1.9;
-            margin-bottom: 1.2rem;
-        }
-
-        .about-text p strong {
-            color: var(--text-light);
-            font-weight: 400;
-        }
-
-        .about-stats {
-            flex: 0 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        .stat-card {
-            background: var(--bg-card);
-            border: 1px solid var(--green-dim);
-            border-left: 3px solid var(--green-neon);
-            padding: 1.2rem 2rem;
-            border-radius: 6px;
-            box-shadow: 0 0 20px rgba(57, 255, 20, 0.05);
-            min-width: 180px;
-            transition: box-shadow 0.3s, border-color 0.3s;
-        }
-
-        .stat-card:hover {
-            box-shadow: 0 0 28px rgba(57, 255, 20, 0.18);
-            border-left-color: var(--green-neon);
-        }
-
-        .stat-number {
-            font-family: 'Oswald', sans-serif;
-            font-size: 2.2rem;
-            font-weight: 600;
-            color: var(--green-neon);
-            line-height: 1;
-        }
-
-        .stat-label {
-            font-size: 0.78rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            margin-top: 4px;
-        }
-
-        /* ─────────────────────────────────────────────
-       ALBUMS
-    ───────────────────────────────────────────── */
-        #albums {
-            background: var(--bg-dark);
-        }
-
-        .album-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.8rem;
-        }
-
-        .album-card {
-            flex: 1 1 calc(50% - 0.9rem);
-            max-width: calc(50% - 0.9rem);
-            min-width: 260px;
-            background: var(--bg-card);
-            border: 1px solid var(--green-dim);
-            border-radius: 10px;
-            overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .album-card:hover {
-            transform: translateY(-6px);
-            box-shadow:
-                0 10px 40px rgba(57, 255, 20, 0.18),
-                0 0 0 1px rgba(57, 255, 20, 0.3);
-            border-color: rgba(57, 255, 20, 0.3);
-        }
-
-        .album-cover {
-            width: 100%;
-            aspect-ratio: 1 / 1;
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Each album has a unique gradient cover */
-        .album-card:nth-child(1) .album-cover {
-            background: linear-gradient(135deg, #1a4a0a 0%, #2d7d1a 30%, #39ff14 50%, #2d7d1a 70%, #1a4a0a 100%);
-        }
-
-        .album-card:nth-child(2) .album-cover {
-            background: linear-gradient(135deg, #061206 0%, #0d3b0d 30%, #145214 55%, #1e6b1e 80%, #0a2a0a 100%);
-        }
-
-        .album-card:nth-child(3) .album-cover {
-            background: linear-gradient(160deg, #0d0d0d 0%, #0a2a1a 40%, #0f4a0f 70%, #0a1a0a 100%);
-        }
-
-        .album-card:nth-child(4) .album-cover {
-            background: linear-gradient(120deg, #020802 0%, #0a200a 35%, #183218 60%, #0a2a10 90%, #030c03 100%);
-        }
-
-        .album-card:nth-child(5) .album-cover {
-            background: linear-gradient(150deg, #060c06 0%, #102210 30%, #1a401a 55%, #0d1f0d 80%, #040804 100%);
-        }
-
-        .album-card:nth-child(6) .album-cover {
-            background: linear-gradient(135deg, #080e08 0%, #0f2f0f 40%, #175017 65%, #081808 100%);
-        }
-
-        .album-card:nth-child(7) .album-cover {
-            background: linear-gradient(165deg, #040a04 0%, #0d280d 35%, #143c14 60%, #0a1e0a 90%, #020502 100%);
-        }
-
-        /* abstract art lines on covers */
-        .album-cover img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.4s ease;
-        }
-
-        .album-card:hover .album-cover img {
-            transform: scale(1.05);
-        }
-
-        .album-cover::before,
-        .album-cover::after {
-            content: '';
-            position: absolute;
-            border-radius: 50%;
-            border: 1px solid rgba(57, 255, 20, 0.15);
-        }
-
-        .album-cover::before {
-            width: 70%;
-            height: 70%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .album-cover::after {
-            width: 40%;
-            height: 40%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border-color: rgba(57, 255, 20, 0.25);
-        }
-
-        /* Hide pseudo-elements when a real cover image is present */
-        .album-cover:has(img)::before,
-        .album-cover:has(img)::after {
-            display: none;
-        }
-
-        .album-cover-text {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Metal Mania', cursive;
-            font-size: clamp(1.8rem, 4vw, 2.6rem);
-            color: rgba(57, 255, 20, 0.5);
-            text-shadow: 0 0 20px rgba(57, 255, 20, 0.4);
+            font-size: clamp(0.9rem, 2.5vw, 1.2rem);
             letter-spacing: 6px;
-            user-select: none;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
         }
 
-        .album-info {
-            padding: 1.2rem 1.4rem 1.5rem;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 0.3rem;
-            position: relative;
-        }
-
-        .album-title {
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: var(--text-light);
+        .lang-prompt {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
             letter-spacing: 1px;
         }
 
-        .album-meta {
-            font-size: 0.78rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-        }
-
-        .new-badge {
-            position: absolute;
-            top: -12px;
-            right: 1.4rem;
-            background: var(--green-neon);
-            color: var(--bg-dark);
-            font-family: 'Oswald', sans-serif;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 2px;
-            padding: 0.35rem 0.8rem;
-            border-radius: 4px;
-            box-shadow: 0 0 15px rgba(57, 255, 20, 0.6);
-            animation: pulse-glow 2s ease-in-out infinite;
-        }
-
-        @keyframes pulse-glow {
-
-            0%,
-            100% {
-                box-shadow: 0 0 15px rgba(57, 255, 20, 0.6);
-            }
-
-            50% {
-                box-shadow: 0 0 25px rgba(57, 255, 20, 0.9);
-            }
-        }
-
-        .album-tracks {
-            margin-top: auto;
-            padding-top: 0.8rem;
-            font-size: 0.75rem;
-            color: var(--green-mid);
-            letter-spacing: 1px;
-        }
-
-        /* ─────────────────────────────────────────────
-       SOCIAL / FOOTER
-    ───────────────────────────────────────────── */
-        #social {
-            background: var(--bg-section);
-            text-align: center;
-            padding: 5rem 2rem;
-        }
-
-        /* ─────────────────────────────────────────────
-       FOOTER
-    ───────────────────────────────────────────── */
-        footer {
-            background: var(--bg-dark);
-            border-top: 1px solid rgba(57, 255, 20, 0.08);
-            padding: 2.5rem 2rem;
-            text-align: center;
-        }
-
-        .footer-logo {
-            font-family: 'Metal Mania', cursive;
-            font-size: 2rem;
-            letter-spacing: 8px;
-            color: var(--green-neon);
-            text-shadow:
-                0 0 8px #fff,
-                0 0 20px var(--green-neon),
-                0 0 40px var(--green-soft);
-            margin-bottom: 0.75rem;
-        }
-
-        footer p {
-            font-size: 0.75rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--green-dim);
-        }
-
-        /* ─────────────────────────────────────────────
-       DIVIDER
-    ───────────────────────────────────────────── */
-        .divider {
-            width: 100%;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(57, 255, 20, 0.2), transparent);
-            margin: 0;
-        }
-
-        /* ─────────────────────────────────────────────
-       RESPONSIVE
-    ───────────────────────────────────────────── */
-        /* ─────────────────────────────────────────────
-       SCROLL REVEAL
-    ───────────────────────────────────────────── */
-        .reveal {
-            opacity: 0;
-            transform: translateY(40px);
-            transition:
-                opacity 0.65s ease,
-                transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
-        }
-
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .album-card.reveal:nth-child(1) {
-            transition-delay: 0ms;
-        }
-
-        .album-card.reveal:nth-child(2) {
-            transition-delay: 70ms;
-        }
-
-        .album-card.reveal:nth-child(3) {
-            transition-delay: 140ms;
-        }
-
-        .album-card.reveal:nth-child(4) {
-            transition-delay: 210ms;
-        }
-
-        .album-card.reveal:nth-child(5) {
-            transition-delay: 280ms;
-        }
-
-        .album-card.reveal:nth-child(6) {
-            transition-delay: 350ms;
-        }
-
-        .album-card.reveal:nth-child(7) {
-            transition-delay: 420ms;
-        }
-
-        /* ─────────────────────────────────────────────
-       HAMBURGER BUTTON
-    ───────────────────────────────────────────── */
-        .nav-toggle {
-            display: none;
-            flex-direction: column;
+        .lang-buttons {
+            display: flex;
+            gap: 1.5rem;
             justify-content: center;
-            gap: 5px;
-            width: 36px;
-            height: 36px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 4px;
+            flex-wrap: wrap;
         }
 
-        .nav-toggle span {
-            display: block;
-            width: 100%;
-            height: 2px;
-            background: var(--green-neon);
-            border-radius: 2px;
-            box-shadow: 0 0 6px var(--green-neon);
-            transition: transform 0.3s ease, opacity 0.2s ease;
-            transform-origin: center;
-        }
-
-        /* ✕ shape when menu open */
-        nav.nav--open .nav-toggle span:nth-child(1) {
-            transform: translateY(7px) rotate(45deg);
-        }
-
-        nav.nav--open .nav-toggle span:nth-child(2) {
-            opacity: 0;
-            transform: scaleX(0);
-        }
-
-        nav.nav--open .nav-toggle span:nth-child(3) {
-            transform: translateY(-7px) rotate(-45deg);
-        }
-
-        /* ─────────────────────────────────────────────
-       RESPONSIVE
-    ───────────────────────────────────────────── */
-        @media (max-width: 680px) {
-            .nav-toggle {
-                display: flex;
-            }
-
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: var(--nav-height);
-                left: 0;
-                right: 0;
-                background: rgba(6, 12, 6, 0.96);
-                backdrop-filter: blur(14px);
-                -webkit-backdrop-filter: blur(14px);
-                padding: 1rem 2.5rem 1.5rem;
-                gap: 1.2rem;
-                border-bottom: 1px solid rgba(57, 255, 20, 0.12);
-            }
-
-            nav.nav--open .nav-links {
-                display: flex;
-                animation: menu-slide-down 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
-            }
-
-            @keyframes menu-slide-down {
-                from {
-                    opacity: 0;
-                    transform: translateY(-10px);
-                }
-
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-
-            .nav-links a {
-                font-size: 0.95rem;
-                padding: 0.4rem 0;
-            }
-
-            .album-card {
-                flex: 1 1 100%;
-            }
-
-            .about-grid {
-                flex-direction: column;
-                gap: 2.5rem;
-            }
-
-            .about-stats {
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-        }
-
-        @media (max-width: 900px) {
-            .album-card {
-                flex: 1 1 calc(50% - 0.9rem);
-            }
-        }
-
-        /* ─────────────────────────────────────────────
-       SOCIAL DOCK  –  fixed right-side icons
-    ───────────────────────────────────────────── */
-        .social-dock {
-            position: fixed;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%) translateX(100%);
-            z-index: 200;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 8px;
-            opacity: 0;
-            pointer-events: none;
-            transition:
-                transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
-                opacity 0.35s ease;
-        }
-
-        .social-dock--visible {
-            transform: translateY(-50%) translateX(0);
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        .dock-link {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            overflow: hidden;
-            height: 50px;
-            width: 50px;
-            background: var(--bg-card);
-            border: 1px solid var(--green-dim);
-            border-right: none;
-            border-radius: 6px 0 0 6px;
-            color: var(--text-muted);
-            text-decoration: none;
-            transition:
-                width 0.38s cubic-bezier(0.22, 1, 0.36, 1),
-                color 0.25s,
-                border-color 0.25s,
-                box-shadow 0.25s;
-        }
-
-        .dock-link:hover,
-        .dock-link:focus-visible {
-            width: 152px;
-            color: var(--green-neon);
-            border-color: rgba(57, 255, 20, 0.4);
-            box-shadow: -4px 0 22px rgba(57, 255, 20, 0.2);
-            outline: none;
-        }
-
-        .dock-label {
-            font-family: 'Oswald', sans-serif;
-            font-size: 0.78rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            white-space: nowrap;
-            padding: 0 0 0 12px;
-            opacity: 0;
-            transform: translateX(10px);
-            transition:
-                opacity 0.2s ease 0.08s,
-                transform 0.28s cubic-bezier(0.22, 1, 0.36, 1) 0.05s;
-            pointer-events: none;
-        }
-
-        .dock-link:hover .dock-label,
-        .dock-link:focus-visible .dock-label {
-            opacity: 1;
-            transform: translateX(0);
-        }
-
-        .dock-icon {
-            width: 50px;
-            height: 50px;
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .dock-icon svg {
-            width: 20px;
-            height: 20px;
-            fill: currentColor;
-        }
-
-        /* on mobile: row of floating circles at bottom-right */
-        @media (max-width: 680px) {
-            .social-dock {
-                top: auto;
-                transform: translateY(20px);
-                bottom: 1.4rem;
-                right: 1rem;
-                flex-direction: row;
-                gap: 10px;
-            }
-
-            .social-dock--visible {
-                transform: translateY(0);
-            }
-
-            .dock-link {
-                width: 46px;
-                height: 46px;
-                border-radius: 50%;
-                border: 1px solid var(--green-dim);
-                border-right: 1px solid var(--green-dim);
-                justify-content: center;
-            }
-
-            .dock-link:hover,
-            .dock-link:focus-visible {
-                width: 46px;
-                border-radius: 50%;
-            }
-
-            .dock-label {
-                display: none;
-            }
-        }
-
-        /* ─────────────────────────────────────────────
-       CTA SECTION
-    ───────────────────────────────────────────── */
-        .cta-section {
-            background: radial-gradient(ellipse at 50% 50%, rgba(57, 255, 20, 0.06) 0%, transparent 70%),
-                var(--bg-section);
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-
-        .cta-button {
+        .lang-button {
             display: inline-flex;
+            flex-direction: column;
             align-items: center;
             gap: 0.8rem;
-            padding: 1.2rem 2.8rem;
+            padding: 2rem 3rem;
             font-family: 'Oswald', sans-serif;
-            font-size: 1rem;
-            font-weight: 400;
-            letter-spacing: 3px;
-            text-transform: uppercase;
             text-decoration: none;
-            color: var(--bg-dark);
-            background: var(--green-neon);
-            border: 2px solid var(--green-neon);
-            border-radius: 8px;
-            box-shadow: 0 0 20px rgba(57, 255, 20, 0.4),
-                inset 0 0 20px rgba(255, 255, 255, 0.1);
-            transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .cta-button::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, transparent 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100%);
-            transform: translateX(-100%);
-            transition: transform 0.6s ease;
-        }
-
-        .cta-button:hover::before {
-            transform: translateX(100%);
-        }
-
-        .cta-button:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 32px rgba(57, 255, 20, 0.6),
-                inset 0 0 30px rgba(255, 255, 255, 0.2);
-        }
-
-        .cta-button svg {
-            width: 20px;
-            height: 20px;
-            fill: currentColor;
-            transition: transform 0.3s ease;
-        }
-
-        .cta-button:hover svg {
-            transform: translateX(4px);
-        }
-
-        /* ─────────────────────────────────────────────
-       SOCIAL SECTION CARDS  (2-up, fuller)
-    ───────────────────────────────────────────── */
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-top: 2.5rem;
-        }
-
-        .social-link {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            text-decoration: none;
-            color: var(--text-muted);
-            font-family: 'Oswald', sans-serif;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            padding: 1.4rem 2.4rem;
-            border: 1px solid var(--green-dim);
-            border-radius: 8px;
             background: var(--bg-card);
-            min-width: 220px;
-            transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.2s;
+            border: 2px solid var(--green-dim);
+            border-radius: 10px;
+            transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+            min-width: 200px;
         }
 
-        .social-link:hover {
-            color: var(--green-neon);
+        .lang-button:hover {
+            transform: translateY(-6px);
             border-color: var(--green-neon);
-            box-shadow: 0 0 24px rgba(57, 255, 20, 0.28), inset 0 0 24px rgba(57, 255, 20, 0.05);
-            transform: translateY(-4px);
+            box-shadow:
+                0 10px 40px rgba(57, 255, 20, 0.25),
+                inset 0 0 30px rgba(57, 255, 20, 0.08);
         }
 
-        .social-link svg {
-            width: 24px;
-            height: 24px;
-            fill: currentColor;
-            flex-shrink: 0;
+        .lang-code {
+            font-size: 2.5rem;
+            font-weight: 600;
+            letter-spacing: 4px;
+            color: var(--green-neon);
+            text-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+        }
+
+        .lang-name {
+            font-size: 1rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        .redirect-message {
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: var(--green-dim);
+            letter-spacing: 1px;
+            opacity: 0;
+            animation: fade-in-delayed 0.6s ease 1s both;
+        }
+
+        @keyframes fade-in-delayed {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .lang-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .lang-button {
+                min-width: auto;
+                width: 100%;
+            }
         }
     </style>
 </head>
 
 <body>
+    <div class="container">
+        <h1 class="logo">SMS</h1>
+        <p class="subtitle">Sad Mazda Songs</p>
+        <p class="lang-prompt">Choose your language / Choisissez votre langue</p>
 
-    <!-- ─── SOCIAL DOCK ───────────────────────────── -->
-    <aside class="social-dock" aria-label="Réseaux sociaux">
-        <a class="dock-link"
-            href="https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW?si=4lp69G2gS6KArcH1h9vYZw"
-            target="_blank" rel="noopener" aria-label="Spotify">
-            <span class="dock-label">Spotify</span>
-            <span class="dock-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
-                </svg>
-            </span>
-        </a>
-        <a class="dock-link" href="https://www.instagram.com/sad_mazda_songs/" target="_blank" rel="noopener"
-            aria-label="Instagram">
-            <span class="dock-label">Instagram</span>
-            <span class="dock-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                </svg>
-            </span>
-        </a>
-    </aside>
-
-    <!-- ─── NAV ──────────────────────────────────── -->
-    <nav aria-label="Navigation principale">
-        <span class="nav-logo">SMS</span>
-        <ul class="nav-links">
-            <li><a href="#hero">Accueil</a></li>
-            <li><a href="about.html">Qui sommes-nous?</a></li>
-            <li><a href="#albums">Albums</a></li>
-            <li><a href="#social">Nous joindre</a></li>
-        </ul>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-            <span></span><span></span><span></span>
-        </button>
-    </nav>
-
-    <!-- ─── HERO ─── -->
-    <section id="hero">
-        <!-- background video -->
-        <video class="hero-bg-video" src="SMS_GUYS.mp4" autoplay muted loop playsinline preload="auto"></video>
-        <!-- dark overlay -->
-        <div class="hero-overlay"></div>
-
-        <!-- foreground content -->
-        <div class="hero-content">
-            <div class="hero-title-wrap">
-                <h1 class="hero-band-name"><span class="sr-only">Sad Mazda Songs</span>SMS</h1>
-                <p class="hero-subtitle">Groupe de Rap Underground de Québec</p>
-                <p class="hero-origin">Quebec City &nbsp;·&nbsp; Est. 2024</p>
-            </div>
-
-            <div class="scroll-cue">
-                <span>Scroll</span>
-                <div class="scroll-arrow"></div>
-            </div>
+        <div class="lang-buttons">
+            <a href="/fr/" class="lang-button" id="btn-fr">
+                <span class="lang-code">FR</span>
+                <span class="lang-name">Français</span>
+            </a>
+            <a href="/en/" class="lang-button" id="btn-en">
+                <span class="lang-code">EN</span>
+                <span class="lang-name">English</span>
+            </a>
         </div>
-    </section>
 
-    <div id="main-content">
-
-        <!-- ─── ARTIST INTRO (SEO) ──────────────────── -->
-        <section class="artist-intro-section">
-            <div class="artist-intro-inner">
-                <p class="artist-intro">
-                    <strong>Sad Mazda Songs (SMS)</strong> est un groupe de musique rap underground de Québec, Canada.
-                    Formé en 2024, le trio composé de Marc, L-P et Sam crée un style unique mélangeant
-                    punchlines absurdes, humour de sous-sol et beats inattendus. Découvrez la musique
-                    de Sad Mazda Songs, artiste rap québécois indépendant.
-                </p>
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- ─── CTA TO ABOUT ────────────────────────── -->
-        <section class="cta-section reveal">
-            <div class="section-inner">
-                <p class="section-label">Sommes-nous qui ?</p>
-                <h2 class="section-title" style="display:block; text-align:center;">Découvrir Notre Histoire</h2>
-                <p
-                    style="color:var(--text-muted); max-width:580px; margin: 0 auto 2rem; font-size:1.05rem; line-height:1.8;">
-                    Trois gars, un Mazda, et une mission : prouver qu'on peut être off-beat et quand même sonner
-                    meilleur que ton artiste préféré.
-                </p>
-                <a href="about.html" class="cta-button">
-                    En savoir plus sur SMS
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" fill="none" />
-                    </svg>
-                </a>
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <div class="divider"></div>
-
-        <!-- ─── ALBUMS ───────────────────────────────── -->
-        <section id="albums">
-            <div class="section-inner">
-                <p class="section-label">Discographie</p>
-                <h2 class="section-title">Albums &amp; Singles</h2>
-
-                <div class="album-grid">
-
-                    <!-- ★ NEW SINGLE – 2026 ★ -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="assets/img/gaufre_spaghetti.jpg" alt="Gaufre, spaghetti – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <span class="new-badge">NOUVEAU</span>
-                            <div class="album-title">Gaufre, spaghetti</div>
-                            <div class="album-meta">2026 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 1 – 2026 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="assets/img/Avec_Politesse.jpg" alt="Avec Politesse – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Avec Politesse</div>
-                            <div class="album-meta">2026 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 2 – 2025 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="assets/img/Eric_Duhaime.jpg" alt="Éric Duhaime – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Éric Duhaime</div>
-                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 3 – 2025 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="assets/img/Miss_Steak.jpg" alt="Miss Steak – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Miss Steak</div>
-                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 4 – 2025 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/3VCPMKGzF9SM4dGr8gjdAb?si=GjkK25ZUTFS3vpoPBSe75w"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="assets/img/Nadine.jpg" alt="Nadine – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Nadine</div>
-                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-                </div><!-- /album-grid -->
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- ─── SOCIAL ───────────────────────────────── -->
-        <section id="social">
-            <div class="section-inner reveal" style="text-align:center;">
-                <p class="section-label">Nous joindre</p>
-                <h2 class="section-title" style="display:block; text-align:center;">Suivez SMS</h2>
-                <p style="color:var(--text-muted); max-width:480px; margin: 0 auto 0.5rem; font-size:0.95rem;">
-                    Restez à l’affût des nouvelles sorties, des shows à venir et des coulisses du groupe.
-                </p>
-            </div>
-
-            <div class="social-links">
-
-                <!-- Spotify -->
-                <a class="social-link"
-                    href="https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW?si=4lp69G2gS6KArcH1h9vYZw"
-                    target="_blank" rel="noopener">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path
-                            d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
-                    </svg>
-                    Spotify
-                </a>
-
-                <!-- Instagram -->
-                <a class="social-link" href="https://www.instagram.com/sad_mazda_songs/" target="_blank" rel="noopener">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path
-                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                    </svg>
-                    Instagram
-                </a>
-
-            </div>
-        </section>
-
-        <!-- ─── FOOTER ────────────────────────────────── -->
-        <footer>
-            <div class="footer-logo">SMS</div>
-            <p>© 2026 Sad Mazda Songs &nbsp;·&nbsp; Ville de Québec, QC &nbsp;·&nbsp; Tous droits réservés</p>
-        </footer>
-
-    </div><!-- /#main-content -->
+        <p class="redirect-message">
+            Auto-detecting language... / Détection automatique...
+        </p>
+    </div>
 
     <script>
         (function () {
+            // Check localStorage for previous language preference
+            const preferredLang = localStorage.getItem('sms-lang');
 
-            // ── HERO SCROLL EFFECTS ──────────────────────────────────────────
-            const heroEl = document.getElementById('hero');
-            const heroContent = document.querySelector('.hero-content');
-            const videoBg = document.querySelector('.hero-bg-video');
-            const scrollCue = document.querySelector('.scroll-cue');
-            const navEl = document.querySelector('nav');
-            const dockEl = document.querySelector('.social-dock');
-            let navVisible = false;
-            let ticking = false;
-
-            function onScroll() {
-                if (!ticking) { requestAnimationFrame(update); ticking = true; }
+            if (preferredLang) {
+                // Redirect to preferred language after short delay
+                setTimeout(function () {
+                    window.location.href = preferredLang === 'en' ? '/en/' : '/fr/';
+                }, 800);
+                return;
             }
 
-            function update() {
-                ticking = false;
-                const scrollY = window.scrollY;
-                const heroH = heroEl.offsetHeight;
-                const progress = Math.min(Math.max(scrollY / heroH, 0), 1);
+            // Check browser language
+            const browserLang = navigator.language || navigator.userLanguage;
 
-                // ── nav: show when hero is fully past, hide when back ──────
-                const shouldShow = scrollY >= heroH - 10;
-                if (shouldShow && !navVisible) {
-                    navVisible = true;
-                    navEl.classList.remove('nav--visible');
-                    void navEl.offsetWidth;
-                    navEl.classList.add('nav--visible');
-                    if (dockEl) dockEl.classList.add('social-dock--visible');
-                } else if (!shouldShow && navVisible) {
-                    navVisible = false;
-                    navEl.classList.remove('nav--visible');
-                    if (dockEl) dockEl.classList.remove('social-dock--visible');
+            // Auto-redirect based on browser language after 2 seconds
+            setTimeout(function () {
+                if (browserLang && browserLang.toLowerCase().startsWith('fr')) {
+                    window.location.href = '/fr/';
+                } else {
+                    window.location.href = '/en/';
                 }
+            }, 2500);
 
-                // ── hero title: fade + drift upward ─────────────────────────
-                heroContent.style.opacity = Math.max(1 - progress * 2, 0);
-                heroContent.style.transform = `translateY(${-progress * 60}px)`;
+            // Store language choice when clicking buttons
+            document.getElementById('btn-fr').addEventListener('click', function () {
+                localStorage.setItem('sms-lang', 'fr');
+            });
 
-                // ── scroll cue vanishes quickly ──────────────────────────────
-                if (scrollCue) scrollCue.style.opacity = Math.max(1 - progress * 5, 0);
-
-                // ── video: parallax ──────────────────────────────────────────
-                videoBg.style.transform = `translateY(${scrollY * 0.35}px) scale(1.08)`;
-            }
-
-            window.addEventListener('scroll', onScroll, { passive: true });
-            update();
-
-            // ── MOBILE HAMBURGER ─────────────────────────────────────────────
-            const navToggle = document.querySelector('.nav-toggle');
-            const navLinks = document.querySelector('.nav-links');
-
-            if (navToggle) {
-                navToggle.addEventListener('click', function () {
-                    const isOpen = navEl.classList.toggle('nav--open');
-                    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-                });
-
-                navLinks.querySelectorAll('a').forEach(function (link) {
-                    link.addEventListener('click', function () {
-                        navEl.classList.remove('nav--open');
-                        navToggle.setAttribute('aria-expanded', 'false');
-                    });
-                });
-            }
-
-            // ── SCROLL REVEAL ────────────────────────────────────────────────
-            const revealEls = document.querySelectorAll('.reveal');
-            if ('IntersectionObserver' in window) {
-                const revealObserver = new IntersectionObserver(function (entries) {
-                    entries.forEach(function (entry) {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            revealObserver.unobserve(entry.target);
-                        }
-                    });
-                }, { threshold: 0.12 });
-                revealEls.forEach(function (el) { revealObserver.observe(el); });
-            } else {
-                revealEls.forEach(function (el) { el.classList.add('visible'); });
-            }
-
-            // ── STATS COUNTER ────────────────────────────────────────────────
-            const statEls = document.querySelectorAll('.stat-number[data-target]');
-            if ('IntersectionObserver' in window && statEls.length) {
-                function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
-                const counterObserver = new IntersectionObserver(function (entries) {
-                    entries.forEach(function (entry) {
-                        if (!entry.isIntersecting) return;
-                        var el = entry.target;
-                        var target = parseInt(el.getAttribute('data-target'), 10);
-                        var duration = 1200;
-                        var start = performance.now();
-                        counterObserver.unobserve(el);
-                        function step(now) {
-                            var elapsed = now - start;
-                            var t = Math.min(elapsed / duration, 1);
-                            el.textContent = Math.round(easeOutCubic(t) * target);
-                            if (t < 1) requestAnimationFrame(step);
-                        }
-                        requestAnimationFrame(step);
-                    });
-                }, { threshold: 0.5 });
-                statEls.forEach(function (el) { counterObserver.observe(el); });
-            }
-
+            document.getElementById('btn-en').addEventListener('click', function () {
+                localStorage.setItem('sms-lang', 'en');
+            });
         })();
     </script>
-
 </body>
 
 </html>

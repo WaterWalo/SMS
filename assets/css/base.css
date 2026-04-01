@@ -1,0 +1,294 @@
+/* ═══════════════════════════════════════════════════════════════════
+   BASE.CSS – Common styles shared across all pages
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────────
+   RESET & BASE
+   ───────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-dark: #060c06;
+    --bg-card: #0d1f0d;
+    --bg-section: #0a160a;
+    --green-neon: #39ff14;
+    --green-soft: #00c44f;
+    --green-dim: #1a4a1a;
+    --green-mid: #2e7d2e;
+    --text-light: #d4f7d4;
+    --text-muted: #7aab7a;
+    --nav-height: 64px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+/* ─────────────────────────────────────────────
+   SCROLLBAR
+   ───────────────────────────────────────────── */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--green-mid);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--green-neon);
+}
+
+/* ─────────────────────────────────────────────
+   TEXT SELECTION
+   ───────────────────────────────────────────── */
+::selection {
+    background: var(--green-neon);
+    color: var(--bg-dark);
+}
+
+::-moz-selection {
+    background: var(--green-neon);
+    color: var(--bg-dark);
+}
+
+/* ─────────────────────────────────────────────
+   SCREEN READER ONLY (keeps text for SEO)
+   ───────────────────────────────────────────── */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* ─────────────────────────────────────────────
+   NAV
+   ───────────────────────────────────────────── */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+    background: rgba(6, 12, 6, 0.82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(57, 255, 20, 0.12);
+}
+
+.nav-logo {
+    font-family: 'Metal Mania', cursive;
+    font-size: 1.6rem;
+    color: var(--green-neon);
+    text-shadow: 0 0 4px #fff, 0 0 10px var(--green-neon), 0 0 20px var(--green-neon),
+        0 0 40px var(--green-soft);
+    letter-spacing: 4px;
+    cursor: default;
+    user-select: none;
+    text-decoration: none;
+}
+
+.nav-logo:hover {
+    text-shadow: 0 0 6px #fff, 0 0 14px var(--green-neon), 0 0 28px var(--green-neon),
+        0 0 60px var(--green-soft);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 0.82rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.25s, text-shadow 0.25s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--green-neon);
+    text-shadow: 0 0 8px var(--green-neon);
+}
+
+/* ─────────────────────────────────────────────
+   HAMBURGER BUTTON
+   ───────────────────────────────────────────── */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--green-neon);
+    border-radius: 2px;
+    box-shadow: 0 0 6px var(--green-neon);
+    transition: transform 0.3s ease, opacity 0.2s ease;
+    transform-origin: center;
+}
+
+nav.nav--open .nav-toggle span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+nav.nav--open .nav-toggle span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+nav.nav--open .nav-toggle span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ─────────────────────────────────────────────
+   FOOTER
+   ───────────────────────────────────────────── */
+footer {
+    background: var(--bg-dark);
+    border-top: 1px solid rgba(57, 255, 20, 0.08);
+    padding: 2.5rem 2rem;
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: 'Metal Mania', cursive;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    color: var(--green-neon);
+    text-shadow: 0 0 8px #fff, 0 0 20px var(--green-neon), 0 0 40px var(--green-soft);
+    margin-bottom: 0.75rem;
+}
+
+footer p {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--green-dim);
+}
+
+/* ─────────────────────────────────────────────
+   DIVIDER
+   ───────────────────────────────────────────── */
+.divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(57, 255, 20, 0.2), transparent);
+    margin: 0;
+}
+
+/* ─────────────────────────────────────────────
+   LANGUAGE SWITCHER
+   ───────────────────────────────────────────── */
+.lang-switcher {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--green-dim);
+    border-radius: 4px;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+.lang-switcher:hover {
+    color: var(--green-neon);
+    border-color: var(--green-neon);
+    box-shadow: 0 0 12px rgba(57, 255, 20, 0.3);
+}
+
+/* ─────────────────────────────────────────────
+   RESPONSIVE – Mobile Menu
+   ───────────────────────────────────────────── */
+@media (max-width: 680px) {
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: var(--nav-height);
+        left: 0;
+        right: 0;
+        background: rgba(6, 12, 6, 0.96);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        padding: 1rem 2.5rem 1.5rem;
+        gap: 1.2rem;
+        border-bottom: 1px solid rgba(57, 255, 20, 0.12);
+    }
+
+    nav.nav--open .nav-links {
+        display: flex;
+        animation: menu-slide-down 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    @keyframes menu-slide-down {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .nav-links a {
+        font-size: 0.95rem;
+        padding: 0.4rem 0;
+    }
+}

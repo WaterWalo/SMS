@@ -4,13 +4,7 @@
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPRGFE7G0D"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-KPRGFE7G0D');
-    </script>
+    <script src="../assets/js/analytics.js"></script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,24 +14,29 @@
     <meta name="description"
         content="Qui est Sad Mazda Songs? Découvrez l'histoire du groupe de rap underground québécois SMS, formé de Marc, L-P et Sam. Artiste rap indépendant de Québec depuis 2024. Musique Sad Mazda Songs." />
     <meta name="theme-color" content="#39ff14" />
-    <meta name="keywords"
-        content="qui est sad mazda songs, sad mazda songs artiste, sad mazda songs groupe, sad mazda songs musique, SMS rap québec, artiste rap québécois, groupe rap underground québec" />
 
     <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon.svg" />
+
+    <!-- Hreflang tags for bilingual SEO -->
+    <link rel="alternate" hreflang="fr-CA" href="https://sms.10-4.app/fr/about.html" />
+    <link rel="alternate" hreflang="en-CA" href="https://sms.10-4.app/en/about.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sms.10-4.app/fr/about.html" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="Qui est Sad Mazda Songs? | Artiste Rap Underground Québécois" />
     <meta property="og:description"
         content="Découvrez l'histoire du groupe de rap underground québécois Sad Mazda Songs (SMS), formé de Marc, L-P et Sam." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sms.10-4.app/about.html" />
+    <meta property="og:url" content="https://sms.10-4.app/fr/about.html" />
+    <meta property="og:locale" content="fr_CA" />
+    <meta property="og:locale:alternate" content="en_CA" />
     <meta property="og:image" content="https://sms.10-4.app/assets/img/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:type" content="image/png" />
-    <link rel="canonical" href="https://sms.10-4.app/about.html" />
+    <link rel="canonical" href="https://sms.10-4.app/fr/about.html" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -144,532 +143,9 @@
     }
     </script>
 
-    <style>
-        /* ─────────────────────────────────────────────
-       RESET & BASE
-    ───────────────────────────────────────────── */
-        *,
-        *::before,
-        *::after {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        :root {
-            --bg-dark: #060c06;
-            --bg-card: #0d1f0d;
-            --bg-section: #0a160a;
-            --green-neon: #39ff14;
-            --green-soft: #00c44f;
-            --green-dim: #1a4a1a;
-            --green-mid: #2e7d2e;
-            --text-light: #d4f7d4;
-            --text-muted: #7aab7a;
-            --nav-height: 64px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background-color: var(--bg-dark);
-            color: var(--text-light);
-            font-family: 'Raleway', sans-serif;
-            font-weight: 300;
-            line-height: 1.7;
-            overflow-x: hidden;
-            padding-top: var(--nav-height);
-        }
-
-        /* ─────────────────────────────────────────────
-       SCROLLBAR
-    ───────────────────────────────────────────── */
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: var(--bg-dark);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: var(--green-mid);
-            border-radius: 3px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--green-neon);
-        }
-
-        /* ─────────────────────────────────────────────
-       TEXT SELECTION
-    ───────────────────────────────────────────── */
-        ::selection {
-            background: var(--green-neon);
-            color: var(--bg-dark);
-        }
-
-        ::-moz-selection {
-            background: var(--green-neon);
-            color: var(--bg-dark);
-        }
-
-        /* ─────────────────────────────────────────────
-       NAV
-    ───────────────────────────────────────────── */
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 100;
-            height: var(--nav-height);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 2.5rem;
-            background: rgba(6, 12, 6, 0.92);
-            backdrop-filter: blur(14px);
-            -webkit-backdrop-filter: blur(14px);
-            border-bottom: 1px solid rgba(57, 255, 20, 0.12);
-        }
-
-        .nav-logo {
-            font-family: 'Metal Mania', cursive;
-            font-size: 1.6rem;
-            color: var(--green-neon);
-            text-shadow:
-                0 0 4px #fff,
-                0 0 10px var(--green-neon),
-                0 0 20px var(--green-neon),
-                0 0 40px var(--green-soft);
-            letter-spacing: 4px;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .nav-logo:hover {
-            text-shadow:
-                0 0 6px #fff,
-                0 0 14px var(--green-neon),
-                0 0 28px var(--green-neon),
-                0 0 60px var(--green-soft);
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            font-family: 'Oswald', sans-serif;
-            font-weight: 300;
-            font-size: 0.82rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            text-decoration: none;
-            transition: color 0.25s, text-shadow 0.25s;
-        }
-
-        .nav-links a:hover,
-        .nav-links a.active {
-            color: var(--green-neon);
-            text-shadow: 0 0 8px var(--green-neon);
-        }
-
-        /* ─────────────────────────────────────────────
-       HAMBURGER BUTTON
-    ───────────────────────────────────────────── */
-        .nav-toggle {
-            display: none;
-            flex-direction: column;
-            justify-content: center;
-            gap: 5px;
-            width: 36px;
-            height: 36px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 4px;
-        }
-
-        .nav-toggle span {
-            display: block;
-            width: 100%;
-            height: 2px;
-            background: var(--green-neon);
-            border-radius: 2px;
-            box-shadow: 0 0 6px var(--green-neon);
-            transition: transform 0.3s ease, opacity 0.2s ease;
-            transform-origin: center;
-        }
-
-        nav.nav--open .nav-toggle span:nth-child(1) {
-            transform: translateY(7px) rotate(45deg);
-        }
-
-        nav.nav--open .nav-toggle span:nth-child(2) {
-            opacity: 0;
-            transform: scaleX(0);
-        }
-
-        nav.nav--open .nav-toggle span:nth-child(3) {
-            transform: translateY(-7px) rotate(-45deg);
-        }
-
-        /* ─────────────────────────────────────────────
-       ABOUT PAGE HEADER
-    ───────────────────────────────────────────── */
-        .page-header {
-            padding: 8rem 2rem 4rem;
-            text-align: center;
-            background:
-                radial-gradient(ellipse at 50% 30%, rgba(57, 255, 20, 0.08) 0%, transparent 60%),
-                var(--bg-section);
-            border-bottom: 1px solid rgba(57, 255, 20, 0.1);
-        }
-
-        .page-header h1 {
-            font-family: 'Metal Mania', cursive;
-            font-size: clamp(2.5rem, 8vw, 5rem);
-            letter-spacing: 8px;
-            line-height: 1.2;
-            color: #fff;
-            text-shadow:
-                0 0 6px #fff,
-                0 0 14px #fff,
-                0 0 28px var(--green-neon),
-                0 0 60px var(--green-neon),
-                0 0 100px var(--green-soft);
-            margin-bottom: 1.5rem;
-        }
-
-        .page-header .subtitle {
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.2rem;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-        }
-
-        /* ─────────────────────────────────────────────
-       BREADCRUMB
-    ───────────────────────────────────────────── */
-        .breadcrumb {
-            display: flex;
-            justify-content: center;
-            gap: 0.5rem;
-            margin-bottom: 2rem;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        .breadcrumb a {
-            color: var(--green-mid);
-            text-decoration: none;
-            transition: color 0.25s;
-        }
-
-        .breadcrumb a:hover {
-            color: var(--green-neon);
-        }
-
-        /* ─────────────────────────────────────────────
-       CONTENT SECTIONS
-    ───────────────────────────────────────────── */
-        section {
-            padding: 5rem 2rem;
-        }
-
-        .section-inner {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .section-title {
-            font-family: 'Oswald', sans-serif;
-            font-size: clamp(1.8rem, 4vw, 2.4rem);
-            font-weight: 600;
-            color: var(--text-light);
-            margin-bottom: 2rem;
-            position: relative;
-            display: inline-block;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -8px;
-            left: 0;
-            width: 48px;
-            height: 3px;
-            background: var(--green-neon);
-            box-shadow: 0 0 10px var(--green-neon);
-            border-radius: 2px;
-        }
-
-        .content-text p {
-            color: var(--text-muted);
-            font-size: 1.05rem;
-            line-height: 1.9;
-            margin-bottom: 1.5rem;
-        }
-
-        .content-text p strong,
-        .content-text strong {
-            color: var(--green-neon);
-            font-weight: 600;
-        }
-
-        .content-text em {
-            color: var(--text-light);
-            font-style: italic;
-        }
-
-        .highlight-box {
-            background: var(--bg-card);
-            border-left: 4px solid var(--green-neon);
-            padding: 1.5rem 2rem;
-            margin: 2rem 0;
-            border-radius: 6px;
-            box-shadow: 0 0 20px rgba(57, 255, 20, 0.08);
-        }
-
-        .highlight-box p {
-            margin-bottom: 0;
-        }
-
-        /* ─────────────────────────────────────────────
-       MEMBERS GRID
-    ───────────────────────────────────────────── */
-        .members-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 2.5rem;
-        }
-
-        .member-card {
-            background: var(--bg-card);
-            border: 1px solid var(--green-dim);
-            border-radius: 8px;
-            padding: 2rem;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-        }
-
-        .member-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 10px 40px rgba(57, 255, 20, 0.15);
-            border-color: rgba(57, 255, 20, 0.3);
-        }
-
-        .member-name {
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--green-neon);
-            margin-bottom: 0.5rem;
-            letter-spacing: 2px;
-        }
-
-        .member-role {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 1rem;
-        }
-
-        .member-desc {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            line-height: 1.6;
-        }
-
-        /* ─────────────────────────────────────────────
-       DISCOGRAPHY QUICK LIST
-    ───────────────────────────────────────────── */
-        .disco-list {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-
-        .disco-list li {
-            background: var(--bg-card);
-            border: 1px solid var(--green-dim);
-            border-left: 3px solid var(--green-neon);
-            padding: 1rem 1.5rem;
-            border-radius: 6px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: box-shadow 0.3s, border-color 0.3s;
-        }
-
-        .disco-list li:hover {
-            box-shadow: 0 0 20px rgba(57, 255, 20, 0.12);
-            border-left-color: var(--green-soft);
-        }
-
-        .disco-title {
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.1rem;
-            color: var(--text-light);
-            font-weight: 600;
-        }
-
-        .disco-year {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            letter-spacing: 2px;
-        }
-
-        /* ─────────────────────────────────────────────
-       PLATFORMS SECTION
-    ───────────────────────────────────────────── */
-        .platforms-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .platform-link {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            text-decoration: none;
-            color: var(--text-muted);
-            font-family: 'Oswald', sans-serif;
-            font-size: 1rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            padding: 1.4rem 1.8rem;
-            border: 1px solid var(--green-dim);
-            border-radius: 8px;
-            background: var(--bg-card);
-            transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.2s;
-        }
-
-        .platform-link:hover {
-            color: var(--green-neon);
-            border-color: var(--green-neon);
-            box-shadow: 0 0 24px rgba(57, 255, 20, 0.22);
-            transform: translateY(-4px);
-        }
-
-        .platform-link svg {
-            width: 28px;
-            height: 28px;
-            fill: currentColor;
-            flex-shrink: 0;
-        }
-
-        /* ─────────────────────────────────────────────
-       DIVIDER
-    ───────────────────────────────────────────── */
-        .divider {
-            width: 100%;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(57, 255, 20, 0.2), transparent);
-            margin: 0;
-        }
-
-        /* ─────────────────────────────────────────────
-       FOOTER
-    ───────────────────────────────────────────── */
-        footer {
-            background: var(--bg-dark);
-            border-top: 1px solid rgba(57, 255, 20, 0.08);
-            padding: 2.5rem 2rem;
-            text-align: center;
-        }
-
-        .footer-logo {
-            font-family: 'Metal Mania', cursive;
-            font-size: 2rem;
-            letter-spacing: 8px;
-            color: var(--green-neon);
-            text-shadow:
-                0 0 8px #fff,
-                0 0 20px var(--green-neon),
-                0 0 40px var(--green-soft);
-            margin-bottom: 0.75rem;
-        }
-
-        footer p {
-            font-size: 0.75rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--green-dim);
-        }
-
-        /* ─────────────────────────────────────────────
-       RESPONSIVE
-    ───────────────────────────────────────────── */
-        @media (max-width: 680px) {
-            .nav-toggle {
-                display: flex;
-            }
-
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: var(--nav-height);
-                left: 0;
-                right: 0;
-                background: rgba(6, 12, 6, 0.96);
-                backdrop-filter: blur(14px);
-                -webkit-backdrop-filter: blur(14px);
-                padding: 1rem 2.5rem 1.5rem;
-                gap: 1.2rem;
-                border-bottom: 1px solid rgba(57, 255, 20, 0.12);
-            }
-
-            nav.nav--open .nav-links {
-                display: flex;
-                animation: menu-slide-down 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
-            }
-
-            @keyframes menu-slide-down {
-                from {
-                    opacity: 0;
-                    transform: translateY(-10px);
-                }
-
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-
-            .nav-links a {
-                font-size: 0.95rem;
-                padding: 0.4rem 0;
-            }
-
-            .page-header {
-                padding: 6rem 2rem 3rem;
-            }
-
-            .members-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .platforms-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/about.css" />
 </head>
 
 <body>
@@ -684,6 +160,7 @@
             <li><a href="index.html#albums">Albums</a></li>
             <li><a href="index.html#social">Nous joindre</a></li>
         </ul>
+        <a href="/en/about.html" class="lang-switcher" aria-label="Switch to English">EN</a>
         <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
             <span></span><span></span><span></span>
         </button>
@@ -956,26 +433,7 @@
         <p>© 2026 Sad Mazda Songs &nbsp;·&nbsp; Ville de Québec, QC &nbsp;·&nbsp; Tous droits réservés</p>
     </footer>
 
-    <script>
-        // ── MOBILE HAMBURGER ─────────────────────────────────────────────
-        const navToggle = document.querySelector('.nav-toggle');
-        const navEl = document.querySelector('nav');
-        const navLinks = document.querySelector('.nav-links');
-
-        if (navToggle) {
-            navToggle.addEventListener('click', function () {
-                const isOpen = navEl.classList.toggle('nav--open');
-                navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-            });
-
-            navLinks.querySelectorAll('a').forEach(function (link) {
-                link.addEventListener('click', function () {
-                    navEl.classList.remove('nav--open');
-                    navToggle.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-    </script>
+    <script src="../assets/js/about.js"></script>
 
 </body>
 

@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Root language selector -->
   <url>
     <loc>https://sms.10-4.app/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- French homepage -->
   <url>
-    <loc>https://sms.10-4.app/about.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://sms.10-4.app/fr/</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://sms.10-4.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://sms.10-4.app/en/" />
+  </url>
+
+  <!-- English homepage -->
+  <url>
+    <loc>https://sms.10-4.app/en/</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://sms.10-4.app/en/" />
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://sms.10-4.app/fr/" />
+  </url>
+
+  <!-- French about page -->
+  <url>
+    <loc>https://sms.10-4.app/fr/about.html</loc>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://sms.10-4.app/fr/about.html" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://sms.10-4.app/en/about.html" />
   </url>
+
+  <!-- English about page -->
+  <url>
+    <loc>https://sms.10-4.app/en/about.html</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://sms.10-4.app/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://sms.10-4.app/fr/about.html" />
+  </url>
+
 </urlset>
