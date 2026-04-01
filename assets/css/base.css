@@ -239,7 +239,7 @@ footer p {
     font-size: 0.75rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--green-dim);
+    color: var(--text-muted);
 }
 
 /* ─────────────────────────────────────────────
