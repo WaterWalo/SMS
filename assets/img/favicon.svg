@@ -1,15 +1,1 @@
-<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
-  <!-- Dark background -->
-  <rect width="512" height="512" fill="#060c06"/>
-  
-  <!-- SMS text - clean, no glow effect -->
-  <text 
-    x="256" 
-    y="340" 
-    font-family="'Arial Black', 'Arial Bold', sans-serif" 
-    font-size="200" 
-    fill="#39ff14" 
-    text-anchor="middle" 
-    font-weight="bold"
-    letter-spacing="-5">SMS</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><rect width="512" height="512" fill="#060c06"></rect><text x="256" y="340" font-family="'Arial Black', 'Arial Bold', sans-serif" font-size="200" fill="#39ff14" text-anchor="middle" font-weight="bold" letter-spacing="-5">SMS</text></svg>
