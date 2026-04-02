@@ -54,24 +54,6 @@
     window.addEventListener('scroll', onScroll, { passive: true });
     update();
 
-    // ── MOBILE HAMBURGER ─────────────────────────────────────────────
-    const navToggle = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelector('.nav-links');
-
-    if (navToggle) {
-        navToggle.addEventListener('click', function () {
-            const isOpen = navEl.classList.toggle('nav--open');
-            navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-        });
-
-        navLinks.querySelectorAll('a').forEach(function (link) {
-            link.addEventListener('click', function () {
-                navEl.classList.remove('nav--open');
-                navToggle.setAttribute('aria-expanded', 'false');
-            });
-        });
-    }
-
     // ── SCROLL REVEAL ────────────────────────────────────────────────
     const revealEls = document.querySelectorAll('.reveal');
     if ('IntersectionObserver' in window) {

@@ -1,0 +1,11 @@
+{
+    "siteName": "Sad Mazda Songs",
+    "siteNameShort": "SMS",
+    "domain": "https://sms.10-4.app",
+    "copyright": {
+        "year": 2026,
+        "holder": "Sad Mazda Songs"
+    },
+    "defaultLanguage": "fr",
+    "availableLanguages": ["en", "fr"]
+}

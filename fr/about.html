@@ -155,20 +155,8 @@
     </a>
 
     <!-- ─── NAV ──────────────────────────────────── -->
-    <nav aria-label="Navigation principale">
-        <a href="index.html" class="nav-logo">SMS</a>
-        <ul class="nav-links">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html" class="active">Qui sommes-nous?</a></li>
-            <li><a href="index.html#about">Le Groupe</a></li>
-            <li><a href="index.html#albums">Albums</a></li>
-            <li><a href="index.html#social">Nous joindre</a></li>
-        </ul>
-        <a href="/en/about.html" class="lang-switcher" aria-label="Switch to English">EN</a>
-        <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
-        </button>
-    </nav>
+    <nav aria-label="Navigation principale"></nav>
+
 
     <!-- ─── MAIN CONTENT ──────────────────────────── -->
     <main id="main-content" role="main">
@@ -451,7 +439,9 @@
         <p>© 2026 Sad Mazda Songs &nbsp;·&nbsp; Ville de Québec, QC &nbsp;·&nbsp; Tous droits réservés</p>
     </footer>
 
-    <script src="../assets/js/about.js"></script>
+    <script>window.siteConfig = { lang: 'fr' };</script>
+    <script src="../assets/js/data-renderer.js" defer></script>
+    <script src="../assets/js/index.js" defer></script>
 
 </body>
 

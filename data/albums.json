@@ -1,0 +1,71 @@
+[{
+        "id": "gaufre-spaghetti",
+        "title": "Gaufre, spaghetti",
+        "year": 2026,
+        "type": "Single",
+        "coverImage": "../assets/img/gaufre_spaghetti.jpg",
+        "coverAlt": {
+            "en": "Gaufre, spaghetti – cover",
+            "fr": "Gaufre, spaghetti – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg",
+        "isNew": true,
+        "order": 1
+    },
+    {
+        "id": "avec-politesse",
+        "title": "Avec Politesse",
+        "year": 2026,
+        "type": "Single",
+        "coverImage": "../assets/img/Avec_Politesse.jpg",
+        "coverAlt": {
+            "en": "Avec Politesse – cover",
+            "fr": "Avec Politesse – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA",
+        "isNew": false,
+        "order": 2
+    },
+    {
+        "id": "eric-duhaime",
+        "title": "Éric Duhaime",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/Eric_Duhaime.jpg",
+        "coverAlt": {
+            "en": "Éric Duhaime – cover",
+            "fr": "Éric Duhaime – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw",
+        "isNew": false,
+        "order": 3
+    },
+    {
+        "id": "miss-steak",
+        "title": "Miss Steak",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/Miss_Steak.jpg",
+        "coverAlt": {
+            "en": "Miss Steak – cover",
+            "fr": "Miss Steak – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w",
+        "isNew": false,
+        "order": 4
+    },
+    {
+        "id": "nadine",
+        "title": "Nadine",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/Nadine.jpg",
+        "coverAlt": {
+            "en": "Nadine – cover",
+            "fr": "Nadine – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/album/3VCPMKGzF9SM4dGr8gjdAb?si=GjkK25ZUTFS3vpoPBSe75w",
+        "isNew": false,
+        "order": 5
+    }
+]

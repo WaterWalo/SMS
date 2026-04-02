@@ -1,0 +1,66 @@
+{
+    "en": {
+        "nav": {
+            "home": "Home",
+            "about": "About Us",
+            "albums": "Albums",
+            "contact": "Contact",
+            "langSwitcher": "FR"
+        },
+        "sections": {
+            "discographyLabel": "Discography",
+            "discographyTitle": "Albums & Singles",
+            "socialLabel": "Contact",
+            "socialTitle": "Follow SMS",
+            "socialDescription": "Stay tuned for new releases, upcoming shows and behind-the-scenes of the group.",
+            "aboutLabel": "Who are we?",
+            "aboutTitle": "Discover Our Story"
+        },
+        "bio": {
+            "intro": "<strong>Sad Mazda Songs (SMS)</strong> is an underground rap music group from Quebec City, Canada. Formed in 2024, the trio composed of Marc, L-P and Sam creates a unique style mixing absurd punchlines, basement humor and unexpected beats. Discover the music of Sad Mazda Songs, independent Quebec rap artist.",
+            "tagline": "Three guys, a Mazda, and a mission: proving you can be off-beat and still sound better than your favorite artist.",
+            "heroSubtitle": "Underground Rap Group from Quebec",
+            "heroOrigin": "Quebec City &nbsp;·&nbsp; Est. 2024"
+        },
+        "cta": {
+            "learnMore": "Learn more about SMS",
+            "newBadge": "NEW"
+        },
+        "footer": {
+            "rights": "All rights reserved",
+            "location": "Quebec City, QC"
+        }
+    },
+    "fr": {
+        "nav": {
+            "home": "Accueil",
+            "about": "Qui sommes-nous?",
+            "albums": "Albums",
+            "contact": "Nous joindre",
+            "langSwitcher": "EN"
+        },
+        "sections": {
+            "discographyLabel": "Discographie",
+            "discographyTitle": "Albums & Singles",
+            "socialLabel": "Nous joindre",
+            "socialTitle": "Suivez SMS",
+            "socialDescription": "Restez à l'affût des nouvelles sorties, des shows à venir et des coulisses du groupe.",
+            "aboutLabel": "Qui sommes-nous?",
+            "aboutTitle": "Découvrez notre histoire"
+        },
+        "bio": {
+            "intro": "<strong>Sad Mazda Songs (SMS)</strong> est un groupe de musique rap underground de Québec. Formé en 2024, le trio composé de Marc, L-P et Sam crée un style unique mélangeant punchlines absurdes, humour de sous-sol et beats inattendus. Découvrez la musique de Sad Mazda Songs, artiste rap québécois indépendant.",
+            "tagline": "Trois gars, un Mazda, et une mission : prouver qu'on peut être off-beat et quand même sonner meilleur que ton artiste préféré.",
+            "heroSubtitle": "Groupe de Rap Underground de Québec",
+            "heroOrigin": "Ville de Québec &nbsp;·&nbsp; Est. 2024"
+        },
+        "cta": {
+            "learnMore": "En savoir plus sur SMS",
+            "newBadge": "NOUVEAU"
+        },
+        "footer": {
+            "rights": "Tous droits réservés",
+            "location": "Ville de Québec, QC"
+        }
+    }
+}

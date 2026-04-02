@@ -93,43 +93,11 @@
 <body>
 
     <!-- ─── NAV ──────────────────────────────────── -->
-    <nav aria-label="Navigation principale">
-        <span class="nav-logo">SMS</span>
-        <ul class="nav-links">
-            <li><a href="#hero">Accueil</a></li>
-            <li><a href="about.html">Qui sommes-nous?</a></li>
-            <li><a href="#albums">Albums</a></li>
-            <li><a href="#social">Nous joindre</a></li>
-        </ul>
-        <a href="/en/" class="lang-switcher" aria-label="Switch to English">EN</a>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-            <span></span><span></span><span></span>
-        </button>
-    </nav>
+    <nav aria-label="Navigation principale"></nav>
 
     <!-- ─── SOCIAL DOCK ───────────────────────────── -->
-    <aside class="social-dock" aria-label="Réseaux sociaux">
-        <a class="dock-link"
-            href="https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW?si=4lp69G2gS6KArcH1h9vYZw"
-            target="_blank" rel="noopener" aria-label="Spotify">
-            <span class="dock-label">Spotify</span>
-            <span class="dock-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
-                </svg>
-            </span>
-        </a>
-        <a class="dock-link" href="https://www.instagram.com/sad_mazda_songs/" target="_blank" rel="noopener"
-            aria-label="Instagram">
-            <span class="dock-label">Instagram</span>
-            <span class="dock-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                </svg>
-            </span>
-        </a>
+    <aside class="social-dock" aria-label="Réseaux sociaux"></aside>
+
     </aside>
 
     <!-- ─── HERO ─── -->
@@ -143,8 +111,8 @@
         <div class="hero-content">
             <div class="hero-title-wrap">
                 <h1 class="hero-band-name"><span class="sr-only">Sad Mazda Songs</span>SMS</h1>
-                <p class="hero-subtitle">Groupe de Rap Underground de Québec</p>
-                <p class="hero-origin">Quebec City &nbsp;·&nbsp; Est. 2024</p>
+                <p class="hero-subtitle" data-i18n="bio.heroSubtitle">Groupe de Rap Underground de Québec</p>
+                <p class="hero-origin" data-i18n="bio.heroOrigin">Ville de Québec &nbsp;·&nbsp; Est. 2024</p>
             </div>
 
             <div class="scroll-cue">
@@ -159,7 +127,7 @@
         <!-- ─── ARTIST INTRO (SEO) ──────────────────── -->
         <section class="artist-intro-section">
             <div class="artist-intro-inner">
-                <p class="artist-intro">
+                <p class="artist-intro" data-i18n="bio.intro">
                     <strong>Sad Mazda Songs (SMS)</strong> est un groupe de musique rap underground de Québec, Canada.
                     Formé en 2024, le trio composé de Marc, L-P et Sam crée un style unique mélangeant
                     punchlines absurdes, humour de sous-sol et beats inattendus. Découvrez la musique
@@ -173,14 +141,15 @@
         <!-- ─── CTA TO ABOUT ────────────────────────── -->
         <section class="cta-section reveal">
             <div class="section-inner">
-                <p class="section-label">Sommes-nous qui ?</p>
-                <h2 class="section-title" style="display:block; text-align:center;">Découvrir Notre Histoire</h2>
-                <p
+                <p class="section-label" data-i18n="sections.aboutLabel">Qui sommes-nous?</p>
+                <h2 class="section-title" style="display:block; text-align:center;" data-i18n="sections.aboutTitle">
+                    Découvrez notre histoire</h2>
+                <p data-i18n="bio.tagline"
                     style="color:var(--text-muted); max-width:580px; margin: 0 auto 2rem; font-size:1.05rem; line-height:1.8;">
                     Trois gars, un Mazda, et une mission : prouver qu'on peut être off-beat et quand même sonner
                     meilleur que ton artiste préféré.
                 </p>
-                <a href="about.html" class="cta-button">
+                <a href="about.html" class="cta-button" data-i18n="cta.learnMore">
                     En savoir plus sur SMS
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -197,78 +166,10 @@
         <!-- ─── ALBUMS ───────────────────────────────── -->
         <section id="albums">
             <div class="section-inner">
-                <p class="section-label">Discographie</p>
-                <h2 class="section-title">Albums &amp; Singles</h2>
+                <p class="section-label" data-i18n="sections.discographyLabel">Discographie</p>
+                <h2 class="section-title" data-i18n="sections.discographyTitle">Albums &amp; Singles</h2>
 
-                <div class="album-grid">
-
-                    <!-- ★ NEW SINGLE – 2026 ★ -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="../assets/img/gaufre_spaghetti.jpg" alt="Gaufre, spaghetti – cover"
-                                loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <span class="new-badge">NOUVEAU</span>
-                            <div class="album-title">Gaufre, spaghetti</div>
-                            <div class="album-meta">2026 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 1 – 2026 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="../assets/img/Avec_Politesse.jpg" alt="Avec Politesse – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Avec Politesse</div>
-                            <div class="album-meta">2026 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 2 – 2025 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="../assets/img/Eric_Duhaime.jpg" alt="Éric Duhaime – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Éric Duhaime</div>
-                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 3 – 2025 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="../assets/img/Miss_Steak.jpg" alt="Miss Steak – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Miss Steak</div>
-                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-
-                    <!-- Single 4 – 2025 -->
-                    <a class="album-card reveal"
-                        href="https://open.spotify.com/intl-fr/album/3VCPMKGzF9SM4dGr8gjdAb?si=GjkK25ZUTFS3vpoPBSe75w"
-                        target="_blank" rel="noopener noreferrer">
-                        <div class="album-cover">
-                            <img src="../assets/img/Nadine.jpg" alt="Nadine – cover" loading="lazy" />
-                        </div>
-                        <div class="album-info">
-                            <div class="album-title">Nadine</div>
-                            <div class="album-meta">2025 &nbsp;·&nbsp; Single</div>
-                        </div>
-                    </a>
-                </div><!-- /album-grid -->
+                <div class="album-grid"></div><!-- /album-grid -->
             </div>
         </section>
 
@@ -277,47 +178,31 @@
         <!-- ─── SOCIAL ───────────────────────────────── -->
         <section id="social">
             <div class="section-inner reveal" style="text-align:center;">
-                <p class="section-label">Nous joindre</p>
-                <h2 class="section-title" style="display:block; text-align:center;">Suivez SMS</h2>
-                <p style="color:var(--text-muted); max-width:480px; margin: 0 auto 0.5rem; font-size:0.95rem;">
+                <p class="section-label" data-i18n="sections.socialLabel">Nous joindre</p>
+                <h2 class="section-title" style="display:block; text-align:center;" data-i18n="sections.socialTitle">
+                    Suivez SMS</h2>
+                <p style="color:var(--text-muted); max-width:480px; margin: 0 auto 0.5rem; font-size:0.95rem;"
+                    data-i18n="sections.socialDescription">
                     Restez à l’affût des nouvelles sorties, des shows à venir et des coulisses du groupe.
                 </p>
             </div>
 
             <div class="social-links">
-
-                <!-- Spotify -->
-                <a class="social-link"
-                    href="https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW?si=4lp69G2gS6KArcH1h9vYZw"
-                    target="_blank" rel="noopener">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path
-                            d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
-                    </svg>
-                    Spotify
-                </a>
-
-                <!-- Instagram -->
-                <a class="social-link" href="https://www.instagram.com/sad_mazda_songs/" target="_blank" rel="noopener">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path
-                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                    </svg>
-                    Instagram
-                </a>
-
             </div>
         </section>
 
         <!-- ─── FOOTER ────────────────────────────────── -->
         <footer>
             <div class="footer-logo">SMS</div>
-            <p>© 2026 Sad Mazda Songs &nbsp;·&nbsp; Ville de Québec, QC &nbsp;·&nbsp; Tous droits réservés</p>
+            <p>© <span id="year">2026</span> Sad Mazda Songs &nbsp;·&nbsp; <span data-i18n="footer.location">Ville de
+                    Québec, QC</span> &nbsp;·&nbsp; <span data-i18n="footer.rights">Tous droits réservés</span></p>
         </footer>
 
     </div><!-- /#main-content -->
 
-    <script src="../assets/js/index.js"></script>
+    <script>window.siteConfig = { lang: 'fr' };</script>
+    <script src="../assets/js/data-renderer.js" defer></script>
+    <script src="../assets/js/index.js" defer></script>
 
 </body>
 
