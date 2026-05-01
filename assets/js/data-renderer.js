@@ -24,6 +24,7 @@
         // ── RENDER ALL COMPONENTS ──────────────────────────────────────────
         renderNav(currentContent.nav, lang);
         initHamburgerMenu(); // Initialize after nav is rendered
+        initLogoEasterEgg(lang); // Easter egg: Ctrl+Click logo to access search
         renderSocialDock(social);
         renderSocialLinks(social);
         renderAlbums(albums, lang, currentContent.cta.newBadge);
@@ -44,22 +45,27 @@ function renderNav(navLabels, lang) {
 
     const otherLang = lang === 'en' ? 'fr' : 'en';
     const isAboutPage = window.location.pathname.includes('about.html');
+    const isSearchPage = window.location.pathname.includes('recherche.html') || window.location.pathname.includes('search.html');
 
     // Determine URLs based on current page
-    const homeUrl = isAboutPage ? 'index.html' : '#hero';
-    const aboutUrl = isAboutPage ? 'about.html' : 'about.html';
-    const albumsUrl = isAboutPage ? 'index.html#albums' : '#albums';
-    const contactUrl = isAboutPage ? 'index.html#social' : '#social';
-    const langSwitcherUrl = isAboutPage
-        ? `/${otherLang}/about.html`
-        : `/${otherLang}/`;
+    const homeUrl = (isAboutPage || isSearchPage) ? 'index.html' : '#hero';
+    const aboutUrl = 'about.html';
+    const albumsUrl = (isAboutPage || isSearchPage) ? 'index.html#albums' : '#albums';
+    const contactUrl = (isAboutPage || isSearchPage) ? 'index.html#social' : '#social';
+    const langSwitcherUrl = isSearchPage
+        ? (lang === 'en' ? '/fr/recherche.html' : '/en/search.html')
+        : isAboutPage
+            ? `/${otherLang}/about.html`
+            : `/${otherLang}/`;
     const ariaLabel = lang === 'en'
         ? 'Passer au français'
         : 'Switch to English';
 
-    // Logo: link to index on about pages, just text on index pages
-    const logoHtml = isAboutPage
-        ? `<a href="index.html" class="nav-logo">SMS</a>`
+    // Logo: link to index on about/search pages, just text on index pages
+    // Add BETA badge on search page
+    const betaBadge = isSearchPage ? '<span class="beta-badge">BETA</span>' : '';
+    const logoHtml = (isAboutPage || isSearchPage)
+        ? `<a href="index.html" class="nav-logo">SMS${betaBadge}</a>`
         : `<span class="nav-logo">SMS</span>`;
 
     // Add "active" class to current page link
@@ -104,6 +110,36 @@ function initHamburgerMenu() {
             navToggle.setAttribute('aria-expanded', 'false');
         });
     });
+}
+
+/**
+ * INITIALIZE LOGO EASTER EGG
+ * Ctrl+Click on logo redirects to hidden search page
+ */
+function initLogoEasterEgg(lang) {
+    const logo = document.querySelector('.nav-logo');
+    if (!logo) return;
+
+    logo.addEventListener('click', function (e) {
+        // Check if Ctrl key (Windows/Linux) or Cmd key (Mac) is pressed
+        if (e.ctrlKey || e.metaKey) {
+            e.preventDefault();
+
+            // Determine search page URL based on language
+            const searchUrl = lang === 'en' ? '/en/search.html' : '/fr/recherche.html';
+
+            // Check if we're already on a language-specific page
+            if (window.location.pathname.includes('/en/') || window.location.pathname.includes('/fr/')) {
+                window.location.href = lang === 'en' ? 'search.html' : 'recherche.html';
+            } else {
+                window.location.href = searchUrl;
+            }
+        }
+    });
+
+    // Add visual hint on hover (optional - can be removed for true Easter egg)
+    logo.style.cursor = 'pointer';
+    logo.title = 'Ctrl+Click pour une surprise 🔍';
 }
 
 /**

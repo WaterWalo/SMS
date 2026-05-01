@@ -146,11 +146,43 @@ nav {
     cursor: default;
     user-select: none;
     text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .nav-logo:hover {
     text-shadow: 0 0 6px #fff, 0 0 14px var(--green-neon), 0 0 28px var(--green-neon),
         0 0 60px var(--green-soft);
+}
+
+.beta-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4), 0 0 12px rgba(59, 130, 246, 0.2);
+    text-shadow: none;
+    animation: beta-pulse 2s ease-in-out infinite;
+}
+
+@keyframes beta-pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4), 0 0 12px rgba(59, 130, 246, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 2px 12px rgba(59, 130, 246, 0.6), 0 0 20px rgba(59, 130, 246, 0.4);
+    }
 }
 
 .nav-links {

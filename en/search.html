@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KPRGFE7G0D"></script>
+    <script src="../assets/js/analytics.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reference Search | Sad Mazda Songs</title>
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Search through Sad Mazda Songs (SMS) lyrics. Discover the humorous, cultural, and absurd references hidden in songs from the Quebec underground rap group." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#39ff14" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon.svg" />
+
+    <!-- Hreflang tags for SEO -->
+    <link rel="alternate" hreflang="en-CA" href="https://sms.10-4.app/en/search.html" />
+    <link rel="alternate" hreflang="fr-CA" href="https://sms.10-4.app/fr/recherche.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sms.10-4.app/fr/recherche.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Reference Search | Sad Mazda Songs" />
+    <meta property="og:description"
+        content="Search through SMS lyrics. Discover the humorous and cultural references hidden in songs from the Quebec underground rap group." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sms.10-4.app/en/search.html" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:locale:alternate" content="fr_CA" />
+    <meta property="og:image" content="https://sms.10-4.app/assets/img/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <link rel="canonical" href="https://sms.10-4.app/en/search.html" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald:wght@300;400;600&family=Raleway:wght@300;400&display=swap"
+        rel="stylesheet" />
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sms.10-4.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Search",
+          "item": "https://sms.10-4.app/en/search.html"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/recherche.css" />
+</head>
+
+<body>
+    <!-- ─── SKIP TO CONTENT ──────────────────────── -->
+    <a href="#main-content" class="skip-link">
+        Skip to main content
+    </a>
+
+    <!-- ─── NAV ──────────────────────────────────── -->
+    <nav aria-label="Main navigation"></nav>
+
+    <!-- ─── MAIN CONTENT ──────────────────────────── -->
+    <main id="main-content" role="main">
+
+        <!-- ─── PAGE HEADER ───────────────────────────── -->
+        <header class="page-header">
+            <h1>Reference Search</h1>
+            <p class="subtitle">Discover the punchlines and hidden references in SMS lyrics</p>
+        </header>
+
+        <div class="divider" role="separator" aria-hidden="true"></div>
+
+        <!-- ─── SEARCH SECTION ─────────────────────────── -->
+        <section id="search-section">
+            <div class="section-inner">
+
+                <!-- Search Bar -->
+                <div class="search-bar-container" role="search">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4-4" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <input type="search" id="search-input" placeholder="Search lyrics, references..."
+                        aria-label="Search in SMS lyrics" autocomplete="off" />
+                    <button id="search-clear" class="search-clear" aria-label="Clear search" style="display: none;">
+                        ×
+                    </button>
+                </div>
+
+                <!-- Search Stats -->
+                <div id="search-stats" class="search-stats" aria-live="polite"></div>
+
+                <!-- Empty State (Initial) -->
+                <div id="search-empty" class="search-empty">
+                    <p>💭 Enter a keyword to search in SMS lyrics.</p>
+                    <p class="search-hint">Try: "gaufre", "Ben 10", "Elvis", "politesse"...</p>
+                </div>
+
+                <!-- No Results State -->
+                <div id="search-no-results" class="search-no-results hidden">
+                    <p>😕 No reference found for <strong id="no-results-query"></strong></p>
+                    <p class="search-hint">Try another keyword or check the spelling</p>
+                </div>
+
+                <!-- Search Results Container -->
+                <div id="search-results" class="search-results" role="region" aria-label="Search results"></div>
+
+            </div>
+        </section>
+
+        <!-- ─── FOOTER ────────────────────────────────── -->
+        <footer>
+            <p>&copy; <span id="footer-year">2026</span> Sad Mazda Songs. All rights reserved.</p>
+            <p class="footer-location">Quebec City, QC</p>
+        </footer>
+
+    </main>
+
+    <!-- ─── JAVASCRIPT ─────────────────────────────── -->
+    <script>
+        // Site config for i18n
+        window.siteConfig = { lang: 'en' };
+    </script>
+
+    <!-- Fuse.js CDN for fuzzy search -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+
+    <!-- Site scripts -->
+    <script src="../assets/js/data-renderer.js"></script>
+    <script src="../assets/js/search.js"></script>
+
+    <!-- Fallback for JS disabled -->
+    <noscript>
+        <div style="padding: 40px; text-align: center; color: var(--text-muted, #7aab7a);">
+            <p>⚠️ JavaScript is required to use the search function.</p>
+            <p>Please enable JavaScript in your browser.</p>
+        </div>
+    </noscript>
+
+</body>
+
+</html>

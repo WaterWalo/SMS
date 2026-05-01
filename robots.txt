@@ -3,5 +3,9 @@
 User-agent: *
 Allow: /
 
+# Hidden pages (accessible only via Easter egg)
+Disallow: /fr/recherche.html
+Disallow: /en/search.html
+
 # Sitemap
 Sitemap: https://sms.10-4.app/sitemap.xml

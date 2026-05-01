@@ -4,6 +4,7 @@
             "home": "Home",
             "about": "About Us",
             "albums": "Albums",
+            "search": "Search",
             "contact": "Contact",
             "langSwitcher": "FR"
         },
@@ -36,6 +37,7 @@
             "home": "Accueil",
             "about": "Qui sommes-nous?",
             "albums": "Albums",
+            "search": "Recherche",
             "contact": "Nous joindre",
             "langSwitcher": "EN"
         },
