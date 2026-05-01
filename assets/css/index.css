@@ -402,20 +402,20 @@ section {
 /* Each album has a unique gradient cover */
 .album-card:nth-child(1) .album-cover {
     background: linear-gradient(135deg,
+            #0a3a0a 0%,
+            #1a6a1a 25%,
+            #39ff14 50%,
+            #1a6a1a 75%,
+            #0a3a0a 100%);
+}
+
+.album-card:nth-child(2) .album-cover {
+    background: linear-gradient(135deg,
             #1a4a0a 0%,
             #2d7d1a 30%,
             #39ff14 50%,
             #2d7d1a 70%,
             #1a4a0a 100%);
-}
-
-.album-card:nth-child(2) .album-cover {
-    background: linear-gradient(135deg,
-            #061206 0%,
-            #0d3b0d 30%,
-            #145214 55%,
-            #1e6b1e 80%,
-            #0a2a0a 100%);
 }
 
 .album-card:nth-child(3) .album-cover {
@@ -464,6 +464,44 @@ section {
 
 .album-card:hover .album-cover img {
     transform: scale(1.05);
+}
+
+/* Ben 10 Omnitrix special hover animation */
+.album-card[href*="57ug8uW3nsqvYpdws0I1Xp"]:hover {
+    transform: translateY(-6px);
+    animation: ben10-omnitrix-flash 0.8s ease-out both;
+    box-shadow: 0 10px 50px rgba(57, 255, 20, 0.5),
+        0 0 80px rgba(57, 255, 20, 0.4),
+        0 0 0 1px rgba(57, 255, 20, 0.6);
+    border-color: rgba(57, 255, 20, 0.8);
+}
+
+.album-card[href*="57ug8uW3nsqvYpdws0I1Xp"]:hover .album-cover img {
+    transform: scale(1.08);
+}
+
+/* Ben 10 ripple/shockwave effects */
+.album-card[href*="57ug8uW3nsqvYpdws0I1Xp"] .album-cover::before,
+.album-card[href*="57ug8uW3nsqvYpdws0I1Xp"] .album-cover::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    border: 2px solid rgba(57, 255, 20, 0);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    display: block !important;
+}
+
+.album-card[href*="57ug8uW3nsqvYpdws0I1Xp"]:hover .album-cover::before {
+    animation: omnitrix-ripple 0.8s ease-out;
+}
+
+.album-card[href*="57ug8uW3nsqvYpdws0I1Xp"]:hover .album-cover::after {
+    animation: omnitrix-ripple 0.8s ease-out 0.15s;
 }
 
 .album-cover::before,
@@ -561,6 +599,64 @@ section {
 
     50% {
         box-shadow: 0 0 25px rgba(57, 255, 20, 0.9);
+    }
+}
+
+/* Ben 10 Omnitrix transformation flash animation */
+@keyframes ben10-omnitrix-flash {
+    0% {
+        transform: translateY(-6px) scale(1);
+        box-shadow: 0 10px 40px rgba(57, 255, 20, 0.18), 0 0 0 1px rgba(57, 255, 20, 0.3);
+    }
+
+    15% {
+        transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 10px 80px rgba(57, 255, 20, 0.6),
+            0 0 120px rgba(57, 255, 20, 0.5),
+            0 0 0 2px rgba(57, 255, 20, 0.9);
+    }
+
+    30% {
+        transform: translateY(-6px) scale(1.01);
+        box-shadow: 0 10px 60px rgba(57, 255, 20, 0.4),
+            0 0 90px rgba(57, 255, 20, 0.3),
+            0 0 0 1px rgba(57, 255, 20, 0.7);
+    }
+
+    50% {
+        transform: translateY(-6px) scale(1.02);
+        box-shadow: 0 10px 70px rgba(57, 255, 20, 0.5),
+            0 0 100px rgba(57, 255, 20, 0.4),
+            0 0 0 2px rgba(57, 255, 20, 0.8);
+    }
+
+    100% {
+        transform: translateY(-6px) scale(1);
+        box-shadow: 0 10px 50px rgba(57, 255, 20, 0.5),
+            0 0 80px rgba(57, 255, 20, 0.4),
+            0 0 0 1px rgba(57, 255, 20, 0.6);
+    }
+}
+
+/* Omnitrix shockwave ripple animation */
+@keyframes omnitrix-ripple {
+    0% {
+        width: 0;
+        height: 0;
+        border-color: rgba(57, 255, 20, 0.9);
+        border-width: 3px;
+    }
+
+    50% {
+        border-color: rgba(57, 255, 20, 0.6);
+        border-width: 2px;
+    }
+
+    100% {
+        width: 150%;
+        height: 150%;
+        border-color: rgba(57, 255, 20, 0);
+        border-width: 1px;
     }
 }
 
@@ -819,8 +915,13 @@ section {
    RESPONSIVE
    ───────────────────────────────────────────── */
 @media (max-width: 680px) {
+    .album-grid {
+        justify-content: center;
+    }
+
     .album-card {
         flex: 1 1 100%;
+        max-width: 400px;
     }
 
     .about-grid {
@@ -868,7 +969,7 @@ section {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 681px) {
     .album-card {
         flex: 1 1 calc(50% - 0.9rem);
     }

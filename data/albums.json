@@ -9,6 +9,20 @@
             "fr": "Gaufre, spaghetti – cover"
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg",
+        "isNew": false,
+        "order": 2
+    },
+    {
+        "id": "ben-10",
+        "title": "Ben 10",
+        "year": 2026,
+        "type": "Single",
+        "coverImage": "../assets/img/Ben10.jpg",
+        "coverAlt": {
+            "en": "Ben 10 – cover",
+            "fr": "Ben 10 – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/track/57ug8uW3nsqvYpdws0I1Xp?si=6b71b280e4584388",
         "isNew": true,
         "order": 1
     },
@@ -24,7 +38,7 @@
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA",
         "isNew": false,
-        "order": 2
+        "order": 3
     },
     {
         "id": "eric-duhaime",
@@ -38,7 +52,7 @@
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw",
         "isNew": false,
-        "order": 3
+        "order": 4
     },
     {
         "id": "miss-steak",
@@ -52,7 +66,7 @@
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w",
         "isNew": false,
-        "order": 4
+        "order": 5
     },
     {
         "id": "nadine",
@@ -66,6 +80,6 @@
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/3VCPMKGzF9SM4dGr8gjdAb?si=GjkK25ZUTFS3vpoPBSe75w",
         "isNew": false,
-        "order": 5
+        "order": 6
     }
 ]
