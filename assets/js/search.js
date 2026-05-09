@@ -100,19 +100,21 @@
             });
 
             // Add each reference as searchable
-            song.references.forEach(ref => {
-                searchableData.push({
-                    type: 'reference',
-                    songId: song.id,
-                    songTitle: song.title,
-                    albumTitle: song.albumTitle,
-                    coverImage: song.coverImage,
-                    spotifyUrl: song.spotifyUrl,
-                    text: ref.excerpt,
-                    explanation: ref.explanation,
-                    keywords: ref.keywords
+            if (song.references && Array.isArray(song.references)) {
+                song.references.forEach(ref => {
+                    searchableData.push({
+                        type: 'reference',
+                        songId: song.id,
+                        songTitle: song.title,
+                        albumTitle: song.albumTitle,
+                        coverImage: song.coverImage,
+                        spotifyUrl: song.spotifyUrl,
+                        text: ref.excerpt,
+                        explanation: ref.explanation,
+                        keywords: ref.keywords
+                    });
                 });
-            });
+            }
         });
 
         const fuseOptions = {
