@@ -43,10 +43,8 @@
     // ── LOAD DATA ─────────────────────────────────────────────────
     async function loadData() {
         try {
-            // Always load French lyrics data from ../data/
-            const basePath = window.location.pathname.includes('/en/') || window.location.pathname.includes('/fr/')
-                ? '../data/'
-                : './data/';
+            // All files are now at root level, so data path is always ./data/
+            const basePath = './data/';
 
             const [lyrics, albums] = await Promise.all([
                 fetch(basePath + 'lyrics.json').then(r => r.json()),

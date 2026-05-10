@@ -5,10 +5,8 @@
 (async function () {
     try {
         // ── LOAD ALL DATA IN PARALLEL ─────────────────────────────────────
-        // Determine the correct path based on current location
-        const basePath = window.location.pathname.includes('/en/') || window.location.pathname.includes('/fr/')
-            ? '../data/'
-            : './data/';
+        // All files are now at root level, so data path is always ./data/
+        const basePath = './data/';
 
         const [albums, social, content, config] = await Promise.all([
             fetch(basePath + 'albums.json').then(r => r.json()),
@@ -17,7 +15,7 @@
             fetch(basePath + 'config.json').then(r => r.json())
         ]);
 
-        // Get language from window.siteConfig (set in HTML)
+        // Get language from window.siteConfig (set by language-manager.js)
         const lang = window.siteConfig?.lang || 'fr';
         const currentContent = content[lang];
 
@@ -29,6 +27,20 @@
         renderSocialLinks(social);
         renderAlbums(albums, lang, currentContent.cta.newBadge);
         updateContent(currentContent, config);
+
+        // ── LISTEN FOR LANGUAGE CHANGE EVENTS ──────────────────────────────
+        // When language is changed by language-manager.js, reload content
+        window.addEventListener('languagechange', async function (e) {
+            const newLang = e.detail.lang;
+            const newContent = content[newLang];
+
+            // Re-render all components with new language
+            renderNav(newContent.nav, newLang);
+            initHamburgerMenu();
+            initLogoEasterEgg(newLang);
+            renderAlbums(albums, newLang, newContent.cta.newBadge);
+            updateContent(newContent, config);
+        });
 
     } catch (error) {
         console.error('Error loading site data:', error);
@@ -43,23 +55,14 @@ function renderNav(navLabels, lang) {
     const nav = document.querySelector('nav');
     if (!nav) return;
 
-    const otherLang = lang === 'en' ? 'fr' : 'en';
     const isAboutPage = window.location.pathname.includes('about.html');
-    const isSearchPage = window.location.pathname.includes('recherche.html') || window.location.pathname.includes('search.html');
+    const isSearchPage = window.location.pathname.includes('search.html');
 
     // Determine URLs based on current page
     const homeUrl = (isAboutPage || isSearchPage) ? 'index.html' : '#hero';
     const aboutUrl = 'about.html';
     const albumsUrl = (isAboutPage || isSearchPage) ? 'index.html#albums' : '#albums';
     const contactUrl = (isAboutPage || isSearchPage) ? 'index.html#social' : '#social';
-    const langSwitcherUrl = isSearchPage
-        ? (lang === 'en' ? '/fr/recherche.html' : '/en/search.html')
-        : isAboutPage
-            ? `/${otherLang}/about.html`
-            : `/${otherLang}/`;
-    const ariaLabel = lang === 'en'
-        ? 'Passer au français'
-        : 'Switch to English';
 
     // Logo: link to index on about/search pages, just text on index pages
     // Add BETA badge on search page
@@ -79,7 +82,6 @@ function renderNav(navLabels, lang) {
       <li><a href="${albumsUrl}">${navLabels.albums}</a></li>
       <li><a href="${contactUrl}">${navLabels.contact}</a></li>
     </ul>
-    <a href="${langSwitcherUrl}" class="lang-switcher" aria-label="${ariaLabel}">${navLabels.langSwitcher}</a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -125,15 +127,9 @@ function initLogoEasterEgg(lang) {
         if (e.ctrlKey || e.metaKey) {
             e.preventDefault();
 
-            // Determine search page URL based on language
-            const searchUrl = lang === 'en' ? '/en/search.html' : '/fr/recherche.html';
-
-            // Check if we're already on a language-specific page
-            if (window.location.pathname.includes('/en/') || window.location.pathname.includes('/fr/')) {
-                window.location.href = lang === 'en' ? 'search.html' : 'recherche.html';
-            } else {
-                window.location.href = searchUrl;
-            }
+            // Redirect to search page with current language parameter
+            const currentLang = window.siteConfig?.lang || 'fr';
+            window.location.href = `search.html?lang=${currentLang}`;
         }
     });
 

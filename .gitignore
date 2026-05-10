@@ -1,0 +1,24 @@
+test.html
+docs/specs/*
+tools/*
+# Environment variables (cookies, tokens)
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Temp files
+lyrics-temp.json
+*.tmp
+*.log
+lyrics-temp.json
+.vscode/tasks.json
+lyrics-temp.json
