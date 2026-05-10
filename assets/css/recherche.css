@@ -233,6 +233,25 @@ body {
     margin: 4px 0;
 }
 
+/* Exact match highlighting - full match with query */
+.result-excerpt mark.exact {
+    background: var(--green-neon);
+    color: var(--bg-dark);
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+/* Partial match highlighting - fuzzy match subset */
+.result-excerpt mark.partial {
+    background: transparent;
+    color: var(--text-primary);
+    padding: 0 2px;
+    border-bottom: 2px dotted var(--green-neon);
+    font-weight: 600;
+}
+
+/* Fallback for marks without class (backward compatibility) */
 .result-excerpt mark {
     background: var(--green-neon);
     color: var(--bg-dark);

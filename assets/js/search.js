@@ -153,12 +153,63 @@
     }
 
     // ── HIGHLIGHT MATCHES ─────────────────────────────────────────
-    function highlightMatches(text, query) {
+    function highlightMatches(text, query, matches = null) {
         if (!query) return text;
 
-        // Simple case-insensitive highlighting
+        // If we have Fuse.js matches with indices, use them for precise highlighting
+        if (matches && matches.length > 0) {
+            // Find matches for the 'text' field specifically
+            const textMatches = matches.filter(m => m.key === 'text');
+
+            if (textMatches.length > 0 && textMatches[0].indices) {
+                return highlightWithIndices(text, textMatches[0].indices, query);
+            }
+        }
+
+        // Fallback: search for the query in the text using regex
+        // This handles cases where Fuse matched keywords/explanation but query appears in text
         const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
-        return text.replace(regex, '<mark>$1</mark>');
+        if (regex.test(text)) {
+            return text.replace(regex, '<mark class="exact">$1</mark>');
+        }
+
+        // No match found in text - return as is
+        return text;
+    }
+
+    function highlightWithIndices(text, indices, query) {
+        if (!indices || indices.length === 0) return text;
+
+        // Sort indices by start position
+        const sortedIndices = [...indices].sort((a, b) => a[0] - b[0]);
+
+        let result = '';
+        let lastIndex = 0;
+        const queryLength = query.length;
+
+        sortedIndices.forEach(([start, end]) => {
+            // Add text before the match
+            result += text.substring(lastIndex, start);
+
+            // Extract the matched text
+            const matchedText = text.substring(start, end + 1);
+            const matchLength = end - start + 1;
+
+            // Determine if it's an exact or partial match
+            // Exact: the match length equals the query length (case-insensitive comparison)
+            const isExact = matchLength === queryLength;
+            const className = isExact ? 'exact' : 'partial';
+
+            // Add the highlighted match
+            result += `<mark class="${className}">${matchedText}</mark>`;
+
+            lastIndex = end + 1;
+        });
+
+        // Add remaining text after last match
+        result += text.substring(lastIndex);
+
+        return result;
     }
 
     function escapeRegex(string) {
@@ -205,7 +256,9 @@
                 if (!refExists) {
                     resultsBySong[songKey].references.push({
                         excerpt: data.text,
-                        explanation: data.explanation
+                        explanation: data.explanation,
+                        matches: result.matches || null,
+                        score: result.score || 0
                     });
                 }
             } else if (data.type === 'lyric') {
@@ -216,10 +269,27 @@
                 if (!refExists) {
                     resultsBySong[songKey].references.push({
                         excerpt: data.text,
-                        explanation: null
+                        explanation: null,
+                        matches: result.matches || null,
+                        score: result.score || 0
                     });
                 }
             }
+        });
+
+        // Sort references by relevance within each song
+        Object.values(resultsBySong).forEach(songResult => {
+            songResult.references.sort((a, b) => {
+                // Prioritize references that have text matches
+                const aHasTextMatch = a.matches && a.matches.some(m => m.key === 'text');
+                const bHasTextMatch = b.matches && b.matches.some(m => m.key === 'text');
+
+                if (aHasTextMatch && !bHasTextMatch) return -1;
+                if (!aHasTextMatch && bHasTextMatch) return 1;
+
+                // If both have or don't have text matches, sort by Fuse.js score (lower is better)
+                return a.score - b.score;
+            });
         });
 
         // Render each unique song result
@@ -269,7 +339,7 @@
         excerptsDiv.className = 'result-excerpt';
         referencesToShow.forEach((ref) => {
             const p = document.createElement('p');
-            p.innerHTML = highlightMatches(ref.excerpt, query);
+            p.innerHTML = highlightMatches(ref.excerpt, query, ref.matches);
 
             // Add reference number if multiple references with explanations
             if (showNumbers && ref.explanation) {
