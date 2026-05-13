@@ -55,7 +55,8 @@
     update();
 
     // ── SCROLL REVEAL ────────────────────────────────────────────────
-    const revealEls = document.querySelectorAll('.reveal');
+    // Support for multiple reveal animation types
+    const revealEls = document.querySelectorAll('.reveal, .reveal-slide-right, .reveal-zoom-in, .reveal-cascade');
     if ('IntersectionObserver' in window) {
         const revealObserver = new IntersectionObserver(
             function (entries) {
@@ -72,8 +73,32 @@
             revealObserver.observe(el);
         });
     } else {
+        // Fallback for browsers without IntersectionObserver
         revealEls.forEach(function (el) {
             el.classList.add('visible');
+        });
+    }
+
+    // ── SECTION DIVIDER GLITCH EFFECT ────────────────────────────────
+    // Trigger glitch effect on section dividers when they come into view
+    const glitchDividers = document.querySelectorAll('.section-divider.glitch-divider');
+    if ('IntersectionObserver' in window && glitchDividers.length) {
+        const dividerObserver = new IntersectionObserver(
+            function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        // Trigger glitch animation
+                        entry.target.style.animation = 'none';
+                        setTimeout(function () {
+                            entry.target.style.animation = 'divider-glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+                        }, 10);
+                    }
+                });
+            },
+            { threshold: 0.5, rootMargin: '0px' }
+        );
+        glitchDividers.forEach(function (divider) {
+            dividerObserver.observe(divider);
         });
     }
 
