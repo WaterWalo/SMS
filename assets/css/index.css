@@ -99,9 +99,9 @@ nav.nav--visible .nav-links {
     inset: 0;
     z-index: 1;
     background: linear-gradient(to bottom,
-        rgba(250, 250, 248, 0.15) 0%,
-        rgba(179, 235, 242, 0.05) 50%,
-        rgba(250, 250, 248, 0.25) 100%);
+            rgba(250, 250, 248, 0.15) 0%,
+            rgba(179, 235, 242, 0.05) 50%,
+            rgba(250, 250, 248, 0.25) 100%);
 }
 
 /* content sits above video + overlay */
