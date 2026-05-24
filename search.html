@@ -65,7 +65,7 @@
         </a>
         <div class="sidebar__head">
           <h2 class="sidebar__brand"><em>Génie</em><span class="dot">.</span></h2>
-          <p class="sidebar__brand-sub">BY <strong>SMS</strong></p>
+          <p class="sidebar__brand-sub"><strong>SMS</strong></p>
         </div>
 
         <div class="search" role="search">
@@ -106,6 +106,65 @@
       </div>
     </aside>
 
+  </div>
+
+  <!-- ─── Mobile nav ─── -->
+  <nav class="mobile-nav" aria-label="Navigation mobile">
+    <button class="mobile-nav__btn" id="mobile-menu-btn" aria-label="Ouvrir le catalogue">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round" />
+      </svg>
+    </button>
+    <span class="mobile-nav__brand"><em>Génie</em><span class="dot">.</span></span>
+    <button class="mobile-nav__btn" id="mobile-search-btn" aria-label="Rechercher">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="M21 21l-4.3-4.3" stroke-linecap="round" />
+      </svg>
+    </button>
+  </nav>
+
+  <!-- ─── Backdrop (drawer + bottom sheet) ─── -->
+  <div class="mobile-backdrop" id="mobile-backdrop"></div>
+
+  <!-- ─── Catalogue drawer ─── -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer__header">
+      <a href="index.html" class="mobile-drawer__back">← SITE PRINCIPAL</a>
+      <button class="mobile-drawer__close" id="mobile-drawer-close">FERMER</button>
+    </div>
+    <div class="mobile-drawer__title-block">
+      <span class="mobile-drawer__brand"><em>Génie</em><span class="dot">.</span></span>
+      <h2 class="mobile-drawer__catalogue-label">Catalogue</h2>
+      <p class="mobile-drawer__sub">— SMS · <span id="mobile-projects-count">0</span> PROJETS</p>
+    </div>
+    <div class="mobile-drawer__search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="M21 21l-4.3-4.3" stroke-linecap="round" />
+      </svg>
+      <input type="search" class="mobile-drawer__search-input" id="mobile-search-input"
+        placeholder="Chercher une parole…" autocomplete="off" aria-label="Rechercher dans les paroles">
+    </div>
+    <div class="mobile-drawer__content" id="mobile-drawer-content"></div>
+  </div>
+
+  <!-- ─── Bottom sheet annotation ─── -->
+  <div class="mobile-sheet" id="mobile-sheet" aria-hidden="true">
+    <div class="mobile-sheet__handle"></div>
+    <div class="mobile-sheet__header">
+      <div class="mobile-sheet__badge">
+        <span class="mobile-sheet__num" id="sheet-num">1</span>
+        <span class="mobile-sheet__label">ANNOTATION · LIGNE <span id="sheet-line">—</span></span>
+      </div>
+      <button class="mobile-sheet__close" id="mobile-sheet-close" aria-label="Fermer">✕</button>
+    </div>
+    <div class="mobile-sheet__body">
+      <blockquote class="mobile-sheet__quote" id="sheet-quote"></blockquote>
+      <h3 class="mobile-sheet__title" id="sheet-title"></h3>
+      <div class="mobile-sheet__tags" id="sheet-tags"></div>
+      <div class="mobile-sheet__text" id="sheet-body"></div>
+    </div>
   </div>
 
   <!-- Fuse.js CDN -->

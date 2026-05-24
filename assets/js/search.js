@@ -11,15 +11,35 @@
   let globalFuse = null;  // fuzzy search across all songs
 
   /* ── DOM ────────────────────────────────────────────────────────── */
-  const sidebarAlbums    = document.getElementById('sidebar-albums');
+  const sidebarAlbums     = document.getElementById('sidebar-albums');
   const songHeadContainer = document.getElementById('song-head-container');
-  const lyricsContainer  = document.getElementById('lyrics-container');
-  const annotPanel       = document.getElementById('annot-panel');
-  const annotContent     = document.getElementById('annot-content');
-  const searchInput      = document.getElementById('search-input');
-  const searchClear      = document.getElementById('search-clear');
+  const lyricsContainer   = document.getElementById('lyrics-container');
+  const annotPanel        = document.getElementById('annot-panel');
+  const annotContent      = document.getElementById('annot-content');
+  const searchInput       = document.getElementById('search-input');
+  const searchClear       = document.getElementById('search-clear');
+
+  /* ── MOBILE DOM ─────────────────────────────────────────────────── */
+  const mobileMenuBtn       = document.getElementById('mobile-menu-btn');
+  const mobileSearchBtn     = document.getElementById('mobile-search-btn');
+  const mobileDrawerEl      = document.getElementById('mobile-drawer');
+  const mobileDrawerClose   = document.getElementById('mobile-drawer-close');
+  const mobileDrawerContent = document.getElementById('mobile-drawer-content');
+  const mobileSearchInput   = document.getElementById('mobile-search-input');
+  const mobileProjectsCount = document.getElementById('mobile-projects-count');
+  const mobileBackdrop      = document.getElementById('mobile-backdrop');
+  const mobileSheet         = document.getElementById('mobile-sheet');
+  const mobileSheetClose    = document.getElementById('mobile-sheet-close');
+  const sheetNum            = document.getElementById('sheet-num');
+  const sheetLine           = document.getElementById('sheet-line');
+  const sheetQuote          = document.getElementById('sheet-quote');
+  const sheetTitle          = document.getElementById('sheet-title');
+  const sheetTags           = document.getElementById('sheet-tags');
+  const sheetBody           = document.getElementById('sheet-body');
 
   /* ── UTILS ──────────────────────────────────────────────────────── */
+  const isMobile = () => window.innerWidth <= 768;
+
   function debounce(fn, wait) {
     let t;
     return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); };
@@ -67,21 +87,22 @@
     return path ? path.replace(/^\.\.\//, '') : '';
   }
 
-  /* ── BUILD SIDEBAR ──────────────────────────────────────────────── */
-  function buildSidebar(songs, albums) {
+  /* ── BUILD ALBUM LIST (shared by sidebar + mobile drawer) ──────── */
+  function buildAlbumList(songs, albums, container, onSongClick) {
     const sorted = [...albums].sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
-    sidebarAlbums.innerHTML = '';
+    container.innerHTML = '';
+    let count = 0;
 
     sorted.forEach((album, idx) => {
       const albumSongs = songs.filter(s => s.albumId === album.id);
       if (!albumSongs.length) return;
+      count++;
 
       const hue   = HUES[idx % HUES.length];
       const group = document.createElement('div');
       group.className = 'album-group';
       group.dataset.albumId = album.id;
 
-      // ── Head ──
       const head  = document.createElement('div');
       head.className = 'album-group__head';
 
@@ -110,7 +131,6 @@
       headMeta.append(titleEl, metaEl);
       head.append(glyph, headMeta);
 
-      // ── Track list ──
       const ul = document.createElement('ul');
       ul.className = 'track-list';
       albumSongs.forEach(song => {
@@ -119,13 +139,29 @@
         const name = document.createElement('span');
         name.textContent = song.title;
         li.appendChild(name);
-        li.addEventListener('click', () => loadSong(song.id));
+        li.addEventListener('click', () => onSongClick(song.id));
         ul.appendChild(li);
       });
 
       group.append(head, ul);
-      sidebarAlbums.appendChild(group);
+      container.appendChild(group);
     });
+
+    return count;
+  }
+
+  /* ── BUILD SIDEBAR ──────────────────────────────────────────────── */
+  function buildSidebar(songs, albums) {
+    buildAlbumList(songs, albums, sidebarAlbums, id => loadSong(id));
+  }
+
+  /* ── BUILD MOBILE DRAWER ────────────────────────────────────────── */
+  function buildMobileDrawer(songs, albums) {
+    const count = buildAlbumList(songs, albums, mobileDrawerContent, id => {
+      loadSong(id);
+      closeDrawer();
+    });
+    if (mobileProjectsCount) mobileProjectsCount.textContent = count;
   }
 
   function updateSidebarActive(songId) {
@@ -236,29 +272,49 @@
     if (!ref) return;
 
     const refIdx = song.references.indexOf(ref) + 1;
+    const title  = (ref.keywords || []).slice(0, 2).join(' · ') || ref.excerpt.slice(0, 40);
 
-    // Highlight active span
+    // Highlight active lyric span
     document.querySelectorAll('.line-ann').forEach(el => {
       el.classList.toggle('is-active', el.dataset.refId === refId);
     });
 
-    // Derive a readable title from first two keywords
-    const title   = (ref.keywords || []).slice(0, 2).join(' · ') || ref.excerpt.slice(0, 40);
-    const tagsHtml = (ref.keywords || []).slice(0, 6)
-      .map(k => `<span class="tag">${k}</span>`).join('');
+    if (isMobile()) {
+      // Fill bottom sheet
+      sheetNum.textContent   = String(refIdx);
+      sheetLine.textContent  = ref.lineNumbers?.[0] ?? '—';
+      sheetQuote.textContent = `« ${ref.excerpt} »`;
+      sheetTitle.textContent = title;
+      sheetTags.innerHTML    = (ref.keywords || []).slice(0, 6)
+        .map(k => `<span class="tag">${k}</span>`).join('');
+      sheetBody.innerHTML    = ref.explanation || '';
 
-    annotContent.innerHTML = `
-      <div class="annot__head">
-        <div class="annot__num">${refIdx}</div>
-        <div class="annot__label"><strong>ANNOTATION</strong></div>
-      </div>
-      <blockquote class="annot__quote">« ${ref.excerpt} »</blockquote>
-      <h2 class="annot__title">${title}</h2>
-      <div class="tags">${tagsHtml}</div>
-      <p class="annot__body">${ref.explanation}</p>`;
+      // Highlight the tapped lyric paragraph
+      document.querySelectorAll('.lyrics p.is-sheet-active')
+        .forEach(el => el.classList.remove('is-sheet-active'));
+      const activePara = document.querySelector(`.line-ann[data-ref-id="${refId}"]`)?.closest('p');
+      if (activePara) activePara.classList.add('is-sheet-active');
 
-    document.querySelector('.page').classList.add('has-annotation');
-    annotPanel.scrollTop = 0;
+      openSheet();
+      mobileSheet.scrollTop = 0;
+    } else {
+      // Desktop: right panel
+      const tagsHtml = (ref.keywords || []).slice(0, 6)
+        .map(k => `<span class="tag">${k}</span>`).join('');
+
+      annotContent.innerHTML = `
+        <div class="annot__head">
+          <div class="annot__num">${refIdx}</div>
+          <div class="annot__label"><strong>ANNOTATION</strong></div>
+        </div>
+        <blockquote class="annot__quote">« ${ref.excerpt} »</blockquote>
+        <h2 class="annot__title">${title}</h2>
+        <div class="tags">${tagsHtml}</div>
+        <p class="annot__body">${ref.explanation}</p>`;
+
+      document.querySelector('.page').classList.add('has-annotation');
+      annotPanel.scrollTop = 0;
+    }
   }
 
   /* ── SHOW PLACEHOLDER (collapses the right column) ──────────────── */
@@ -273,6 +329,7 @@
     if (!song) return;
 
     currentSong = song;
+    localStorage.setItem('genie-last-song', songId);
 
     // Update URL without reload
     const url = new URL(window.location.href);
@@ -395,6 +452,71 @@
     }
   }
 
+  /* ── MOBILE DRAWER ──────────────────────────────────────────────── */
+  function openDrawer(focusSearch = false) {
+    mobileDrawerEl.classList.add('is-open');
+    mobileDrawerEl.setAttribute('aria-hidden', 'false');
+    mobileBackdrop.classList.add('is-visible');
+    document.body.style.overflow = 'hidden';
+    if (focusSearch) {
+      setTimeout(() => mobileSearchInput?.focus(), 320);
+    }
+  }
+
+  function closeDrawer() {
+    mobileDrawerEl.classList.remove('is-open');
+    mobileDrawerEl.setAttribute('aria-hidden', 'true');
+    if (!mobileSheet.classList.contains('is-open')) {
+      mobileBackdrop.classList.remove('is-visible');
+      document.body.style.overflow = '';
+    }
+  }
+
+  /* ── MOBILE BOTTOM SHEET ────────────────────────────────────────── */
+  function openSheet() {
+    mobileSheet.classList.add('is-open');
+    mobileSheet.setAttribute('aria-hidden', 'false');
+    mobileBackdrop.classList.add('is-visible');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeSheet() {
+    mobileSheet.classList.remove('is-open');
+    mobileSheet.setAttribute('aria-hidden', 'true');
+    if (!mobileDrawerEl.classList.contains('is-open')) {
+      mobileBackdrop.classList.remove('is-visible');
+      document.body.style.overflow = '';
+    }
+    document.querySelectorAll('.lyrics p.is-sheet-active')
+      .forEach(el => el.classList.remove('is-sheet-active'));
+    document.querySelectorAll('.line-ann')
+      .forEach(el => el.classList.remove('is-active'));
+  }
+
+  /* Touch swipe-down to close the bottom sheet */
+  let _swipeStartY = 0;
+  let _swipeDelta  = 0;
+
+  mobileSheet.addEventListener('touchstart', e => {
+    _swipeStartY = e.touches[0].clientY;
+    _swipeDelta  = 0;
+  }, { passive: true });
+
+  mobileSheet.addEventListener('touchmove', e => {
+    _swipeDelta = e.touches[0].clientY - _swipeStartY;
+    if (_swipeDelta > 0) {
+      mobileSheet.style.transition = 'none';
+      mobileSheet.style.transform  = `translateY(${_swipeDelta}px)`;
+    }
+  }, { passive: true });
+
+  mobileSheet.addEventListener('touchend', () => {
+    mobileSheet.style.transition = '';
+    mobileSheet.style.transform  = '';
+    if (_swipeDelta > 80) closeSheet();
+    _swipeDelta = 0;
+  });
+
   /* ── INIT ────────────────────────────────────────────────────────── */
   try {
     const data  = await loadData();
@@ -402,15 +524,17 @@
     songsData   = enrichSongsWithAlbums(data.lyrics.songs, data.albums);
 
     buildSidebar(songsData, albumsData);
+    buildMobileDrawer(songsData, albumsData);
     globalFuse = initGlobalFuse(songsData);
 
-    // Determine initial song from URL param or first by order
-    const params    = new URLSearchParams(window.location.search);
-    const paramSong = params.get('song');
-    const sorted    = [...songsData].sort((a, b) => a.albumOrder - b.albumOrder);
-    const initialId = (paramSong && songsData.find(s => s.id === paramSong))
-      ? paramSong
-      : sorted[0]?.id;
+    // Determine initial song: URL param → localStorage → first by order
+    const params      = new URLSearchParams(window.location.search);
+    const paramSong   = params.get('song');
+    const lastSongId  = localStorage.getItem('genie-last-song');
+    const sorted      = [...songsData].sort((a, b) => a.albumOrder - b.albumOrder);
+    const initialId   = (paramSong   && songsData.find(s => s.id === paramSong))   ? paramSong
+                      : (lastSongId  && songsData.find(s => s.id === lastSongId))  ? lastSongId
+                      : sorted[0]?.id;
 
     if (initialId) loadSong(initialId);
 
@@ -438,6 +562,25 @@
       searchInput.focus();
       clearHighlights();
       restoreAllTracks();
+    });
+
+    // ── Mobile button events ──
+    mobileMenuBtn?.addEventListener('click', () => openDrawer(false));
+    mobileSearchBtn?.addEventListener('click', () => openDrawer(true));
+    mobileDrawerClose?.addEventListener('click', closeDrawer);
+    mobileSheetClose?.addEventListener('click', closeSheet);
+    mobileBackdrop?.addEventListener('click', () => { closeDrawer(); closeSheet(); });
+
+    // Mobile search input
+    mobileSearchInput?.addEventListener('input', e => {
+      debouncedSearch(e.target.value);
+    });
+    mobileSearchInput?.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        mobileSearchInput.value = '';
+        clearHighlights();
+        restoreAllTracks();
+      }
     });
 
     // Handle browser back/forward
