@@ -38,7 +38,8 @@
   const sheetBody           = document.getElementById('sheet-body');
 
   /* ── UTILS ──────────────────────────────────────────────────────── */
-  const isMobile = () => window.innerWidth <= 768;
+  const isMobile  = () => window.innerWidth <= 768;
+  const isTablet  = () => window.innerWidth >= 769 && window.innerWidth <= 1200;
 
   function debounce(fn, wait) {
     let t;
@@ -251,7 +252,7 @@
         supSpan.setAttribute('aria-hidden', 'true');
         supSpan.textContent = refIndexMap.get(ref.id);
 
-        const openAnnotation = () => showAnnotation(song, ref.id);
+        const openAnnotation = e => { e.stopPropagation(); showAnnotation(song, ref.id); };
         annSpan.addEventListener('click', openAnnotation);
         supSpan.addEventListener('click', openAnnotation);
 
@@ -298,14 +299,17 @@
       openSheet();
       mobileSheet.scrollTop = 0;
     } else {
-      // Desktop: right panel
-      const tagsHtml = (ref.keywords || []).slice(0, 6)
+      // Desktop / tablet: right panel (grid column on desktop, overlay on tablet)
+      const tagsHtml  = (ref.keywords || []).slice(0, 6)
         .map(k => `<span class="tag">${k}</span>`).join('');
+      const firstLine = ref.lineNumbers?.[0] ?? '—';
 
       annotContent.innerHTML = `
         <div class="annot__head">
           <div class="annot__num">${refIdx}</div>
-          <div class="annot__label"><strong>ANNOTATION</strong></div>
+          <div class="annot__label">
+            <strong>ANNOTATION</strong><span class="annot__label-detail"> · LIGNE ${firstLine} · ${song.title.toUpperCase()}</span>
+          </div>
         </div>
         <blockquote class="annot__quote">« ${ref.excerpt} »</blockquote>
         <h2 class="annot__title">${title}</h2>
@@ -562,6 +566,16 @@
       searchInput.focus();
       clearHighlights();
       restoreAllTracks();
+    });
+
+    // ── Tablet annotation close ──
+    document.getElementById('annot-close')?.addEventListener('click', showAnnotPlaceholder);
+
+    // Click outside annotation panel on tablet → ferme le panneau
+    document.addEventListener('click', e => {
+      if (isTablet() && document.querySelector('.page').classList.contains('has-annotation')) {
+        if (!annotPanel.contains(e.target)) showAnnotPlaceholder();
+      }
     });
 
     // ── Mobile button events ──

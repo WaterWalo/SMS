@@ -71,6 +71,7 @@ function renderNav(navLabels, lang) {
     nav.innerHTML = `
     ${logoHtml}
     <ul class="nav-links">
+      <button class="nav-close" aria-label="Fermer le menu">&#x2715;</button>
       <li><a href="${homeUrl}">${navLabels.home}</a></li>
       <li><a href="${contactUrl}">${navLabels.contact}</a></li>
       <li><a href="${albumsUrl}">${navLabels.albums}</a></li>
@@ -90,21 +91,24 @@ function initHamburgerMenu() {
     const navEl = document.querySelector('nav');
     const navToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelector('.nav-links');
+    const navClose = document.querySelector('.nav-close');
 
     if (!navToggle || !navEl || !navLinks) return;
 
-    // Toggle menu open/close
+    function closeMenu() {
+        navEl.classList.remove('nav--open');
+        navToggle.setAttribute('aria-expanded', 'false');
+    }
+
     navToggle.addEventListener('click', function () {
         const isOpen = navEl.classList.toggle('nav--open');
         navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
-    // Close menu when clicking on a link
+    if (navClose) navClose.addEventListener('click', closeMenu);
+
     navLinks.querySelectorAll('a').forEach(function (link) {
-        link.addEventListener('click', function () {
-            navEl.classList.remove('nav--open');
-            navToggle.setAttribute('aria-expanded', 'false');
-        });
+        link.addEventListener('click', closeMenu);
     });
 }
 
