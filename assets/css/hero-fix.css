@@ -57,6 +57,7 @@
 
 @media (max-width: 720px) {
     .hero-bg-video {
+        height: 100%;
         object-position: center var(--hero-focal-y-mobile);
     }
 }

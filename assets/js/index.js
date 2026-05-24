@@ -64,9 +64,6 @@
 
         // ── scroll cue vanishes quickly ──────────────────────────────
         if (scrollCue) scrollCue.style.opacity = Math.max(1 - progress * 5, 0);
-
-        // ── video: parallax ──────────────────────────────────────────
-        videoBg.style.transform = `translateY(${scrollY * 0.35}px) scale(1.08)`;
     }
 
     window.addEventListener('scroll', onScroll, { passive: true });

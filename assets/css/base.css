@@ -276,8 +276,7 @@ nav {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0 2px 12px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.5);
+    color: var(--blue-ocean);
 }
 
 .nav-links a:hover::after,
@@ -297,12 +296,6 @@ nav.nav--scrolled .nav-links a {
 
 nav.nav--scrolled .nav-links a::after {
     background: var(--blue-ocean);
-}
-
-nav.nav--scrolled .nav-links a:hover,
-nav.nav--scrolled .nav-links a.active {
-    color: var(--blue-ocean);
-    text-shadow: none;
 }
 
 nav.nav--scrolled .nav-links a:hover::after,
@@ -416,8 +409,9 @@ footer {
 }
 
 .footer-logo {
-    font-family: 'Metal Mania', cursive;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 2rem;
+    font-weight: 600;
     letter-spacing: 8px;
     color: var(--blue-pastel);
     text-shadow: 0 2px 4px rgba(94, 184, 197, 0.2);
@@ -425,10 +419,9 @@ footer {
 }
 
 footer p {
-    /* font-size: 0.75rem; */
-    /* letter-spacing: 2px; */
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.7);
+    text-align: center;
 }
 
 /* ─────────────────────────────────────────────
