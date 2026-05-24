@@ -31,6 +31,10 @@
     --accent-neon: #39FF14;
     --accent-electric: #FFDD00;
     --accent-cyber: #00F5FF;
+    
+    /* Nav transparent state colors */
+    --nav-text-light: rgba(255, 255, 255, 0.95);
+    --nav-logo-light: rgba(255, 255, 255, 0.98);
 }
 
 html {
@@ -40,7 +44,7 @@ html {
 body {
     background-color: var(--bg-light);
     color: var(--text-dark);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     line-height: 1.7;
     overflow-x: hidden;
@@ -169,10 +173,10 @@ nav {
 }
 
 .nav-logo {
-    font-family: 'Metal Mania', cursive;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 1.6rem;
-    color: var(--blue-ocean);
-    text-shadow: 0 2px 8px rgba(79, 168, 186, 0.4);
+    font-weight: 600;
+    color: var(--nav-logo-light);
     letter-spacing: 4px;
     cursor: default;
     user-select: none;
@@ -181,12 +185,7 @@ nav {
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    transition: color 0.3s ease;
-}
-
-.nav-logo:hover {
-    color: var(--blue-deep);
-    text-shadow: 0 2px 10px rgba(44, 122, 138, 0.5);
+    transition: color 0.4s ease, text-shadow 0.4s ease;
 }
 
 .beta-badge {
@@ -203,6 +202,33 @@ nav {
     box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4), 0 0 12px rgba(59, 130, 246, 0.2);
     text-shadow: none;
     animation: beta-pulse 2s ease-in-out infinite;
+}
+
+.genius-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: linear-gradient(135deg, var(--accent-hot), var(--accent-neon));
+    color: var(--text-dark);
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(255, 0, 110, 0.5), 0 0 20px rgba(57, 255, 20, 0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    animation: genius-badge-pulse 2s ease-in-out infinite;
+}
+
+@keyframes genius-badge-pulse {
+    0%, 100% {
+        box-shadow: 0 2px 12px rgba(255, 0, 110, 0.5), 0 0 20px rgba(57, 255, 20, 0.3);
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0 2px 16px rgba(255, 0, 110, 0.7), 0 0 30px rgba(57, 255, 20, 0.5), 0 0 40px rgba(0, 245, 255, 0.3);
+        transform: scale(1.05);
+    }
 }
 
 @keyframes beta-pulse {
@@ -224,20 +250,119 @@ nav {
 }
 
 .nav-links a {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     font-size: 0.82rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--text-muted);
+    color: var(--nav-text-light);
     text-decoration: none;
-    transition: color 0.25s, text-shadow 0.25s;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+    transition: color 0.4s ease, text-shadow 0.4s ease;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--blue-ocean);
+    transition: width 0.3s ease;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 2px 12px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
+/* Scrolled state: revert to original dark colors */
+nav.nav--scrolled .nav-logo {
+    color: var(--blue-ocean);
+}
+
+nav.nav--scrolled .nav-links a {
+    color: var(--text-muted);
+    text-shadow: none;
+}
+
+nav.nav--scrolled .nav-links a::after {
+    background: var(--blue-ocean);
+}
+
+nav.nav--scrolled .nav-links a:hover,
+nav.nav--scrolled .nav-links a.active {
     color: var(--blue-ocean);
     text-shadow: none;
+}
+
+nav.nav--scrolled .nav-links a:hover::after,
+nav.nav--scrolled .nav-links a.active::after {
+    width: 100%;
+}
+
+/* Genius link - funky animated badge */
+.genius-link {
+    position: relative;
+    padding: 8px 16px !important;
+    background: linear-gradient(135deg, var(--accent-hot), var(--accent-neon), var(--accent-cyber));
+    background-size: 200% 200%;
+    color: var(--text-dark) !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 600 !important;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 0, 110, 0.4), 0 0 20px rgba(57, 255, 20, 0.3);
+    animation: genius-gradient 3s ease infinite, genius-pulse 2s ease-in-out infinite;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.genius-link:hover {
+    transform: translateY(-3px) scale(1.1) rotate(-2deg);
+    box-shadow: 
+        0 8px 30px rgba(255, 0, 110, 0.7), 
+        0 0 40px rgba(57, 255, 20, 0.6),
+        0 0 60px rgba(0, 245, 255, 0.4),
+        inset 0 0 20px rgba(255, 255, 255, 0.2);
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.9),
+        0 0 20px rgba(57, 255, 20, 0.5) !important;
+    animation: genius-gradient 1s ease infinite, genius-pulse 1s ease-in-out infinite, genius-shake 0.5s ease infinite;
+}
+
+@keyframes genius-shake {
+    0%, 100% { transform: translateY(-3px) scale(1.1) rotate(-2deg); }
+    25% { transform: translateY(-3px) scale(1.1) rotate(-3deg); }
+    75% { transform: translateY(-3px) scale(1.1) rotate(-1deg); }
+}
+
+@keyframes genius-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes genius-pulse {
+    0%, 100% {
+        box-shadow: 0 4px 15px rgba(255, 0, 110, 0.4), 0 0 20px rgba(57, 255, 20, 0.3);
+    }
+    50% {
+        box-shadow: 0 4px 20px rgba(255, 0, 110, 0.6), 0 0 30px rgba(57, 255, 20, 0.5), 0 0 40px rgba(0, 245, 255, 0.3);
+    }
 }
 
 /* ─────────────────────────────────────────────
@@ -300,8 +425,8 @@ footer {
 }
 
 footer p {
-    font-size: 0.75rem;
-    letter-spacing: 2px;
+    /* font-size: 0.75rem; */
+    /* letter-spacing: 2px; */
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.7);
 }

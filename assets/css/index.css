@@ -3,30 +3,32 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 /* ─────────────────────────────────────────────
-   NAV – Hidden on hero, flies in after scroll
+   NAV – Always visible, transitions on scroll
    ───────────────────────────────────────────── */
 nav {
     /* override base.css for index pages */
-    transform: translateY(-100%);
-    opacity: 0;
-    pointer-events: none;
-    transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease;
+    /* Initial state: transparent over hero */
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(135, 212, 224, 0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0);
+    transition: background 0.4s ease, border-bottom 0.4s ease, box-shadow 0.4s ease;
 }
 
-nav.nav--visible {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: auto;
+/* State when scrolled past hero: white opaque background */
+nav.nav--scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 2px solid rgba(135, 212, 224, 0.5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* SMS logo flies from hero-center into the corner */
-nav.nav--visible .nav-logo {
-    animation: logo-fly-in 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+/* SMS logo flies from hero-center into the corner on page load */
+.nav-logo {
+    animation: logo-fly-in 0.75s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
 }
 
 /* nav links stagger in after logo */
-nav.nav--visible .nav-links {
-    animation: links-fade-in 0.45s ease 0.3s both;
+.nav-links {
+    animation: links-fade-in 0.45s ease 0.4s both;
 }
 
 @keyframes logo-fly-in {
@@ -98,10 +100,6 @@ nav.nav--visible .nav-links {
     position: absolute;
     inset: 0;
     z-index: 1;
-    background: linear-gradient(to bottom,
-            rgba(250, 250, 248, 0.15) 0%,
-            rgba(179, 235, 242, 0.05) 50%,
-            rgba(250, 250, 248, 0.25) 100%);
 }
 
 /* content sits above video + overlay */
@@ -111,7 +109,7 @@ nav.nav--visible .nav-links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 2.5rem;
     padding: 2rem;
     height: 100vh;
@@ -126,50 +124,92 @@ nav.nav--visible .nav-links {
 }
 
 .hero-band-name {
-    font-family: 'Metal Mania', cursive;
-    font-size: clamp(5rem, 18vw, 12rem);
+    display: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: clamp(3rem, 12vw, 8rem);
     letter-spacing: 12px;
     line-height: 1;
-    color: var(--blue-ocean);
-    text-shadow: 0 4px 20px rgba(79, 168, 186, 0.5), 0 2px 4px rgba(79, 168, 186, 0.3);
-    animation: gentle-float 4s ease-in-out infinite alternate;
+    /* Face avant : or vif (comme Nabla) */
+    color: #ffe040;
+    text-shadow:
+        /* Zone 1 — face latérale gauche : orange plat (comme Nabla) */
+        -1px  1px 0 #ffa200,
+        -2px  2px 0 #ffa200,
+        -3px  3px 0 #ffa200,
+        -4px  4px 0 #ffa200,
+        -5px  5px 0 #ffa200,
+        -6px  5px 0 #f09000,
+        -7px  6px 0 #f09000,
+        -8px  6px 0 #f09000,
+        -9px  7px 0 #e07e00,
+        -10px 7px 0 #e07e00,
+        /* Zone 2 — bord inférieur profond : rouge sombre (comme Nabla) */
+        -11px 8px 0 #c82400,
+        -12px 8px 0 #b81600,
+        -13px 9px 0 #a80a00,
+        -14px 9px 0 #880000,
+        /* ombre portée ambiante */
+        0 0 40px rgba(0, 0, 0, 0.85),
+        -16px 12px 28px rgba(0, 0, 0, 0.5);
     cursor: default;
     position: relative;
 }
 
+/* Raccourci partagé pour les couches 3D (évite la répétition dans glitch-text) */
+:root {
+    --sms-3d-base:
+        -1px  1px 0 #ffa200,  -2px  2px 0 #ffa200,
+        -3px  3px 0 #ffa200,  -4px  4px 0 #ffa200,
+        -5px  5px 0 #ffa200,  -6px  5px 0 #f09000,
+        -7px  6px 0 #f09000,  -8px  6px 0 #f09000,
+        -9px  7px 0 #e07e00, -10px  7px 0 #e07e00,
+        -11px 8px 0 #c82400, -12px  8px 0 #b81600,
+        -13px 9px 0 #a80a00, -14px  9px 0 #880000,
+        0 0 40px rgba(0,0,0,0.85), -16px 12px 28px rgba(0,0,0,0.5);
+}
+
 @keyframes glitch-text {
-    0% {
+    0%, 40%, 100% {
         text-shadow:
-            0 4px 20px rgba(79, 168, 186, 0.5),
-            0 2px 4px rgba(79, 168, 186, 0.3);
+            -1px  1px 0 #ffa200,  -2px  2px 0 #ffa200,
+            -3px  3px 0 #ffa200,  -4px  4px 0 #ffa200,
+            -5px  5px 0 #ffa200,  -6px  5px 0 #f09000,
+            -7px  6px 0 #f09000,  -8px  6px 0 #f09000,
+            -9px  7px 0 #e07e00, -10px  7px 0 #e07e00,
+            -11px 8px 0 #c82400, -12px  8px 0 #b81600,
+            -13px 9px 0 #a80a00, -14px  9px 0 #880000,
+            0 0 40px rgba(0,0,0,0.85), -16px 12px 28px rgba(0,0,0,0.5);
     }
 
     10% {
         text-shadow:
-            -2px 0 rgba(255, 0, 110, 0.8),
-            2px 0 rgba(0, 245, 255, 0.8),
-            0 4px 20px rgba(79, 168, 186, 0.5);
+            -1px  1px 0 rgba(255, 0, 110, 1),
+            -4px  4px 0 rgba(220, 0,  80, 0.9),
+            -8px  6px 0 rgba(160, 0,  50, 0.8),
+            -14px 9px 0 #880000,
+            3px 0 rgba(0, 245, 255, 0.7),
+            0 0 40px rgba(0,0,0,0.85), -16px 12px 28px rgba(0,0,0,0.5);
     }
 
     20% {
         text-shadow:
-            2px 0 rgba(255, 0, 110, 0.8),
-            -2px 0 rgba(0, 245, 255, 0.8),
-            0 4px 20px rgba(79, 168, 186, 0.5);
+            -1px  1px 0 rgba(0, 245, 255, 1),
+            -4px  4px 0 rgba(0, 200, 230, 0.9),
+            -8px  6px 0 rgba(0, 140, 180, 0.8),
+            -14px 9px 0 #880000,
+            -3px 0 rgba(255, 0, 110, 0.7),
+            0 0 40px rgba(0,0,0,0.85), -16px 12px 28px rgba(0,0,0,0.5);
     }
 
     30% {
         text-shadow:
-            -2px 0 rgba(57, 255, 20, 0.8),
-            2px 0 rgba(255, 221, 0, 0.8),
-            0 4px 20px rgba(79, 168, 186, 0.5);
-    }
-
-    40%,
-    100% {
-        text-shadow:
-            0 4px 20px rgba(79, 168, 186, 0.5),
-            0 2px 4px rgba(79, 168, 186, 0.3);
+            -1px  1px 0 rgba(57, 255, 20, 1),
+            -4px  4px 0 rgba(30, 200, 10, 0.9),
+            -8px  6px 0 rgba(10, 140,  5, 0.8),
+            -14px 9px 0 #880000,
+            3px 0 rgba(255, 221, 0, 0.7),
+            0 0 40px rgba(0,0,0,0.85), -16px 12px 28px rgba(0,0,0,0.5);
     }
 }
 
@@ -190,6 +230,7 @@ nav.nav--visible .nav-links {
     letter-spacing: 8px;
     text-transform: uppercase;
     color: var(--text-muted);
+    display: none;
 }
 
 .hero-origin {
@@ -205,21 +246,21 @@ nav.nav--visible .nav-links {
     flex-direction: column;
     align-items: center;
     gap: 6px;
-    margin-top: 1rem;
+    margin-top: 20rem;
 }
 
 .scroll-cue span {
     font-size: 0.65rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--text-muted);
+    color: var(--nav-text-light);
 }
 
 .scroll-arrow {
     width: 22px;
     height: 22px;
-    border-right: 2px solid var(--blue-ocean);
-    border-bottom: 2px solid var(--blue-ocean);
+    border-right: 2px solid var(--nav-text-light);
+    border-bottom: 2px solid var(--nav-text-light);
     transform: rotate(45deg);
     animation: bounce-down 1.6s ease-in-out infinite;
     box-shadow: none;
@@ -1004,9 +1045,10 @@ section {
 .social-links {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     flex-wrap: wrap;
-    margin-top: 2.5rem;
+    max-width: 100%;
 }
 
 .social-link {
@@ -1033,7 +1075,6 @@ section {
     background: var(--blue-ocean);
     border-color: var(--blue-ocean);
     box-shadow: 0 6px 24px rgba(79, 168, 186, 0.4);
-    transform: translateY(-4px);
 }
 
 .social-link svg {

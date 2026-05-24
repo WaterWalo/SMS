@@ -1,0 +1,96 @@
+/* ═══════════════════════════════════════════════════════════════════
+   HERO FIX — drop-in patch
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── 1. HERO WRAPPER ──────────────────────────────────────────────────
+   Problème original : height: 100vh
+   → sur mobile, `vh` inclut la barre d'URL qui apparaît/disparaît au scroll,
+     ce qui fait sauter la hauteur du hero
+   → sur desktop ultra-large, le hero devient absurdement haut
+
+   Fix :
+   - `100svh` = small viewport height (= viewport sans barre d'URL)
+     évite le "jump" mobile
+   - `min(100svh, calc(100vw * 0.62))` = on borne aussi au ratio de l'image
+     pour pas qu'elle soit ridiculement étirée en hauteur sur grand écran
+   - `min-height` empêche l'écrasement sur écran très court (landscape mobile) */
+#hero {
+    height: min(100svh, calc(100vw * 0.62));
+    min-height: 520px;
+    max-height: 100svh;
+}
+
+/* Mobile portrait : on veut un hero plus carré, pas étiré en hauteur */
+@media (max-width: 720px) {
+    #hero {
+        height: min(85svh, calc(100vw * 1.25));
+        min-height: 480px;
+    }
+}
+
+/* Landscape mobile / iPad horizontal : courte mais large, on cap */
+@media (max-height: 600px) and (orientation: landscape) {
+    #hero {
+        height: 100svh;
+        min-height: 360px;
+    }
+}
+
+/* ── 2. HERO BACKGROUND IMAGE ─────────────────────────────────────────
+   Problème original : object-position: center center
+   → le centre vertical de ta photo tombe entre les visages et le logo SMS
+   → quand le crop devient portrait (mobile), tu perds soit l'un soit l'autre
+
+   Fix :
+   - object-position vertical différent par breakpoint
+   - 50% Y desktop garde le tout cadré
+   - 40% Y mobile remonte le focal point pour garder les visages + logo
+   - Variable CSS pour ajuster facilement */
+:root {
+    --hero-focal-y-desktop: 50%;
+    --hero-focal-y-mobile: 40%;
+}
+
+.hero-bg-video {
+    object-position: center var(--hero-focal-y-desktop);
+}
+
+@media (max-width: 720px) {
+    .hero-bg-video {
+        object-position: center var(--hero-focal-y-mobile);
+    }
+}
+
+/* ── 3. HERO CONTENT ──────────────────────────────────────────────────
+   Problème original : .hero-content { height: 100vh }
+   → fight avec le parent + même problème de 100vh sur mobile
+   → push le contenu en bas avec justify-content: flex-start + margin-top
+
+   Fix :
+   - height: 100% pour suivre le parent
+   - justify-content: space-between : le titre en haut, scroll cue en bas
+     SANS marge fixe — c'est le flex qui pousse */
+.hero-content {
+    height: 100%;
+    justify-content: space-between;
+    padding: clamp(1.5rem, 6vh, 4rem) 1.5rem clamp(1.5rem, 4vh, 2.5rem);
+    gap: 0;
+}
+
+/* ── 4. SCROLL CUE ────────────────────────────────────────────────────
+   Problème original : margin-top: 20rem
+   → marge fixe qui ne s'adapte pas; déborde sur petit écran
+
+   Fix :
+   - Plus de margin-top : c'est space-between du parent qui le colle au bas */
+.scroll-cue {
+    margin-top: 0;
+}
+
+/* ── 5. (Bonus) TITRE ─────────────────────────────────────────────────
+   Le titre SMS reste display:none dans ton index.css.
+   Si tu veux l'afficher par-dessus la photo, décommente : */
+/*
+.hero-band-name { display: block; }
+.hero-subtitle  { display: block; }
+*/

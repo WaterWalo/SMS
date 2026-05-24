@@ -17,15 +17,40 @@ body {
 .page-header {
     padding: 60px 0 40px;
     text-align: center;
+    position: relative;
 }
 
 .page-header h1 {
-    font-family: 'Metal Mania', cursive;
-    font-size: clamp(2.5rem, 5vw, 3.5rem);
-    color: var(--blue-ocean);
-    text-shadow: 0 3px 12px rgba(79, 168, 186, 0.4);
-    margin-bottom: 12px;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    color: transparent;
+    background: linear-gradient(135deg, var(--accent-hot), var(--accent-neon), var(--accent-cyber));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0 0 40px rgba(57, 255, 20, 0.3);
+    margin-bottom: 16px;
     line-height: 1.2;
+    animation: genius-header-gradient 4s ease infinite;
+    position: relative;
+    display: inline-block;
+}
+
+.page-header h1::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--accent-neon), transparent);
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
+}
+
+@keyframes genius-header-gradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
 }
 
 .page-header .subtitle {
@@ -34,6 +59,18 @@ body {
     color: var(--text-muted);
     max-width: 600px;
     margin: 0 auto;
+    animation: subtitle-fade-in 0.8s ease 0.3s backwards;
+}
+
+@keyframes subtitle-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* ── DIVIDER ────────────────────────────────────────────────────── */
@@ -72,6 +109,7 @@ body {
     color: var(--text-muted);
     pointer-events: none;
     z-index: 1;
+    transition: all 0.3s ease;
 }
 
 #search-input {
@@ -81,10 +119,10 @@ body {
     font-size: 16px;
     background: white;
     border: 2px solid var(--blue-pastel);
-    border-radius: 10px;
+    border-radius: 12px;
     color: var(--text-dark);
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05), 0 0 0 0 rgba(57, 255, 20, 0);
 }
 
 #search-input::placeholder {
@@ -94,12 +132,17 @@ body {
 
 #search-input:focus {
     outline: none;
-    border-color: var(--blue-ocean);
-    box-shadow: 0 4px 16px rgba(79, 168, 186, 0.3);
+    border-color: var(--accent-neon);
+    box-shadow: 
+        0 4px 20px rgba(57, 255, 20, 0.3),
+        0 0 0 4px rgba(57, 255, 20, 0.1),
+        0 0 40px rgba(57, 255, 20, 0.2);
+    transform: translateY(-2px);
 }
 
 #search-input:focus~.search-icon {
-    color: var(--blue-ocean);
+    color: var(--accent-neon);
+    transform: translateY(-50%) scale(1.1);
 }
 
 .search-clear {

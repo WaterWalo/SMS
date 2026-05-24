@@ -26,17 +26,35 @@
         const heroH = heroEl.offsetHeight;
         const progress = Math.min(Math.max(scrollY / heroH, 0), 1);
 
-        // ── nav: show when hero is fully past, hide when back ──────
-        const shouldShow = scrollY >= heroH - 10;
-        if (shouldShow && !navVisible) {
+        // ── nav: transition from transparent to white AFTER hero ──────
+        // Transition starts only after passing the hero section
+        const transitionDistance = 0; // instant transition when reaching end of hero
+        const postHeroScroll = Math.max(0, scrollY - heroH);
+
+        // Si transitionDistance est 0, transition instantanée dès qu'on atteint ou dépasse le hero
+        const postHeroProgress = transitionDistance === 0
+            ? (scrollY >= heroH ? 1 : 0)
+            : Math.min(postHeroScroll / transitionDistance, 1);
+
+        // Calculate background opacity (0 → 0.95) only after hero
+        const bgOpacity = postHeroProgress * 0.95;
+        const borderOpacity = postHeroProgress * 0.5;
+        const shadowOpacity = postHeroProgress * 0.05;
+
+        // Apply progressive styles
+        navEl.style.background = `rgba(255, 255, 255, ${bgOpacity})`;
+        navEl.style.borderBottom = `2px solid rgba(135, 212, 224, ${borderOpacity})`;
+        navEl.style.boxShadow = `0 2px 10px rgba(0, 0, 0, ${shadowOpacity})`;
+
+        // Add scrolled class for text color transition - appliqué immédiatement après le hero
+        const shouldScroll = scrollY >= heroH;
+        if (shouldScroll && !navVisible) {
             navVisible = true;
-            navEl.classList.remove('nav--visible');
-            void navEl.offsetWidth;
-            navEl.classList.add('nav--visible');
+            navEl.classList.add('nav--scrolled');
             if (dockEl) dockEl.classList.add('social-dock--visible');
-        } else if (!shouldShow && navVisible) {
+        } else if (!shouldScroll && navVisible) {
             navVisible = false;
-            navEl.classList.remove('nav--visible');
+            navEl.classList.remove('nav--scrolled');
             if (dockEl) dockEl.classList.remove('social-dock--visible');
         }
 

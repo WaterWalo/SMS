@@ -12,7 +12,7 @@
 
     <!-- SEO -->
     <meta name="description"
-        content="Sad Mazda Songs (SMS) est un groupe de rap underground de Québec. Trio formé de Marc, L-P et Sam créant des punchlines absurdes, beats inattendus et humour de sous-sol depuis 2024. Découvrez notre musique rap québécoise." />
+        content="Sad Mazda Songs est un groupe de rap underground de Québec. Duo formé de MAGz et elpy! créant des punchlines absurdes, beats inattendus et humour de sous-sol depuis 2024. Découvrez notre musique rap québécoise." />
     <meta name="theme-color" content="#39ff14" />
 
     <!-- Favicons -->
@@ -51,7 +51,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald:wght@300;400;600&family=Raleway:wght@300;400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=Oswald:wght@300;400;600&family=Raleway:wght@300;400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
 
     <!-- Structured Data (JSON-LD) -->
@@ -75,7 +75,7 @@
       },
       "url": "https://sms.10-4.app",
       "image": "https://sms.10-4.app/assets/img/og-image.png",
-      "description": "Sad Mazda Songs (SMS) est un groupe de rap underground de Québec formé en 2024. Le trio composé de Marc, L-P et Sam crée un style unique mélangeant punchlines absurdes, humour de sous-sol et beats inattendus.",
+      "description": "Sad Mazda Songs est un groupe de rap underground de Québec formé en 2024. Le duo composé de MAGz et elpy! crée un style unique mélangeant punchlines absurdes, humour de sous-sol et beats inattendus.",
       "sameAs": [
         "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
         "https://music.apple.com/us/artist/sms/1737315666",
@@ -89,6 +89,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/base.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/hero-fix.css" />
 </head>
 
 <body>
@@ -97,14 +98,14 @@
     <nav aria-label="Navigation principale"></nav>
 
     <!-- ─── SOCIAL DOCK ───────────────────────────── -->
-    <aside class="social-dock" aria-label="Réseaux sociaux"></aside>
+    <!-- <aside class="social-dock" aria-label="Réseaux sociaux"></aside> -->
 
     </aside>
 
     <!-- ─── HERO ─── -->
     <section id="hero">
-        <!-- background video -->
-        <video class="hero-bg-video" src="SMS_GUYS.mp4" autoplay muted loop playsinline preload="auto"></video>
+        <!-- background image -->
+        <img class="hero-bg-video" src="assets/img/background.jpg" alt="SMS Background" />
         <!-- dark overlay -->
         <div class="hero-overlay"></div>
 
@@ -113,7 +114,6 @@
             <div class="hero-title-wrap">
                 <h1 class="hero-band-name"><span class="sr-only">Sad Mazda Songs</span>SMS</h1>
                 <p class="hero-subtitle" data-i18n="bio.heroSubtitle">Groupe de Rap Underground de Québec</p>
-                <p class="hero-origin" data-i18n="bio.heroOrigin">Ville de Québec &nbsp;·&nbsp; Est. 2024</p>
             </div>
 
             <div class="scroll-cue">
@@ -125,14 +125,31 @@
 
     <div id="main-content">
 
+        <!-- ─── SOCIAL ───────────────────────────────── -->
+        <section id="social">
+            <div class="social-links">
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- ─── ALBUMS ───────────────────────────────── -->
+        <section id="albums">
+            <div class="section-inner">
+                <p class="section-label" data-i18n="sections.discographyLabel">Discographie</p>
+                <h2 class="section-title" data-i18n="sections.discographyTitle">Albums &amp; Singles</h2>
+
+                <div class="album-grid"></div><!-- /album-grid -->
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
         <!-- ─── ARTIST INTRO (SEO) ──────────────────── -->
         <section class="artist-intro-section">
             <div class="artist-intro-inner">
                 <p class="artist-intro" data-i18n="bio.intro">
-                    <strong>Sad Mazda Songs (SMS)</strong> est un groupe de musique rap underground de Québec, Canada.
-                    Formé en 2024, le trio composé de Marc, L-P et Sam crée un style unique mélangeant
-                    punchlines absurdes, humour de sous-sol et beats inattendus. Découvrez la musique
-                    de Sad Mazda Songs, artiste rap québécois indépendant.
+                    <strong>Sad Mazda Songs</strong><br>Québec<br>2024
                 </p>
             </div>
         </section>
@@ -164,41 +181,11 @@
         <div class="divider"></div>
         -->
 
-        <div class="divider"></div>
-
-        <!-- ─── ALBUMS ───────────────────────────────── -->
-        <section id="albums">
-            <div class="section-inner">
-                <p class="section-label" data-i18n="sections.discographyLabel">Discographie</p>
-                <h2 class="section-title" data-i18n="sections.discographyTitle">Albums &amp; Singles</h2>
-
-                <div class="album-grid"></div><!-- /album-grid -->
-            </div>
-        </section>
-
-        <div class="divider"></div>
-
-        <!-- ─── SOCIAL ───────────────────────────────── -->
-        <section id="social">
-            <div class="section-inner reveal" style="text-align:center;">
-                <p class="section-label" data-i18n="sections.socialLabel">Nous joindre</p>
-                <h2 class="section-title" style="display:block; text-align:center;" data-i18n="sections.socialTitle">
-                    Suivez SMS</h2>
-                <p style="color:var(--text-muted); max-width:480px; margin: 0 auto 0.5rem; font-size:0.95rem;"
-                    data-i18n="sections.socialDescription">
-                    Restez à l'affût des nouvelles sorties, des shows à venir et des coulisses du groupe.
-                </p>
-            </div>
-
-            <div class="social-links">
-            </div>
-        </section>
-
         <!-- ─── FOOTER ────────────────────────────────── -->
         <footer>
             <div class="footer-logo">SMS</div>
-            <p>© <span id="year">2026</span> Sad Mazda Songs &nbsp;·&nbsp; <span data-i18n="footer.location">Ville de
-                    Québec, QC</span> &nbsp;·&nbsp; <span data-i18n="footer.rights">Tous droits réservés</span></p>
+            <p>© <span id="year">2026</span> Sad Mazda Songs &nbsp;·&nbsp; <span data-i18n="footer.rights">Tous droits
+                    réservés</span></p>
         </footer>
 
     </div><!-- /#main-content -->

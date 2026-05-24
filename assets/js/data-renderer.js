@@ -60,27 +60,21 @@ function renderNav(navLabels, lang) {
 
     // Determine URLs based on current page
     const homeUrl = (isAboutPage || isSearchPage) ? 'index.html' : '#hero';
-    const aboutUrl = 'about.html';
     const albumsUrl = (isAboutPage || isSearchPage) ? 'index.html#albums' : '#albums';
     const contactUrl = (isAboutPage || isSearchPage) ? 'index.html#social' : '#social';
 
     // Logo: link to index on about/search pages, just text on index pages
-    // Add BETA badge on search page
-    const betaBadge = isSearchPage ? '<span class="beta-badge">BETA</span>' : '';
     const logoHtml = (isAboutPage || isSearchPage)
-        ? `<a href="index.html" class="nav-logo">SMS${betaBadge}</a>`
+        ? `<a href="index.html" class="nav-logo">SMS</a>`
         : `<span class="nav-logo">SMS</span>`;
-
-    // Add "active" class to current page link
-    const aboutClass = isAboutPage ? ' class="active"' : '';
 
     nav.innerHTML = `
     ${logoHtml}
     <ul class="nav-links">
       <li><a href="${homeUrl}">${navLabels.home}</a></li>
-      <li><a href="${aboutUrl}"${aboutClass}>${navLabels.about}</a></li>
-      <li><a href="${albumsUrl}">${navLabels.albums}</a></li>
       <li><a href="${contactUrl}">${navLabels.contact}</a></li>
+      <li><a href="${albumsUrl}">${navLabels.albums}</a></li>
+      <li><a href="search.html?lang=${lang}" class="genius-link">${navLabels.genius}</a></li>
     </ul>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
