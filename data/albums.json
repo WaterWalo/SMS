@@ -81,5 +81,33 @@
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/3VCPMKGzF9SM4dGr8gjdAb?si=GjkK25ZUTFS3vpoPBSe75w",
         "isNew": false,
         "order": 6
+    },
+    {
+        "id": "barbies-resto-bar-grillz",
+        "title": "Barbies Resto Bar Grillz",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/Barbies_Bar_Grillz.jpg",
+        "coverAlt": {
+            "en": "Barbies Resto Bar Grillz – cover",
+            "fr": "Barbies Resto Bar Grillz – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/track/2JGSAX8ZHyTMjrZCFT36Fs",
+        "isNew": false,
+        "order": 7
+    },
+    {
+        "id": "manon-masse",
+        "title": "Manon Massé",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/Manon_Masse.jpg",
+        "coverAlt": {
+            "en": "Manon Massé – cover",
+            "fr": "Manon Massé – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/track/2CpwG49FWVifN45QCsB0eD",
+        "isNew": false,
+        "order": 8
     }
 ]

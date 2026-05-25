@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-05-09",
+    "lastUpdated": "2026-05-24",
     "songs": [
         {
             "id": "gaufre-spaghetti",
@@ -302,182 +302,272 @@
                 },
                 {
                     "line": 15,
-                    "text": "Ma blonde doit vendre du shampoing elle m'donne du head and"
+                    "text": "Ma blonde doit vendre du shampoing elle m'donne du head and Shoulder?"
                 },
                 {
                     "line": 16,
-                    "text": "Shoulder?"
-                },
-                {
-                    "line": 17,
                     "text": "J'vais t'boucher un coin avec des falafels aux p'tits oeufs"
                 },
                 {
-                    "line": 18,
+                    "line": 17,
                     "text": "J'aime ça jouer des tours, j'suis un farfadet malicieux"
                 },
                 {
-                    "line": 19,
+                    "line": 18,
                     "text": "J'ai mangé la cuillère bionique, c't'un appareil délicieux"
                 },
                 {
-                    "line": 20,
+                    "line": 19,
                     "text": "Mes godasses y s'detachent tout seul j'ai des lacets très vieux"
                 },
                 {
-                    "line": 21,
+                    "line": 20,
                     "text": "Y'a plein d'ornithorynques dans le lac, c'est un marais périlleux"
                 },
                 {
-                    "line": 22,
+                    "line": 21,
                     "text": "J'ai fait une guerre de fort, j'ai mangé 33 pelles din yeux"
                 },
                 {
+                    "line": 22,
+                    "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc"
+                },
+                {
                     "line": 23,
-                    "text": "J'ai mangé au buffet des continents, j'ai vomi dans l'assiette"
+                    "text": "Big bands sur mes deux mains, j'suis un homard"
                 },
                 {
                     "line": 24,
-                    "text": "J'ai vu un furet incontinent, j'ai vomi dans ma veste"
+                    "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
                 },
                 {
                     "line": 25,
-                    "text": "J'ai vu un furry pas très confiant, il s'cachait dans sa laine"
+                    "text": "Big Ben shit grosse horloge sur une grosse montre"
                 },
                 {
                     "line": 26,
-                    "text": "J'ai vu Nick Fury dans mon bain il m'recrute dans Marvel"
+                    "text": "Mon bras y'est tellement lourd c'est une aberration"
                 },
                 {
                     "line": 27,
-                    "text": "J'suis devenu un super hero j'm'appelle"
+                    "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
                 },
                 {
                     "line": 28,
-                    "text": "SuperPouvoir"
+                    "text": "Figure de style dans mes textes"
                 },
                 {
                     "line": 29,
-                    "text": "J'arrête pas d'pleurer j'ai besoin d'un"
+                    "text": "Virgules dans mes checks"
                 },
                 {
                     "line": 30,
-                    "text": "SuperMouchoir"
+                    "text": "Ils m'étudient dans les cégeps pour ma rédaction"
                 },
                 {
                     "line": 31,
-                    "text": "J'arrête pas d'marcher c'est long j'pense c'est un super couloir"
+                    "text": "J'ai mangé au buffet des continents, j'ai vomi dans l'assiette"
                 },
                 {
                     "line": 32,
-                    "text": "J'me suis viandé su'l béton j'm'appelle"
+                    "text": "J'ai vu un furet incontinent, j'ai vomi dans ma veste"
                 },
                 {
                     "line": 33,
-                    "text": "Super trottoir"
+                    "text": "J'ai vu un furry pas très confiant, il s'cachait dans sa laine"
                 },
                 {
                     "line": 34,
-                    "text": "J'ai avalé mon waxpen, j'l'ai dans l'fond d'la trachée-"
+                    "text": "J'ai vu Nick Fury dans mon bain il m'recrute dans Marvel"
                 },
                 {
                     "line": 35,
-                    "text": "J'pense c'est bon j'viens d'le cracher"
+                    "text": "J'suis devenu un super hero j'm'appelle SuperPouvoir"
                 },
                 {
                     "line": 36,
-                    "text": "Anthony y'est masochiste, j'viens d'le frapper"
+                    "text": "J'arrête pas d'pleurer j'ai besoin d'un SuperMouchoir"
                 },
                 {
                     "line": 37,
+                    "text": "J'arrête pas d'marcher c'est long j'pense c'est un super couloir"
+                },
+                {
+                    "line": 38,
+                    "text": "J'me suis viandé su'l béton j'm'appelle super trottoir"
+                },
+                {
+                    "line": 39,
+                    "text": "J'ai avalé mon waxpen, j'l'ai dans l'fond d'la trachée-"
+                },
+                {
+                    "line": 40,
+                    "text": "J'pense c'est bon j'viens d'le cracher"
+                },
+                {
+                    "line": 41,
+                    "text": "Anthony y'est masochiste, j'viens d'le frapper"
+                },
+                {
+                    "line": 42,
                     "text": "J'mangerai pas mes lentilles si j'ai pas mon fruité"
+                },
+                {
+                    "line": 43,
+                    "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc"
+                },
+                {
+                    "line": 44,
+                    "text": "Big bands sur mes deux mains, j'suis un homard"
+                },
+                {
+                    "line": 45,
+                    "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
+                },
+                {
+                    "line": 46,
+                    "text": "Big Ben shit grosse horloge sur une grosse montre"
+                },
+                {
+                    "line": 47,
+                    "text": "Mon bras y'est tellement lourd c'est une aberration"
+                },
+                {
+                    "line": 48,
+                    "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
+                },
+                {
+                    "line": 49,
+                    "text": "Figure de style dans mes textes"
+                },
+                {
+                    "line": 50,
+                    "text": "Virgules dans mes checks"
+                },
+                {
+                    "line": 51,
+                    "text": "Ils m'étudient dans les cégeps pour ma rédaction"
                 }
             ],
             "references": [
                 {
                     "id": "ref-b10-1",
-                    "lineNumbers": [
-                        1,
-                        2
-                    ],
-                    "excerpt": "J'me transforme comme Ben 10 avec l'Omnitrix / J'suis XLR8 j'te distance",
-                    "explanation": "Référence au cartoon Ben 10 de Cartoon Network : l'Omnitrix est la montre alien permettant à Ben de se transformer en différentes créatures. XLR8 est l'alien super-rapide ressemblant à un vélociraptor bleu",
-                    "keywords": [
-                        "Ben 10",
-                        "Omnitrix",
-                        "XLR8",
-                        "cartoon",
-                        "Cartoon Network",
-                        "transformation",
-                        "alien"
-                    ]
+                    "lineNumbers": [1, 22, 43],
+                    "excerpt": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc",
+                    "explanation": "L'expression « manger le beat » (ou « ate the beat ») est une expression d'argot Internet en anglais. Elle signifie qu'un danseur, un rappeur ou un artiste a synchronisé sa performance de manière absolument parfaite avec le rythme de la musique.",
+                    "keywords": ["manger le beat", "ate the beat", "slang", "rap", "performance", "musique"]
                 },
                 {
                     "id": "ref-b10-2",
-                    "lineNumbers": [
-                        3
-                    ],
-                    "excerpt": "Quatre Bras quand j'dois porter tous mes problèmes",
-                    "explanation": "Quatre Bras (Fourarms en anglais) est l'alien de Ben 10 avec quatre bras musclés et une force surhumaine, utilisé ici comme métaphore pour gérer plusieurs problèmes simultanément",
-                    "keywords": [
-                        "Quatre Bras",
-                        "Four Arms",
-                        "Ben 10",
-                        "force",
-                        "alien"
-                    ]
+                    "lineNumbers": [2, 23, 44],
+                    "excerpt": "Big bands sur mes deux mains, j'suis un homard",
+                    "explanation": "En slang, « bands » signifie de grosses sommes d'argent, plus précisément des liasses de billets de banque. Le terme vient des bandes élastiques ou en papier que les banques utilisent pour attacher les liasses de billets. Les pêcheurs installent des élastiques sur les pinces des homards par raison de sécurité. La ligne fait donc une allusion au fait d'avoir de l'argent (bands) et aux élastiques présents sur les pinces de homard.",
+                    "keywords": ["bands", "argent", "homard", "élastiques", "slang", "liasses"]
                 },
                 {
                     "id": "ref-b10-3",
-                    "lineNumbers": [
-                        4
-                    ],
-                    "excerpt": "Diamant quand la vie veut me briser les os",
-                    "explanation": "Diamant (Diamondhead) est l'alien cristallin de Ben 10, quasi-indestructible, utilisé comme métaphore de résilience face aux difficultés",
-                    "keywords": [
-                        "Diamant",
-                        "Diamondhead",
-                        "Ben 10",
-                        "cristal",
-                        "résilience"
-                    ]
+                    "lineNumbers": [3, 24, 45],
+                    "excerpt": "Ben 10 shit sur le wrist, ça vient d'un autre monde",
+                    "explanation": "Ben 10 est une célèbre franchise de séries d'animation américaines diffusée sur la chaîne Cartoon Network. Dans la série, le héros utilise une grosse montre (l'Omnitrix) pour se transformer en divers aliens.",
+                    "keywords": ["Ben 10", "Cartoon Network", "Omnitrix", "montre", "aliens", "transformation"]
                 },
                 {
                     "id": "ref-b10-4",
-                    "lineNumbers": [
-                        5
-                    ],
-                    "excerpt": "J'change de forme comme Animorphs dans les années 90",
-                    "explanation": "Référence à la série de livres et show TV Animorphs (années 90) où des ados pouvaient se transformer en animaux, série culte de la même époque que Ben 10",
-                    "keywords": [
-                        "Animorphs",
-                        "années 90",
-                        "transformation",
-                        "nostalgie",
-                        "jeunesse"
-                    ]
+                    "lineNumbers": [4, 25, 46],
+                    "excerpt": "Big Ben shit grosse horloge sur une grosse montre",
+                    "explanation": "Big Ben est le surnom mondialement connu de la grande cloche de la tour horloge du Palais de Westminster, le siège du Parlement britannique à Londres. Le dude flex sa fucking grosse montre.",
+                    "keywords": ["Big Ben", "horloge", "Londres", "Westminster", "montre", "flex"]
                 },
                 {
                     "id": "ref-b10-5",
-                    "lineNumbers": [
-                        7
-                    ],
-                    "excerpt": "Pas besoin d'Kevin Levin pour devenir meilleur",
-                    "explanation": "Kevin Levin est un personnage de Ben 10, d'abord antagoniste puis allié de Ben. Il peut absorber les propriétés des matériaux qu'il touche",
-                    "keywords": [
-                        "Kevin Levin",
-                        "Ben 10",
-                        "antagoniste",
-                        "allié",
-                        "personnage"
-                    ]
+                    "lineNumbers": [6, 27, 48],
+                    "excerpt": "J'ai pas besoin d'altères j'toujours dans des altercations",
+                    "explanation": "Jeu de mot avec altères (équipement de musculation) et altercations (disputes, conflits).",
+                    "keywords": ["altères", "altercations", "jeu de mots", "musculation", "conflit"]
+                },
+                {
+                    "id": "ref-b10-6",
+                    "lineNumbers": [7, 28, 49],
+                    "excerpt": "Figure de style dans mes textes",
+                    "explanation": "Une figure de style est un procédé d'expression qui s'écarte de l'usage ordinaire de la langue pour rendre un propos plus expressif, imagé ou persuasif. Dans cette ligne, c'est aussi une allusion au style présent dans la poésie incroyable de SMS.",
+                    "keywords": ["figure de style", "poésie", "SMS", "littérature", "expression"]
+                },
+                {
+                    "id": "ref-b10-7",
+                    "lineNumbers": [8, 29, 50],
+                    "excerpt": "Virgules dans mes checks",
+                    "explanation": "Les virgules sont signes de grosses sommes d'argent dans le monde bancaire.",
+                    "keywords": ["virgules", "argent", "chèques", "banque", "grosses sommes"]
+                },
+                {
+                    "id": "ref-b10-8",
+                    "lineNumbers": [14],
+                    "excerpt": "J'ai gagné l'championnat d'la plus grosse golden shower",
+                    "explanation": "Une « golden shower » (ou douche d'or en français) est une expression urologique et sexuelle qui désigne la pratique de l'urophilie (ou fétichisme de l'urine), consistant à uriner sur son partenaire ou à se faire uriner dessus avec son consentement.",
+                    "keywords": ["golden shower", "urophilie", "fétichisme", "sexuel"]
+                },
+                {
+                    "id": "ref-b10-9",
+                    "lineNumbers": [15],
+                    "excerpt": "Ma blonde doit vendre du shampoing elle m'donne du head and Shoulder?",
+                    "explanation": "Lancée en 1961 par le groupe américain Procter & Gamble, Head and Shoulders est la marque de shampoing antipelliculaire la plus vendue au monde. Traduit littéralement par « Tête et Épaules », ce nom fait référence à la zone touchée par les pellicules (qui tombent de la tête sur les épaules). L'expression « donner du head » (parfois orthographiée give head en anglais) est une expression d'argot sexuel très courante, signifiant de pratiquer le sexe oral (fellation ou cunnilingus) sur son ou sa partenaire. Donc la ligne fait à moitié du sens, ce que le narrateur aperçoit et questionne lui-même.",
+                    "keywords": ["Head and Shoulders", "shampoing", "give head", "sexuel", "double sens", "Procter & Gamble"]
+                },
+                {
+                    "id": "ref-b10-10",
+                    "lineNumbers": [17],
+                    "excerpt": "J'aime ça jouer des tours, j'suis un farfadet malicieux",
+                    "explanation": "Un farfadet malicieux est une créature légendaire issue du folklore français, particulièrement présente dans les croyances de la Vendée, du Poitou et de la Bretagne.",
+                    "keywords": ["farfadet", "folklore français", "Vendée", "Poitou", "Bretagne", "créature légendaire"]
+                },
+                {
+                    "id": "ref-b10-11",
+                    "lineNumbers": [20],
+                    "excerpt": "Y'a plein d'ornithorynques dans le lac, c'est un marais périlleux",
+                    "explanation": "Dans cette ligne, il y a un jeu de mot avec périlleux en référence à Perry l'ornithorynque, qui est un personnage central de la série d'animation à succès Phinéas et Ferb, diffusée sur Disney Channel.",
+                    "keywords": ["Perry l'ornithorynque", "Phinéas et Ferb", "Disney Channel", "périlleux", "jeu de mots"]
+                },
+                {
+                    "id": "ref-b10-12",
+                    "lineNumbers": [31],
+                    "excerpt": "J'ai mangé au buffet des continents, j'ai vomi dans l'assiette",
+                    "explanation": "Le Buffet des Continents est une chaîne de restaurants québécoise très populaire, spécialisée dans les buffets à volonté haut de gamme et de style familial. L'indigestion après un buffet est un problème très courant provoqué par l'absorption d'une grande quantité de nourriture ou de mélanges d'aliments inhabituels sur une courte période.",
+                    "keywords": ["Buffet des Continents", "restaurant québécois", "buffet", "indigestion", "à volonté"]
+                },
+                {
+                    "id": "ref-b10-13",
+                    "lineNumbers": [33],
+                    "excerpt": "J'ai vu un furry pas très confiant, il s'cachait dans sa laine",
+                    "explanation": "L'expression « se cacher dans sa laine » est une image poétique et familière, souvent utilisée au Québec, pour exprimer le besoin de se replier sur soi-même, de se mettre à l'abri du monde ou de chercher le confort et la sécurité. Les furry portent parfois des « fursuits », costumes d'animaux souvent en fourrure ou en laine.",
+                    "keywords": ["furry", "fursuit", "se cacher dans sa laine", "Québec", "costume"]
+                },
+                {
+                    "id": "ref-b10-14",
+                    "lineNumbers": [34],
+                    "excerpt": "J'ai vu Nick Fury dans mon bain il m'recrute dans Marvel",
+                    "explanation": "Nick Fury est un personnage de fiction majeur de l'univers des bandes dessinées Marvel.",
+                    "keywords": ["Nick Fury", "Marvel", "bande dessinée", "super-héros"]
+                },
+                {
+                    "id": "ref-b10-15",
+                    "lineNumbers": [38],
+                    "excerpt": "J'me suis viandé su'l béton j'm'appelle super trottoir",
+                    "explanation": "L'expression « se viander » signifie tomber brutalement, faire une lourde chute ou avoir un accident.",
+                    "keywords": ["se viander", "tomber", "chute", "accident", "québécois"]
+                },
+                {
+                    "id": "ref-b10-16",
+                    "lineNumbers": [42],
+                    "excerpt": "J'mangerai pas mes lentilles si j'ai pas mon fruité",
+                    "explanation": "« Fruité » est l'une des marques de jus de fruits les plus emblématiques et populaires au Québec et au Canada.",
+                    "keywords": ["Fruité", "jus", "Québec", "Canada", "marque"]
                 }
             ],
             "artist": "SMS",
             "album": "Ben 10",
             "duration": null,
             "spotifyUrl": "https://open.spotify.com/track/57ug8uW3nsqvYpdws0I1Xp",
-            "lastSync": "2026-05-09T17:51:55.126767+00:00"
+            "lastSync": "2026-05-24"
         },
         {
             "id": "nadine",
@@ -491,317 +581,1076 @@
                 },
                 {
                     "line": 2,
-                    "text": "Nadine, j't'oublierai jamais"
+                    "text": "Nadine, j't'oublierai jamais ce morceau là est pour toi"
                 },
                 {
                     "line": 3,
-                    "text": "Ce morceau là est pour toi"
+                    "text": "Nadine elle ressemble à Will Ferrell, c'est un lutin"
                 },
                 {
                     "line": 4,
-                    "text": "Nadine elle ressemble à Will Ferrel, c'est un lutin"
-                },
-                {
-                    "line": 5,
                     "text": "Nadine c'est une gold digger, là j'ai pu rien"
                 },
                 {
-                    "line": 6,
+                    "line": 5,
                     "text": "J'ai écrit mes partitions sur Nadine, c'est un lutrin"
                 },
                 {
-                    "line": 7,
+                    "line": 6,
                     "text": "Nadine c'est mon p'tit trésor à moi, c'est un butin"
                 },
                 {
-                    "line": 8,
+                    "line": 7,
                     "text": "Nadine est revenue de son voyage avec un Cubain"
                 },
                 {
-                    "line": 9,
+                    "line": 8,
                     "text": "Nadine est atroce au poker elle a perdu ses deux mains"
                 },
                 {
-                    "line": 10,
+                    "line": 9,
                     "text": "Nadine a l'air d'un albatros 'a des plumes pis un gros nez"
                 },
                 {
-                    "line": 11,
+                    "line": 10,
                     "text": "Avec ses deux grosses calices de palmes est prête pour la plongée"
                 },
                 {
-                    "line": 12,
+                    "line": 11,
                     "text": "Nadine quand elle sort de son bain, ça sent la piscine"
                 },
                 {
-                    "line": 13,
-                    "text": "Nadine elle passe devant le Thaïzone, elle liche les vitrines"
+                    "line": 12,
+                    "text": "Nadine elle passe devant le thaï zone, elle liche les vitrines"
                 },
                 {
-                    "line": 14,
+                    "line": 13,
                     "text": "Nadine a déplacé son salon dans sa cuisine"
                 },
                 {
-                    "line": 15,
-                    "text": "Si y'a une chose que Nadine est, c'est bien virile"
+                    "line": 14,
+                    "text": "Si y'a une chose que Nadine est, c'est bien viril"
                 },
                 {
-                    "line": 16,
+                    "line": 15,
                     "text": "Nadine elle mange du Nutella sur toutes ses tranches de pain"
                 },
                 {
-                    "line": 17,
+                    "line": 16,
                     "text": "Nadine est tellement smat elle m'a donné ses deux reins"
                 },
                 {
-                    "line": 18,
+                    "line": 17,
                     "text": "Nadine elle mange d'la céramique, elle prend une tranche de bain"
                 },
                 {
-                    "line": 19,
+                    "line": 18,
                     "text": "Pis Nadine elle s'est brisé le palais en mangeant 20 oursins"
                 },
                 {
-                    "line": 20,
+                    "line": 19,
                     "text": "Nadine elle bave partout elle a une tronche de chien"
                 },
                 {
-                    "line": 21,
+                    "line": 20,
                     "text": "Nadine elle sait toucher mon cœur c'est un bon médecin"
                 },
                 {
-                    "line": 22,
+                    "line": 21,
                     "text": "Si Nadine c'était une carte de poker ça serait un maudit bon jack"
                 },
                 {
-                    "line": 23,
+                    "line": 22,
                     "text": "Nadine si c'était un cheval ça serait un maudit Bojack"
                 },
                 {
-                    "line": 24,
+                    "line": 23,
                     "text": "Nadine c'est mon fucking plug elle vend du maudit bon crack"
                 },
                 {
-                    "line": 25,
+                    "line": 24,
                     "text": "Nadine a toute le drip à l'air d'un maudit gros lac"
                 },
                 {
-                    "line": 26,
+                    "line": 25,
                     "text": "C'qui a entre moi pis Nadine c'est privé"
                 },
                 {
-                    "line": 27,
+                    "line": 26,
                     "text": "Qu'est-ce tu fais dans ma business"
                 },
                 {
-                    "line": 28,
+                    "line": 27,
                     "text": "T'arrêtes pas d'checker mon profil bro qu'est-ce tu fais sur mon penis"
                 },
                 {
-                    "line": 29,
+                    "line": 28,
                     "text": "Nadine a obtenu l'record des plus longues narines est dans Guiness"
                 },
                 {
-                    "line": 30,
+                    "line": 29,
                     "text": "J'pensais qu'avait collab avec Mcdo quand j'ai vu l'criss de Grimace"
                 },
                 {
-                    "line": 31,
+                    "line": 30,
                     "text": "Nadine elle aime les armes à feu est rentrée dans la milice"
                 },
                 {
-                    "line": 32,
+                    "line": 31,
                     "text": "Nadine elle fait du breakdance on dirait une hélice"
                 },
                 {
-                    "line": 33,
+                    "line": 32,
                     "text": "Nadine aime les free samples je l'ai trouvé au Costco"
                 },
                 {
-                    "line": 34,
+                    "line": 33,
                     "text": "Nadine a backflip sur mes placements elle m'fait un sale taux"
                 },
                 {
-                    "line": 35,
+                    "line": 34,
                     "text": "Nadine elle s'est endormie sur la toilette dans la salle d'eau"
                 },
                 {
-                    "line": 36,
+                    "line": 35,
                     "text": "Nadine elle a tué pour son argent, c'est d'la sale dough"
                 },
                 {
-                    "line": 37,
+                    "line": 36,
                     "text": "Nadine elle a gagné la voix, elle te fait un sale do"
                 },
                 {
-                    "line": 38,
+                    "line": 37,
                     "text": "Nadine est si crasseuse, elle a un sale dos"
                 },
                 {
-                    "line": 39,
+                    "line": 38,
                     "text": "Nadine elle s'est stabbée avec une fourchette, c'est une sado"
                 },
                 {
-                    "line": 40,
+                    "line": 39,
                     "text": "Nadine elle mange la bouche ouverte, c'est une crado"
                 },
                 {
-                    "line": 41,
+                    "line": 40,
                     "text": "Nadine elle voulait son prince charmant elle a frenché un crapaud"
                 },
                 {
-                    "line": 42,
+                    "line": 41,
                     "text": "Nadine c'est une magicienne elle fait disparaître mon taco"
                 },
                 {
-                    "line": 43,
+                    "line": 42,
                     "text": "Maintenant Nadine a mal au foie, elle veut que je l'appelle Drago"
                 },
                 {
-                    "line": 44,
+                    "line": 43,
                     "text": "Nadine elle m'a donné l'scorbut j'me sens comme un matelos"
                 },
                 {
-                    "line": 45,
+                    "line": 44,
                     "text": "Nadine t'es la première femme qui m'a fait sentir comme un homme"
                 },
                 {
-                    "line": 46,
+                    "line": 45,
                     "text": "Pis j'voudrais te rendre le service"
                 },
                 {
-                    "line": 47,
+                    "line": 46,
                     "text": "Si on se revoit bb, tu vas te sentir comme un homme toi aussi"
                 }
             ],
             "references": [
                 {
                     "id": "ref-nadine-1",
-                    "lineNumbers": [
-                        4
-                    ],
-                    "excerpt": "Nadine elle ressemble à Will Ferrel, c'est un lutin",
-                    "explanation": "Référence à Will Ferrell, acteur comique américain connu pour ses rôles dans Elf (où il joue un lutin/elfe), Anchorman, et Step Brothers. Le jeu de mots 'lutin' fait aussi référence à son rôle iconique de Buddy l'elfe dans le film Elf (2003)",
-                    "keywords": [
-                        "Will Ferrell",
-                        "Elf",
-                        "lutin",
-                        "acteur",
-                        "comédie",
-                        "Hollywood"
-                    ]
+                    "lineNumbers": [3],
+                    "excerpt": "Nadine elle ressemble à Will Ferrell, c'est un lutin",
+                    "explanation": "Cette ligne fait référence au rôle de Will Ferrell dans le film Elf. Au Québec, le film est officiellement sorti sous le titre Le Lutin",
+                    "keywords": ["Will Ferrell", "Elf", "Le Lutin", "film", "comédie", "Québec"]
                 },
                 {
                     "id": "ref-nadine-2",
-                    "lineNumbers": [
-                        5
-                    ],
-                    "excerpt": "Nadine c'est une gold digger, là j'ai pu rien",
-                    "explanation": "Expression anglophone 'gold digger' désignant une personne qui recherche des partenaires riches pour leur argent. Popularisée notamment par la chanson 'Gold Digger' de Kanye West (2005) featuring Jamie Foxx",
-                    "keywords": [
-                        "gold digger",
-                        "Kanye West",
-                        "culture pop",
-                        "expression anglaise",
-                        "argent"
-                    ]
+                    "lineNumbers": [8],
+                    "excerpt": "Nadine est atroce au poker elle a perdu ses deux mains",
+                    "explanation": "Au poker, une « main » désigne les cartes privatives distribuées à un joueur en début de tour.",
+                    "keywords": ["poker", "main", "cartes", "jeu"]
                 },
                 {
                     "id": "ref-nadine-3",
-                    "lineNumbers": [
-                        23
-                    ],
-                    "excerpt": "Nadine si c'était un cheval ça serait un maudit Bojack",
-                    "explanation": "Référence à BoJack Horseman, série d'animation adulte Netflix (2014-2020) mettant en vedette un cheval anthropomorphe, ancien acteur dépressif et alcoolique. Série culte connue pour son humour noir et sa critique d'Hollywood",
-                    "keywords": [
-                        "BoJack Horseman",
-                        "Netflix",
-                        "animation",
-                        "cheval",
-                        "série",
-                        "culture pop"
-                    ]
+                    "lineNumbers": [11],
+                    "excerpt": "Nadine quand elle sort de son bain, ça sent la piscine",
+                    "explanation": "L'odeur des piscines publiques est causée par une forte présence d'urine dans celles-ci.",
+                    "keywords": ["piscine", "odeur", "urine", "chlore"]
                 },
                 {
                     "id": "ref-nadine-4",
-                    "lineNumbers": [
-                        29
-                    ],
-                    "excerpt": "Nadine a obtenu l'record des plus longues narines est dans Guiness",
-                    "explanation": "Référence au Guinness World Records (Livre Guinness des records), publication annuelle listant les records du monde dans toutes les catégories possibles, souvent absurdes et insolites",
-                    "keywords": [
-                        "Guinness",
-                        "records",
-                        "record du monde",
-                        "Guinness World Records"
-                    ]
+                    "lineNumbers": [20],
+                    "excerpt": "Nadine elle sait toucher mon cœur c'est un bon médecin",
+                    "explanation": "Cette ligne fait un jeu de mot avec l'expression «toucher mon cœur» signifiant le fait d'émouvoir profondément une personne ou de susciter une vive empathie, mais aussi faisant référence à une intervention physique ou chirurgicale directe sur l'organe cardiaque, performée par un professionnel de la santé.",
+                    "keywords": ["toucher mon cœur", "médecin", "jeu de mots", "émotion", "chirurgie"]
                 },
                 {
                     "id": "ref-nadine-5",
-                    "lineNumbers": [
-                        30
-                    ],
-                    "excerpt": "J'pensais qu'avait collab avec Mcdo quand j'ai vu l'criss de Grimace",
-                    "explanation": "Grimace est le personnage mascotte violet de McDonald's, créature drolatique en forme de grosse goutte violette. Mascotte emblématique des années 70-80 du McDonaldland, ami de Ronald McDonald",
-                    "keywords": [
-                        "Grimace",
-                        "McDonald's",
-                        "McDo",
-                        "mascotte",
-                        "personnage",
-                        "fast food",
-                        "McDonaldland"
-                    ]
+                    "lineNumbers": [21],
+                    "excerpt": "Si Nadine c'était une carte de poker ça serait un maudit bon jack",
+                    "explanation": "Le «valet» est une carte de jeu standard, aussi nommée «Jack» (ex. jack of spades) en anglais. L'expression « être un bon jack » est une locution familière typiquement québécoise qui signifie être une bonne personne, quelqu'un de sympathique, de serviable et digne de confiance.",
+                    "keywords": ["jack", "valet", "poker", "bon jack", "expression québécoise"]
                 },
                 {
                     "id": "ref-nadine-6",
-                    "lineNumbers": [
-                        33
-                    ],
-                    "excerpt": "Nadine aime les free samples je l'ai trouvé au Costco",
-                    "explanation": "Costco, chaîne d'entrepôts à grande surface réputée pour ses échantillons gratuits (free samples) distribués dans les allées. Phénomène culturel nord-américain où les gens visitent Costco spécifiquement pour les dégustations gratuites",
-                    "keywords": [
-                        "Costco",
-                        "free samples",
-                        "échantillons gratuits",
-                        "entrepôt",
-                        "magasin",
-                        "dégustations"
-                    ]
+                    "lineNumbers": [22],
+                    "excerpt": "Nadine si c'était un cheval ça serait un maudit Bojack",
+                    "explanation": "Bojack Horseman est le personnage principal d'une série d'animation satirique américaine éponyme pour adultes, diffusée sur Netflix de 2014 à 2020.",
+                    "keywords": ["Bojack Horseman", "Netflix", "animation", "série", "cheval"]
                 },
                 {
                     "id": "ref-nadine-7",
-                    "lineNumbers": [
-                        37
-                    ],
-                    "excerpt": "Nadine elle a gagné la voix, elle te fait un sale do",
-                    "explanation": "Référence à l'émission de télé-réalité 'La Voix' (The Voice), compétition de chant télévisée québécoise/française. Jeu de mots avec 'do' (note de musique) et 'sale' (mauvais/médiocre)",
-                    "keywords": [
-                        "La Voix",
-                        "The Voice",
-                        "émission",
-                        "chant",
-                        "télé-réalité",
-                        "musique"
-                    ]
+                    "lineNumbers": [24],
+                    "excerpt": "Nadine a toute le drip à l'air d'un maudit gros lac",
+                    "explanation": "L'expression « Drip » est un terme de slang issu de la culture hip-hop américaine qui désigne un style vestimentaire extrêmement élégant, branché et impeccable. En anglais, le verbe « to drip » signifie littéralement goutter, ruisseler ou laisser tomber des gouttes.",
+                    "keywords": ["drip", "slang", "hip-hop", "style", "fashion", "goutter"]
                 },
                 {
                     "id": "ref-nadine-8",
-                    "lineNumbers": [
-                        41
-                    ],
-                    "excerpt": "Nadine elle voulait son prince charmant elle a frenché un crapaud",
-                    "explanation": "Référence au conte de fées classique 'La Princesse et la Grenouille' où embrasser un crapaud le transforme en prince charmant. Version inversée et crue du conte de fées Disney",
-                    "keywords": [
-                        "prince charmant",
-                        "crapaud",
-                        "conte de fées",
-                        "princesse grenouille",
-                        "Disney",
-                        "baiser magique"
-                    ]
+                    "lineNumbers": [29],
+                    "excerpt": "J'pensais qu'avait collab avec Mcdo quand j'ai vu l'criss de Grimace",
+                    "explanation": "Grimace (appelé officiellement Grosse Douceur au Québec) est une mascotte historique de McDonald's, reconnaissable à sa forme de gros monstre violet anthropomorphe. La ligne fait référence à ce personnage, en insinuant que le visage de Nadine semble être en permanente grimace",
+                    "keywords": ["Grimace", "Grosse Douceur", "McDonald's", "mascotte", "Québec", "violet"]
+                },
+                {
+                    "id": "ref-nadine-9",
+                    "lineNumbers": [33, 34],
+                    "excerpt": "Nadine a backflip sur mes placements elle m'fait un sale taux",
+                    "explanation": "Un «backflip» est le mot anglais désignant le «salto», une pirouette arrière se faisant dans les airs. \"Backflip\" évoque une rotation acrobatique, mais peut aussi symboliser un retournement financier catastrophique. Il y a dans cette ligne un jeu de mot avec sale taux et salto. Les lignes suivantes font toutes des rimes très similaires avec « sale taux »",
+                    "keywords": ["backflip", "salto", "pirouette", "jeu de mots", "finance"]
+                },
+                {
+                    "id": "ref-nadine-10",
+                    "lineNumbers": [35],
+                    "excerpt": "Nadine elle a tué pour son argent, c'est d'la sale dough",
+                    "explanation": "En anglais, l'expression « Dough » (qui signifie littéralement « pâte à pain » ou « pâte à gâteau ») est un terme d'argot très courant qui désigne de l'argent.",
+                    "keywords": ["dough", "argot", "argent", "slang", "anglais"]
+                },
+                {
+                    "id": "ref-nadine-11",
+                    "lineNumbers": [36],
+                    "excerpt": "Nadine elle a gagné la voix, elle te fait un sale do",
+                    "explanation": "La Voix est une émission de téléréalité musicale québécoise animée par Charles Lafortune et diffusée depuis le 20 janvier 2013 sur le réseau TVA. Le Do (ou C en notation internationale) est la première note de la gamme de Do majeur et sert de point de repère fondamental en théorie musicale occidentale.",
+                    "keywords": ["La Voix", "TVA", "Charles Lafortune", "télé-réalité", "Do", "note de musique"]
+                },
+                {
+                    "id": "ref-nadine-12",
+                    "lineNumbers": [38],
+                    "excerpt": "Nadine elle s'est stabbée avec une fourchette, c'est une sado",
+                    "explanation": "Le sadomasochisme (« sado » est le diminutif commun pour désigner une personne sadomasochiste) désigne la recherche de plaisir sexuel, de satisfaction psychologique ou de gratification émotionnelle à travers l'infliction ou la réception de souffrances physiques, de contraintes ou d'humiliations.",
+                    "keywords": ["sado", "sadomasochisme", "BDSM", "sexualité"]
+                },
+                {
+                    "id": "ref-nadine-13",
+                    "lineNumbers": [42],
+                    "excerpt": "Maintenant Nadine a mal au foie, elle veut que je l'appelle Drago",
+                    "explanation": "Drago Malefoy est l'un des personnages principaux de la saga fantastique Harry Potter écrite par J.K. Rowling.",
+                    "keywords": ["Drago Malefoy", "Harry Potter", "J.K. Rowling", "personnage", "fantasy"]
+                },
+                {
+                    "id": "ref-nadine-14",
+                    "lineNumbers": [43],
+                    "excerpt": "Nadine elle m'a donné l'scorbut j'me sens comme un matelos",
+                    "explanation": "Le scorbut est la maladie carentielle la plus emblématique de l'histoire maritime, surnommée autrefois la « peste des mers ». Elle a décimé les équipages des matelots du XVe au XIXe siècle lors des grands voyages d'exploration au long cours.",
+                    "keywords": ["scorbut", "matelots", "maladie", "maritime", "vitamine C", "histoire"]
                 }
             ]
+        },
+        {
+            "id": "barbies-resto-bar-grillz",
+            "title": "Barbies Resto Bar Grillz",
+            "albumId": "barbies-resto-bar-grillz",
+            "year": 2025,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "Chez Barbie's Resto Bar Grill"
+                },
+                {
+                    "line": 2,
+                    "text": "Non j'veux pas un film de Barbie j'parle du Resto Bar Grill"
+                },
+                {
+                    "line": 3,
+                    "text": "j'connais la serveuse par son nom j'ai le Resto Bar Rizz"
+                },
+                {
+                    "line": 4,
+                    "text": "Big ass diamonds dans ma bouche j'ai les Resto Bar Grillz"
+                },
+                {
+                    "line": 5,
+                    "text": "J'ai mis mon poignet dans mon verre d'eau j'ai le Reste d'eau Bar Wrist"
+                },
+                {
+                    "line": 6,
+                    "text": "J'ai mis mon burger dans ma face bro je go ham"
+                },
+                {
+                    "line": 7,
+                    "text": "J'suis tout décoiffé après ça j'ai besoin d'un gros peigne"
+                },
+                {
+                    "line": 8,
+                    "text": "Bro j'ai mis un gros trou dans la table c'est un gros beigne"
+                },
+                {
+                    "line": 9,
+                    "text": "J'fais genre j'ai oublié mon portefeuille quand il faut j'paye"
+                },
+                {
+                    "line": 10,
+                    "text": "J'prends pas d'salade grecque,"
+                },
+                {
+                    "line": 11,
+                    "text": "Mes poches sont déjà remplies de bread et cheese"
+                },
+                {
+                    "line": 12,
+                    "text": "J'men va direct au Barbie's les dépenser quand j'fais des G's"
+                },
+                {
+                    "line": 13,
+                    "text": "J'suis généreux avec le tip"
+                },
+                {
+                    "line": 14,
+                    "text": "J'donnes toujours mon 100 pour 100"
+                },
+                {
+                    "line": 15,
+                    "text": "Mon cousin il dine and dash il mange pis il repart en courant"
+                },
+                {
+                    "line": 16,
+                    "text": "Quand c'est ma fête à chaque année j'm'en va au Barbie's"
+                },
+                {
+                    "line": 17,
+                    "text": "J'suis bin trop saoul pour repartir donne moi mes car keys"
+                },
+                {
+                    "line": 18,
+                    "text": "J'passe la nuit dans mon p'tit Kia Soul, j'm'endors dans l'parking"
+                },
+                {
+                    "line": 19,
+                    "text": "Le matin j'pars avec Luigi l'plongeur, on fait du karting"
+                },
+                {
+                    "line": 20,
+                    "text": "J'ai si faim je sais pas quoi manger au Barbie's"
+                },
+                {
+                    "line": 21,
+                    "text": "Y'a tellement de choix"
+                },
+                {
+                    "line": 22,
+                    "text": "Y'a tellement de plats"
+                },
+                {
+                    "line": 23,
+                    "text": "Escargots, burger, pizza,"
+                },
+                {
+                    "line": 24,
+                    "text": "Escargots, escargots, escargots, à l'ail"
+                },
+                {
+                    "line": 25,
+                    "text": "J'veux faire changement à soir j'vais t'prendre de quoi d'différent"
+                },
+                {
+                    "line": 26,
+                    "text": "Hein c'est donc bin bizarre ils vendent des brochettes de poulet de graine"
+                },
+                {
+                    "line": 27,
+                    "text": "Ouin écoute je sais pas si ça m'tente vraiment"
+                },
+                {
+                    "line": 28,
+                    "text": "C'pas grave, m'a t'prendre ma fidèle poutine poulet croustillant"
+                },
+                {
+                    "line": 29,
+                    "text": "J'ai mis mes pantalons trois quart"
+                },
+                {
+                    "line": 30,
+                    "text": "J'ai mis mes pantalons trois quart"
+                },
+                {
+                    "line": 31,
+                    "text": "J'ai mis mes pantalons trois quart pis j'ai commandé une salade"
+                },
+                {
+                    "line": 32,
+                    "text": "Vu qu'y'est pas trop tôt j'ai commandé un rhum and coke"
+                },
+                {
+                    "line": 33,
+                    "text": "J'prendrai pas d'dessert, demain j'ai une randonné dans l'bois"
+                },
+                {
+                    "line": 34,
+                    "text": "C'pas grave chez nous j'mangerai mon yogurt aux baies des bois"
+                },
+                {
+                    "line": 35,
+                    "text": "Chez Barbie's Resto Bar Grill"
+                },
+                {
+                    "line": 36,
+                    "text": "Non j'veux pas un film de Barbie j'parle du Resto Bar Grill"
+                },
+                {
+                    "line": 37,
+                    "text": "j'connais la serveuse par son nom j'ai le Resto Bar Rizz"
+                },
+                {
+                    "line": 38,
+                    "text": "Big ass diamonds dans ma bouche j'ai les Resto Bar Grillz"
+                },
+                {
+                    "line": 39,
+                    "text": "J'ai mis mon poignet dans mon verre d'eau j'ai le Reste d'eau Bar Wrist"
+                },
+                {
+                    "line": 40,
+                    "text": "L'autre jour j'ai manger ailleurs qu'au Barbie's pis j'ai chier dans le lit comme Amber heard"
+                },
+                {
+                    "line": 41,
+                    "text": "Mange la boulette entre mes deux buns, jmappelle hamburger"
+                },
+                {
+                    "line": 42,
+                    "text": "Leur viande go tellement hard, j'pense y'ont mis du viagra"
+                },
+                {
+                    "line": 43,
+                    "text": "J'suis fried avec plein d'cheese, j'suis comme un batte au mozzarella"
+                },
+                {
+                    "line": 44,
+                    "text": "Ils m'ont mit du ketchup d'la moutarde pis d'la reliche dans l'cul"
+                },
+                {
+                    "line": 45,
+                    "text": "Vu qu'j'suis un dog mon ass a l'air d'un hot-dog garnie"
+                },
+                {
+                    "line": 46,
+                    "text": "Y'ont essayé d'm'expliquer, le menu mais j'répond comme Tacu"
+                },
+                {
+                    "line": 47,
+                    "text": "J'ai mal au cou j'pense j'ai mangé, trop de tortellinis"
+                },
+                {
+                    "line": 48,
+                    "text": "Fuck la cage, fuck Normandin pis fuck you Saint-hubert"
+                },
+                {
+                    "line": 49,
+                    "text": "Yea si j'ai faim y'a juste une place qui peut me satisfaire"
+                },
+                {
+                    "line": 50,
+                    "text": "Dans l'désert, j'ride Barbie's non-stop comme un dromadaire"
+                },
+                {
+                    "line": 51,
+                    "text": "Nan pas d'dessert, j'ai pu faim, j'ai trop manger d'pelures de pommes de terres"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-barbies-1",
+                    "lineNumbers": [3, 37],
+                    "excerpt": "j'connais la serveuse par son nom j'ai le Resto Bar Rizz",
+                    "explanation": "« Rizz » est un terme d'argot internet popularisé sur TikTok signifiant du charme ou une capacité à séduire. Le jeu de mots transforme « Resto Bar Grill » en « Resto Bar Rizz ».",
+                    "keywords": ["rizz", "TikTok", "slang", "charme", "séduction", "jeu de mots"]
+                },
+                {
+                    "id": "ref-barbies-2",
+                    "lineNumbers": [4, 38],
+                    "excerpt": "Big ass diamonds dans ma bouche j'ai les Resto Bar Grillz",
+                    "explanation": "Jeu phonétique entre « grill » et « grillz », les bijoux dentaires popularisés dans la culture hip-hop.",
+                    "keywords": ["grillz", "bijoux dentaires", "hip-hop", "diamonds", "jeu de mots"]
+                },
+                {
+                    "id": "ref-barbies-3",
+                    "lineNumbers": [5, 39],
+                    "excerpt": "J'ai mis mon poignet dans mon verre d'eau j'ai le Reste d'eau Bar Wrist",
+                    "explanation": "En slang, le terme « water » fait parfois référence à des diamants très brillants, souvent appelés water / icy / flooded (« my wrist is water » = bijoux très glacés). Il y a un jeu de mot phonétique avec « Resto » et reste d'eau, et en gros il flex sa montre pleine de diamants.",
+                    "keywords": ["water", "wrist", "diamants", "bijoux", "slang", "jeu de mots", "reste d'eau"]
+                },
+                {
+                    "id": "ref-barbies-4",
+                    "lineNumbers": [6],
+                    "excerpt": "J'ai mis mon burger dans ma face bro je go ham",
+                    "explanation": "« Go ham » est une expression anglophone signifiant devenir extrêmement intense/excessif. « Ham » renvoie aussi à « hamburger ».",
+                    "keywords": ["go ham", "expression anglaise", "hamburger", "intense", "jeu de mots"]
+                },
+                {
+                    "id": "ref-barbies-5",
+                    "lineNumbers": [9],
+                    "excerpt": "J'fais genre j'ai oublié mon portefeuille quand il faut j'paye",
+                    "explanation": "Référence au comportement cliché des gens qui prétendent avoir oublié leur portefeuille pour éviter de payer l'addition.",
+                    "keywords": ["portefeuille", "addition", "restaurant", "cliché"]
+                },
+                {
+                    "id": "ref-barbies-6",
+                    "lineNumbers": [11],
+                    "excerpt": "Mes poches sont déjà remplies de bread et cheese",
+                    "explanation": "« Bread » et « cheese » sont des synonymes slang pour l'argent. Il refuse la salade grecque car il a déjà assez de « fromage ».",
+                    "keywords": ["bread", "cheese", "argent", "slang", "anglais"]
+                },
+                {
+                    "id": "ref-barbies-7",
+                    "lineNumbers": [12],
+                    "excerpt": "J'men va direct au Barbie's les dépenser quand j'fais des G's",
+                    "explanation": "« Faire des G's » signifie faire de l'argent.",
+                    "keywords": ["G's", "argent", "slang", "gains"]
+                },
+                {
+                    "id": "ref-barbies-8",
+                    "lineNumbers": [14],
+                    "excerpt": "J'donnes toujours mon 100 pour 100",
+                    "explanation": "Double sens entre « 100 % » (tout donner) et laisser un pourboire énorme de 100 %.",
+                    "keywords": ["100 pour 100", "pourboire", "tip", "double sens"]
+                },
+                {
+                    "id": "ref-barbies-9",
+                    "lineNumbers": [15],
+                    "excerpt": "Mon cousin il dine and dash il mange pis il repart en courant",
+                    "explanation": "« Dine and dash » est l'expression anglaise pour quitter un restaurant sans payer.",
+                    "keywords": ["dine and dash", "restaurant", "expression anglaise", "partir sans payer"]
+                },
+                {
+                    "id": "ref-barbies-10",
+                    "lineNumbers": [17],
+                    "excerpt": "J'suis bin trop saoul pour repartir donne moi mes car keys",
+                    "explanation": "Référence très irresponsable à la conduite en état d'ébriété.",
+                    "keywords": ["saoul", "alcool", "conduite", "irresponsable"]
+                },
+                {
+                    "id": "ref-barbies-11",
+                    "lineNumbers": [19],
+                    "excerpt": "Le matin j'pars avec Luigi l'plongeur, on fait du karting",
+                    "explanation": "Référence à Luigi et à Mario Kart, le célèbre jeu vidéo de course de Nintendo.",
+                    "keywords": ["Luigi", "Mario Kart", "Nintendo", "jeu vidéo", "plongeur"]
+                },
+                {
+                    "id": "ref-barbies-12",
+                    "lineNumbers": [26],
+                    "excerpt": "Hein c'est donc bin bizarre ils vendent des brochettes de poulet de graine",
+                    "explanation": "Double sens sexuel québécois : « poulet de grain » est une vraie catégorie de poulet, mais enlever le « r » transforme « grain » en « graine », slang pour pénis.",
+                    "keywords": ["poulet de grain", "poulet de graine", "double sens", "sexuel", "québécois"]
+                },
+                {
+                    "id": "ref-barbies-13",
+                    "lineNumbers": [40],
+                    "excerpt": "L'autre jour j'ai manger ailleurs qu'au Barbie's pis j'ai chier dans le lit comme Amber heard",
+                    "explanation": "Référence au scandale médiatique entourant Amber Heard et les accusations de Johnny Depp affirmant qu'elle aurait déféqué dans leur lit.",
+                    "keywords": ["Amber Heard", "Johnny Depp", "scandale", "procès", "médiatique"]
+                },
+                {
+                    "id": "ref-barbies-14",
+                    "lineNumbers": [41],
+                    "excerpt": "Mange la boulette entre mes deux buns, jmappelle hamburger",
+                    "explanation": "Double sens sexuel basé sur la structure du hamburger. « Buns » est le mot pour les pains de hamburger, et la boulette représente ce qu'a Amber Heard entre ses fesses. Aussi une rime proche entre Amber Heard et Hamburger.",
+                    "keywords": ["hamburger", "buns", "double sens", "sexuel", "Amber Heard"]
+                },
+                {
+                    "id": "ref-barbies-15",
+                    "lineNumbers": [42],
+                    "excerpt": "Leur viande go tellement hard, j'pense y'ont mis du viagra",
+                    "explanation": "Viagra est associé aux érections. Il compare la viande « qui go hard » à cet effet.",
+                    "keywords": ["viagra", "érection", "viande", "hard", "double sens"]
+                },
+                {
+                    "id": "ref-barbies-16",
+                    "lineNumbers": [43],
+                    "excerpt": "J'suis fried avec plein d'cheese, j'suis comme un batte au mozzarella",
+                    "explanation": "Un « batte » est parfois utilisé pour désigné un joint, être « fried » signifie être très intoxiqué au cannabis, et le « cheese » est un mot de slang synonyme à l'argent. Un « batte au mozzarella » est une autre façon de parler de bâtonnet de fromage/mozzarella sticks.",
+                    "keywords": ["fried", "batte", "joint", "cannabis", "cheese", "argent", "mozzarella sticks"]
+                },
+                {
+                    "id": "ref-barbies-17",
+                    "lineNumbers": [44, 45],
+                    "excerpt": "Vu qu'j'suis un dog mon ass a l'air d'un hot-dog garnie",
+                    "explanation": "Jeu absurde entre « dog » et « hot-dog ».",
+                    "keywords": ["dog", "hot-dog", "jeu de mots", "absurde"]
+                },
+                {
+                    "id": "ref-barbies-18",
+                    "lineNumbers": [46],
+                    "excerpt": "Y'ont essayé d'm'expliquer, le menu mais j'répond comme Tacu",
+                    "explanation": "Référence au créateur québécois Tacu, connu pour son ton particulier et ses réactions/confusions virales.",
+                    "keywords": ["Tacu", "créateur québécois", "viral", "TikTok", "confusion"]
+                },
+                {
+                    "id": "ref-barbies-19",
+                    "lineNumbers": [47],
+                    "excerpt": "J'ai mal au cou j'pense j'ai mangé, trop de tortellinis",
+                    "explanation": "Jeu de mot avec tortellini et torticolis.",
+                    "keywords": ["tortellini", "torticolis", "jeu de mots", "cou"]
+                },
+                {
+                    "id": "ref-barbies-20",
+                    "lineNumbers": [48],
+                    "excerpt": "Fuck la cage, fuck Normandin pis fuck you Saint-hubert",
+                    "explanation": "Références à trois grandes chaînes de restaurants québécoises : La Cage aux Sports (brasserie sportive), Normandin (restaurant familial) et Saint-Hubert (spécialisé en poulet rôti).",
+                    "keywords": ["La Cage", "Normandin", "Saint-Hubert", "restaurants québécois", "chaînes"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Barbies Resto Bar Grillz",
+            "duration": "0:00",
+            "spotifyUrl": "https://open.spotify.com/intl-fr/track/2JGSAX8ZHyTMjrZCFT36Fs",
+            "lastSync": "2026-05-24"
+        },
+        {
+            "id": "manon-masse",
+            "title": "Manon Massé",
+            "albumId": "manon-masse",
+            "year": 2025,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "J'ai vu un cycliste sur la route pis j'suis rentré dedans"
+                },
+                {
+                    "line": 2,
+                    "text": "C'est rempli d'diamants dans ma bouche j'pourrais vendre mes dents"
+                },
+                {
+                    "line": 3,
+                    "text": "Ils riaient d'moi à l'école parce que j'ai un écart entre mes dents"
+                },
+                {
+                    "line": 4,
+                    "text": "J'ai eu une meilleure note que lui en math j'ai dit dans les dents"
+                },
+                {
+                    "line": 5,
+                    "text": "C'est tu juste moi ou ta blonde est en secondaire 2 ?"
+                },
+                {
+                    "line": 6,
+                    "text": "Ma blonde elle m'a lancé dans le mur l'autre fois, elle fait 6 pieds 2"
+                },
+                {
+                    "line": 7,
+                    "text": "J'y ai dit j'ai unfollow Summer Ray elle m'a dit regarde moi dans les yeux"
+                },
+                {
+                    "line": 8,
+                    "text": "3 semaines plus tard, j'ai encore des bleus pis j'ai du plâtre dans les cheveux"
+                },
+                {
+                    "line": 9,
+                    "text": "Coupe donc ta moustache, t'as l'air de Manon massé"
+                },
+                {
+                    "line": 10,
+                    "text": "J'ai vu un orignal l'autre fois, pis j'l'ai tiré dans l'pied"
+                },
+                {
+                    "line": 11,
+                    "text": "Mon père m'amène à chasse mais il m'amène pas pêcher"
+                },
+                {
+                    "line": 12,
+                    "text": "J'ball tellement fort mon rêve c'est d'être repêché"
+                },
+                {
+                    "line": 13,
+                    "text": "J'ball tellement fort mon rêve c'est d'être Micheal Jordan"
+                },
+                {
+                    "line": 14,
+                    "text": "J'suis dans ma vielle Civic, mais c'quand même un foreign"
+                },
+                {
+                    "line": 15,
+                    "text": "J'ai peur quand je regarde Scooby-Doo, C'est vraiment sordide"
+                },
+                {
+                    "line": 16,
+                    "text": "J'passe toutes mes fins d'semaine à réparer mon beau bolide"
+                },
+                {
+                    "line": 17,
+                    "text": "Les canadiens jousent a soir, c'est tout le monde à Cage aux sports"
+                },
+                {
+                    "line": 18,
+                    "text": "Le serveur m'a amené d'la roquette j'pensais c'était Maurice Richard"
+                },
+                {
+                    "line": 19,
+                    "text": "J'peux pas séparer l'bill, j'ai laissé mon portefeuille dans mon char"
+                },
+                {
+                    "line": 20,
+                    "text": "J'ai trop mangé d'ailes de poulet j'me sens pas bien dans mon corps"
+                },
+                {
+                    "line": 21,
+                    "text": "Fuck j'fais d'la dysmorphie corporelle"
+                },
+                {
+                    "line": 22,
+                    "text": "J'veux m'envoler bin loin d'icitte, comme un cormoran"
+                },
+                {
+                    "line": 23,
+                    "text": "J'veux aller habiter sur ton toit tu penses que c'est l'traineau du père Noël"
+                },
+                {
+                    "line": 24,
+                    "text": "Hier c'tait un movie j'pense j'suis Xavier Dolan"
+                },
+                {
+                    "line": 25,
+                    "text": "Hier soir c'tait un film j'passe au festival de Cannes"
+                },
+                {
+                    "line": 26,
+                    "text": "J'aime bin ça moi les bines, c'est l'festival des cannes"
+                },
+                {
+                    "line": 27,
+                    "text": "J'aime bin ça moi la tire m'en va à cabane à sucre"
+                },
+                {
+                    "line": 28,
+                    "text": "J'vais t'manger les oreilles le criss j'ai dit attache ta tuque"
+                },
+                {
+                    "line": 29,
+                    "text": "Une croquée dans l'oreille bro j'm'appelle Mike Tyson"
+                },
+                {
+                    "line": 30,
+                    "text": "C'est vraiment propre chez nous j'me suis acheté un nouveau Dyson"
+                },
+                {
+                    "line": 31,
+                    "text": "Mon bro y'est tellement high y'est penché su'l côté comme Micheal Jackson"
+                },
+                {
+                    "line": 32,
+                    "text": "Il pensait qu'on était à LA, mais on était à Shannon"
+                },
+                {
+                    "line": 33,
+                    "text": "J'ai chier dans mon chien il s'appelait Hector"
+                },
+                {
+                    "line": 34,
+                    "text": "J'ai bouffé ma poutine comme un osti d'gros porc"
+                },
+                {
+                    "line": 35,
+                    "text": "J'ai vraiment mal au ventre, j'pense j'suis hypocondriaque"
+                },
+                {
+                    "line": 36,
+                    "text": "J'ai pris 6 Advils, pis la j'suis high en tabarnak"
+                },
+                {
+                    "line": 37,
+                    "text": "J'ai essayé d'jelké pis la j'suis vraiment slack"
+                },
+                {
+                    "line": 38,
+                    "text": "J'pense j'me suis mal essuyé j'en ai encore plein dans craque"
+                },
+                {
+                    "line": 39,
+                    "text": "Y'avait un gars pas d'maison, j'lui ai donné mon adresse"
+                },
+                {
+                    "line": 40,
+                    "text": "Mais j'ai déménagé pis j'm'ennuie d'ses caresses"
+                },
+                {
+                    "line": 41,
+                    "text": "J'le trouve attirant dans une tenue en latex"
+                },
+                {
+                    "line": 42,
+                    "text": "Y'avait pu rien au H&M j'suis allé au Ardenne"
+                },
+                {
+                    "line": 43,
+                    "text": "La fille au mini golf elle ressemble à mon exe"
+                },
+                {
+                    "line": 44,
+                    "text": "J'ai pu d'paper towels faque j'ai utilisé mes mains"
+                },
+                {
+                    "line": 45,
+                    "text": "Mon dentiste il m'fait peur' il m'met plein d'cuillères dans yeule"
+                },
+                {
+                    "line": 46,
+                    "text": "J'ai l'air d'une grosse souris j'ai plein d'gruyère dans yeule"
+                },
+                {
+                    "line": 47,
+                    "text": "J'pas sincère quand j'sourie, en réalité j'me sens seul"
+                },
+                {
+                    "line": 48,
+                    "text": "Y'a plein d'abeilles pis d'fourmis, jai un moustique dans l'œil"
+                },
+                {
+                    "line": 49,
+                    "text": "J'suis allé camper en Estrie, y'a un ours qui a mangé ma tente"
+                },
+                {
+                    "line": 50,
+                    "text": "Mon oncle y'est alcoolique, maudit y'a mangé ma tante"
+                },
+                {
+                    "line": 51,
+                    "text": "Mon chat il veut aller voir le film de Minecraft je sais pas si ça me tente"
+                },
+                {
+                    "line": 52,
+                    "text": "Le manège y'est parti vite j'pense pas y'a serré ma ganse"
+                },
+                {
+                    "line": 53,
+                    "text": "Vitamines Pierre à feu, j'en ai mangé 40"
+                },
+                {
+                    "line": 54,
+                    "text": "J'ai une carence en vitamines C j'ai des ulcères buccales"
+                },
+                {
+                    "line": 55,
+                    "text": "J'ai essayé d'les compter y'a au moins 300 poissons dans l'bocal"
+                },
+                {
+                    "line": 56,
+                    "text": "J'ai vu Mario pis Luigi, ils s'lançaient la balle"
+                },
+                {
+                    "line": 57,
+                    "text": "J'ai fini mon DEP pis là j'pose des armoires"
+                },
+                {
+                    "line": 58,
+                    "text": "Ma blonde m'a laissé j'avais trop d'legos Star Wars"
+                },
+                {
+                    "line": 59,
+                    "text": "J'ai plein d'caries dans yeule, ma bouche on dirait un piano"
+                },
+                {
+                    "line": 60,
+                    "text": "Ma sandwich au poulet y'a du fromage pis dla Mayo"
+                },
+                {
+                    "line": 61,
+                    "text": "Ma vie ça va nul part pour ma famille j'suis un fardeau"
+                },
+                {
+                    "line": 62,
+                    "text": "J'pas capable d'enlever mon cock ring, j'suis l'seigneur des anneaux"
+                },
+                {
+                    "line": 63,
+                    "text": "Plus personne qui m'dit beeehhh c'est l'silence des agneaux"
+                },
+                {
+                    "line": 64,
+                    "text": "J'met des Ringolos sur mes doigts j'trouve ça bin rigolo"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-mm-1",
+                    "lineNumbers": [7],
+                    "excerpt": "J'y ai dit j'ai unfollow Summer Ray elle m'a dit regarde moi dans les yeux",
+                    "explanation": "Sommer Ray est une mannequin, entrepreneure, DJ et influenceuse fitness américaine, née le 16 septembre 1996 au Colorado. Mondialement connue pour son mode de vie axé sur le fitness et ses millions d'abonnés, elle se concentre désormais sur la musique.",
+                    "keywords": ["Sommer Ray", "Summer Ray", "mannequin", "fitness", "influenceuse", "DJ", "Colorado"]
+                },
+                {
+                    "id": "ref-mm-2",
+                    "lineNumbers": [9],
+                    "excerpt": "Coupe donc ta moustache, t'as l'air de Manon massé",
+                    "explanation": "Manon Massé est une femme politique et militante québécoise, connue pour avoir été députée de la circonscription de Sainte-Marie–Saint-Jacques à Montréal et co-porte-parole du parti politique Québec solidaire de 2017 à 2023. La moustache de Manon Massé est un élément emblématique de son apparence et un symbole politique fort. Elle refuse de se plier aux normes esthétiques traditionnelles imposées aux femmes.",
+                    "keywords": ["Manon Massé", "Québec solidaire", "QS", "politique québécoise", "moustache", "féminisme", "Montréal"]
+                },
+                {
+                    "id": "ref-mm-3",
+                    "lineNumbers": [12],
+                    "excerpt": "J'ball tellement fort mon rêve c'est d'être repêché",
+                    "explanation": "L'expression « to ball » signifie très bien performer dans un sport, ou « dominer le jeu » (dans la rue ou sur un terrain). Elle signifie aussi de réussir socialement et mener un train de vie luxueux. Au Québec et en Amérique du Nord, être repêché signifie être sélectionné par une équipe professionnelle (LNH, NBA, etc.) lors de l'encan annuel des jeunes joueurs. Le mot « ball » peut référer autant au basketball qu'au fait de « flex » socialement dans le rap.",
+                    "keywords": ["ball", "to ball", "repêchage", "draft", "NBA", "LNH", "hockey", "basketball", "slang"]
+                },
+                {
+                    "id": "ref-mm-4",
+                    "lineNumbers": [13],
+                    "excerpt": "J'ball tellement fort mon rêve c'est d'être Micheal Jordan",
+                    "explanation": "Michael Jordan (né en 1963) est un ancien joueur de basketball professionnel américain, largement considéré comme le Greatest of all time (G.O.A.T.).",
+                    "keywords": ["Michael Jordan", "Micheal Jordan", "basketball", "NBA", "GOAT", "Chicago Bulls"]
+                },
+                {
+                    "id": "ref-mm-5",
+                    "lineNumbers": [14],
+                    "excerpt": "J'suis dans ma vielle Civic, mais c'quand même un foreign",
+                    "explanation": "En argot anglophone (notamment dans la culture hip-hop), le mot \"foreign\" (souvent associé à \"auto\") désigne une voiture de luxe importée, généralement européenne ou japonaise (comme une BMW, Mercedes, Ferrari ou Lamborghini). C'est un symbole de statut social et de richesse, Alors que les vielles Honda Civic sont assez communes et bas de gamme au Québec (et sont techniquement japonaise donc « foreign », mais loin du prestige associé au terme dans le rap américain)",
+                    "keywords": ["foreign", "Civic", "Honda Civic", "voiture", "slang hip-hop", "ironie"]
+                },
+                {
+                    "id": "ref-mm-6",
+                    "lineNumbers": [17],
+                    "excerpt": "Les canadiens jousent a soir, c'est tout le monde à Cage aux sports",
+                    "explanation": "La Cage — Brasserie sportive (anciennement connue sous le nom de La Cage aux Sports) est une chaîne de restaurants québécoise créée en 1984. Elle se spécialise dans l'ambiance sportive et festive, offrant la diffusion d'événements sportifs sur grands écrans, des bières et un menu inspiré de la cuisine de brasserie.",
+                    "keywords": ["La Cage aux Sports", "Cage aux sports", "brasserie sportive", "Canadiens de Montréal", "hockey", "restaurant"]
+                },
+                {
+                    "id": "ref-mm-7",
+                    "lineNumbers": [18],
+                    "excerpt": "Le serveur m'a amené d'la roquette j'pensais c'était Maurice Richard",
+                    "explanation": "Maurice « Rocket » Richard (1921–2000) est l'un des joueurs les plus légendaires de l'histoire du hockey sur glace et une icône culturelle majeure du Québec. Surnommé le « Rocket » en raison de sa vitesse explosive et de sa fougue sur la patinoire, il a disputé 18 saisons dans la Ligue nationale de hockey (LNH), toutes sous les couleurs des Canadiens de Montreal entre 1942 et 1960. « Roquette » est aussi le mot français pour l'arugula. Le serveur apporte la salade, mais le narrateur pense au surnom Rocket Richard.",
+                    "keywords": ["Maurice Richard", "Rocket Richard", "Canadiens de Montréal", "hockey", "LNH", "roquette", "arugula", "jeu de mots"]
+                },
+                {
+                    "id": "ref-mm-8",
+                    "lineNumbers": [21],
+                    "excerpt": "Fuck j'fais d'la dysmorphie corporelle",
+                    "explanation": "Le trouble dysmorphique corporel (TDC), ou dysmorphophobie, est un trouble mental grave caractérisé par une obsession maladive pour un ou plusieurs défauts physiques imaginaires ou mineurs.",
+                    "keywords": ["dysmorphie corporelle", "TDC", "dysmorphophobie", "trouble mental", "santé mentale"]
+                },
+                {
+                    "id": "ref-mm-9",
+                    "lineNumbers": [22],
+                    "excerpt": "J'veux m'envoler bin loin d'icitte, comme un cormoran",
+                    "explanation": "Le cormoran est un grand oiseau aquatique, excellent plongeur, appartenant à la famille des Phalacrocoracidae. le Cormoran à aigrettes (Phalacrocorax auritus) est le plus commun en Amérique du Nord, notamment au Québec.",
+                    "keywords": ["cormoran", "oiseau", "Québec", "cormoran à aigrettes"]
+                },
+                {
+                    "id": "ref-mm-10",
+                    "lineNumbers": [24],
+                    "excerpt": "Hier c'tait un movie j'pense j'suis Xavier Dolan",
+                    "explanation": "Xavier Dolan est un réalisateur, scénariste, producteur et acteur québécois. Il s'impose très jeune comme une figure incontournable du cinéma d'auteur international en accumulant les distinctions majeures, notamment au Festival de Cannes",
+                    "keywords": ["Xavier Dolan", "réalisateur", "cinéma québécois", "Cannes", "acteur", "scénariste"]
+                },
+                {
+                    "id": "ref-mm-11",
+                    "lineNumbers": [26],
+                    "excerpt": "J'aime bin ça moi les bines, c'est l'festival des cannes",
+                    "explanation": "Les « bines en canne » désignent de manière populaire et familière, en québécois, les fèves au lard vendues en conserve. Le terme « bine » est une adaptation phonétique directe du mot anglais bean (haricot).",
+                    "keywords": ["bines", "bines en canne", "fèves au lard", "conserve", "Québec", "jeu de mots"]
+                },
+                {
+                    "id": "ref-mm-12",
+                    "lineNumbers": [27, 28],
+                    "excerpt": "J'aime bin ça moi la tire m'en va à cabane à sucre / J'vais t'manger les oreilles le criss j'ai dit attache ta tuque",
+                    "explanation": "La cabane à sucre est un pilier de la culture et des traditions culinaires du Québec, désignant le lieu historique où l'on récolte l'eau d'érable au début du printemps pour la transformer en sirop. La tire à l'érable (ou tire sur la neige) est la friandise printanière par excellence au Québec. Elle consiste à verser du sirop d'érable chaud et épaissi sur de la neige fraîche, puis à le rouler autour d'un bâtonnet de bois pour former un bonbon mou et collant. Les oreilles de crisse sont un plat traditionnel québécois composé de morceaux de lard salé (le gras de dos du porc avec sa couenne) frits ou rôtis jusqu'à ce qu'ils deviennent extrêmement croustillants. Incontournables des repas de cabane à sucre, elles s'apparentent aux grattons ou aux couennes de porc soufflées d'autres cultures culinaires. L'expression québécoise « attacher sa tuque » (souvent complétée par « avec de la broche ») signifie se préparer à faire face à une situation difficile, intense, surprenante ou mouvementée.",
+                    "keywords": ["cabane à sucre", "tire d'érable", "oreilles de crisse", "attache ta tuque", "tradition québécoise", "érable"]
+                },
+                {
+                    "id": "ref-mm-13",
+                    "lineNumbers": [29],
+                    "excerpt": "Une croquée dans l'oreille bro j'm'appelle Mike Tyson",
+                    "explanation": "L'incident de l'oreille de Mike Tyson fait référence au scandale planétaire survenu le 28 juin 1997, lorsque le boxeur américain a mordu et arraché un morceau de l'oreille de son adversaire Evander Holyfield en plein combat.",
+                    "keywords": ["Mike Tyson", "Evander Holyfield", "boxe", "oreille", "1997", "incident"]
+                },
+                {
+                    "id": "ref-mm-14",
+                    "lineNumbers": [30],
+                    "excerpt": "C'est vraiment propre chez nous j'me suis acheté un nouveau Dyson",
+                    "explanation": "Dyson est une entreprise technologique britannique mondialement reconnue pour ses innovations révolutionnaires basées sur la technologie cyclonique et les moteurs numériques de haute précision. Initialement célèbre pour ses aspirateurs sans sac, la marque a largement diversifié son expertise dans le domaine de la beauté (soins capillaires) et du traitement de l'air.",
+                    "keywords": ["Dyson", "aspirateur", "technologie", "britannique", "cyclonique"]
+                },
+                {
+                    "id": "ref-mm-15",
+                    "lineNumbers": [31],
+                    "excerpt": "Mon bro y'est tellement high y'est penché su'l côté comme Micheal Jackson",
+                    "explanation": "Le fameux mouvement où Michael Jackson se penche en avant à un angle impossible de 45 degréss'appelle l'Anti-Gravity Lean. Dévoilée pour la toute première fois en 1987 dans le vidéoclip de la chanson Smooth Criminal, cette prouesse visuelle a été rendue possible grâce à une combinaison d'effets spéciaux (ou de machinerie sur scène) et d'un entraînement physique herculéen.",
+                    "keywords": ["Michael Jackson", "Anti-Gravity Lean", "Smooth Criminal", "45 degrés", "danse", "penché"]
+                },
+                {
+                    "id": "ref-mm-16",
+                    "lineNumbers": [32],
+                    "excerpt": "Il pensait qu'on était à LA, mais on était à Shannon",
+                    "explanation": "Shannon est une petite municipalité du Québec, donc énorme contraste avec Los Angeles.",
+                    "keywords": ["Shannon", "Québec", "Los Angeles", "LA", "contraste", "municipalité"]
+                },
+                {
+                    "id": "ref-mm-17",
+                    "lineNumbers": [33],
+                    "excerpt": "J'ai chier dans mon chien il s'appelait Hector",
+                    "explanation": "Personne ne sait ce que ça veut dire et comment on chie dans un chien, ni si Hector est un chien fictif ou réel.",
+                    "keywords": ["Hector", "chien", "mystère", "absurde"]
+                },
+                {
+                    "id": "ref-mm-18",
+                    "lineNumbers": [35],
+                    "excerpt": "J'ai vraiment mal au ventre, j'pense j'suis hypocondriaque",
+                    "explanation": "L'hypocondrie (aujourd'hui appelée « trouble anxiété liée à la maladie » dans le milieu médical) est un trouble psychologique caractérisé par une peur excessive et obsédante d'être atteint d'une maladie grave ou mortelle.",
+                    "keywords": ["hypocondrie", "hypocondriaque", "anxiété", "trouble anxieux", "santé mentale"]
+                },
+                {
+                    "id": "ref-mm-19",
+                    "lineNumbers": [37],
+                    "excerpt": "J'ai essayé d'jelké pis la j'suis vraiment slack",
+                    "explanation": "Le jelqing (parfois orthographié jelk) est une méthode manuelle d'étirement du pénis qui consiste à effectuer des mouvements de massage et de pression répétés, de la base vers le gland, dans le but d'augmenter sa longueur et sa circonférence. Bien que cette pratique soit très populaire sur les forums de discussion et les réseaux sociaux, la communauté médicale et urologique la déconseille fortement en raison de son inefficacité et de ses risques importants pour la santé sexuelle.",
+                    "keywords": ["jelqing", "jelk", "étirement", "santé sexuelle"]
+                },
+                {
+                    "id": "ref-mm-20",
+                    "lineNumbers": [42],
+                    "excerpt": "Y'avait pu rien au H&M j'suis allé au Ardenne",
+                    "explanation": "H&M et Ardenne sont tous deux des magasins de vêtements.",
+                    "keywords": ["H&M", "Ardenne", "magasin", "vêtements", "mode"]
+                },
+                {
+                    "id": "ref-mm-21",
+                    "lineNumbers": [59],
+                    "excerpt": "J'ai plein d'caries dans yeule, ma bouche on dirait un piano",
+                    "explanation": "Le clavier d'un piano acoustique standard compte exactement 88 touches, réparties entre 52 notes blanches et 36 notes noires.",
+                    "keywords": ["piano", "touches", "88 touches", "caries", "dents", "métaphore"]
+                },
+                {
+                    "id": "ref-mm-22",
+                    "lineNumbers": [62],
+                    "excerpt": "J'pas capable d'enlever mon cock ring, j'suis l'seigneur des anneaux",
+                    "explanation": "Cette ligne fait référence a la parodie de The Lord of the Ring, intitulée Lord of the Piercing, où Jack Black y incarne un elfe vulgaire et survolté. Lorsque Frodon demande ce qu'il doit faire de l'Anneau unique, le personnage de Jack Black révèle qu'il a utilisé l'artefact maléfique pour s'en faire un piercing génital (d'où le titre Lord of the Piercing).",
+                    "keywords": ["Seigneur des anneaux", "Lord of the Rings", "Lord of the Piercing", "Jack Black", "parodie", "anneau"]
+                },
+                {
+                    "id": "ref-mm-23",
+                    "lineNumbers": [63],
+                    "excerpt": "Plus personne qui m'dit beeehhh c'est l'silence des agneaux",
+                    "explanation": "Le Silence des agneaux (The Silence of the Lambs) est un chef-d'œuvre du thriller psychologique américain sorti en 1991, réalisé par Jonathan Demme.",
+                    "keywords": ["Silence des agneaux", "The Silence of the Lambs", "thriller", "1991", "Jonathan Demme", "agneaux"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Manon Massé",
+            "duration": "0:00",
+            "spotifyUrl": "https://open.spotify.com/intl-fr/track/2CpwG49FWVifN45QCsB0eD",
+            "lastSync": "2026-05-24"
         },
         {
             "id": "eric-duhaime",
@@ -823,7 +1672,7 @@
                 },
                 {
                     "line": 4,
-                    "text": "Y'a du ketchup sur ma chemise, j'l'ai mis dans l'lave-vaisselle"
+                    "text": "Y'a du ketchup sur ma chemise, je l'ai mis dans l'lave-vaisselle"
                 },
                 {
                     "line": 5,
@@ -831,7 +1680,7 @@
                 },
                 {
                     "line": 6,
-                    "text": "Mon exe elle m'disait qu'elle m'aimait mais c'tait des balivernes"
+                    "text": "Mon exe disait qu'elle m'aimait mais c'tait des balivernes"
                 },
                 {
                     "line": 7,
@@ -843,387 +1692,365 @@
                 },
                 {
                     "line": 9,
-                    "text": "Si on est c'qu'on mange, j'dois avoir mangé un gars fiable"
+                    "text": "Si on est c'qu'on mange, j'dois avoir mangé un gars fiable, attentionné et féministe de 6 pieds 4"
                 },
                 {
                     "line": 10,
-                    "text": "Attentionné et féministe de 6 pieds 4"
-                },
-                {
-                    "line": 11,
                     "text": "Appelle moi Quentin Tartino j'suis cinéaste"
                 },
                 {
+                    "line": 11,
+                    "text": "J'vie dans une paire de fesses j'suis videass"
+                },
+                {
                     "line": 12,
-                    "text": "J'vie dans une paire de fesses j'suis vidéass"
+                    "text": "J'ai grandi sur une Ferb, tu peux m'appeler Phinéas"
                 },
                 {
                     "line": 13,
-                    "text": "J'ai grandi sur une Pherb, tu peux m'appeler Phinéas"
+                    "text": "J'suis allergique au pollen, au fruits pis aux pistaches"
                 },
                 {
                     "line": 14,
-                    "text": "J'suis allergique au pollen, aux fruits pis aux pistaches"
-                },
-                {
-                    "line": 15,
                     "text": "J'suis né dans une écurie, mon cousin s'appelle Chefal"
                 },
                 {
+                    "line": 15,
+                    "text": "Ma blonde m'aime plus je l'sais j'ai compté mes pétales"
+                },
+                {
                     "line": 16,
-                    "text": "Ma blonde m'aime plus je l'sais j'ai compté les pétales"
+                    "text": "J'avance mon char comme dans les Pierre à feu faut je pédales"
                 },
                 {
                     "line": 17,
-                    "text": "J'avance mon char comme dans les Pierrafeu faut je pédales"
+                    "text": "Mon Bellavance préféré y passe à TV c'est Stéphane"
                 },
                 {
                     "line": 18,
-                    "text": "Mon Bellavance préféré il passe à TV c'est Stéphane"
-                },
-                {
-                    "line": 19,
                     "text": "Après TocTocToc je regarde toujours génial"
                 },
                 {
-                    "line": 20,
+                    "line": 19,
                     "text": "J'ai commencé la dance poteau j'ai l'air d'un gros kebab"
                 },
                 {
-                    "line": 21,
+                    "line": 20,
                     "text": "Mon père c'est le fucking chien dans Mickey j'm'appelle Justin Plutôt"
                 },
                 {
-                    "line": 22,
+                    "line": 21,
                     "text": "J'ai laissé ma femme pour Katy Perry j'm'appelle Justin Trudeau"
                 },
                 {
-                    "line": 23,
+                    "line": 22,
                     "text": "J'suis un éleveur j'ai pas d'blé, juste plein d'troupeaux"
                 },
                 {
-                    "line": 24,
+                    "line": 23,
                     "text": "J'me suis battu avec Éric Duhaime pis là j'suis champion d'judo"
                 },
                 {
-                    "line": 25,
+                    "line": 24,
                     "text": "J'me suis battu avec Marine Lepen j'fais du Jujitsu"
                 },
                 {
-                    "line": 26,
-                    "text": "Ricardo m'a dit marine le beigne mais y'avait un trou en dessous"
+                    "line": 25,
+                    "text": "Ricardo a dit marine le beigne mais y'avait un trou en dessous"
                 },
                 {
-                    "line": 27,
+                    "line": 26,
                     "text": "J't'un caliss de gros panda obèse, j'aime ça l'kung fu"
                 },
                 {
-                    "line": 28,
-                    "text": "J'suis un gentil combattant tu veux qu'j'te cogne où?"
+                    "line": 27,
+                    "text": "J't'un gentil combattant tu veux qu'j'te cogne où?"
                 },
                 {
-                    "line": 29,
+                    "line": 28,
                     "text": "J'voulais m'faire des nouveaux chums, j'me suis inscris à la zoomba"
                 },
                 {
-                    "line": 30,
+                    "line": 29,
                     "text": "Mon ami y'a une grosse touffe y'a une grosse tête de goomba"
                 },
                 {
-                    "line": 31,
+                    "line": 30,
                     "text": "T'as l'air d'une épinette j'te verrais bin dans une toundra"
                 },
                 {
-                    "line": 32,
+                    "line": 31,
                     "text": "J'fais des leg raise dans un pot d'beurre j'ai les coudes gras"
                 },
                 {
+                    "line": 32,
+                    "text": "Jdevrais vendre des couches tout le monde s'est chié dessus quand j'ai pull up"
+                },
+                {
                     "line": 33,
-                    "text": "J'devrais vendre des couches"
+                    "text": "J'ai laissé trainé mes couches sur le comptoir, tu m'veux pas comme colloque"
                 },
                 {
                     "line": 34,
-                    "text": "Tout le monde s'est chié dessus quand j'ai pull up"
-                },
-                {
-                    "line": 35,
-                    "text": "J'ai laissé trainé mes couches sur le comptoir"
-                },
-                {
-                    "line": 36,
-                    "text": "Tu m'veux pas comme colloque"
-                },
-                {
-                    "line": 37,
                     "text": "J'ai mangé des Vector, pis là j'te tire une méchante garnotte"
                 },
                 {
-                    "line": 38,
-                    "text": "Elle s'en est pris à Hector, j'ai tiré une méchante marmotte"
+                    "line": 35,
+                    "text": "Elle s'en est pris à Hector, j'lui ai tiré une méchante marmotte"
                 },
                 {
-                    "line": 39,
+                    "line": 36,
                     "text": "Donnes-moi toutes tes Labubus"
                 },
                 {
-                    "line": 40,
+                    "line": 37,
                     "text": "J'veux une étrange sacoche"
                 },
                 {
-                    "line": 41,
+                    "line": 38,
                     "text": "Elle m'frappe avec sa clavicule, c'tait une étrange taloche"
                 },
                 {
-                    "line": 42,
+                    "line": 39,
                     "text": "Jab, direct, crochet"
                 },
                 {
-                    "line": 43,
+                    "line": 40,
                     "text": "C'tait une séquence s'a coche"
                 },
                 {
-                    "line": 44,
+                    "line": 41,
                     "text": "Elle m'a volé toutes mes dents c'tait un immense jackpot"
                 },
                 {
-                    "line": 45,
+                    "line": 42,
                     "text": "Mon estomac crie famine j'ai dit ferme ta caliss de yeule"
                 },
                 {
-                    "line": 46,
+                    "line": 43,
                     "text": "J'ai perdu toute ma famille j'm'appelle Mathis Ledeuil"
                 },
                 {
-                    "line": 47,
+                    "line": 44,
                     "text": "J'me suis fait frappé par un char j'm'appelle Patrice Chevreuil"
                 },
                 {
-                    "line": 48,
+                    "line": 45,
                     "text": "J'suis un gros cochon j'm'appelle Jean Bon Bacon"
                 },
                 {
-                    "line": 49,
+                    "line": 46,
                     "text": "J'suis dirigeant du parti conservateur j'm'appelle Éric Duhaime"
                 },
                 {
-                    "line": 50,
+                    "line": 47,
                     "text": "Quand j'avais 6 ans j'ai chié dans mon lit j'm'appelle Éric Duhaime"
                 },
                 {
-                    "line": 51,
+                    "line": 48,
                     "text": "J'suis chef du parti Streetservateur j'suis Éric Dubled"
                 },
                 {
-                    "line": 52,
+                    "line": 49,
                     "text": "J'suis chef du parti Oseyvateur, j'suis Éric Dubread"
                 }
             ],
             "references": [
                 {
                     "id": "ref-ed-1",
-                    "lineNumbers": [
-                        1
-                    ],
-                    "excerpt": "J'suis avec Linguini, on est sur la Tour Eiffel",
-                    "explanation": "Référence à Linguini, le jeune chef cuisinier maladroit du film d'animation Pixar 'Ratatouille' (2007). La Tour Eiffel situe l'action à Paris, où se déroule le film",
-                    "keywords": [
-                        "Linguini",
-                        "Ratatouille",
-                        "Pixar",
-                        "Disney",
-                        "Tour Eiffel",
-                        "Paris",
-                        "chef cuisinier"
-                    ]
+                    "lineNumbers": [1],
+                    "excerpt": "J'suis avec linguini, on est sur la Tour Eiffel",
+                    "explanation": "Alfredo Linguini est l'un des personnage principales du film Pixar Ratatouille sorti en 2007. Le film se déroule dans la ville de Paris en France, où se trouve la Tour Eiffel.",
+                    "keywords": ["Linguini", "Alfredo Linguini", "Ratatouille", "Pixar", "2007", "Paris", "Tour Eiffel"]
                 },
                 {
                     "id": "ref-ed-2",
-                    "lineNumbers": [
-                        2
-                    ],
-                    "excerpt": "J'suis avec Fettuccini, on cook sur FL",
-                    "explanation": "Jeu de mots avec 'Fettuccini' (type de pâtes italiennes) suivant la référence à Linguini. FL fait référence à FL Studio, logiciel de production musicale populaire (DAW - Digital Audio Workstation)",
-                    "keywords": [
-                        "Fettuccini",
-                        "pâtes",
-                        "FL Studio",
-                        "production musicale",
-                        "DAW",
-                        "beat making"
-                    ]
+                    "lineNumbers": [2],
+                    "excerpt": "J'suis avec Fettuccini , on cook sur FL",
+                    "explanation": "Les fettuccine (« petits rubans ») sont une variété de pâtes longues d'origine italienne. FL Studio (anciennement FruityLoops) est une station de travail audio numérique (DAW) développée par la société belge Image-line. La ligne juxtapose cuisine italienne et production musicale comme si les deux activités étaient équivalentes. Le verbe anglais \"cook\" est aussi un slang rap moderne signifiant performer extrêmement bien en studio ou sur un beat.",
+                    "keywords": ["Fettuccini", "pâtes italiennes", "FL Studio", "FruityLoops", "DAW", "production musicale", "cook", "slang rap"]
                 },
                 {
                     "id": "ref-ed-3",
-                    "lineNumbers": [
-                        11
-                    ],
-                    "excerpt": "Appelle moi Quentin Tartino j'suis cinéaste",
-                    "explanation": "Jeu de mots brillant sur Quentin Tarantino, réalisateur culte américain connu pour Pulp Fiction, Kill Bill, Django Unchained. 'Tartino' fait référence aux tartines/tartes, continuant le thème culinaire de la chanson",
-                    "keywords": [
-                        "Quentin Tarantino",
-                        "Tartino",
-                        "réalisateur",
-                        "cinéaste",
-                        "Pulp Fiction",
-                        "Hollywood",
-                        "jeu de mots"
-                    ]
+                    "lineNumbers": [3],
+                    "excerpt": "J'suis avec MC Max, on met du déo sur nos aisselles",
+                    "explanation": "MC Max (à ne pas confondre avec le rappeur français du même nom) est un rappeur quebecois underground.",
+                    "keywords": ["MC Max", "rappeur", "Québec", "underground", "hip-hop"]
                 },
                 {
                     "id": "ref-ed-4",
-                    "lineNumbers": [
-                        13
-                    ],
-                    "excerpt": "J'ai grandi sur une Pherb, tu peux m'appeler Phinéas",
-                    "explanation": "Référence à 'Phineas and Ferb', série d'animation Disney Channel (2007-2015) suivant deux demi-frères inventeurs pendant leurs vacances d'été. Série culte génération 2000-2010",
-                    "keywords": [
-                        "Phineas and Ferb",
-                        "Phinéas et Ferb",
-                        "Disney Channel",
-                        "animation",
-                        "cartoon",
-                        "enfance"
-                    ]
+                    "lineNumbers": [5],
+                    "excerpt": "J'ai tout mangé la cire autours de mon babybell",
+                    "explanation": "Le babybel est un fromage à pâte pressée non cuite au lait de vache pasteurisé, reconnaissable à sa coque de cire rouge, Celle-ci est composée d'un mélange de paraffine, de cires microcristallines et de colorants naturels",
+                    "keywords": ["Babybel", "fromage", "cire rouge", "paraffine"]
                 },
                 {
                     "id": "ref-ed-5",
-                    "lineNumbers": [
-                        17
-                    ],
-                    "excerpt": "J'avance mon char comme dans les Pierrafeu faut je pédales",
-                    "explanation": "Référence à 'The Flintstones' (Les Pierrafeu), famille préhistorique iconique des cartoons Hanna-Barbera (années 60). Leur voiture en pierre se déplace en pédalant avec les pieds à travers le plancher",
-                    "keywords": [
-                        "Les Pierrafeu",
-                        "Flintstones",
-                        "Hanna-Barbera",
-                        "préhistoire",
-                        "voiture",
-                        "cartoon classique"
-                    ]
+                    "lineNumbers": [7],
+                    "excerpt": "J'suis fan de sauce brune, mais j'préfère les italiennes",
+                    "explanation": "Dans cette ligne, il y a une référence à la poutine italienne, qui est une variante classique où la sauce brune est remplacée ou mélangée à une sauce à spaghetti (ou sauce à la viande). On peut assumer qu'il s'agit ici aussi d'une préférence pour les bomba italiennes",
+                    "keywords": ["poutine italienne", "sauce brune", "sauce à spaghetti", "Québec", "bomba italienne"]
                 },
                 {
                     "id": "ref-ed-6",
-                    "lineNumbers": [
-                        18,
-                        19
-                    ],
-                    "excerpt": "Mon Bellavance préféré il passe à TV c'est Stéphane / Après TocTocToc je regarde toujours génial",
-                    "explanation": "Stéphane Bellavance est un animateur de télévision québécois. 'TocTocToc' et 'Génial' sont des émissions jeunesse québécoises populaires diffusées sur les ondes de Télé-Québec",
-                    "keywords": [
-                        "Stéphane Bellavance",
-                        "TocTocToc",
-                        "Génial",
-                        "Télé-Québec",
-                        "émission jeunesse",
-                        "télévision québécoise",
-                        "animateur"
-                    ]
+                    "lineNumbers": [10],
+                    "excerpt": "Appelle moi Quentin Tartino j'suis cinéaste",
+                    "explanation": "Quentin Tarantino (né le 27 mars 1963) est un réalisateur, scénariste et acteur américain. « Tartino » est volontairement une mauvaise prononciation/parodie de Tarantino.",
+                    "keywords": ["Quentin Tarantino", "Tartino", "réalisateur", "cinéaste", "parodie", "jeu de mots"]
                 },
                 {
                     "id": "ref-ed-7",
-                    "lineNumbers": [
-                        21,
-                        22
-                    ],
-                    "excerpt": "Mon père c'est le fucking chien dans Mickey j'm'appelle Justin Plutôt / J'ai laissé ma femme pour Katy Perry j'm'appelle Justin Trudeau",
-                    "explanation": "Double référence : Pluto (Plutôt), le chien de Mickey Mouse, et Justin Trudeau, ancien Premier Ministre du Canada qui s'est séparé de Sophie Grégoire en 2023. Jeu de mots 'Justin Plutôt' combinant les deux références",
-                    "keywords": [
-                        "Pluto",
-                        "Mickey Mouse",
-                        "Disney",
-                        "Justin Trudeau",
-                        "Premier Ministre",
-                        "Canada",
-                        "Katy Perry",
-                        "politique"
-                    ]
+                    "lineNumbers": [11],
+                    "excerpt": "J'vie dans une paire de fesses j'suis videass",
+                    "explanation": "Dans cette ligne, il y a un jeu de mot avec le fait de vivre dans « une paire de fesses » et le fait d'être vidéaste, la ligne fonctionne par destruction phonétique du mot original.",
+                    "keywords": ["vidéaste", "jeu de mots", "phonétique", "destruction phonétique"]
                 },
                 {
                     "id": "ref-ed-8",
-                    "lineNumbers": [
-                        24
-                    ],
-                    "excerpt": "J'me suis battu avec Éric Duhaime pis là j'suis champion d'judo",
-                    "explanation": "Éric Duhaime est un animateur radio et homme politique québécois, chef du Parti conservateur du Québec (PCQ). Figure controversée de la droite politique québécoise",
-                    "keywords": [
-                        "Éric Duhaime",
-                        "Parti conservateur du Québec",
-                        "PCQ",
-                        "politique québécoise",
-                        "radio",
-                        "droite"
-                    ]
+                    "lineNumbers": [12],
+                    "excerpt": "J'ai grandi sur une Ferb, tu peux m'appeler Phinéas",
+                    "explanation": "Dans cette ligne, il y a un jeu de mot phonétique avec ferme et Ferb, un personnage de la série « Phinéas et Ferb », une célèbre série animée américaine créée par Dan Povenmire et Jeff « Swampy » Marsh pour Disney Channel. Le jeu de mot fonctionne parce que \"Ferb\" et \"ferme\" sont phonétiquement proches en accent québécois relâché.",
+                    "keywords": ["Phinéas et Ferb", "Ferb", "ferme", "Disney Channel", "série animée", "jeu de mots phonétique", "accent québécois"]
                 },
                 {
                     "id": "ref-ed-9",
-                    "lineNumbers": [
-                        25,
-                        26
-                    ],
-                    "excerpt": "J'me suis battu avec Marine Lepen j'fais du Jujitsu / Ricardo m'a dit marine le beigne",
-                    "explanation": "Marine Le Pen, politicienne française d'extrême-droite, présidente du Rassemblement National. Ricardo fait référence à Ricardo Larrivée, chef cuisinier et animateur télé québécois très populaire avec ses émissions de recettes",
-                    "keywords": [
-                        "Marine Le Pen",
-                        "politique française",
-                        "Rassemblement National",
-                        "Ricardo Larrivée",
-                        "chef",
-                        "cuisine",
-                        "télévision"
-                    ]
+                    "lineNumbers": [15],
+                    "excerpt": "Ma blonde m'aime plus je l'sais j'ai compté mes pétales",
+                    "explanation": "« Compter les pétales » fait généralement référence à un jeu d'enfant ou à une métaphore romantique, le plus souvent associée à l'effeuillage de la marguerite pour savoir si une personne vous aime.",
+                    "keywords": ["compter les pétales", "marguerite", "effeuillage", "amour", "jeu d'enfant"]
                 },
                 {
                     "id": "ref-ed-10",
-                    "lineNumbers": [
-                        27
-                    ],
-                    "excerpt": "J't'un caliss de gros panda obèse, j'aime ça l'kung fu",
-                    "explanation": "Référence à 'Kung Fu Panda', franchise de films d'animation DreamWorks (2008-) où Po, un panda géant gourmand, devient maître de kung-fu. Films cultes mêlant humour et arts martiaux",
-                    "keywords": [
-                        "Kung Fu Panda",
-                        "DreamWorks",
-                        "Po",
-                        "panda",
-                        "animation",
-                        "kung-fu",
-                        "arts martiaux"
-                    ]
+                    "lineNumbers": [16],
+                    "excerpt": "J'avance mon char comme dans les Pierre à feu faut je pédales",
+                    "explanation": "Dans la série « Pierrafeu », les véhicules des cavernes sont principalement mis en marche et maintenus en mouvement grâce à la bonne vieille force des jambes . Plus on pédale vite, plus le véhicule peut aller vite.",
+                    "keywords": ["Pierrafeu", "Pierre à feu", "Flintstones", "cartoon", "voiture", "pédaler"]
                 },
                 {
                     "id": "ref-ed-11",
-                    "lineNumbers": [
-                        30
-                    ],
-                    "excerpt": "Mon ami y'a une grosse touffe y'a une grosse tête de goomba",
-                    "explanation": "Les Goombas sont les ennemis iconiques en forme de champignon dans la franchise Super Mario de Nintendo. Petites créatures brunes avec une grosse tête et pas de cou, premiers ennemis du jeu original",
-                    "keywords": [
-                        "Goomba",
-                        "Super Mario",
-                        "Mario Bros",
-                        "Nintendo",
-                        "champignon",
-                        "jeux vidéo",
-                        "ennemi"
-                    ]
+                    "lineNumbers": [17, 18],
+                    "excerpt": "Mon Bellavance préféré y passe à TV c'est Stéphane / Après TocTocToc je regarde toujours génial",
+                    "explanation": "Stéphane Bellavance est un comédien, un animateur et un improvisateur. Après ses quatre années d'études à l'École nationale de théâtre, il tente de faire son nom et c'est l'arrivée de la nouvelle chaîne de télévision, VRAK Tv, en 2001 qui lui permet de le faire. Toc Toc Toc est une célèbre série télévisée jeunesse québécoise. Diffusée pour la première fois en 2007, cette émission éducative suit les aventures fantastiques des habitants d'un village pittoresque qui utilisent un train-fusée pour explorer le monde et résoudre des mystères. Génial! est un jeu-questionnaire scientifique québécois très populaire diffusé sur Télé-Québec, animé par Stéphane Bellavance.",
+                    "keywords": ["Stéphane Bellavance", "TocTocToc", "Toc Toc Toc", "Génial", "VRAK TV", "Télé-Québec", "émission jeunesse", "animateur"]
                 },
                 {
                     "id": "ref-ed-12",
-                    "lineNumbers": [
-                        49,
-                        50,
-                        51,
-                        52
-                    ],
-                    "excerpt": "J'suis dirigeant du parti conservateur j'm'appelle Éric Duhaime / Quand j'avais 6 ans j'ai chié dans mon lit j'm'appelle Éric Duhaime / J'suis chef du parti Streetservateur j'suis Éric Dubled / J'suis chef du parti Oseyvateur, j'suis Éric Dubread",
-                    "explanation": "Suite de jeux de mots autour d'Éric Duhaime et du Parti conservateur : 'Streetservateur', 'Oseyvateur' (O.C. = Parti conservateur) et variations de son nom (Dubled, Dubread). Moquerie satirique du personnage politique et de son parti",
-                    "keywords": [
-                        "Éric Duhaime",
-                        "Parti conservateur",
-                        "satire politique",
-                        "jeux de mots",
-                        "Québec",
-                        "politique"
-                    ]
+                    "lineNumbers": [19],
+                    "excerpt": "J'ai commencé la dance poteau j'ai l'air d'un gros kebab",
+                    "explanation": "Cette ligne fait référence à la fameuse broche verticale (souvent appelée \"poteau\" ou \"totem\") sur laquelle s'empilent les fines tranches de viande pour cuire au feu de bois ou au gril rotatif.",
+                    "keywords": ["pole dance", "dance poteau", "kebab", "broche verticale", "viande"]
+                },
+                {
+                    "id": "ref-ed-13",
+                    "lineNumbers": [21],
+                    "excerpt": "J'ai laissé ma femme pour Katy Perry j'm'appelle Justin Trudeau",
+                    "explanation": "Katy Perry et l'ancien Premier ministre canadien Justin Trudeau forment officiellement un couple très médiatisé. Leur idylle a commencé à l'été 2025 avec un dîner remarqué à Montréal, avant d'être officialisée à l'automne lors d'un séjour à Paris. Justin Trudeau n'a pas quitté sa femme pour Katy Perry, il s'agit tout simplement d'une blague hyperbolique.",
+                    "keywords": ["Justin Trudeau", "Katy Perry", "Premier ministre", "Canada", "couple", "2025", "blague"]
+                },
+                {
+                    "id": "ref-ed-14",
+                    "lineNumbers": [22],
+                    "excerpt": "J'suis un éleveur j'ai pas d'blé, juste plein d'troupeaux",
+                    "explanation": "Au sens économique, le « blé » est synonyme d'argent.",
+                    "keywords": ["blé", "argent", "slang", "éleveur", "troupeaux"]
+                },
+                {
+                    "id": "ref-ed-15",
+                    "lineNumbers": [23],
+                    "excerpt": "J'me suis battu avec Éric Duhaime pis là j'suis champion d'judo",
+                    "explanation": "Éric Duhaime (né en 1969) est un homme politique, auteur et ancien animateur de radio québécois. Il est surtout connu pour diriger le Parti conservateur du Québec (PCQ) depuis avril 2021 et pour ses positions politiques axées sur le conservatisme, le libre marché et la décentralisation.",
+                    "keywords": ["Éric Duhaime", "PCQ", "Parti conservateur du Québec", "politique", "radio", "conservatisme"]
+                },
+                {
+                    "id": "ref-ed-16",
+                    "lineNumbers": [24],
+                    "excerpt": "J'me suis battu avec Marine Lepen j'fais du Jujitsu",
+                    "explanation": "Marine Le Pen est une femme politique et avocate française née en 1968. Figure majeure de l'extrême droite, elle a présidé le parti du Rassemblement National (ex-Front National) de 2011 à 2021. Elle a également été candidate à plusieurs reprises à l'élection présidentielle française.",
+                    "keywords": ["Marine Le Pen", "Rassemblement National", "Front National", "politique française", "extrême droite"]
+                },
+                {
+                    "id": "ref-ed-17",
+                    "lineNumbers": [25],
+                    "excerpt": "Ricardo a dit marine le beigne mais y'avait un trou en dessous",
+                    "explanation": "Ricardo » (Ricardo Larrivée) est un chef cuisinier, animateur et entrepreneur québécois. Il est l'une des figures culturelles et médiatiques les plus influentes de la province. Son empire culinaire, Ricardo Média, propose des milliers de recettes, des magazines et des accessoires de cuisine.",
+                    "keywords": ["Ricardo", "Ricardo Larrivée", "chef", "cuisine", "Québec", "Ricardo Média"]
+                },
+                {
+                    "id": "ref-ed-18",
+                    "lineNumbers": [26],
+                    "excerpt": "J't'un caliss de gros panda obèse, j'aime ça l'kung fu",
+                    "explanation": "Cette ligne fait référence à Kung Fu Panda, une célèbre franchise de films d'animation produite par DreamWorks",
+                    "keywords": ["Kung Fu Panda", "DreamWorks", "animation", "panda", "Po", "kung-fu"]
+                },
+                {
+                    "id": "ref-ed-19",
+                    "lineNumbers": [29],
+                    "excerpt": "Mon ami y'a une grosse touffe y'a une grosse tête de goomba",
+                    "explanation": "Le « Goomba » est une espèce fictive de champignon bipède dépourvue de bras, avec des yeux et une bouche et des dents pointues. Elle fait partie de l'univers de Super Mario Bros.",
+                    "keywords": ["Goomba", "Super Mario", "Mario Bros", "Nintendo", "champignon", "ennemi"]
+                },
+                {
+                    "id": "ref-ed-20",
+                    "lineNumbers": [31],
+                    "excerpt": "J'fais des leg raise dans un pot d'beurre j'ai les coudes gras",
+                    "explanation": "En français, \"leg raise\" se traduit par \"relevé de jambe\" (ou \"levée de jambes\"). En musculation, c'est un exercice de gainage ciblant principalement les abdominaux et les fléchisseurs de la hanche. Dans un cadre médical, cela désigne le test de Lasègue, servant à évaluer les douleurs lombaires.",
+                    "keywords": ["leg raise", "relevé de jambe", "musculation", "abdominaux", "exercice", "gainage"]
+                },
+                {
+                    "id": "ref-ed-21",
+                    "lineNumbers": [32],
+                    "excerpt": "Jdevrais vendre des couches tout le monde s'est chié dessus quand j'ai pull up",
+                    "explanation": "Cette ligne fait référence aux « pull-ups » (ou culottes d'apprentissage), qui sont des couches à enfiler qui s'enfilent et se retirent comme de vrais sous-vêtements. « Pull up » est une expression anglaise signifiant d'arriver quelque part/arriver à l'improviste.",
+                    "keywords": ["pull-ups", "couches", "pull up", "arriver", "expression anglaise"]
+                },
+                {
+                    "id": "ref-ed-22",
+                    "lineNumbers": [33],
+                    "excerpt": "J'ai laissé trainé mes couches sur le comptoir, tu m'veux pas comme colloque",
+                    "explanation": "Ça sentait très fort",
+                    "keywords": ["couches", "odeur", "collègue"]
+                },
+                {
+                    "id": "ref-ed-23",
+                    "lineNumbers": [34],
+                    "excerpt": "J'ai mangé des Vector, pis là j'te tire une méchante garnotte",
+                    "explanation": "La « garnotte » représente un ensemble de petit cailloux qui recouvrent une chaussée, d'un terrain, d'une allée, etc. ; gros gravier. Dans le domaine sportif (baseball, hockey), « tirer une méchante garnotte » désigne un tir puissant. Les céréale Vector contient des quantités élevées de protéines, de fibres ajoutées et de vitamines, ce qui peut causer des troubles digestifs comme la diarrhée chez certaines personnes. On peut donc conclure que cette ligne implique que les cereales ont causé un gros trouble digestif a monsieur.",
+                    "keywords": ["Vector", "céréales", "garnotte", "tirer une garnotte", "trouble digestif", "diarrhée"]
+                },
+                {
+                    "id": "ref-ed-24",
+                    "lineNumbers": [35],
+                    "excerpt": "Elle s'en est pris à Hector, j'lui ai tiré une méchante marmotte",
+                    "explanation": "Hector fait référence à la ligne suivante dans la chanson « Manon Massé » de SMS : J'ai chier dans mon chien, il s'appelait Hector. Personne ne sait ce que ça veut dire et comment on chie dans un chien, ni si Hector est un chien fictif ou réel.",
+                    "keywords": ["Hector", "Manon Massé", "SMS", "chien", "référence interne"]
+                },
+                {
+                    "id": "ref-ed-25",
+                    "lineNumbers": [45],
+                    "excerpt": "J'suis un gros cochon j'm'appelle Jean Bon Bacon",
+                    "explanation": "Ici il y a un jeu de mot avec « Jean Bon » (jambon), mais en enlevant de la subtilité avec le nom de famille « Bacon ».",
+                    "keywords": ["Jean Bon", "jambon", "bacon", "cochon", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ed-26",
+                    "lineNumbers": [47],
+                    "excerpt": "Quand j'avais 6 ans j'ai chié dans mon lit j'm'appelle Éric Duhaime",
+                    "explanation": "Cette information n'est pas confirmé, mais très probable",
+                    "keywords": ["Éric Duhaime", "enfance", "anecdote", "humour"]
+                },
+                {
+                    "id": "ref-ed-27",
+                    "lineNumbers": [48],
+                    "excerpt": "J'suis chef du parti Streetservateur j'suis Éric Dubled",
+                    "explanation": "Issu de l'arabe balad (qui signifie pays ou région), le mot s'est intégré au langage familier francophone. Il désigne un petit village, une contrée isolée ou, pour les personnes issues de l'immigration, le pays d'origine (ex : \"partir au bled\" en été). « La street » (de l'anglais street, signifiant « la rue ») est une expression argotique désignant l'espace public, la rue, ou plus largement la culture urbaine et la vie de quartier. Cet argot est très présent dans la musique hip-hop, les réseaux sociaux et le langage des jeunes.",
+                    "keywords": ["Streetservateur", "bled", "street", "culture urbaine", "hip-hop", "jeu de mots", "Éric Dubled"]
+                },
+                {
+                    "id": "ref-ed-28",
+                    "lineNumbers": [49],
+                    "excerpt": "J'suis chef du parti Oseyvateur, j'suis Éric Dubread",
+                    "explanation": "Dans le langage familier français, l'\"oseille\" est un synonyme populaire pour désigner l'argent liquide ou la monnaie (au même titre que le fric, le blé ou la thune).",
+                    "keywords": ["Oseyvateur", "oseille", "argent", "slang", "Éric Dubread", "jeu de mots"]
                 }
             ],
             "artist": "SMS",
