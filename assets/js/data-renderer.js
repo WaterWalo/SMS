@@ -75,7 +75,7 @@ function renderNav(navLabels, lang) {
       <li><a href="${homeUrl}">${navLabels.home}</a></li>
       <li><a href="${contactUrl}">${navLabels.contact}</a></li>
       <li><a href="${albumsUrl}">${navLabels.albums}</a></li>
-      <li><a href="search.html?lang=${lang}" class="genius-link">${navLabels.genius}</a></li>
+      <li><a href="search.html" class="genius-link">${navLabels.genius}</a></li>
     </ul>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -127,7 +127,7 @@ function initLogoEasterEgg(lang) {
 
             // Redirect to search page with current language parameter
             const currentLang = window.siteConfig?.lang || 'fr';
-            window.location.href = `search.html?lang=${currentLang}`;
+            window.location.href = `search.html`;
         }
     });
 

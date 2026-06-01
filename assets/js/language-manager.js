@@ -13,37 +13,27 @@
 
     /**
      * Detect current language from multiple sources (in order of priority):
-     * 1. URL parameter (?lang=fr or ?lang=en)
-     * 2. localStorage (previous user choice)
-     * 3. Default to French
+     * 1. localStorage (previous user choice)
+     * 2. Default to French
      * 
-     * NOTE: We deliberately do NOT use navigator.language for automatic detection
-     * to avoid SEO issues with Google not liking auto-redirects
+     * NOTE: Language is not encoded in the URL to keep clean URLs for SEO
      * 
      * @returns {string} Language code ('fr' or 'en')
      */
     function detectLanguage() {
-        // 1. Check URL parameter
-        const urlParams = new URLSearchParams(window.location.search);
-        const urlLang = urlParams.get('lang');
-        if (urlLang && SUPPORTED_LANGUAGES.includes(urlLang)) {
-            return urlLang;
-        }
-
-        // 2. Check localStorage (user preference from previous visit)
+        // 1. Check localStorage (user preference from previous visit)
         const storedLang = localStorage.getItem(STORAGE_KEY);
         if (storedLang && SUPPORTED_LANGUAGES.includes(storedLang)) {
             return storedLang;
         }
 
-        // 3. Default to French
+        // 2. Default to French
         return DEFAULT_LANGUAGE;
     }
 
     /**
      * Set the current language and update all related state
      * - Updates localStorage for persistence
-     * - Updates URL parameter using history.pushState (no page reload)
      * - Updates window.siteConfig for other scripts
      * - Triggers language change event for components to update
      * 
@@ -57,11 +47,6 @@
 
         // Update localStorage
         localStorage.setItem(STORAGE_KEY, lang);
-
-        // Update URL parameter without page reload
-        const url = new URL(window.location);
-        url.searchParams.set('lang', lang);
-        window.history.pushState({}, '', url);
 
         // Update global config
         window.siteConfig = window.siteConfig || {};
@@ -118,15 +103,6 @@
 
         // Store in localStorage for next visit
         localStorage.setItem(STORAGE_KEY, detectedLang);
-
-        // Update URL if needed (but only if URL param doesn't match detected lang)
-        const urlParams = new URLSearchParams(window.location.search);
-        const urlLang = urlParams.get('lang');
-        if (urlLang !== detectedLang) {
-            const url = new URL(window.location);
-            url.searchParams.set('lang', detectedLang);
-            window.history.replaceState({}, '', url);
-        }
 
         // Initialize switcher (deferred to ensure DOM is ready)
         if (document.readyState === 'loading') {

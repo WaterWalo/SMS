@@ -1,21 +1,21 @@
-# Redirects for SMS site migration from /en/ and /fr/ directories to unified pages with ?lang= parameter
+# Redirects for SMS site migration from /en/ and /fr/ directories to unified pages
 # This file follows Netlify/Cloudflare Pages redirect syntax
 # 301 = permanent redirect (important for SEO)
 
-# Redirect language directories to root with lang parameter
-/en/                    /?lang=en               301
-/fr/                    /?lang=fr               301
-/en                     /?lang=en               301
-/fr                     /?lang=fr               301
+# Redirect old language directories to root
+/en/                    /                       301
+/fr/                    /                       301
+/en                     /                       301
+/fr                     /                       301
 
 # Redirect about pages
-/en/about.html          /about.html?lang=en     301
-/fr/about.html          /about.html?lang=fr     301
+/en/about.html          /about.html             301
+/fr/about.html          /about.html             301
 
 # Redirect search pages (note: /fr/recherche.html now becomes /search.html)
-/en/search.html         /search.html?lang=en    301
-/fr/recherche.html      /search.html?lang=fr    301
+/en/search.html         /search.html            301
+/fr/recherche.html      /search.html            301
 
 # Default redirect for any other /en/ or /fr/ paths (catch-all)
-/en/*                   /:splat?lang=en         301
-/fr/*                   /:splat?lang=fr         301
+/en/*                   /:splat                 301
+/fr/*                   /:splat                 301
