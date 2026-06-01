@@ -1,0 +1,16 @@
+{
+  "name": "sms-site",
+  "version": "1.0.0",
+  "description": "Sad Mazda Songs – site statique",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "fuse.js": "^7.0.0",
+    "http-server": "^14.1.1"
+  }
+}

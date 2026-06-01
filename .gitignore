@@ -22,3 +22,8 @@ lyrics-temp.json
 lyrics-temp.json
 .vscode/tasks.json
 lyrics-temp.json
+.claude/launch.json
+node_modules/
+playwright-report/index.html
+test-results/.last-run.json
+tests/search.spec.js

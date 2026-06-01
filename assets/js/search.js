@@ -11,35 +11,35 @@
   let globalFuse = null;  // fuzzy search across all songs
 
   /* ── DOM ────────────────────────────────────────────────────────── */
-  const sidebarAlbums     = document.getElementById('sidebar-albums');
+  const sidebarAlbums = document.getElementById('sidebar-albums');
   const songHeadContainer = document.getElementById('song-head-container');
-  const lyricsContainer   = document.getElementById('lyrics-container');
-  const annotPanel        = document.getElementById('annot-panel');
-  const annotContent      = document.getElementById('annot-content');
-  const searchInput       = document.getElementById('search-input');
-  const searchClear       = document.getElementById('search-clear');
+  const lyricsContainer = document.getElementById('lyrics-container');
+  const annotPanel = document.getElementById('annot-panel');
+  const annotContent = document.getElementById('annot-content');
+  const searchInput = document.getElementById('search-input');
+  const searchClear = document.getElementById('search-clear');
 
   /* ── MOBILE DOM ─────────────────────────────────────────────────── */
-  const mobileMenuBtn       = document.getElementById('mobile-menu-btn');
-  const mobileSearchBtn     = document.getElementById('mobile-search-btn');
-  const mobileDrawerEl      = document.getElementById('mobile-drawer');
-  const mobileDrawerClose   = document.getElementById('mobile-drawer-close');
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileSearchBtn = document.getElementById('mobile-search-btn');
+  const mobileDrawerEl = document.getElementById('mobile-drawer');
+  const mobileDrawerClose = document.getElementById('mobile-drawer-close');
   const mobileDrawerContent = document.getElementById('mobile-drawer-content');
-  const mobileSearchInput   = document.getElementById('mobile-search-input');
+  const mobileSearchInput = document.getElementById('mobile-search-input');
   const mobileProjectsCount = document.getElementById('mobile-projects-count');
-  const mobileBackdrop      = document.getElementById('mobile-backdrop');
-  const mobileSheet         = document.getElementById('mobile-sheet');
-  const mobileSheetClose    = document.getElementById('mobile-sheet-close');
-  const sheetNum            = document.getElementById('sheet-num');
-  const sheetLine           = document.getElementById('sheet-line');
-  const sheetQuote          = document.getElementById('sheet-quote');
-  const sheetTitle          = document.getElementById('sheet-title');
-  const sheetTags           = document.getElementById('sheet-tags');
-  const sheetBody           = document.getElementById('sheet-body');
+  const mobileBackdrop = document.getElementById('mobile-backdrop');
+  const mobileSheet = document.getElementById('mobile-sheet');
+  const mobileSheetClose = document.getElementById('mobile-sheet-close');
+  const sheetNum = document.getElementById('sheet-num');
+  const sheetLine = document.getElementById('sheet-line');
+  const sheetQuote = document.getElementById('sheet-quote');
+  const sheetTitle = document.getElementById('sheet-title');
+  const sheetTags = document.getElementById('sheet-tags');
+  const sheetBody = document.getElementById('sheet-body');
 
   /* ── UTILS ──────────────────────────────────────────────────────── */
-  const isMobile  = () => window.innerWidth <= 768;
-  const isTablet  = () => window.innerWidth >= 769 && window.innerWidth <= 1200;
+  const isMobile = () => window.innerWidth <= 768;
+  const isTablet = () => window.innerWidth >= 769 && window.innerWidth <= 1200;
 
   function debounce(fn, wait) {
     let t;
@@ -63,13 +63,13 @@
       const album = map[song.albumId] || {};
       return {
         ...song,
-        albumTitle:  album.title    || song.title,
-        albumType:   album.type     || 'Single',
-        albumYear:   album.year     || song.year,
-        coverImage:  album.coverImage || '',
-        spotifyUrl:  album.spotifyUrl || '',
-        albumOrder:  album.order    ?? 999,
-        isNew:       album.isNew    || false
+        albumTitle: album.title || song.title,
+        albumType: album.type || 'Single',
+        albumYear: album.year || song.year,
+        coverImage: album.coverImage || '',
+        spotifyUrl: album.spotifyUrl || '',
+        albumOrder: album.order ?? 999,
+        isNew: album.isNew || false
       };
     });
   }
@@ -99,12 +99,12 @@
       if (!albumSongs.length) return;
       count++;
 
-      const hue   = HUES[idx % HUES.length];
+      const hue = HUES[idx % HUES.length];
       const group = document.createElement('div');
       group.className = 'album-group';
       group.dataset.albumId = album.id;
 
-      const head  = document.createElement('div');
+      const head = document.createElement('div');
       head.className = 'album-group__head';
 
       const glyph = document.createElement('div');
@@ -114,28 +114,28 @@
 
       if (album.coverImage) {
         const img = document.createElement('img');
-        img.src     = fixImgPath(album.coverImage);
-        img.alt     = '';
+        img.src = fixImgPath(album.coverImage);
+        img.alt = '';
         img.loading = 'lazy';
         glyph.appendChild(img);
       } else {
         glyph.textContent = glyphText(album.title);
       }
 
-      const headMeta  = document.createElement('div');
-      const titleEl   = document.createElement('p');
-      titleEl.className   = 'album-group__title';
+      const headMeta = document.createElement('div');
+      const titleEl = document.createElement('p');
+      titleEl.className = 'album-group__title';
       titleEl.textContent = album.title;
-      const metaEl    = document.createElement('p');
-      metaEl.className    = 'album-group__meta';
-      metaEl.textContent  = `${(album.type || 'Single').toUpperCase()} · ${album.year}`;
+      const metaEl = document.createElement('p');
+      metaEl.className = 'album-group__meta';
+      metaEl.textContent = `${(album.type || 'Single').toUpperCase()} · ${album.year}`;
       headMeta.append(titleEl, metaEl);
       head.append(glyph, headMeta);
 
       const ul = document.createElement('ul');
       ul.className = 'track-list';
       albumSongs.forEach(song => {
-        const li   = document.createElement('li');
+        const li = document.createElement('li');
         li.dataset.songId = song.id;
         const name = document.createElement('span');
         name.textContent = song.title;
@@ -173,16 +173,16 @@
 
   /* ── RENDER SONG HEADER ─────────────────────────────────────────── */
   function renderSongHead(song) {
-    const src      = fixImgPath(song.coverImage);
+    const src = fixImgPath(song.coverImage);
     const hasCover = !!src;
-    const year     = song.albumYear || song.year;
+    const year = song.albumYear || song.year;
 
     songHeadContainer.innerHTML = `
       <header class="song-head">
         <div class="cover${hasCover ? ' cover--has-img' : ''}" aria-hidden="true">
           ${hasCover
-            ? `<img src="${src}" alt="${song.albumTitle} cover" loading="lazy">`
-            : `<span class="cover__letter">${song.title[0]}</span>`}
+        ? `<img src="${src}" alt="${song.albumTitle} cover" loading="lazy">`
+        : `<span class="cover__letter">${song.title[0]}</span>`}
         </div>
         <div class="song-info">
           <div class="song-info__top">
@@ -214,7 +214,7 @@
   /* ── RENDER LYRICS ──────────────────────────────────────────────── */
   function renderLyrics(song) {
     // Build lineNumber → primary-ref map
-    const lineRefMap  = new Map();
+    const lineRefMap = new Map();
     const refIndexMap = new Map();
 
     (song.references || []).forEach((ref, idx) => {
@@ -243,7 +243,7 @@
       const ref = lineRefMap.get(lyric.line);
       if (ref) {
         const annSpan = document.createElement('span');
-        annSpan.className   = 'line-ann';
+        annSpan.className = 'line-ann';
         annSpan.textContent = lyric.text;
         annSpan.dataset.refId = ref.id;
 
@@ -273,7 +273,7 @@
     if (!ref) return;
 
     const refIdx = song.references.indexOf(ref) + 1;
-    const title  = (ref.keywords || []).slice(0, 2).join(' · ') || ref.excerpt.slice(0, 40);
+    const title = (ref.keywords || []).slice(0, 2).join(' · ') || ref.excerpt.slice(0, 40);
 
     // Highlight active lyric span
     document.querySelectorAll('.line-ann').forEach(el => {
@@ -282,13 +282,13 @@
 
     if (isMobile()) {
       // Fill bottom sheet
-      sheetNum.textContent   = String(refIdx);
-      sheetLine.textContent  = ref.lineNumbers?.[0] ?? '—';
+      sheetNum.textContent = String(refIdx);
+      sheetLine.textContent = ref.lineNumbers?.[0] ?? '—';
       sheetQuote.textContent = `« ${ref.excerpt} »`;
       sheetTitle.textContent = title;
-      sheetTags.innerHTML    = (ref.keywords || []).slice(0, 6)
+      sheetTags.innerHTML = (ref.keywords || []).slice(0, 6)
         .map(k => `<span class="tag">${k}</span>`).join('');
-      sheetBody.innerHTML    = ref.explanation || '';
+      sheetBody.innerHTML = ref.explanation || '';
 
       // Highlight the tapped lyric paragraph
       document.querySelectorAll('.lyrics p.is-sheet-active')
@@ -300,7 +300,7 @@
       mobileSheet.scrollTop = 0;
     } else {
       // Desktop / tablet: right panel (grid column on desktop, overlay on tablet)
-      const tagsHtml  = (ref.keywords || []).slice(0, 6)
+      const tagsHtml = (ref.keywords || []).slice(0, 6)
         .map(k => `<span class="tag">${k}</span>`).join('');
       const firstLine = ref.lineNumbers?.[0] ?? '—';
 
@@ -348,7 +348,7 @@
     // Init per-song Fuse on lyric lines
     activeFuse = new Fuse(song.lyrics, {
       keys: [{ name: 'text', weight: 1 }],
-      threshold: 0.35,
+      threshold: 0.2,
       includeMatches: true,
       minMatchCharLength: 2,
       ignoreLocation: true
@@ -373,11 +373,11 @@
 
     return new Fuse(items, {
       keys: [
-        { name: 'text',        weight: 2   },
+        { name: 'text', weight: 2 },
         { name: 'explanation', weight: 1.5 },
-        { name: 'keywords',    weight: 2.5 }
+        { name: 'keywords', weight: 2.5 }
       ],
-      threshold: 0.3,
+      threshold: 0.2,
       includeMatches: true,
       minMatchCharLength: 2,
       ignoreLocation: true
@@ -389,7 +389,7 @@
     const matched = new Set(fuseResults.map(r => String(r.item.line)));
     document.querySelectorAll('#lyrics-container p[data-line]').forEach(p => {
       const hit = matched.has(p.dataset.line);
-      p.classList.toggle('is-match',  hit);
+      p.classList.toggle('is-match', hit);
       p.classList.toggle('is-dimmed', !hit);
     });
   }
@@ -427,31 +427,36 @@
       return;
     }
 
-    // 1. Search within active song first
-    if (activeFuse && currentSong) {
-      const inSongResults = activeFuse.search(q);
-      if (inSongResults.length > 0) {
-        highlightLyricLines(inSongResults);
-        restoreAllTracks();
-        return;
-      }
-    }
-
-    // 2. No in-song matches → search globally, filter sidebar
-    clearHighlights();
-    const globalResults  = globalFuse.search(q).slice(0, 50);
+    // 1. Global search — always computed first so the sidebar stays in sync
+    const globalResults = globalFuse.search(q).slice(0, 50);
     const matchingSongIds = [...new Set(globalResults.map(r => r.item.songId))];
 
     if (matchingSongIds.length === 0) {
+      clearHighlights();
       document.querySelectorAll('.track-list li').forEach(li => li.classList.add('is-hidden'));
       document.querySelectorAll('.album-group').forEach(g => { g.style.display = 'none'; });
       return;
     }
 
+    // Filter sidebar based on global matches (keeps it filtered even when the
+    // active song itself has in-song results — fixes the restoreAllTracks bug)
     filterSidebar(matchingSongIds);
 
-    // Auto-select first matched song if it differs from current
-    if (matchingSongIds[0] !== currentSong?.id) {
+    // 2. Highlight matching lines within the active song
+    if (activeFuse && currentSong) {
+      const inSongResults = activeFuse.search(q);
+      if (inSongResults.length > 0) {
+        highlightLyricLines(inSongResults);
+        return;
+      }
+    }
+
+    // 3. No in-song matches → auto-navigate to first globally matched song,
+    //    but only if the current song is not itself in the result set.
+    //    (Avoids re-routing when the user manually clicks a globally-matched
+    //    song that has no in-song match for the query.)
+    clearHighlights();
+    if (!matchingSongIds.includes(currentSong?.id)) {
       loadSong(matchingSongIds[0]);
     }
   }
@@ -499,46 +504,46 @@
 
   /* Touch swipe-down to close the bottom sheet */
   let _swipeStartY = 0;
-  let _swipeDelta  = 0;
+  let _swipeDelta = 0;
 
   mobileSheet.addEventListener('touchstart', e => {
     _swipeStartY = e.touches[0].clientY;
-    _swipeDelta  = 0;
+    _swipeDelta = 0;
   }, { passive: true });
 
   mobileSheet.addEventListener('touchmove', e => {
     _swipeDelta = e.touches[0].clientY - _swipeStartY;
     if (_swipeDelta > 0) {
       mobileSheet.style.transition = 'none';
-      mobileSheet.style.transform  = `translateY(${_swipeDelta}px)`;
+      mobileSheet.style.transform = `translateY(${_swipeDelta}px)`;
     }
   }, { passive: true });
 
   mobileSheet.addEventListener('touchend', () => {
     mobileSheet.style.transition = '';
-    mobileSheet.style.transform  = '';
+    mobileSheet.style.transform = '';
     if (_swipeDelta > 80) closeSheet();
     _swipeDelta = 0;
   });
 
   /* ── INIT ────────────────────────────────────────────────────────── */
   try {
-    const data  = await loadData();
-    albumsData  = data.albums;
-    songsData   = enrichSongsWithAlbums(data.lyrics.songs, data.albums);
+    const data = await loadData();
+    albumsData = data.albums;
+    songsData = enrichSongsWithAlbums(data.lyrics.songs, data.albums);
 
     buildSidebar(songsData, albumsData);
     buildMobileDrawer(songsData, albumsData);
     globalFuse = initGlobalFuse(songsData);
 
     // Determine initial song: URL param → localStorage → first by order
-    const params      = new URLSearchParams(window.location.search);
-    const paramSong   = params.get('song');
-    const lastSongId  = localStorage.getItem('genie-last-song');
-    const sorted      = [...songsData].sort((a, b) => a.albumOrder - b.albumOrder);
-    const initialId   = (paramSong   && songsData.find(s => s.id === paramSong))   ? paramSong
-                      : (lastSongId  && songsData.find(s => s.id === lastSongId))  ? lastSongId
-                      : sorted[0]?.id;
+    const params = new URLSearchParams(window.location.search);
+    const paramSong = params.get('song');
+    const lastSongId = localStorage.getItem('genie-last-song');
+    const sorted = [...songsData].sort((a, b) => a.albumOrder - b.albumOrder);
+    const initialId = (paramSong && songsData.find(s => s.id === paramSong)) ? paramSong
+      : (lastSongId && songsData.find(s => s.id === lastSongId)) ? lastSongId
+        : sorted[0]?.id;
 
     if (initialId) loadSong(initialId);
 
