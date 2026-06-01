@@ -65,8 +65,8 @@ function renderNav(navLabels, lang) {
 
     // Logo: link to index on about/search pages, just text on index pages
     const logoHtml = (isAboutPage || isSearchPage)
-        ? `<a href="index.html" class="nav-logo">SMS</a>`
-        : `<span class="nav-logo">SMS</span>`;
+        ? `<a href="index.html" class="nav-logo"></a>`
+        : `<a href="index.html" class="nav-logo"></a>`;
 
     nav.innerHTML = `
     ${logoHtml}
