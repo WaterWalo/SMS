@@ -5,15 +5,13 @@
 (async function () {
     try {
         // ── LOAD ALL DATA IN PARALLEL ─────────────────────────────────────
-        // All files are now at root level, so data path is always ./data/
         const basePath = './data/';
-
-        const [albums, social, content, config] = await Promise.all([
-            fetch(basePath + 'albums.json').then(r => r.json()),
-            fetch(basePath + 'social.json').then(r => r.json()),
-            fetch(basePath + 'content.json').then(r => r.json()),
-            fetch(basePath + 'config.json').then(r => r.json())
-        ]);
+        const [albums, social, content, config] = await window.SMSUtils.loadJSON(
+            basePath + 'albums.json',
+            basePath + 'social.json',
+            basePath + 'content.json',
+            basePath + 'config.json'
+        );
 
         // Get language from window.siteConfig (set by language-manager.js)
         const lang = window.siteConfig?.lang || 'fr';
@@ -255,29 +253,11 @@ function renderAlbums(albums, lang, newBadgeText) {
     }).join('');
 
     // Trigger reveal animation for dynamically generated albums
-    // Use setTimeout to ensure DOM is updated before observing
     setTimeout(() => {
-        const newRevealEls = albumsGrid.querySelectorAll('.reveal');
-        if ('IntersectionObserver' in window) {
-            const revealObserver = new IntersectionObserver(
-                function (entries) {
-                    entries.forEach(function (entry) {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            revealObserver.unobserve(entry.target);
-                        }
-                    });
-                },
-                { threshold: 0.12 }
-            );
-            newRevealEls.forEach(function (el) {
-                revealObserver.observe(el);
-            });
-        } else {
-            newRevealEls.forEach(function (el) {
-                el.classList.add('visible');
-            });
-        }
+        window.SMSUtils.createRevealObserver(
+            albumsGrid.querySelectorAll('.reveal'),
+            el => el.classList.add('visible')
+        );
     }, 10);
 }
 
@@ -289,7 +269,7 @@ function updateContent(content, config) {
     // Update all elements with data-i18n attributes
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        const value = getNestedValue(content, key);
+        const value = window.SMSUtils.getNestedValue(content, key);
 
         if (value !== undefined) {
             // Use innerHTML for content that contains HTML tags or entities
@@ -308,10 +288,3 @@ function updateContent(content, config) {
     }
 }
 
-/**
- * HELPER: Get nested object value from dot-notation string
- * Example: getNestedValue({bio: {intro: 'text'}}, 'bio.intro') => 'text'
- */
-function getNestedValue(obj, path) {
-    return path.split('.').reduce((current, key) => current?.[key], obj);
-}

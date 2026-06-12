@@ -1,14 +1,19 @@
 /* ═══════════════════════════════════════════════════════════════════
-   SEARCH.JS – Paroles viewer with Fuse.js fuzzy search
+   SEARCH.JS – Coordinator for the paroles viewer.
+   Loads data, builds the album sidebar/drawer, wires search + nav,
+   delegates rendering to lyrics-renderer and DOM lifecycle to mobile-drawer.
    ═══════════════════════════════════════════════════════════════════ */
 
 (async function () {
+  const Utils = window.SMSUtils;
+  const Engine = window.SMSSearchEngine;
+  const Lyrics = window.SMSLyricsRenderer;
+
   /* ── STATE ──────────────────────────────────────────────────────── */
   let songsData = [];
-  let albumsData = [];
   let currentSong = null;
-  let activeFuse = null;  // fuzzy search within the active song
-  let globalFuse = null;  // fuzzy search across all songs
+  let activeFuse = null;   // per-song Fuse
+  let globalFuse = null;   // cross-song Fuse
 
   /* ── DOM ────────────────────────────────────────────────────────── */
   const sidebarAlbums = document.getElementById('sidebar-albums');
@@ -23,37 +28,27 @@
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileSearchBtn = document.getElementById('mobile-search-btn');
   const mobileDrawerEl = document.getElementById('mobile-drawer');
-  const mobileDrawerClose = document.getElementById('mobile-drawer-close');
   const mobileDrawerContent = document.getElementById('mobile-drawer-content');
   const mobileSearchInput = document.getElementById('mobile-search-input');
   const mobileProjectsCount = document.getElementById('mobile-projects-count');
-  const mobileBackdrop = document.getElementById('mobile-backdrop');
-  const mobileSheet = document.getElementById('mobile-sheet');
-  const mobileSheetClose = document.getElementById('mobile-sheet-close');
-  const sheetNum = document.getElementById('sheet-num');
-  const sheetLine = document.getElementById('sheet-line');
-  const sheetQuote = document.getElementById('sheet-quote');
-  const sheetTitle = document.getElementById('sheet-title');
-  const sheetTags = document.getElementById('sheet-tags');
-  const sheetBody = document.getElementById('sheet-body');
 
-  /* ── UTILS ──────────────────────────────────────────────────────── */
-  const isMobile = () => window.innerWidth <= 768;
-  const isTablet = () => window.innerWidth >= 769 && window.innerWidth <= 1200;
+  const sheetRefs = {
+    sheetNum: document.getElementById('sheet-num'),
+    sheetLine: document.getElementById('sheet-line'),
+    sheetQuote: document.getElementById('sheet-quote'),
+    sheetTitle: document.getElementById('sheet-title'),
+    sheetTags: document.getElementById('sheet-tags'),
+    sheetBody: document.getElementById('sheet-body')
+  };
 
-  function debounce(fn, wait) {
-    let t;
-    return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); };
-  }
-
-  /* ── LOAD DATA ──────────────────────────────────────────────────── */
-  async function loadData() {
-    const [lyrics, albums] = await Promise.all([
-      fetch('./data/lyrics.json').then(r => r.json()),
-      fetch('./data/albums.json').then(r => r.json())
-    ]);
-    return { lyrics, albums };
-  }
+  const drawer = window.SMSMobileDrawer.create({
+    drawer: mobileDrawerEl,
+    drawerClose: document.getElementById('mobile-drawer-close'),
+    drawerSearchInput: mobileSearchInput,
+    sheet: document.getElementById('mobile-sheet'),
+    sheetClose: document.getElementById('mobile-sheet-close'),
+    backdrop: document.getElementById('mobile-backdrop')
+  });
 
   /* ── ENRICH SONGS WITH ALBUM DATA ───────────────────────────────── */
   function enrichSongsWithAlbums(songs, albums) {
@@ -74,21 +69,9 @@
     });
   }
 
-  /* ── SIDEBAR HELPERS ────────────────────────────────────────────── */
+  /* ── SIDEBAR / DRAWER BUILDERS ──────────────────────────────────── */
   const HUES = [200, 24, 332, 12, 160, 280, 48, 240];
 
-  function glyphText(title) {
-    const words = title.split(/\s+/).filter(Boolean);
-    if (words.length === 1) return words[0].slice(0, 2).toUpperCase();
-    return words.slice(0, 2).map(w => w[0]).join('').toUpperCase();
-  }
-
-  // albums.json paths are ../assets/img/... (relative to data/), fix for root HTML
-  function fixImgPath(path) {
-    return path ? path.replace(/^\.\.\//, '') : '';
-  }
-
-  /* ── BUILD ALBUM LIST (shared by sidebar + mobile drawer) ──────── */
   function buildAlbumList(songs, albums, container, onSongClick) {
     const sorted = [...albums].sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
     container.innerHTML = '';
@@ -114,12 +97,12 @@
 
       if (album.coverImage) {
         const img = document.createElement('img');
-        img.src = fixImgPath(album.coverImage);
+        img.src = Utils.fixImgPath(album.coverImage);
         img.alt = '';
         img.loading = 'lazy';
         glyph.appendChild(img);
       } else {
-        glyph.textContent = glyphText(album.title);
+        glyph.textContent = Utils.glyphText(album.title);
       }
 
       const headMeta = document.createElement('div');
@@ -151,256 +134,13 @@
     return count;
   }
 
-  /* ── BUILD SIDEBAR ──────────────────────────────────────────────── */
-  function buildSidebar(songs, albums) {
-    buildAlbumList(songs, albums, sidebarAlbums, id => loadSong(id));
-  }
-
-  /* ── BUILD MOBILE DRAWER ────────────────────────────────────────── */
-  function buildMobileDrawer(songs, albums) {
-    const count = buildAlbumList(songs, albums, mobileDrawerContent, id => {
-      loadSong(id);
-      closeDrawer();
-    });
-    if (mobileProjectsCount) mobileProjectsCount.textContent = count;
-  }
-
   function updateSidebarActive(songId) {
     document.querySelectorAll('.track-list li').forEach(li => {
       li.classList.toggle('is-current', li.dataset.songId === songId);
     });
   }
 
-  /* ── RENDER SONG HEADER ─────────────────────────────────────────── */
-  function renderSongHead(song) {
-    const src = fixImgPath(song.coverImage);
-    const hasCover = !!src;
-    const year = song.albumYear || song.year;
-
-    songHeadContainer.innerHTML = `
-      <header class="song-head">
-        <div class="cover${hasCover ? ' cover--has-img' : ''}" aria-hidden="true">
-          ${hasCover
-        ? `<img src="${src}" alt="${song.albumTitle} cover" loading="lazy">`
-        : `<span class="cover__letter">${song.title[0]}</span>`}
-        </div>
-        <div class="song-info">
-          <div class="song-info__top">
-            <span class="song-eyebrow">SMS · ${song.title.toUpperCase()} (${year})</span>
-            ${song.spotifyUrl ? `
-            <a class="listen-btn listen-btn--spotify"
-               href="${song.spotifyUrl}"
-               target="_blank"
-               rel="noopener noreferrer"
-               aria-label="Écouter sur Spotify (ouvre dans un nouvel onglet)">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
-              </svg>
-              Écouter sur Spotify
-            </a>` : ''}
-          </div>
-          <h1 class="song-title"><em>${song.title}</em><span class="dot">.</span></h1>
-          <div class="song-meta">
-            <span><strong>${year}</strong></span>
-            <span class="sep">◆</span>
-            <span>${song.albumType}</span>
-            <span class="sep">◆</span>
-            <span>${song.lyrics.length} lignes</span>
-          </div>
-        </div>
-      </header>`;
-  }
-
-  /* ── RENDER LYRICS ──────────────────────────────────────────────── */
-  function renderLyrics(song) {
-    // Build lineNumber → primary-ref map
-    const lineRefMap = new Map();
-    const refIndexMap = new Map();
-
-    (song.references || []).forEach((ref, idx) => {
-      refIndexMap.set(ref.id, idx + 1);
-      ref.lineNumbers.forEach(ln => {
-        if (!lineRefMap.has(ln)) lineRefMap.set(ln, ref);
-      });
-    });
-
-    lyricsContainer.innerHTML = '';
-
-    const STANZA_SIZE = 6;
-    let stanzaEl = document.createElement('div');
-    stanzaEl.className = 'stanza';
-
-    song.lyrics.forEach((lyric, idx) => {
-      if (idx > 0 && idx % STANZA_SIZE === 0) {
-        lyricsContainer.appendChild(stanzaEl);
-        stanzaEl = document.createElement('div');
-        stanzaEl.className = 'stanza';
-      }
-
-      const p = document.createElement('p');
-      p.dataset.line = lyric.line;
-
-      const ref = lineRefMap.get(lyric.line);
-      if (ref) {
-        const annSpan = document.createElement('span');
-        annSpan.className = 'line-ann';
-        annSpan.textContent = lyric.text;
-        annSpan.dataset.refId = ref.id;
-
-        const supSpan = document.createElement('span');
-        supSpan.className = 'ann-sup';
-        supSpan.setAttribute('aria-hidden', 'true');
-        supSpan.textContent = refIndexMap.get(ref.id);
-
-        const openAnnotation = e => { e.stopPropagation(); showAnnotation(song, ref.id); };
-        annSpan.addEventListener('click', openAnnotation);
-        supSpan.addEventListener('click', openAnnotation);
-
-        p.append(annSpan, supSpan);
-      } else {
-        p.textContent = lyric.text;
-      }
-
-      stanzaEl.appendChild(p);
-    });
-
-    lyricsContainer.appendChild(stanzaEl);
-  }
-
-  /* ── SHOW ANNOTATION ────────────────────────────────────────────── */
-  function showAnnotation(song, refId) {
-    const ref = (song.references || []).find(r => r.id === refId);
-    if (!ref) return;
-
-    const refIdx = song.references.indexOf(ref) + 1;
-    const title = (ref.keywords || []).slice(0, 2).join(' · ') || ref.excerpt.slice(0, 40);
-
-    // Highlight active lyric span
-    document.querySelectorAll('.line-ann').forEach(el => {
-      el.classList.toggle('is-active', el.dataset.refId === refId);
-    });
-
-    if (isMobile()) {
-      // Fill bottom sheet
-      sheetNum.textContent = String(refIdx);
-      sheetLine.textContent = ref.lineNumbers?.[0] ?? '—';
-      sheetQuote.textContent = `« ${ref.excerpt} »`;
-      sheetTitle.textContent = title;
-      sheetTags.innerHTML = (ref.keywords || []).slice(0, 6)
-        .map(k => `<span class="tag">${k}</span>`).join('');
-      sheetBody.innerHTML = ref.explanation || '';
-
-      // Highlight the tapped lyric paragraph
-      document.querySelectorAll('.lyrics p.is-sheet-active')
-        .forEach(el => el.classList.remove('is-sheet-active'));
-      const activePara = document.querySelector(`.line-ann[data-ref-id="${refId}"]`)?.closest('p');
-      if (activePara) activePara.classList.add('is-sheet-active');
-
-      openSheet();
-      mobileSheet.scrollTop = 0;
-    } else {
-      // Desktop / tablet: right panel (grid column on desktop, overlay on tablet)
-      const tagsHtml = (ref.keywords || []).slice(0, 6)
-        .map(k => `<span class="tag">${k}</span>`).join('');
-      const firstLine = ref.lineNumbers?.[0] ?? '—';
-
-      annotContent.innerHTML = `
-        <div class="annot__head">
-          <div class="annot__num">${refIdx}</div>
-          <div class="annot__label">
-            <strong>ANNOTATION</strong><span class="annot__label-detail"> · LIGNE ${firstLine} · ${song.title.toUpperCase()}</span>
-          </div>
-        </div>
-        <blockquote class="annot__quote">« ${ref.excerpt} »</blockquote>
-        <h2 class="annot__title">${title}</h2>
-        <div class="tags">${tagsHtml}</div>
-        <p class="annot__body">${ref.explanation}</p>`;
-
-      document.querySelector('.page').classList.add('has-annotation');
-      annotPanel.scrollTop = 0;
-    }
-  }
-
-  /* ── SHOW PLACEHOLDER (collapses the right column) ──────────────── */
-  function showAnnotPlaceholder() {
-    document.querySelector('.page').classList.remove('has-annotation');
-    document.querySelectorAll('.line-ann').forEach(el => el.classList.remove('is-active'));
-  }
-
-  /* ── LOAD SONG ──────────────────────────────────────────────────── */
-  function loadSong(songId) {
-    const song = songsData.find(s => s.id === songId);
-    if (!song) return;
-
-    currentSong = song;
-    localStorage.setItem('genie-last-song', songId);
-
-    // Update URL without reload
-    const url = new URL(window.location.href);
-    url.searchParams.set('song', songId);
-    history.pushState({}, '', url.toString());
-
-    updateSidebarActive(songId);
-    renderSongHead(song);
-    renderLyrics(song);
-    showAnnotPlaceholder();
-
-    // Init per-song Fuse on lyric lines
-    activeFuse = new Fuse(song.lyrics, {
-      keys: [{ name: 'text', weight: 1 }],
-      threshold: 0.2,
-      includeMatches: true,
-      minMatchCharLength: 2,
-      ignoreLocation: true
-    });
-
-    // Re-apply search highlight if query is active
-    const q = searchInput.value.trim();
-    if (q.length >= 2) handleSearch(q);
-  }
-
-  /* ── INIT GLOBAL FUSE ───────────────────────────────────────────── */
-  function initGlobalFuse(songs) {
-    const items = [];
-    songs.forEach(song => {
-      song.lyrics.forEach(lyric => {
-        items.push({ type: 'lyric', songId: song.id, text: lyric.text, line: lyric.line });
-      });
-      (song.references || []).forEach(ref => {
-        items.push({ type: 'reference', songId: song.id, text: ref.excerpt, explanation: ref.explanation, keywords: ref.keywords });
-      });
-    });
-
-    return new Fuse(items, {
-      keys: [
-        { name: 'text', weight: 2 },
-        { name: 'explanation', weight: 1.5 },
-        { name: 'keywords', weight: 2.5 }
-      ],
-      threshold: 0.2,
-      includeMatches: true,
-      minMatchCharLength: 2,
-      ignoreLocation: true
-    });
-  }
-
-  /* ── SEARCH: HIGHLIGHT IN-SONG ──────────────────────────────────── */
-  function highlightLyricLines(fuseResults) {
-    const matched = new Set(fuseResults.map(r => String(r.item.line)));
-    document.querySelectorAll('#lyrics-container p[data-line]').forEach(p => {
-      const hit = matched.has(p.dataset.line);
-      p.classList.toggle('is-match', hit);
-      p.classList.toggle('is-dimmed', !hit);
-    });
-  }
-
-  function clearHighlights() {
-    document.querySelectorAll('#lyrics-container p').forEach(p => {
-      p.classList.remove('is-match', 'is-dimmed');
-    });
-  }
-
-  /* ── SEARCH: FILTER SIDEBAR ─────────────────────────────────────── */
+  /* ── SIDEBAR FILTER ─────────────────────────────────────────────── */
   function filterSidebar(songIds) {
     const set = new Set(songIds);
     document.querySelectorAll('.track-list li').forEach(li => {
@@ -417,124 +157,108 @@
     document.querySelectorAll('.album-group').forEach(g => { g.style.display = ''; });
   }
 
+  function hideAllTracks() {
+    document.querySelectorAll('.track-list li').forEach(li => li.classList.add('is-hidden'));
+    document.querySelectorAll('.album-group').forEach(g => { g.style.display = 'none'; });
+  }
+
+  /* ── ANNOTATION ─────────────────────────────────────────────────── */
+  function showAnnotation(song, refId) {
+    const ref = (song.references || []).find(r => r.id === refId);
+    if (!ref) return;
+
+    const refIdx = song.references.indexOf(ref) + 1;
+    Lyrics.markAnnotationActive(refId);
+
+    if (Utils.isMobile()) {
+      Lyrics.renderAnnotationSheet(sheetRefs, ref, refIdx);
+      Lyrics.highlightActivePara(refId);
+      drawer.openSheet();
+      document.getElementById('mobile-sheet').scrollTop = 0;
+    } else {
+      Lyrics.renderAnnotationDesktop(annotContent, song, ref, refIdx);
+      document.querySelector('.page').classList.add('has-annotation');
+      annotPanel.scrollTop = 0;
+    }
+  }
+
+  function showAnnotPlaceholder() {
+    document.querySelector('.page').classList.remove('has-annotation');
+    Lyrics.clearAnnotationActive();
+  }
+
+  /* ── LOAD SONG ──────────────────────────────────────────────────── */
+  function loadSong(songId) {
+    const song = songsData.find(s => s.id === songId);
+    if (!song) return;
+
+    currentSong = song;
+    localStorage.setItem('genie-last-song', songId);
+
+    const url = new URL(window.location.href);
+    url.searchParams.set('song', songId);
+    history.pushState({}, '', url.toString());
+
+    updateSidebarActive(songId);
+    Lyrics.renderSongHead(songHeadContainer, song);
+    Lyrics.renderLyrics(lyricsContainer, song, refId => showAnnotation(song, refId));
+    showAnnotPlaceholder();
+
+    activeFuse = Engine.buildInSongFuse(song);
+
+    const q = searchInput.value.trim();
+    if (q.length >= 2) handleSearch(q);
+  }
+
   /* ── SEARCH HANDLER ─────────────────────────────────────────────── */
   function handleSearch(query) {
     const q = query.trim();
 
     if (q.length < 2) {
-      clearHighlights();
+      Lyrics.clearHighlights();
       restoreAllTracks();
       return;
     }
 
-    // 1. Global search — always computed first so the sidebar stays in sync
-    const globalResults = globalFuse.search(q).slice(0, 50);
-    const matchingSongIds = [...new Set(globalResults.map(r => r.item.songId))];
+    const { songIds } = Engine.searchGlobal(globalFuse, q);
 
-    if (matchingSongIds.length === 0) {
-      clearHighlights();
-      document.querySelectorAll('.track-list li').forEach(li => li.classList.add('is-hidden'));
-      document.querySelectorAll('.album-group').forEach(g => { g.style.display = 'none'; });
+    if (songIds.length === 0) {
+      Lyrics.clearHighlights();
+      hideAllTracks();
       return;
     }
 
-    // Filter sidebar based on global matches (keeps it filtered even when the
-    // active song itself has in-song results — fixes the restoreAllTracks bug)
-    filterSidebar(matchingSongIds);
+    filterSidebar(songIds);
 
-    // 2. Highlight matching lines within the active song
     if (activeFuse && currentSong) {
-      const inSongResults = activeFuse.search(q);
-      if (inSongResults.length > 0) {
-        highlightLyricLines(inSongResults);
+      const { results, lineSet } = Engine.searchInSong(activeFuse, q);
+      if (results.length > 0) {
+        Lyrics.highlightLyricLines(lineSet);
         return;
       }
     }
 
-    // 3. No in-song matches → auto-navigate to first globally matched song,
-    //    but only if the current song is not itself in the result set.
-    //    (Avoids re-routing when the user manually clicks a globally-matched
-    //    song that has no in-song match for the query.)
-    clearHighlights();
-    if (!matchingSongIds.includes(currentSong?.id)) {
-      loadSong(matchingSongIds[0]);
+    // No in-song match → auto-navigate to first globally matched song,
+    // unless the current song is already in the result set.
+    Lyrics.clearHighlights();
+    if (!songIds.includes(currentSong?.id)) {
+      loadSong(songIds[0]);
     }
   }
-
-  /* ── MOBILE DRAWER ──────────────────────────────────────────────── */
-  function openDrawer(focusSearch = false) {
-    mobileDrawerEl.classList.add('is-open');
-    mobileDrawerEl.setAttribute('aria-hidden', 'false');
-    mobileBackdrop.classList.add('is-visible');
-    document.body.style.overflow = 'hidden';
-    if (focusSearch) {
-      setTimeout(() => mobileSearchInput?.focus(), 320);
-    }
-  }
-
-  function closeDrawer() {
-    mobileDrawerEl.classList.remove('is-open');
-    mobileDrawerEl.setAttribute('aria-hidden', 'true');
-    if (!mobileSheet.classList.contains('is-open')) {
-      mobileBackdrop.classList.remove('is-visible');
-      document.body.style.overflow = '';
-    }
-  }
-
-  /* ── MOBILE BOTTOM SHEET ────────────────────────────────────────── */
-  function openSheet() {
-    mobileSheet.classList.add('is-open');
-    mobileSheet.setAttribute('aria-hidden', 'false');
-    mobileBackdrop.classList.add('is-visible');
-    document.body.style.overflow = 'hidden';
-  }
-
-  function closeSheet() {
-    mobileSheet.classList.remove('is-open');
-    mobileSheet.setAttribute('aria-hidden', 'true');
-    if (!mobileDrawerEl.classList.contains('is-open')) {
-      mobileBackdrop.classList.remove('is-visible');
-      document.body.style.overflow = '';
-    }
-    document.querySelectorAll('.lyrics p.is-sheet-active')
-      .forEach(el => el.classList.remove('is-sheet-active'));
-    document.querySelectorAll('.line-ann')
-      .forEach(el => el.classList.remove('is-active'));
-  }
-
-  /* Touch swipe-down to close the bottom sheet */
-  let _swipeStartY = 0;
-  let _swipeDelta = 0;
-
-  mobileSheet.addEventListener('touchstart', e => {
-    _swipeStartY = e.touches[0].clientY;
-    _swipeDelta = 0;
-  }, { passive: true });
-
-  mobileSheet.addEventListener('touchmove', e => {
-    _swipeDelta = e.touches[0].clientY - _swipeStartY;
-    if (_swipeDelta > 0) {
-      mobileSheet.style.transition = 'none';
-      mobileSheet.style.transform = `translateY(${_swipeDelta}px)`;
-    }
-  }, { passive: true });
-
-  mobileSheet.addEventListener('touchend', () => {
-    mobileSheet.style.transition = '';
-    mobileSheet.style.transform = '';
-    if (_swipeDelta > 80) closeSheet();
-    _swipeDelta = 0;
-  });
 
   /* ── INIT ────────────────────────────────────────────────────────── */
   try {
-    const data = await loadData();
-    albumsData = data.albums;
-    songsData = enrichSongsWithAlbums(data.lyrics.songs, data.albums);
+    const [lyrics, albums] = await Utils.loadJSON('./data/lyrics.json', './data/albums.json');
+    songsData = enrichSongsWithAlbums(lyrics.songs, albums);
 
-    buildSidebar(songsData, albumsData);
-    buildMobileDrawer(songsData, albumsData);
-    globalFuse = initGlobalFuse(songsData);
+    buildAlbumList(songsData, albums, sidebarAlbums, id => loadSong(id));
+    const drawerCount = buildAlbumList(songsData, albums, mobileDrawerContent, id => {
+      loadSong(id);
+      drawer.closeDrawer();
+    });
+    if (mobileProjectsCount) mobileProjectsCount.textContent = drawerCount;
+
+    globalFuse = Engine.buildGlobalFuse(songsData);
 
     // Determine initial song: URL param → localStorage → first by order
     const params = new URLSearchParams(window.location.search);
@@ -547,8 +271,8 @@
 
     if (initialId) loadSong(initialId);
 
-    // ── Search input events ──
-    const debouncedSearch = debounce(handleSearch, 300);
+    /* ── Search input events ── */
+    const debouncedSearch = Utils.debounce(handleSearch, 300);
 
     searchInput.addEventListener('input', e => {
       const q = e.target.value;
@@ -560,7 +284,7 @@
       if (e.key === 'Escape') {
         searchInput.value = '';
         searchClear.style.display = 'none';
-        clearHighlights();
+        Lyrics.clearHighlights();
         restoreAllTracks();
       }
     });
@@ -569,40 +293,39 @@
       searchInput.value = '';
       searchClear.style.display = 'none';
       searchInput.focus();
-      clearHighlights();
+      Lyrics.clearHighlights();
       restoreAllTracks();
     });
 
-    // ── Tablet annotation close ──
+    /* ── Annotation panel close (tablet) ── */
     document.getElementById('annot-close')?.addEventListener('click', showAnnotPlaceholder);
 
-    // Click outside annotation panel on tablet → ferme le panneau
     document.addEventListener('click', e => {
-      if (isTablet() && document.querySelector('.page').classList.contains('has-annotation')) {
+      if (Utils.isTablet() && document.querySelector('.page').classList.contains('has-annotation')) {
         if (!annotPanel.contains(e.target)) showAnnotPlaceholder();
       }
     });
 
-    // ── Mobile button events ──
-    mobileMenuBtn?.addEventListener('click', () => openDrawer(false));
-    mobileSearchBtn?.addEventListener('click', () => openDrawer(true));
-    mobileDrawerClose?.addEventListener('click', closeDrawer);
-    mobileSheetClose?.addEventListener('click', closeSheet);
-    mobileBackdrop?.addEventListener('click', () => { closeDrawer(); closeSheet(); });
-
-    // Mobile search input
-    mobileSearchInput?.addEventListener('input', e => {
-      debouncedSearch(e.target.value);
+    /* ── Mobile drawer + sheet wiring ── */
+    mobileMenuBtn?.addEventListener('click', () => drawer.openDrawer(false));
+    mobileSearchBtn?.addEventListener('click', () => drawer.openDrawer(true));
+    drawer.bindEvents({
+      onSheetClose: () => {
+        Lyrics.clearActivePara();
+        Lyrics.clearAnnotationActive();
+      }
     });
+
+    mobileSearchInput?.addEventListener('input', e => debouncedSearch(e.target.value));
     mobileSearchInput?.addEventListener('keydown', e => {
       if (e.key === 'Escape') {
         mobileSearchInput.value = '';
-        clearHighlights();
+        Lyrics.clearHighlights();
         restoreAllTracks();
       }
     });
 
-    // Handle browser back/forward
+    /* ── Browser back/forward ── */
     window.addEventListener('popstate', () => {
       const id = new URLSearchParams(window.location.search).get('song');
       if (id && id !== currentSong?.id) loadSong(id);
