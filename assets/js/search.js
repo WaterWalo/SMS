@@ -260,14 +260,20 @@
 
     globalFuse = Engine.buildGlobalFuse(songsData);
 
-    // Determine initial song: URL param → localStorage → first by order
-    const params = new URLSearchParams(window.location.search);
-    const paramSong = params.get('song');
+    // Determine initial song:
+    // Hash (#song=X) takes absolute priority — hashes survive server redirects unlike query params.
+    // Falls back to query param (?song=X), then localStorage, then first song.
+    const hashSong = new URLSearchParams(window.location.hash.slice(1)).get('song');
+    const querySong = new URLSearchParams(window.location.search).get('song');
+    const paramSong = hashSong || querySong;
     const lastSongId = localStorage.getItem('genie-last-song');
     const sorted = [...songsData].sort((a, b) => a.albumOrder - b.albumOrder);
-    const initialId = (paramSong && songsData.find(s => s.id === paramSong)) ? paramSong
-      : (lastSongId && songsData.find(s => s.id === lastSongId)) ? lastSongId
-        : sorted[0]?.id;
+    const initialId = paramSong
+      ? (songsData.find(s => s.id === paramSong)?.id ?? sorted[0]?.id)
+      : (lastSongId && songsData.find(s => s.id === lastSongId) ? lastSongId : sorted[0]?.id);
+
+    // Clean the hash from the URL without triggering a reload
+    if (hashSong) history.replaceState({}, '', window.location.pathname + window.location.search);
 
     if (initialId) loadSong(initialId);
 

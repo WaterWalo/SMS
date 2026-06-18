@@ -1,4 +1,19 @@
 [{
+        "id": "hector",
+        "title": "Hector",
+        "year": 2026,
+        "type": "Album",
+        "coverImage": "../assets/img/Hector.jpg",
+        "coverAlt": {
+            "en": "Hector – cover",
+            "fr": "Hector – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+        "geniusUrl": "search.html#song=ben-10",
+        "isNew": true,
+        "order": 0
+    },
+    {
         "id": "gaufre-spaghetti",
         "title": "Gaufre, spaghetti",
         "year": 2026,
@@ -9,22 +24,9 @@
             "fr": "Gaufre, spaghetti – cover"
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg",
+        "geniusUrl": "search.html#song=gaufre-spaghetti",
         "isNew": false,
         "order": 2
-    },
-    {
-        "id": "ben-10",
-        "title": "Ben 10",
-        "year": 2026,
-        "type": "Single",
-        "coverImage": "../assets/img/Ben10.jpg",
-        "coverAlt": {
-            "en": "Ben 10 – cover",
-            "fr": "Ben 10 – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/track/57ug8uW3nsqvYpdws0I1Xp?si=6b71b280e4584388",
-        "isNew": true,
-        "order": 1
     },
     {
         "id": "avec-politesse",
@@ -37,6 +39,7 @@
             "fr": "Avec Politesse – cover"
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA",
+        "geniusUrl": "search.html",
         "isNew": false,
         "order": 3
     },
@@ -51,6 +54,7 @@
             "fr": "Éric Duhaime – cover"
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw",
+        "geniusUrl": "search.html#song=eric-duhaime",
         "isNew": false,
         "order": 4
     },
@@ -65,22 +69,9 @@
             "fr": "Miss Steak – cover"
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w",
+        "geniusUrl": "search.html#song=miss-steak",
         "isNew": false,
         "order": 5
-    },
-    {
-        "id": "nadine",
-        "title": "Nadine",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "../assets/img/Nadine.jpg",
-        "coverAlt": {
-            "en": "Nadine – cover",
-            "fr": "Nadine – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/album/3VCPMKGzF9SM4dGr8gjdAb?si=GjkK25ZUTFS3vpoPBSe75w",
-        "isNew": false,
-        "order": 6
     },
     {
         "id": "barbies-resto-bar-grillz",
@@ -93,6 +84,7 @@
             "fr": "Barbies Resto Bar Grillz – cover"
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/track/2JGSAX8ZHyTMjrZCFT36Fs",
+        "geniusUrl": "search.html#song=barbies-resto-bar-grillz",
         "isNew": false,
         "order": 7
     },
@@ -107,6 +99,7 @@
             "fr": "Manon Massé – cover"
         },
         "spotifyUrl": "https://open.spotify.com/intl-fr/track/2CpwG49FWVifN45QCsB0eD",
+        "geniusUrl": "search.html#song=manon-masse",
         "isNew": false,
         "order": 8
     }

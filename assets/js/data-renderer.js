@@ -238,8 +238,8 @@ function renderAlbums(albums, lang, newBadgeText) {
 
         return `
       <a class="album-card reveal"
-        href="${album.spotifyUrl}"
-        target="_blank" rel="noopener noreferrer">
+        href="${album.geniusUrl || album.spotifyUrl}"
+        ${album.geniusUrl ? '' : 'target="_blank" rel="noopener noreferrer"'}>
         <div class="album-cover">
           <img src="${album.coverImage}" alt="${album.coverAlt[lang]}" loading="lazy">
         </div>

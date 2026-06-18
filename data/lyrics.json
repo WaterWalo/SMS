@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-18",
     "songs": [
         {
             "id": "gaufre-spaghetti",
@@ -241,7 +241,7 @@
         {
             "id": "ben-10",
             "title": "Ben 10",
-            "albumId": "ben-10",
+            "albumId": "hector",
             "year": 2026,
             "lyrics": [
                 {
@@ -564,15 +564,732 @@
                 }
             ],
             "artist": "SMS",
-            "album": "Ben 10",
+            "album": "Hector",
             "duration": null,
-            "spotifyUrl": "https://open.spotify.com/track/57ug8uW3nsqvYpdws0I1Xp",
-            "lastSync": "2026-05-24"
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "baby-back-ribs",
+            "title": "Baby Back Ribs",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "Elle lance le back, baby back, baby baby back ribs"
+                },
+                {
+                    "line": 2,
+                    "text": "Yea j'me bats avec mon cob, call moi baby Khabib"
+                },
+                {
+                    "line": 3,
+                    "text": "Deux minutes j'ai reçu trois checks, call moi baby hat trick"
+                },
+                {
+                    "line": 4,
+                    "text": "Tout dépensé sur mes jeans, j'laisse mon héritage triste"
+                },
+                {
+                    "line": 5,
+                    "text": "Elle lance le back, baby back, baby baby back ribs"
+                },
+                {
+                    "line": 6,
+                    "text": "Yea j'me bats avec mon cob, call moi baby Khabib"
+                },
+                {
+                    "line": 7,
+                    "text": "Deux minutes j'ai reçu trois checks, call moi baby hat trick"
+                },
+                {
+                    "line": 8,
+                    "text": "Tout dépensé sur mes jeans, j'laisse mon héritage triste"
+                },
+                {
+                    "line": 9,
+                    "text": "Ma gerbille c'est mon buddé,"
+                },
+                {
+                    "line": 10,
+                    "text": "Ma gerbille c'est mon âme sœur"
+                },
+                {
+                    "line": 11,
+                    "text": "L'autre jour j'lai pogner a gooner"
+                },
+                {
+                    "line": 12,
+                    "text": "A jelker sur Xhamster"
+                },
+                {
+                    "line": 13,
+                    "text": "Monsieur Craquepoutte il me fait peur"
+                },
+                {
+                    "line": 14,
+                    "text": "Y'est villain comme son coiffeur"
+                },
+                {
+                    "line": 15,
+                    "text": "Y'a des caliss de gros sourcils"
+                },
+                {
+                    "line": 16,
+                    "text": "Y'a des gros sourcils (what the FUCK MAN)"
+                },
+                {
+                    "line": 17,
+                    "text": "Ton frigo marche-tu encore? J'en ai rien à calisser"
+                },
+                {
+                    "line": 18,
+                    "text": "Tu dis que j'me pogne toujours l'beigne? J'ai eu faim à t'écouter"
+                },
+                {
+                    "line": 19,
+                    "text": "J'ai pas d'cash pour un wrap matin du travailleur, pis j'ai plus d'mains à dévorer"
+                },
+                {
+                    "line": 20,
+                    "text": "J'ai voler toutes les prêtres du Québec, j'ai plus d'saints à dérober"
+                },
+                {
+                    "line": 21,
+                    "text": "J'suis l'best pour cockblock sur mon 31 j'me sens comme Carey Price"
+                },
+                {
+                    "line": 22,
+                    "text": "Dis pas qu'nous deux on est pareille j'ai overdose sur 28 fraises"
+                },
+                {
+                    "line": 23,
+                    "text": "Amènes-moi pas dans une compétition d'soupe j'vais manger 20 cuillères"
+                },
+                {
+                    "line": 24,
+                    "text": "Amènes-moi pas dans une compétition d'rochers j'vais manger 5 pierres"
+                },
+                {
+                    "line": 25,
+                    "text": "Elle lance le back, baby back, baby baby back ribs"
+                },
+                {
+                    "line": 26,
+                    "text": "Yea j'me bats avec mon cob, call moi baby Khabib"
+                },
+                {
+                    "line": 27,
+                    "text": "Deux minutes j'ai reçu trois checks, call moi baby hat trick"
+                },
+                {
+                    "line": 28,
+                    "text": "Tout dépensé sur mes jeans, j'laisse mon héritage triste"
+                },
+                {
+                    "line": 29,
+                    "text": "Back, back, baby back, baby baby back ribs"
+                },
+                {
+                    "line": 30,
+                    "text": "Yea j'me bats avec mon cob, call moi baby Khabib"
+                },
+                {
+                    "line": 31,
+                    "text": "Deux minutes j'ai reçu trois checks, call moi baby hat trick"
+                },
+                {
+                    "line": 32,
+                    "text": "Tout dépensé sur mes jeans, j'laisse mon héritage triste"
+                },
+                {
+                    "line": 33,
+                    "text": "Transferts en USD j'me sens comme Offenbach"
+                },
+                {
+                    "line": 34,
+                    "text": "Mes blues rentrent plus dans porte, des franklins dans mon shower cap"
+                },
+                {
+                    "line": 35,
+                    "text": "Tu peux pas sleep sur nous longtemps mais fais un power nap"
+                },
+                {
+                    "line": 36,
+                    "text": "Le temps est up, chez l'Marchand d'sable regarde le hourglass"
+                },
+                {
+                    "line": 37,
+                    "text": "Tout dépenser sur mes jeans"
+                },
+                {
+                    "line": 38,
+                    "text": "J'fais ma dance no Billie Jean"
+                },
+                {
+                    "line": 39,
+                    "text": "Paquet d'drugs comme Charlie Sheen"
+                },
+                {
+                    "line": 40,
+                    "text": "Designer drip vient pas d'chez SHEIN"
+                },
+                {
+                    "line": 41,
+                    "text": "Bad ass bitch elle m'montre ses tits"
+                },
+                {
+                    "line": 42,
+                    "text": "j'ai doublé le cup …"
+                },
+                {
+                    "line": 43,
+                    "text": "Gros backwood la room sur la piste"
+                },
+                {
+                    "line": 44,
+                    "text": "Dans deux trois ans il faut bust dans le wrist"
+                },
+                {
+                    "line": 45,
+                    "text": "… mêles toi d'tes affaires"
+                },
+                {
+                    "line": 46,
+                    "text": "Baby Weslow à la langue de Molière"
+                },
+                {
+                    "line": 47,
+                    "text": "Faut beaucoup de cob pour me satisfaire"
+                },
+                {
+                    "line": 48,
+                    "text": "Elle m'donne sa tête yea son savoir faire"
+                },
+                {
+                    "line": 49,
+                    "text": "dans mon spag j'me .."
+                },
+                {
+                    "line": 50,
+                    "text": "NORDICC shit on fait le tour de la Terre"
+                },
+                {
+                    "line": 51,
+                    "text": "Brand new whip elle sort pas d'l'hiver"
+                },
+                {
+                    "line": 52,
+                    "text": "Devant l'ATM j'attend les billets verts"
+                },
+                {
+                    "line": 53,
+                    "text": "Elle lance le back, baby back, baby baby back ribs"
+                },
+                {
+                    "line": 54,
+                    "text": "Yea j'me bats avec mon cob, call moi baby Khabib"
+                },
+                {
+                    "line": 55,
+                    "text": "Deux minutes j'ai reçu trois checks, call moi baby hat trick"
+                },
+                {
+                    "line": 56,
+                    "text": "Tout dépensé sur mes jeans, j'laisse mon héritage triste"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-bbr-1",
+                    "lineNumbers": [1, 5, 25, 53],
+                    "excerpt": "Elle lance le back, baby back, baby baby back ribs",
+                    "explanation": "« Lancer le back » signifie twerker / reculer les fesses en dansant. La punchline ajoute « baby back ribs », en référence au plat de côtes levées popularisé par la chaîne Chili's et son vieux jingle publicitaire (« I want my baby back ribs »).",
+                    "keywords": ["baby back ribs", "Chili's", "twerk", "jingle"]
+                },
+                {
+                    "id": "ref-bbr-2",
+                    "lineNumbers": [2, 6, 26, 30, 54],
+                    "excerpt": "Yea j'me bats avec mon cob, call moi baby Khabib",
+                    "explanation": "La ligne joue sur Khabib Nurmagomedov, célèbre pour sa domination en combat et pour l'image virale de sa jeunesse luttant contre un ourson. « Cub » renvoie au jeune ours (cub = ourson en anglais) tandis que « cob » évoque l'argent : un double sens entre combat physique et rapport conflictuel au cash.",
+                    "keywords": ["Khabib", "MMA", "ours", "cob", "argent"]
+                },
+                {
+                    "id": "ref-bbr-3",
+                    "lineNumbers": [3, 7, 27, 31, 55],
+                    "excerpt": "Deux minutes j'ai reçu trois checks, call moi baby hat trick",
+                    "explanation": "Un hat trick au hockey, c'est 3 buts dans un même match — forte référence à la culture hockey québécoise et canadienne. Recevoir 3 chèques en 2 minutes, c'est enchaîner les rentrées d'argent comme un joueur qui marque trois fois.",
+                    "keywords": ["hat trick", "hockey", "Québec", "argent"]
+                },
+                {
+                    "id": "ref-bbr-4",
+                    "lineNumbers": [4, 8, 28, 32, 56],
+                    "excerpt": "Tout dépensé sur mes jeans, j'laisse mon héritage triste",
+                    "explanation": "Il dilapide tout son argent dans des vêtements designer ; ses héritiers n'auront donc rien.",
+                    "keywords": ["héritage", "designer", "dépenses"]
+                },
+                {
+                    "id": "ref-bbr-5",
+                    "lineNumbers": [11],
+                    "excerpt": "L'autre jour j'lai pogner a gooner",
+                    "explanation": "« Gooner » est un terme web pour quelqu'un absorbé dans une consommation compulsive de contenu pour adultes.",
+                    "keywords": ["gooner", "slang", "internet"]
+                },
+                {
+                    "id": "ref-bbr-6",
+                    "lineNumbers": [12],
+                    "excerpt": "A jelker sur Xhamster",
+                    "explanation": "« Jelker » renvoie au « jelqing », une pratique pseudo-scientifique d'agrandissement du pénis. Xhamster est un site pornographique.",
+                    "keywords": ["jelqing", "Xhamster", "slang"]
+                },
+                {
+                    "id": "ref-bbr-7",
+                    "lineNumbers": [13],
+                    "excerpt": "Monsieur Craquepoutte il me fait peur",
+                    "explanation": "Référence au personnage de Monsieur Craquepoutte dans l'émission québécoise pour enfants Toc toc toc.",
+                    "keywords": ["Monsieur Craquepoutte", "Toc toc toc", "Québec", "télé"]
+                },
+                {
+                    "id": "ref-bbr-8",
+                    "lineNumbers": [15],
+                    "excerpt": "Y'a des caliss de gros sourcils",
+                    "explanation": "Le personnage avait effectivement de gros sourcils, mais bien entretenus.",
+                    "keywords": ["Monsieur Craquepoutte", "sourcils"]
+                },
+                {
+                    "id": "ref-bbr-9",
+                    "lineNumbers": [17],
+                    "excerpt": "Ton frigo marche-tu encore? J'en ai rien à calisser",
+                    "explanation": "Prépare la punchline habituelle (« ton frigo marche encore ? Et bien va le chercher ! », jeu de mot sur marcher / fonctionner), mais le narrateur la détourne en disant plutôt qu'il s'en fiche.",
+                    "keywords": ["frigo", "punchline", "jeu de mots"]
+                },
+                {
+                    "id": "ref-bbr-10",
+                    "lineNumbers": [18],
+                    "excerpt": "Tu dis que j'me pogne toujours l'beigne? J'ai eu faim à t'écouter",
+                    "explanation": "« Se pogner le beigne » signifie ne rien faire / paresser.",
+                    "keywords": ["se pogner le beigne", "québécois", "paresse"]
+                },
+                {
+                    "id": "ref-bbr-11",
+                    "lineNumbers": [19],
+                    "excerpt": "J'ai pas d'cash pour un wrap matin du travailleur, pis j'ai plus d'mains à dévorer",
+                    "explanation": "Le « wrap matin du travailleur » est le meilleur wrap offert chez Tim Hortons, no cap.",
+                    "keywords": ["wrap", "Tim Hortons", "déjeuner"]
+                },
+                {
+                    "id": "ref-bbr-12",
+                    "lineNumbers": [21],
+                    "excerpt": "J'suis l'best pour cockblock sur mon 31 j'me sens comme Carey Price",
+                    "explanation": "« Cockblock » = empêcher quelqu'un de conclure romantiquement. « Sur son 31 » = très bien habillé. Comparaison avec Carey Price, gardien d'élite (donc spécialiste pour bloquer) qui a porté le numéro 31 toute sa carrière dans la LNH.",
+                    "keywords": ["Carey Price", "hockey", "gardien", "31", "LNH"]
+                },
+                {
+                    "id": "ref-bbr-13",
+                    "lineNumbers": [33],
+                    "excerpt": "Transferts en USD j'me sens comme Offenbach",
+                    "explanation": "Offenbach est un groupe rock mythique du Québec. Dans les années 70, il a tenté de percer le marché américain/anglophone ; la ligne lie l'arrivée de devises américaines à une forme d'expansion au-delà du Québec.",
+                    "keywords": ["Offenbach", "rock", "Québec", "USD"]
+                },
+                {
+                    "id": "ref-bbr-14",
+                    "lineNumbers": [34],
+                    "excerpt": "Mes blues rentrent plus dans porte, des franklins dans mon shower cap",
+                    "explanation": "Prolonge la référence à Offenbach via la chanson « Mes blues passent pu dans' porte ». « Blues » évoque aussi la teinte bleutée des billets américains modernes, les « franklins ».",
+                    "keywords": ["Offenbach", "blues", "franklins", "argent"]
+                },
+                {
+                    "id": "ref-bbr-15",
+                    "lineNumbers": [35],
+                    "excerpt": "Tu peux pas sleep sur nous longtemps mais fais un power nap",
+                    "explanation": "« Sleep on someone » signifie sous-estimer quelqu'un : tu peux dormir un peu sur nous… mais pas trop, juste un power nap.",
+                    "keywords": ["sleep on", "power nap", "slang"]
+                },
+                {
+                    "id": "ref-bbr-16",
+                    "lineNumbers": [39],
+                    "excerpt": "Paquet d'drugs comme Charlie Sheen",
+                    "explanation": "Référence à Charlie Sheen, longtemps associé aux excès et aux addictions.",
+                    "keywords": ["Charlie Sheen", "drogue", "excès"]
+                },
+                {
+                    "id": "ref-bbr-17",
+                    "lineNumbers": [40],
+                    "excerpt": "Designer drip vient pas d'chez SHEIN",
+                    "explanation": "SHEIN vend des vêtements ultra abordables ; il affirme au contraire porter du vrai designer.",
+                    "keywords": ["SHEIN", "designer", "mode"]
+                },
+                {
+                    "id": "ref-bbr-18",
+                    "lineNumbers": [44],
+                    "excerpt": "Dans deux trois ans il faut bust dans le wrist",
+                    "explanation": "« Bust down » sur le wrist = s'acheter une montre sertie de diamants : une ambition de richesse future.",
+                    "keywords": ["bust down", "montre", "diamants", "wrist"]
+                }
+            ],
+            "artist": "SMS, Baby Weslow",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "some-morning",
+            "title": "Some morning are arder than other",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "J'suis avec GSP dans le club"
+                },
+                {
+                    "line": 2,
+                    "text": "Il m'a dit met de quoi dans mon cup"
+                },
+                {
+                    "line": 3,
+                    "text": "Il m'a dit some morning are 'arder than others"
+                },
+                {
+                    "line": 4,
+                    "text": "Demain on s'en rappellera pas"
+                },
+                {
+                    "line": 5,
+                    "text": "Il ma dit you crazy in your head man"
+                },
+                {
+                    "line": 6,
+                    "text": "Il ma dit viens on fait l'tour du globe"
+                },
+                {
+                    "line": 7,
+                    "text": "Tous les jours on get bigger comme Ant Man"
+                },
+                {
+                    "line": 8,
+                    "text": "SMS yea on feel que du love"
+                },
+                {
+                    "line": 9,
+                    "text": "J'viens de mettre le bouncer sur la blacklist"
+                },
+                {
+                    "line": 10,
+                    "text": "Bro aime juste les billets bruns il est raciste"
+                },
+                {
+                    "line": 11,
+                    "text": "J'm'intéresse à l'espèce j'suis comme Darwin"
+                },
+                {
+                    "line": 12,
+                    "text": "J'm'intéresse au papier j'suis comme Napkin"
+                },
+                {
+                    "line": 13,
+                    "text": "J'ai le bread dans le club j'suis comme sandwich"
+                },
+                {
+                    "line": 14,
+                    "text": "Si j'me fight dans le club j'suis comme Brad Pitt"
+                },
+                {
+                    "line": 15,
+                    "text": "Faut j'aille checker George, il s'enligne ligne après ligne après ligne comme un parking"
+                },
+                {
+                    "line": 16,
+                    "text": "L'autre jour j'ai fait la split"
+                },
+                {
+                    "line": 17,
+                    "text": "J'ai perforé mes pants"
+                },
+                {
+                    "line": 18,
+                    "text": "Gsp y'a dit I'm not impressed by your performance"
+                },
+                {
+                    "line": 19,
+                    "text": "Il m'sacre des coups s'a yeule"
+                },
+                {
+                    "line": 20,
+                    "text": "On beat c'est une dance"
+                },
+                {
+                    "line": 21,
+                    "text": "J'dois etre Mr Elastic la façon sur mes bras j'ai des bands"
+                },
+                {
+                    "line": 22,
+                    "text": "J'suis avec GSP dans le club"
+                },
+                {
+                    "line": 23,
+                    "text": "Il m'a dit met de quoi dans mon cup"
+                },
+                {
+                    "line": 24,
+                    "text": "Il m'a dit some morning are 'arder than others"
+                },
+                {
+                    "line": 25,
+                    "text": "Demain on s'en rappellera pas"
+                },
+                {
+                    "line": 26,
+                    "text": "Il m'a dit you crazy in your head man"
+                },
+                {
+                    "line": 27,
+                    "text": "Il m'a dit viens on fait l'tour du globe"
+                },
+                {
+                    "line": 28,
+                    "text": "Tous les jours on get bigger comme Ant Man"
+                },
+                {
+                    "line": 29,
+                    "text": "SMS yea on feel que du love"
+                },
+                {
+                    "line": 30,
+                    "text": "Y'avait pu d'fireball dans la taverne"
+                },
+                {
+                    "line": 31,
+                    "text": "J'tais calissement fru j'ai vargé sur le barman"
+                },
+                {
+                    "line": 32,
+                    "text": "J'suis bronzé d'un bord j'ai une half tan"
+                },
+                {
+                    "line": 33,
+                    "text": "C'est un 10 en chaise roulante, elle c'est une half ten"
+                },
+                {
+                    "line": 34,
+                    "text": "Elle m'supllie à genoux j'lui ai répondu amen"
+                },
+                {
+                    "line": 35,
+                    "text": "Mon exe mange d'la marde c'est une s-"
+                },
+                {
+                    "line": 36,
+                    "text": "J'ai sorti mes billets pour flexer au Ardenne"
+                },
+                {
+                    "line": 37,
+                    "text": "On m'a confié la garde d'un million j'suis une gardienne"
+                },
+                {
+                    "line": 38,
+                    "text": "J'me suis fait rentré dedans su'l dance floor, j'ai un bloody dans mes pantalons"
+                },
+                {
+                    "line": 39,
+                    "text": "J'y ai sacré un coup s'a yeule mais y'avait pas d'menton"
+                },
+                {
+                    "line": 40,
+                    "text": "Mon coup y'est passé au travers c'est un gros fantôme"
+                },
+                {
+                    "line": 41,
+                    "text": "Le dj y'a mit Gangnam Style j'ai dit c'est ma chanson"
+                },
+                {
+                    "line": 42,
+                    "text": "J'ai sorti mes deux cuisse dit bonjour à mes deux gros jambons"
+                },
+                {
+                    "line": 43,
+                    "text": "J'me suis noyé dans ma broue j'suis un moussaillon"
+                },
+                {
+                    "line": 44,
+                    "text": "J'suis avec GSP dans le club"
+                },
+                {
+                    "line": 45,
+                    "text": "Il m'a dit met de quoi dans mon cup"
+                },
+                {
+                    "line": 46,
+                    "text": "Il m'a dit some morning are 'arder than others"
+                },
+                {
+                    "line": 47,
+                    "text": "Demain on s'en rappellera pas"
+                },
+                {
+                    "line": 48,
+                    "text": "Il ma dit you crazy in your head man"
+                },
+                {
+                    "line": 49,
+                    "text": "Il ma dit viens on fait l'tour du globe"
+                },
+                {
+                    "line": 50,
+                    "text": "Tous les jours on get bigger comme Ant Man"
+                },
+                {
+                    "line": 51,
+                    "text": "SMS yea on feel que du love"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-sm-1",
+                    "lineNumbers": [1, 22, 44],
+                    "excerpt": "J'suis avec GSP dans le club",
+                    "explanation": "Référence à Georges St-Pierre (GSP), figure récurrente du morceau.",
+                    "keywords": ["GSP", "Georges St-Pierre", "UFC"]
+                },
+                {
+                    "id": "ref-sm-2",
+                    "lineNumbers": [2, 23, 45],
+                    "excerpt": "Il m'a dit met de quoi dans mon cup",
+                    "explanation": "Image classique de soirée : se faire remplir son verre, ce qui installe l'ambiance festive et alcoolisée.",
+                    "keywords": ["club", "alcool", "fête"]
+                },
+                {
+                    "id": "ref-sm-3",
+                    "lineNumbers": [3, 24, 46],
+                    "excerpt": "Il m'a dit some morning are 'arder than others",
+                    "explanation": "Citation célèbre de GSP : « Some morning are harder than others ». Son accent québécois en anglais, souvent imité, est devenu un meme.",
+                    "keywords": ["GSP", "citation", "meme", "accent"]
+                },
+                {
+                    "id": "ref-sm-4",
+                    "lineNumbers": [4, 25, 47],
+                    "excerpt": "Demain on s'en rappellera pas",
+                    "explanation": "Référence aux excès de la veille et aux trous de mémoire liés à l'alcool.",
+                    "keywords": ["alcool", "veille", "mémoire"]
+                },
+                {
+                    "id": "ref-sm-5",
+                    "lineNumbers": [5, 26, 48],
+                    "excerpt": "Il ma dit you crazy in your head man",
+                    "explanation": "Autre citation associée à GSP : « you crazy in your head man ».",
+                    "keywords": ["GSP", "citation", "meme"]
+                },
+                {
+                    "id": "ref-sm-6",
+                    "lineNumbers": [7, 28, 50],
+                    "excerpt": "Tous les jours on get bigger comme Ant Man",
+                    "explanation": "Normalement Ant-Man rétrécit, mais il possède aussi une forme géante : la ligne joue sur l'idée de prendre de l'ampleur / devenir plus populaire.",
+                    "keywords": ["Ant-Man", "Marvel", "grandir"]
+                },
+                {
+                    "id": "ref-sm-7",
+                    "lineNumbers": [10],
+                    "excerpt": "Bro aime juste les billets bruns il est raciste",
+                    "explanation": "Les billets de 100 $ canadiens sont bruns. Le videur n'aime que l'argent, donc « les bruns » ; le mot « raciste » détourne cette préférence monétaire.",
+                    "keywords": ["billets", "100$", "videur", "argent"]
+                },
+                {
+                    "id": "ref-sm-8",
+                    "lineNumbers": [11],
+                    "excerpt": "J'm'intéresse à l'espèce j'suis comme Darwin",
+                    "explanation": "Référence à Charles Darwin. « Espèce » a un double sens : espèce animale et argent (« de l'espèce »).",
+                    "keywords": ["Darwin", "espèce", "argent"]
+                },
+                {
+                    "id": "ref-sm-9",
+                    "lineNumbers": [12],
+                    "excerpt": "J'm'intéresse au papier j'suis comme Napkin",
+                    "explanation": "« Napkin » = serviette de table en anglais, jeu sur « papier » (l'argent).",
+                    "keywords": ["napkin", "papier", "argent"]
+                },
+                {
+                    "id": "ref-sm-10",
+                    "lineNumbers": [13],
+                    "excerpt": "J'ai le bread dans le club j'suis comme sandwich",
+                    "explanation": "« Bread » est un slang anglais pour l'argent ; avoir le bread dans le club mène au jeu de mot sur le sandwich.",
+                    "keywords": ["bread", "sandwich", "argent", "slang"]
+                },
+                {
+                    "id": "ref-sm-11",
+                    "lineNumbers": [14],
+                    "excerpt": "Si j'me fight dans le club j'suis comme Brad Pitt",
+                    "explanation": "Référence au film Fight Club, dans lequel joue Brad Pitt.",
+                    "keywords": ["Brad Pitt", "Fight Club", "film"]
+                },
+                {
+                    "id": "ref-sm-12",
+                    "lineNumbers": [18],
+                    "excerpt": "Gsp y'a dit I'm not impressed by your performance",
+                    "explanation": "Citation célèbre de GSP après un combat : « I'm not impressed by your performance ».",
+                    "keywords": ["GSP", "citation", "combat"]
+                },
+                {
+                    "id": "ref-sm-13",
+                    "lineNumbers": [21],
+                    "excerpt": "J'dois etre Mr Elastic la façon sur mes bras j'ai des bands",
+                    "explanation": "Référence à Mister Fantastic, l'homme élastique. En anglais, « bands » = élastiques, mais aussi de grosses liasses de billets tenues par un élastique ; image du money spread étalé sur les avant-bras.",
+                    "keywords": ["Mister Fantastic", "élastique", "bands", "argent"]
+                },
+                {
+                    "id": "ref-sm-14",
+                    "lineNumbers": [32],
+                    "excerpt": "J'suis bronzé d'un bord j'ai une half tan",
+                    "explanation": "« Tan » est un mot anglais signifiant bronzé ; il n'est bronzé que d'un côté (half tan).",
+                    "keywords": ["tan", "bronzage", "anglais"]
+                },
+                {
+                    "id": "ref-sm-15",
+                    "lineNumbers": [33],
+                    "excerpt": "C'est un 10 en chaise roulante, elle c'est une half ten",
+                    "explanation": "Un « 10 » désigne quelqu'un de très attirant. Comme elle est en chaise roulante (donc assise), seule une « moitié de 10 » est visible : une half ten.",
+                    "keywords": ["10", "chaise roulante", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sm-16",
+                    "lineNumbers": [37],
+                    "excerpt": "On m'a confié la garde d'un million j'suis une gardienne",
+                    "explanation": "Double sens sur « garde » : garder de l'argent et être gardienne d'enfants.",
+                    "keywords": ["garde", "gardienne", "argent"]
+                },
+                {
+                    "id": "ref-sm-17",
+                    "lineNumbers": [38],
+                    "excerpt": "J'me suis fait rentré dedans su'l dance floor, j'ai un bloody dans mes pantalons",
+                    "explanation": "Il s'est fait bousculer sur le dance floor et a renversé son Bloody Mary sur/dans ses pantalons.",
+                    "keywords": ["bloody mary", "club", "dance floor"]
+                },
+                {
+                    "id": "ref-sm-18",
+                    "lineNumbers": [40],
+                    "excerpt": "Mon coup y'est passé au travers c'est un gros fantôme",
+                    "explanation": "Comme l'autre n'a pas de menton, le coup traverse complètement sa tête, comme s'il était un fantôme.",
+                    "keywords": ["fantôme", "menton", "baston"]
+                },
+                {
+                    "id": "ref-sm-19",
+                    "lineNumbers": [43],
+                    "excerpt": "J'me suis noyé dans ma broue j'suis un moussaillon",
+                    "explanation": "Jeu de mot avec « mousse » dans moussaillon et « broue » (la mousse de la bière).",
+                    "keywords": ["moussaillon", "broue", "bière", "jeu de mots"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
         },
         {
             "id": "nadine",
             "title": "Nadine",
-            "albumId": "nadine",
+            "albumId": "hector",
             "year": 2025,
             "lyrics": [
                 {
@@ -860,6 +1577,3064 @@
                     "keywords": ["scorbut", "matelots", "maladie", "maritime", "vitamine C", "histoire"]
                 }
             ]
+        },
+        {
+            "id": "b-a-g-u-e",
+            "title": "B A G U E",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "Girl je t'aime tellement quand j'te regarde j'ai des étoiles dans les yeux"
+                },
+                {
+                    "line": 2,
+                    "text": "Si faut j'choisisse entre toi pis Nadine, c'est sûr que j'garde les deux"
+                },
+                {
+                    "line": 3,
+                    "text": "Douzaine d'omelettes dans tes DM, j'les vois c'est sûr que j'frappe les oeufs"
+                },
+                {
+                    "line": 4,
+                    "text": "Y'ont catch un fade y'ont plus rien su'l coco, j'donne juste des bad tapers"
+                },
+                {
+                    "line": 5,
+                    "text": "Yea, j'suis juste un bag chaser"
+                },
+                {
+                    "line": 6,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 7,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 8,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 9,
+                    "text": "Yea, j'suis juste un bag chaser"
+                },
+                {
+                    "line": 10,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 11,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 12,
+                    "text": "B A G .."
+                },
+                {
+                    "line": 13,
+                    "text": "Ok man"
+                },
+                {
+                    "line": 14,
+                    "text": "J'veux passer le reste de mes jours avec toi"
+                },
+                {
+                    "line": 15,
+                    "text": "Olymel"
+                },
+                {
+                    "line": 16,
+                    "text": "Si j'tais une viande pour toi je serais du"
+                },
+                {
+                    "line": 17,
+                    "text": "porc"
+                },
+                {
+                    "line": 18,
+                    "text": "Sous-marin"
+                },
+                {
+                    "line": 19,
+                    "text": "J'ai plein de mayonnaise partout sur mes doigts"
+                },
+                {
+                    "line": 20,
+                    "text": "Haut les mains"
+                },
+                {
+                    "line": 21,
+                    "text": "J'ai vraiment envie d'toi partout sur mon corps"
+                },
+                {
+                    "line": 22,
+                    "text": "L'autre jour au cinéma ça m'a fait penser à ma douce"
+                },
+                {
+                    "line": 23,
+                    "text": "Angélina jolie pis Brad Pitt qui mangeait des Pattes d'ours"
+                },
+                {
+                    "line": 24,
+                    "text": "J'nous amène au Pacini j'ai envie de manger une Palourde"
+                },
+                {
+                    "line": 25,
+                    "text": "J'ai mis la bague dans l'beurre à l'ail ça speut que je t'épouse"
+                },
+                {
+                    "line": 26,
+                    "text": "Faisons l'crime parfait je vole ton cœur tu voles le mien"
+                },
+                {
+                    "line": 27,
+                    "text": "La police m'a arrêté j'avais une barbe de poils pubiens"
+                },
+                {
+                    "line": 28,
+                    "text": "Prison J'pas capable de vivre sans mon petit sucre d'orge"
+                },
+                {
+                    "line": 29,
+                    "text": "Honey moon depuis le début j'ai plus jamais mal à la gorge"
+                },
+                {
+                    "line": 30,
+                    "text": "T'inquiète babe j'vais te donner toute mon fucking temps"
+                },
+                {
+                    "line": 31,
+                    "text": "Mes amis mes passions pis mes études c'est juste fucking temporaire"
+                },
+                {
+                    "line": 32,
+                    "text": "On voyagera pas très très loin quand j'dis on va à Buckingham"
+                },
+                {
+                    "line": 33,
+                    "text": "J'veux tout faire pour t'faire plaisir j'veux pas devenir célibataire"
+                },
+                {
+                    "line": 34,
+                    "text": "Girl je t'aime tellement quand j'te regarde j'ai des étoiles dans les yeux"
+                },
+                {
+                    "line": 35,
+                    "text": "Si faut j'choisisse entre toi pis Nadine, c'est sûr que j'garde les deux"
+                },
+                {
+                    "line": 36,
+                    "text": "Douzaine d'omelettes dans tes DM, j'les vois c'est sûr que j'frappe les oeufs"
+                },
+                {
+                    "line": 37,
+                    "text": "Y'ont catch un fade y'ont plus rien su'l coco, j'donne juste des bad tapers"
+                },
+                {
+                    "line": 38,
+                    "text": "Yea, j'suis juste un bag chaser"
+                },
+                {
+                    "line": 39,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 40,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 41,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 42,
+                    "text": "Yea, j'suis juste un bag chaser"
+                },
+                {
+                    "line": 43,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 44,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 45,
+                    "text": "B A G .."
+                },
+                {
+                    "line": 46,
+                    "text": "Tu m'aimerais tu si j'tais un vers de terre, hmm baby qu'est-ce t'en penses"
+                },
+                {
+                    "line": 47,
+                    "text": "Tu m'aimerais tu si j'tais une meurtrière, ça, ça dépend"
+                },
+                {
+                    "line": 48,
+                    "text": "J'suis addict à la Salsa, faque j'ai une dépendanse"
+                },
+                {
+                    "line": 49,
+                    "text": "J'peux sauter au-dessus d'un orignal si j'me donne un élan"
+                },
+                {
+                    "line": 50,
+                    "text": "C'tu juste moi ou t'es la femme la plus b.. une des plus belles du monde"
+                },
+                {
+                    "line": 51,
+                    "text": "La nuit j'sors pis j'mets des ratons laveurs dans les poubelles du monde"
+                },
+                {
+                    "line": 52,
+                    "text": "Moi te gaslighter?? Sais-tu comment tu sonnes live??"
+                },
+                {
+                    "line": 53,
+                    "text": "J'ferais n'importe quoi pour toi, baby t'es ma Klondike"
+                },
+                {
+                    "line": 54,
+                    "text": "T'es comme d'la pâte à biscuit j'veux te dévorer toute crue"
+                },
+                {
+                    "line": 55,
+                    "text": "J'déteste les voitures j'ai conduis ma motoneige dans rue"
+                },
+                {
+                    "line": 56,
+                    "text": "J'ai ruiné l'souper j'ai échappé ma salière dans ma glue"
+                },
+                {
+                    "line": 57,
+                    "text": "Je déteste les vielles personnes enlève ton grand-père de ma vue"
+                },
+                {
+                    "line": 58,
+                    "text": "Girl je t'aime tellement quand j'te regarde j'ai des étoiles dans les yeux"
+                },
+                {
+                    "line": 59,
+                    "text": "Si faut j'choisisse entre toi pis Nadine, c'est sûr que j'garde les deux"
+                },
+                {
+                    "line": 60,
+                    "text": "Douzaine d'omelettes dans tes DM, j'les vois c'est sûr que j'frappe les oeufs"
+                },
+                {
+                    "line": 61,
+                    "text": "Y'ont catch un fade y'ont plus rien su'l coco, j'donne juste des bad tapers"
+                },
+                {
+                    "line": 62,
+                    "text": "Yea, jsuis juste un bag chaser"
+                },
+                {
+                    "line": 63,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 64,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 65,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 66,
+                    "text": "Yea, jsuis juste un bag chaser"
+                },
+                {
+                    "line": 67,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 68,
+                    "text": "B A G U E"
+                },
+                {
+                    "line": 69,
+                    "text": "B A G U E"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-bague-1",
+                    "lineNumbers": [3, 36, 60],
+                    "excerpt": "Douzaine d'omelettes dans tes DM, j'les vois c'est sûr que j'frappe les oeufs",
+                    "explanation": "Jeu de mots : « douzaine d'omelettes » = douzaine d'hommes laids. Comme on ne fait pas d'omelettes sans casser des œufs, il va « frapper les œufs ».",
+                    "keywords": ["omelettes", "hommes laids", "jeu de mots", "DM"]
+                },
+                {
+                    "id": "ref-bague-2",
+                    "lineNumbers": [4, 37, 61],
+                    "excerpt": "Y'ont catch un fade y'ont plus rien su'l coco, j'donne juste des bad tapers",
+                    "explanation": "Double sens autour de la coiffure : un « fade » est une coupe de cheveux, mais ici ils ont reçu un coup qui les a laissés sonnés. « Coco » signifie à la fois la tête et l'œuf, ce qui poursuit le thème précédent.",
+                    "keywords": ["fade", "coiffure", "coco", "double sens"]
+                },
+                {
+                    "id": "ref-bague-3",
+                    "lineNumbers": [5, 9, 38, 42, 62, 66],
+                    "excerpt": "Yea, j'suis juste un bag chaser",
+                    "explanation": "Dans le rap, un « bag chaser » est quelqu'un qui poursuit l'argent (bag = argent). Ici, « bague » = alliance : il ne poursuit pas l'argent, il poursuit le mariage.",
+                    "keywords": ["bag chaser", "bague", "mariage", "argent"]
+                },
+                {
+                    "id": "ref-bague-4",
+                    "lineNumbers": [15, 16, 17],
+                    "excerpt": "Olymel",
+                    "explanation": "Olymel est connue pour ses produits de porc : s'il était une viande, il serait du porc.",
+                    "keywords": ["Olymel", "porc", "viande", "Québec"]
+                },
+                {
+                    "id": "ref-bague-5",
+                    "lineNumbers": [29],
+                    "excerpt": "Honey moon depuis le début j'ai plus jamais mal à la gorge",
+                    "explanation": "« Honeymoon depuis le début » = il est heureux dans la relation depuis le départ ; le miel est aussi reconnu pour soulager les maux de gorge.",
+                    "keywords": ["honeymoon", "miel", "gorge", "amour"]
+                },
+                {
+                    "id": "ref-bague-6",
+                    "lineNumbers": [32],
+                    "excerpt": "On voyagera pas très très loin quand j'dis on va à Buckingham",
+                    "explanation": "La blague tient au fait que Buckingham est un secteur de Gatineau, au Québec, alors que la prononciation rappelle le célèbre palais de Buckingham à Londres.",
+                    "keywords": ["Buckingham", "Gatineau", "Québec", "jeu de mots"]
+                },
+                {
+                    "id": "ref-bague-7",
+                    "lineNumbers": [46],
+                    "excerpt": "Tu m'aimerais tu si j'tais un vers de terre, hmm baby qu'est-ce t'en penses",
+                    "explanation": "Question volontairement ridicule que certains couples se posent pour tester leur amour ; c'est sa copine qui pose la question et lui qui y répond.",
+                    "keywords": ["vers de terre", "couple", "amour"]
+                },
+                {
+                    "id": "ref-bague-8",
+                    "lineNumbers": [48],
+                    "excerpt": "J'suis addict à la Salsa, faque j'ai une dépendanse",
+                    "explanation": "Jeu de mot avec « dépendance » et « dépend-danse » (la salsa étant une danse).",
+                    "keywords": ["salsa", "dépendance", "danse", "jeu de mots"]
+                },
+                {
+                    "id": "ref-bague-9",
+                    "lineNumbers": [49],
+                    "excerpt": "J'peux sauter au-dessus d'un orignal si j'me donne un élan",
+                    "explanation": "Jeu de mot avec « se donner un élan » pour sauter par-dessus, mais aussi avec le synonyme d'orignal, soit un élan.",
+                    "keywords": ["orignal", "élan", "jeu de mots"]
+                },
+                {
+                    "id": "ref-bague-10",
+                    "lineNumbers": [52],
+                    "excerpt": "Moi te gaslighter?? Sais-tu comment tu sonnes live??",
+                    "explanation": "La ligne constitue elle-même une forme de gaslighting : quelqu'un accusé de manipuler répond en faisant douter l'autre de sa perception.",
+                    "keywords": ["gaslighting", "manipulation", "méta"]
+                },
+                {
+                    "id": "ref-bague-11",
+                    "lineNumbers": [53],
+                    "excerpt": "J'ferais n'importe quoi pour toi, baby t'es ma Klondike",
+                    "explanation": "Référence aux barres glacées Klondike : tu es ma friandise préférée.",
+                    "keywords": ["Klondike", "crème glacée", "friandise"]
+                },
+                {
+                    "id": "ref-bague-12",
+                    "lineNumbers": [54],
+                    "excerpt": "T'es comme d'la pâte à biscuit j'veux te dévorer toute crue",
+                    "explanation": "Métaphore de désir : elle est si attirante qu'il veut la « manger » toute crue, malgré le fait que la pâte à biscuit crue peut contenir de la salmonelle.",
+                    "keywords": ["pâte à biscuit", "désir", "salmonelle"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "jacuzzi",
+            "title": "Jacuzzi",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "Posé dans l'jacuzzi, baby sors le kodak"
+                },
+                {
+                    "line": 2,
+                    "text": "J'joue du pitbull, c'est des classiques pas des throwbacks"
+                },
+                {
+                    "line": 3,
+                    "text": "Tu sais qu'ça get real, au moment qu'j'enlève mes chaussettes"
+                },
+                {
+                    "line": 4,
+                    "text": "Mon spa il tremble de peur, quand je step, dans mes godasses"
+                },
+                {
+                    "line": 5,
+                    "text": "Y'a tellement d'flashs de couleurs gros warning d'épilepsie"
+                },
+                {
+                    "line": 6,
+                    "text": "Brain est rendu fried, des fois j'fais des crises de dyslexie"
+                },
+                {
+                    "line": 7,
+                    "text": "Premier ministre dans mon maillot d'bain, Maurice Duplessis"
+                },
+                {
+                    "line": 8,
+                    "text": "J'ai construit mon char en pâtes alimentaires, bolide fusilli"
+                },
+                {
+                    "line": 9,
+                    "text": "J'suis dans le spa pis j'fais du wakeboard, diras c'que tu veux"
+                },
+                {
+                    "line": 10,
+                    "text": "Tu peux hate mais j't'avec Mike Ward là il fait du surf"
+                },
+                {
+                    "line": 11,
+                    "text": "J'perds du poids le soir je skinny dip"
+                },
+                {
+                    "line": 12,
+                    "text": "Load l'ordi sur Miniclip"
+                },
+                {
+                    "line": 13,
+                    "text": "Ils m'croient pas qu'jai mis un barrage d'hydro, but I really did"
+                },
+                {
+                    "line": 14,
+                    "text": "On est trois à stack la dough notre pile de cash c'comme un Mille feuille"
+                },
+                {
+                    "line": 15,
+                    "text": "Est dans sa smaine mais c'est pas grave, à soir j'suis un saigneur"
+                },
+                {
+                    "line": 16,
+                    "text": "La moune poste une story boomerang d'sa mamie dans son cercueil"
+                },
+                {
+                    "line": 17,
+                    "text": "Balloune pleine de protoxyde c'est comme ma fête mais en meilleur (bonne fête Kevin)"
+                },
+                {
+                    "line": 18,
+                    "text": "Ma Jacuzzi est trois mille fois plus grosse qu'la tienne"
+                },
+                {
+                    "line": 19,
+                    "text": "J'ai des grosses mains faque en hiver il m'faut des grosses mitaines"
+                },
+                {
+                    "line": 20,
+                    "text": "J'aime graille des gros déjeuners j'tai dis j'voulais du grosse bacon"
+                },
+                {
+                    "line": 21,
+                    "text": "J'aime smoke mon weed devant mon micro j'me sens comme Joe Rogan"
+                },
+                {
+                    "line": 22,
+                    "text": "Faut qu't'arrêtes d'flex t'as même pas l'cash pour un trio McValeur"
+                },
+                {
+                    "line": 23,
+                    "text": "J'parle espagnol à Cuba una cervesa por faveur (GRACIAS!)"
+                },
+                {
+                    "line": 24,
+                    "text": "J'comme un devoir à mes dates, attends-toi pas j'sois là à l'heure"
+                },
+                {
+                    "line": 25,
+                    "text": "Si tu me beg pour des piaces, j'vais les compter sur mes majeurs"
+                },
+                {
+                    "line": 26,
+                    "text": "Les rumeurs sont vrais: à soir j'me dérenche la face"
+                },
+                {
+                    "line": 27,
+                    "text": "J'raise mon cash comme des flos, tu peux m'appeller moneyteur"
+                },
+                {
+                    "line": 28,
+                    "text": "J'veux d'la bière pas de l'eau, Molson dry pour étancher ma soif"
+                },
+                {
+                    "line": 29,
+                    "text": "Vvs s'é 4 doigts, dans ma whip j'suis ton biggest Auditeur"
+                },
+                {
+                    "line": 30,
+                    "text": "Elle dit j't'un épais dans mon spa j'mets dla 10.1"
+                },
+                {
+                    "line": 31,
+                    "text": "J'ai une piscine de cash pis y'a juste des bruns"
+                },
+                {
+                    "line": 32,
+                    "text": "Ça m'prend deux Xanax par jour j'suis jamais à jeun"
+                },
+                {
+                    "line": 33,
+                    "text": "Pis j'ai une bitch qui fait le shift au Métro Verdun"
+                },
+                {
+                    "line": 34,
+                    "text": "Lunettes fumées j'suis s'es perks pis ça ferme les yeux"
+                },
+                {
+                    "line": 35,
+                    "text": "Huh"
+                },
+                {
+                    "line": 36,
+                    "text": "Fuck une bitch chauve j'veux lui venir din cheveux"
+                },
+                {
+                    "line": 37,
+                    "text": "Pis si ton boy il veut m'rob j'ai une arme à feu"
+                },
+                {
+                    "line": 38,
+                    "text": "J'suis un génie frotte ma lampe et puis fait un vœux"
+                },
+                {
+                    "line": 39,
+                    "text": "J'suis dans l'trap et j'bouge des sacs"
+                },
+                {
+                    "line": 40,
+                    "text": "Kahnawake j'paye pas d'taxes"
+                },
+                {
+                    "line": 41,
+                    "text": "Si j'fuck la bitch j'met pas d'casque"
+                },
+                {
+                    "line": 42,
+                    "text": "Si j'fais un lick j'ai un masque"
+                },
+                {
+                    "line": 43,
+                    "text": "J'fuck pas la bitch à des bas"
+                },
+                {
+                    "line": 44,
+                    "text": "Ma luck semi faut j'debuzz"
+                },
+                {
+                    "line": 45,
+                    "text": "J'fais des serve en Toyota"
+                },
+                {
+                    "line": 46,
+                    "text": "J'suis au Dagobert sont où les huzz"
+                },
+                {
+                    "line": 47,
+                    "text": "Y'a dla place en masse dans mon Jacuzzi"
+                },
+                {
+                    "line": 48,
+                    "text": "Ça sent"
+                },
+                {
+                    "line": 49,
+                    "text": "Ça sent"
+                },
+                {
+                    "line": 50,
+                    "text": "Ça sent la jalousie"
+                },
+                {
+                    "line": 51,
+                    "text": "Y'a d'la place en masse dans mon Jacuzzi"
+                },
+                {
+                    "line": 52,
+                    "text": "Voulez-vous venir dans mon Jacuzzi"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-jz-1",
+                    "lineNumbers": [5],
+                    "excerpt": "Y'a tellement d'flashs de couleurs gros warning d'épilepsie",
+                    "explanation": "Cette verse multiplie les références aux jacuzzis. Ici, on réfère aux LEDs présentes dans la majorité de ceux-ci.",
+                    "keywords": ["jacuzzi", "LED", "épilepsie"]
+                },
+                {
+                    "id": "ref-jz-2",
+                    "lineNumbers": [9],
+                    "excerpt": "J'suis dans le spa pis j'fais du wakeboard, diras c'que tu veux",
+                    "explanation": "Le wakeboard nécessite normalement un bateau et une grande étendue d'eau. En faire dans un jacuzzi est physiquement impossible, d'où l'humour.",
+                    "keywords": ["wakeboard", "spa", "absurde"]
+                },
+                {
+                    "id": "ref-jz-3",
+                    "lineNumbers": [11],
+                    "excerpt": "J'perds du poids le soir je skinny dip",
+                    "explanation": "Double sens : « skinny dipping » = se baigner nu, et « skinny » = mince. Il prétend littéralement perdre du poids simplement en enlevant ses vêtements.",
+                    "keywords": ["skinny dip", "poids", "double sens"]
+                },
+                {
+                    "id": "ref-jz-4",
+                    "lineNumbers": [14],
+                    "excerpt": "On est trois à stack la dough notre pile de cash c'comme un Mille feuille",
+                    "explanation": "Un mille-feuille a trois couches de pâte ; en slang anglais, « dough » = argent, mais aussi pâte à pâtisserie. Ils sont trois à empiler la « dough » : empiler des couches de pâte et empiler de l'argent. « Mille feuilles » évoque aussi une grande quantité d'argent.",
+                    "keywords": ["mille-feuille", "dough", "argent", "jeu de mots"]
+                },
+                {
+                    "id": "ref-jz-5",
+                    "lineNumbers": [15],
+                    "excerpt": "Est dans sa smaine mais c'est pas grave, à soir j'suis un saigneur",
+                    "explanation": "Jeu de mot avec « Seigneur » et « saigneur » (mot inventé à partir de saigner).",
+                    "keywords": ["saigneur", "Seigneur", "jeu de mots"]
+                },
+                {
+                    "id": "ref-jz-6",
+                    "lineNumbers": [17],
+                    "excerpt": "Balloune pleine de protoxyde c'est comme ma fête mais en meilleur (bonne fête Kevin)",
+                    "explanation": "Référence au protoxyde d'azote (le « gaz hilarant »).",
+                    "keywords": ["protoxyde d'azote", "gaz hilarant", "fête"]
+                },
+                {
+                    "id": "ref-jz-7",
+                    "lineNumbers": [18],
+                    "excerpt": "Ma Jacuzzi est trois mille fois plus grosse qu'la tienne",
+                    "explanation": "Référence directe aux paroles de la chanson samplée « Jacuzzi » du groupe Radio Radio.",
+                    "keywords": ["Radio Radio", "Jacuzzi", "sample"]
+                },
+                {
+                    "id": "ref-jz-8",
+                    "lineNumbers": [21],
+                    "excerpt": "J'aime smoke mon weed devant mon micro j'me sens comme Joe Rogan",
+                    "explanation": "Référence à Joe Rogan, connu pour son podcast où les invités discutent souvent de cannabis et de sujets variés pendant des heures.",
+                    "keywords": ["Joe Rogan", "podcast", "weed"]
+                },
+                {
+                    "id": "ref-jz-9",
+                    "lineNumbers": [23],
+                    "excerpt": "J'parle espagnol à Cuba una cervesa por faveur (GRACIAS!)",
+                    "explanation": "Le gag repose sur le mauvais espagnol, qui permet aussi la rime : une approximation phonétique de « Una cerveza por favor ». Il se présente comme bilingue alors qu'il sait seulement commander une bière.",
+                    "keywords": ["espagnol", "Cuba", "bière", "humour"]
+                },
+                {
+                    "id": "ref-jz-10",
+                    "lineNumbers": [25],
+                    "excerpt": "Si tu me beg pour des piaces, j'vais les compter sur mes majeurs",
+                    "explanation": "Il refuse de prêter de l'argent tout en insultant la personne (compter sur les majeurs).",
+                    "keywords": ["argent", "majeur", "insulte"]
+                },
+                {
+                    "id": "ref-jz-11",
+                    "lineNumbers": [27],
+                    "excerpt": "J'raise mon cash comme des flos, tu peux m'appeller moneyteur",
+                    "explanation": "Jeu de mot avec « moniteur » et « moneyteur » : il élève / fait grandir son argent.",
+                    "keywords": ["moneyteur", "moniteur", "argent", "jeu de mots"]
+                },
+                {
+                    "id": "ref-jz-12",
+                    "lineNumbers": [29],
+                    "excerpt": "Vvs s'é 4 doigts, dans ma whip j'suis ton biggest Auditeur",
+                    "explanation": "VVS = diamants haut de gamme (bling). « 4 doigts » renvoie à 4 anneaux portés aux doigts, qui évoquent le logo d'Audi (quatre anneaux entrelacés), le tout lié par la punchline « auditeur », dans laquelle se cache aussi « Audi ».",
+                    "keywords": ["VVS", "diamants", "Audi", "auditeur"]
+                },
+                {
+                    "id": "ref-jz-13",
+                    "lineNumbers": [38],
+                    "excerpt": "J'suis un génie frotte ma lampe et puis fait un vœux",
+                    "explanation": "Allusion sexuelle (handjob) sous couvert du génie de la lampe.",
+                    "keywords": ["génie", "lampe", "allusion"]
+                },
+                {
+                    "id": "ref-jz-14",
+                    "lineNumbers": [40],
+                    "excerpt": "Kahnawake j'paye pas d'taxes",
+                    "explanation": "Kahnawake est une communauté des Premières Nations ; selon le statut de réserve et certains contextes, la taxation peut différer sur le territoire.",
+                    "keywords": ["Kahnawake", "Premières Nations", "taxes"]
+                },
+                {
+                    "id": "ref-jz-15",
+                    "lineNumbers": [41],
+                    "excerpt": "Si j'fuck la bitch j'met pas d'casque",
+                    "explanation": "Implique qu'il ne se protège pas lors des rapports sexuels.",
+                    "keywords": ["protection", "casque", "allusion"]
+                },
+                {
+                    "id": "ref-jz-16",
+                    "lineNumbers": [46],
+                    "excerpt": "J'suis au Dagobert sont où les huzz",
+                    "explanation": "« Huzz » est un terme internet récent utilisé pour désigner des femmes de manière humoristique ou ironique.",
+                    "keywords": ["huzz", "internet", "slang"]
+                }
+            ],
+            "artist": "SMS, Kalibre",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "sabrina-carpentiere",
+            "title": "Sabrina Carpentière",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "On va sauver l'Québec"
+                },
+                {
+                    "line": 2,
+                    "text": "Ok"
+                },
+                {
+                    "line": 3,
+                    "text": "Elle habite dans mes pants"
+                },
+                {
+                    "line": 4,
+                    "text": "J'pense qu'elle a le zip code"
+                },
+                {
+                    "line": 5,
+                    "text": "Non j'te donnerai pas d'snap j'ai juste un flip-phone"
+                },
+                {
+                    "line": 6,
+                    "text": "Non J'pas en surpoids j'suis juste big-boned"
+                },
+                {
+                    "line": 7,
+                    "text": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone"
+                },
+                {
+                    "line": 8,
+                    "text": "J'ai escaladé une très grande femme j'me sens comme King Kong"
+                },
+                {
+                    "line": 9,
+                    "text": "Mes recherches sont parties en fumé, c'est un Bing bong"
+                },
+                {
+                    "line": 10,
+                    "text": "Trois stars avec des big racks, bonhomme ping-pong"
+                },
+                {
+                    "line": 11,
+                    "text": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond"
+                },
+                {
+                    "line": 12,
+                    "text": "Annie m'a trompé avec une drill, c'est un plotte twist  (tu m'as fait tellement d'mal)"
+                },
+                {
+                    "line": 13,
+                    "text": "François Legault y'a tué ma grand-mère, j'suis complotiste (tu m'as fait tellement d'mal)"
+                },
+                {
+                    "line": 14,
+                    "text": "J'ai mis mes palmes jaunes à piscine j'ai l'air de Doris"
+                },
+                {
+                    "line": 15,
+                    "text": "Il paraît que j'manque de fer j'ai mangé un plat d'vis"
+                },
+                {
+                    "line": 16,
+                    "text": "J'ai la même coupe que mon biggest opp j'me sens comme Boris"
+                },
+                {
+                    "line": 17,
+                    "text": "J'ai cinq poules dans mon énorme couche y'est où mon coq six"
+                },
+                {
+                    "line": 18,
+                    "text": "J'écoute juste d'la musique en français, Sabrina Carpentière"
+                },
+                {
+                    "line": 19,
+                    "text": "Hier j'avais envi d'poisson j'ai mangé une carpe entière"
+                },
+                {
+                    "line": 20,
+                    "text": "J'suis un grand fan de fractions j'ai mangé une carpe en tiers"
+                },
+                {
+                    "line": 21,
+                    "text": "J'ai l'estomac déchiré j'ai mangé une tarte en verre"
+                },
+                {
+                    "line": 22,
+                    "text": "J'voulais du changement dans ma vie j'me suis  mis à chié à l'envers"
+                },
+                {
+                    "line": 23,
+                    "text": "64 diamants dans les poches plus de place dans mon inventaire"
+                },
+                {
+                    "line": 24,
+                    "text": "J'me suis enfargé sur mes 100 piasses là j'ai les quatre fers en l'air"
+                },
+                {
+                    "line": 25,
+                    "text": "J'aime pas les poissons j'ai mené quatre guerres en mer"
+                },
+                {
+                    "line": 26,
+                    "text": "J'ai les genoux circulaires mes jambes c'est deux parenthèses"
+                },
+                {
+                    "line": 27,
+                    "text": "J'ai deux petits grands-pères pis j'ai deux grosses grands-mères"
+                },
+                {
+                    "line": 28,
+                    "text": "J't'allé au VVV pis là j'ai plein d'verrues plantaires"
+                },
+                {
+                    "line": 29,
+                    "text": "Mon voisin c'est Willibed ma vie est un enfer"
+                },
+                {
+                    "line": 30,
+                    "text": "Mes opps pensent qu'j'suis sur d'l'œstrogène la façon j'fais grossir mon rack"
+                },
+                {
+                    "line": 31,
+                    "text": "Si j'tais un fruit j'serais Éric Salvail"
+                },
+                {
+                    "line": 32,
+                    "text": "Moi pis mon bro on a volé l'concessionnaire on est deux sans plaques"
+                },
+                {
+                    "line": 33,
+                    "text": "J'suis tombé dans un puit c'tait un vrai carnage"
+                },
+                {
+                    "line": 34,
+                    "text": "J'suis tombé dans un puit j'ai chuté en échos"
+                },
+                {
+                    "line": 35,
+                    "text": "Mon bébé il s'est étouffé j'lui ai donné une suce en LEGO"
+                },
+                {
+                    "line": 36,
+                    "text": "J't'un incroyable ingénieur, transformé ma luge en vélo"
+                },
+                {
+                    "line": 37,
+                    "text": "Elle habite dans mes pants"
+                },
+                {
+                    "line": 38,
+                    "text": "J'pense qu'elle a le zip code"
+                },
+                {
+                    "line": 39,
+                    "text": "Non j'te donnerai pas d'snap j'ai juste un flip-phone"
+                },
+                {
+                    "line": 40,
+                    "text": "Non J'pas en surpoids j'suis juste big-boned"
+                },
+                {
+                    "line": 41,
+                    "text": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone"
+                },
+                {
+                    "line": 42,
+                    "text": "J'ai escaladé une très grande femme j'me sens comme King Kong"
+                },
+                {
+                    "line": 43,
+                    "text": "Mes recherches sont parties en fumé, c'est un Bing bong"
+                },
+                {
+                    "line": 44,
+                    "text": "Trois stars avec des big racks, bonhomme ping-pong"
+                },
+                {
+                    "line": 45,
+                    "text": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond"
+                },
+                {
+                    "line": 46,
+                    "text": "Samuel sur le beat, j'vais rendre la toune écoutable"
+                },
+                {
+                    "line": 47,
+                    "text": "J'ai des problèmes de sommeil, je joue trop à Apex Legends"
+                },
+                {
+                    "line": 48,
+                    "text": "J'me suis acheté des gummies au magnésium"
+                },
+                {
+                    "line": 49,
+                    "text": "Et là j'arrête pas d'en prendre"
+                },
+                {
+                    "line": 50,
+                    "text": "J'voulais poster mes glutes, j'me suis piqué au stéroïdes"
+                },
+                {
+                    "line": 51,
+                    "text": "Mes fesses c'est deux grosses planètes, j'ai des assthémoroïdes"
+                },
+                {
+                    "line": 52,
+                    "text": "J'pèse dans le game j'suis obèse morbide"
+                },
+                {
+                    "line": 53,
+                    "text": "Un trio crottes de nez, hamburger-morve-frites"
+                },
+                {
+                    "line": 54,
+                    "text": "J'ai coupé l'fentanyl de mon voisin avec du gluten (y'est mort)"
+                },
+                {
+                    "line": 55,
+                    "text": "J'voulais avoir les cheveux blonds j'les ai bleacher avec du Purell"
+                },
+                {
+                    "line": 56,
+                    "text": "Ma viande hachée elle me torture, elle est crue elle"
+                },
+                {
+                    "line": 57,
+                    "text": "J'ai une passion pour le jardinage, tout ce qui est arrosoirs et truelles"
+                },
+                {
+                    "line": 58,
+                    "text": "Ma gardienne s'est endormie j'pense qu'elle me sur veille"
+                },
+                {
+                    "line": 59,
+                    "text": "J'fais facilement un trou dans l'mur, c'est un mur beigne"
+                },
+                {
+                    "line": 60,
+                    "text": "Plein d'Twizzlers à licorice, met ça dans pubelle"
+                },
+                {
+                    "line": 61,
+                    "text": "Un Twister contre un contorsionniste, mon fémur saigne"
+                },
+                {
+                    "line": 62,
+                    "text": "J'ai essayé d'crier mais ma tête était dans reliche"
+                },
+                {
+                    "line": 63,
+                    "text": "J'ai des sanglots particuliers tu peux dire que je pleur niche"
+                },
+                {
+                    "line": 64,
+                    "text": "Je suis aigris j'l'ai échappé à terre pis c'était ma seule quiche"
+                },
+                {
+                    "line": 65,
+                    "text": "Y'était tout gris j'l'ai échappé dans glaise c'tait mon seul fils"
+                },
+                {
+                    "line": 66,
+                    "text": "Y'a d'l'asphalte dans ma choucroute aux fraises"
+                },
+                {
+                    "line": 67,
+                    "text": "Manges moins vite y'a du couscous pour 16"
+                },
+                {
+                    "line": 68,
+                    "text": "Il manque une roue dessus, c'est un tuk tuk austère"
+                },
+                {
+                    "line": 69,
+                    "text": "Il m'manque une rotule je suis tombé dans les stairs"
+                },
+                {
+                    "line": 70,
+                    "text": "J'ai commandé une root beer ils m'ont donné du thé glacé"
+                },
+                {
+                    "line": 71,
+                    "text": "On a pas envi d'grossir on s'est mis à pédaler"
+                },
+                {
+                    "line": 72,
+                    "text": "J'ai pogné une grosse shear mes organes sont étalés"
+                },
+                {
+                    "line": 73,
+                    "text": "Un intestin grêle difficile à réparer"
+                },
+                {
+                    "line": 74,
+                    "text": "Elle habite dans mes pants"
+                },
+                {
+                    "line": 75,
+                    "text": "J'pense qu'elle a le zip code"
+                },
+                {
+                    "line": 76,
+                    "text": "Non j'te donnerai pas d'snap j'ai juste un flip-phone"
+                },
+                {
+                    "line": 77,
+                    "text": "Non J'pas en surpoids j'suis juste big-boned"
+                },
+                {
+                    "line": 78,
+                    "text": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone"
+                },
+                {
+                    "line": 79,
+                    "text": "J'ai escaladé une très grande femme j'me sens comme King Kong"
+                },
+                {
+                    "line": 80,
+                    "text": "Mes recherches sont parties en fumé, c'est un Bing bong"
+                },
+                {
+                    "line": 81,
+                    "text": "Trois stars avec des big racks, bonhomme ping-pong"
+                },
+                {
+                    "line": 82,
+                    "text": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-sc-1",
+                    "lineNumbers": [4, 38, 75],
+                    "excerpt": "J'pense qu'elle a le zip code",
+                    "explanation": "« Zip code » désigne normalement un code postal. Comme elle « habite dans ses pants », son adresse serait littéralement dans son pantalon : jeu de mots entre code postal et zipper (la fermeture éclair).",
+                    "keywords": ["zip code", "code postal", "zipper", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-2",
+                    "lineNumbers": [6, 40, 77],
+                    "excerpt": "Non J'pas en surpoids j'suis juste big-boned",
+                    "explanation": "Expression classique utilisée par des personnes en surpoids pour attribuer leur gabarit à leur ossature.",
+                    "keywords": ["big-boned", "surpoids", "humour"]
+                },
+                {
+                    "id": "ref-sc-3",
+                    "lineNumbers": [7, 41, 78],
+                    "excerpt": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone",
+                    "explanation": "« Dripstone » se traduit par stalactite : une roche qui pend du plafond et tombe parfois. Son « drip » (son style) lui tombe donc dessus sous forme de « drip stone ».",
+                    "keywords": ["drip stone", "stalactite", "style", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-4",
+                    "lineNumbers": [9, 43, 80],
+                    "excerpt": "Mes recherches sont parties en fumé, c'est un Bing bong",
+                    "explanation": "Fusion de Bing (le moteur de recherche de Microsoft) et de Bong (pipe à eau). Ses « recherches sont parties en fumée », ce qui associe Bing à un bong et crée l'onomatopée « Bing bong ».",
+                    "keywords": ["Bing", "bong", "recherche", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-5",
+                    "lineNumbers": [10, 44, 81],
+                    "excerpt": "Trois stars avec des big racks, bonhomme ping-pong",
+                    "explanation": "Référence au film Marty Supreme, dont le logo comporte trois étoiles. « Stars » = étoiles/célébrités ; « big racks » = argent mais aussi raquettes (rackets) ; « bonhomme ping-pong » renvoie à l'univers du tennis de table du film.",
+                    "keywords": ["Marty Supreme", "ping-pong", "racks", "film"]
+                },
+                {
+                    "id": "ref-sc-6",
+                    "lineNumbers": [11, 45, 82],
+                    "excerpt": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond",
+                    "explanation": "La punchline repose sur la réputation publique controversée de Phil Bond et les allégations de violence conjugale ayant fait les manchettes.",
+                    "keywords": ["Phil Bond", "controverse", "manchettes"]
+                },
+                {
+                    "id": "ref-sc-7",
+                    "lineNumbers": [12],
+                    "excerpt": "Annie m'a trompé avec une drill, c'est un plotte twist  (tu m'as fait tellement d'mal)",
+                    "explanation": "Jeu de mot avec « plot-twist » et « plotte », un québécisme vulgaire désignant l'appareil génital féminin.",
+                    "keywords": ["plot twist", "jeu de mots", "québécisme"]
+                },
+                {
+                    "id": "ref-sc-8",
+                    "lineNumbers": [13],
+                    "excerpt": "François Legault y'a tué ma grand-mère, j'suis complotiste (tu m'as fait tellement d'mal)",
+                    "explanation": "Référence aux théories du complot ayant circulé durant la pandémie autour de François Legault.",
+                    "keywords": ["François Legault", "complot", "pandémie"]
+                },
+                {
+                    "id": "ref-sc-9",
+                    "lineNumbers": [14],
+                    "excerpt": "J'ai mis mes palmes jaunes à piscine j'ai l'air de Doris",
+                    "explanation": "Référence au personnage Dory ; les palmes jaunes rappellent les nageoires du poisson.",
+                    "keywords": ["Dory", "palmes", "Nemo"]
+                },
+                {
+                    "id": "ref-sc-10",
+                    "lineNumbers": [15],
+                    "excerpt": "Il paraît que j'manque de fer j'ai mangé un plat d'vis",
+                    "explanation": "Le fer alimentaire est pris au sens littéral : les vis étant en métal, il croit corriger sa carence.",
+                    "keywords": ["fer", "vis", "carence", "littéral"]
+                },
+                {
+                    "id": "ref-sc-11",
+                    "lineNumbers": [16],
+                    "excerpt": "J'ai la même coupe que mon biggest opp j'me sens comme Boris",
+                    "explanation": "Référence à Boris Johnson et sa coiffure célèbre : son « ennemi » aurait exactement la même coupe.",
+                    "keywords": ["Boris Johnson", "coiffure", "opp"]
+                },
+                {
+                    "id": "ref-sc-12",
+                    "lineNumbers": [17],
+                    "excerpt": "J'ai cinq poules dans mon énorme couche y'est où mon coq six",
+                    "explanation": "Le corps humain possède un coccyx ; lui cherche littéralement un sixième oiseau (coq six).",
+                    "keywords": ["coccyx", "coq", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-13",
+                    "lineNumbers": [18],
+                    "excerpt": "J'écoute juste d'la musique en français, Sabrina Carpentière",
+                    "explanation": "Transformation francisée du nom de la chanteuse Sabrina Carpenter.",
+                    "keywords": ["Sabrina Carpenter", "francisation", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-14",
+                    "lineNumbers": [23],
+                    "excerpt": "64 diamants dans les poches plus de place dans mon inventaire",
+                    "explanation": "Référence directe à Minecraft : 64 est la taille maximale d'une pile d'objets dans le jeu.",
+                    "keywords": ["Minecraft", "64", "inventaire"]
+                },
+                {
+                    "id": "ref-sc-15",
+                    "lineNumbers": [24],
+                    "excerpt": "J'me suis enfargé sur mes 100 piasses là j'ai les quatre fers en l'air",
+                    "explanation": "« Avoir les quatre fers en l'air » est une expression québécoise signifiant tomber à la renverse.",
+                    "keywords": ["quatre fers en l'air", "expression", "Québec"]
+                },
+                {
+                    "id": "ref-sc-16",
+                    "lineNumbers": [28],
+                    "excerpt": "J't'allé au VVV pis là j'ai plein d'verrues plantaires",
+                    "explanation": "Le sigle VVV renvoie couramment au Village Vacances Valcartier, un immense complexe récréotouristique au Québec.",
+                    "keywords": ["VVV", "Valcartier", "Québec"]
+                },
+                {
+                    "id": "ref-sc-17",
+                    "lineNumbers": [30],
+                    "excerpt": "Mes opps pensent qu'j'suis sur d'l'œstrogène la façon j'fais grossir mon rack",
+                    "explanation": "L'œstrogène est associé aux caractéristiques féminines. « Rack » peut désigner la poitrine ou de l'argent : ses opps croient à tort à un changement hormonal alors qu'il parle de richesse (faire grossir son « rack »).",
+                    "keywords": ["œstrogène", "rack", "argent", "malentendu"]
+                },
+                {
+                    "id": "ref-sc-18",
+                    "lineNumbers": [32],
+                    "excerpt": "Moi pis mon bro on a volé l'concessionnaire on est deux sans plaques",
+                    "explanation": "Jeu de mot avec « deux sans plaques » et « 200 plaques », puisqu'ils ont volé un concessionnaire.",
+                    "keywords": ["concessionnaire", "plaques", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-19",
+                    "lineNumbers": [35],
+                    "excerpt": "Mon bébé il s'est étouffé j'lui ai donné une suce en LEGO",
+                    "explanation": "Objet extrêmement dangereux transformé en suce pour bébé.",
+                    "keywords": ["LEGO", "suce", "bébé", "absurde"]
+                },
+                {
+                    "id": "ref-sc-20",
+                    "lineNumbers": [51],
+                    "excerpt": "Mes fesses c'est deux grosses planètes, j'ai des assthémoroïdes",
+                    "explanation": "Fusion du mot « ass » et du mot « hémorroïdes », une ligne construite sur la sonorité.",
+                    "keywords": ["assthémoroïdes", "mot-valise", "sonorité"]
+                },
+                {
+                    "id": "ref-sc-21",
+                    "lineNumbers": [52],
+                    "excerpt": "J'pèse dans le game j'suis obèse morbide",
+                    "explanation": "Détourne l'expression « peser dans le game » (avoir de l'influence) en la prenant au sens littéral d'être réellement lourd.",
+                    "keywords": ["peser dans le game", "littéral", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-22",
+                    "lineNumbers": [56],
+                    "excerpt": "Ma viande hachée elle me torture, elle est crue elle",
+                    "explanation": "Jeu de mot avec « cruelle » et « crue elle », la viande hachée étant généralement crue à l'achat.",
+                    "keywords": ["cruelle", "viande hachée", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-23",
+                    "lineNumbers": [58],
+                    "excerpt": "Ma gardienne s'est endormie j'pense qu'elle me sur veille",
+                    "explanation": "Jeu de mot avec « surveille » et « sur veille », puisqu'elle s'est endormie.",
+                    "keywords": ["surveille", "veille", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-24",
+                    "lineNumbers": [63],
+                    "excerpt": "J'ai des sanglots particuliers tu peux dire que je pleur niche",
+                    "explanation": "Jeu de mot entre « pleurniche » et « pleur niche » (vu les sanglots particuliers).",
+                    "keywords": ["pleurniche", "niche", "jeu de mots"]
+                },
+                {
+                    "id": "ref-sc-25",
+                    "lineNumbers": [68],
+                    "excerpt": "Il manque une roue dessus, c'est un tuk tuk austère",
+                    "explanation": "Un tuk-tuk a normalement trois roues ; en retirer une le rend « austère », minimaliste à l'extrême.",
+                    "keywords": ["tuk-tuk", "roue", "austère"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "pate-chinois",
+            "title": "Pâté chinois",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "J'ai mis d'la sauce soya dans mon pâté chinois"
+                },
+                {
+                    "line": 2,
+                    "text": "J't'allé voir mon chirurgien j'ai dit embellis-moi"
+                },
+                {
+                    "line": 3,
+                    "text": "J't'allé voir mon déneigeur j'ai dit ensevelis moi"
+                },
+                {
+                    "line": 4,
+                    "text": "J'ai eu des legos pour Noël je suis remplis de joie"
+                },
+                {
+                    "line": 5,
+                    "text": "J'mange toujours chez l'dentiste je suis remplis de soie"
+                },
+                {
+                    "line": 6,
+                    "text": "(J'ai mangé d'la soie dentaire)"
+                },
+                {
+                    "line": 7,
+                    "text": "L'autre jour j't'allé twerker dans un Dollarama"
+                },
+                {
+                    "line": 8,
+                    "text": "Ils m'ont pogné tout nu à faire la split dans l'allée trois"
+                },
+                {
+                    "line": 9,
+                    "text": "J'tallé flex mes deux parents"
+                },
+                {
+                    "line": 10,
+                    "text": "Dans une orphelinat"
+                },
+                {
+                    "line": 11,
+                    "text": "On m'dit qu'sms est mort"
+                },
+                {
+                    "line": 12,
+                    "text": "Mais quand j'ouvre mon frigo Mozart est là"
+                },
+                {
+                    "line": 13,
+                    "text": "J'suis mad en tabarnak y'a des pickles, dans ma poutine"
+                },
+                {
+                    "line": 14,
+                    "text": "J'aime manger des grenades, mais j trippe pas su'les goupilles"
+                },
+                {
+                    "line": 15,
+                    "text": "J'me sens comme juice world, mes rêves a moi sont toutes lucide"
+                },
+                {
+                    "line": 16,
+                    "text": "Dedans j'fais juste des crimes d'la coke pis j'chies dans toutes vos bottines"
+                },
+                {
+                    "line": 17,
+                    "text": "J'cours sur le fleuve saint Laurent tous les jours, j'ai le pieds d'athlète"
+                },
+                {
+                    "line": 18,
+                    "text": "J'portes pu d'boxer, j'm'la suis pris dans ma braquette"
+                },
+                {
+                    "line": 19,
+                    "text": "J'suis trop pauvre pour get des pré-roulés, j'fume mon weed dans une canette"
+                },
+                {
+                    "line": 20,
+                    "text": "J'suis boulanger pour Ron Weasley, j'ai construit sa baguette"
+                },
+                {
+                    "line": 21,
+                    "text": "Jreste sur ton algorithme sur ton phone j'feel comme John Pork"
+                },
+                {
+                    "line": 22,
+                    "text": "J'voulais juste du jambon au IGA, pourquoi y'a 30 sortes"
+                },
+                {
+                    "line": 23,
+                    "text": "J'ai mis du parfum Ivre Saint-Laurent, elle dit que j'sens fort"
+                },
+                {
+                    "line": 24,
+                    "text": "Quatre 5 Hour Energy quand j'prends l'volant, pas d'chances que j'm'endors"
+                },
+                {
+                    "line": 25,
+                    "text": "Quand j'te dis qu'j'ai hit un perk, j'parle d'mon tambour"
+                },
+                {
+                    "line": 26,
+                    "text": "Mon cousin il vit sur les six pack, y'a un strong core"
+                },
+                {
+                    "line": 27,
+                    "text": "Si tu mets du NAV dans l'whip, tu perds le AUX cord"
+                },
+                {
+                    "line": 28,
+                    "text": "C'est SMS ou SMS comme ça y'a pas de wrong choice"
+                },
+                {
+                    "line": 29,
+                    "text": "Hein"
+                },
+                {
+                    "line": 30,
+                    "text": "C'est SMS ou Mbee, criss tu m'enlèves du lot"
+                },
+                {
+                    "line": 31,
+                    "text": "J'me sens bien, dans mes fesses j'ai un bubble butt"
+                },
+                {
+                    "line": 32,
+                    "text": "Elle m'a demandé un Hubba Bubba, elle veut un bubble gum"
+                },
+                {
+                    "line": 33,
+                    "text": "Elle met son Labubu entre ses cuisses, c'est un Labubutt"
+                },
+                {
+                    "line": 34,
+                    "text": "Yo, la kinésithérapeute, vas-y masse moi (LIVE)"
+                },
+                {
+                    "line": 35,
+                    "text": "Mon bro est devant la télé j'ai dit vas-y tasses toi"
+                },
+                {
+                    "line": 36,
+                    "text": "Mon poils de poche est sans tchasse elle m'dit vas-y rases toi"
+                },
+                {
+                    "line": 37,
+                    "text": "Yea des fois j'suis quand même poilu j'suis un sosie d'Sasquatch"
+                },
+                {
+                    "line": 38,
+                    "text": "J'ai envie d'parler sur le beat sans faire de flo"
+                },
+                {
+                    "line": 39,
+                    "text": "Elle a des grosses fesses bombées j'vois ses cheeks j'en perd les mots"
+                },
+                {
+                    "line": 40,
+                    "text": "Pas d'discrimination j'aime les p'tites boules pis les grosses paires de balles"
+                },
+                {
+                    "line": 41,
+                    "text": "J'ai besoin d'supervision parce que sinon bin j'peux m'faire du mal"
+                },
+                {
+                    "line": 42,
+                    "text": "C'est pas intentionnel j'suis quelqu'un de très maladroit"
+                },
+                {
+                    "line": 43,
+                    "text": "Sa majesté pogne une fièvre, c'est un malade roi"
+                },
+                {
+                    "line": 44,
+                    "text": "Je flex mon cheese a un intolérant au lactose"
+                },
+                {
+                    "line": 45,
+                    "text": "J'ai l'impression qu'j'suis infertile depuis qu'j'ai quatre tho"
+                },
+                {
+                    "line": 46,
+                    "text": "Trap avec Elvis Gratton à Santa Banana"
+                },
+                {
+                    "line": 47,
+                    "text": "Shawty est impressionnante elle dance la Bachata"
+                },
+                {
+                    "line": 48,
+                    "text": "Son booty shake, comme si y'avait 33 maracas"
+                },
+                {
+                    "line": 49,
+                    "text": "Woah t'as l'air quand même saoule fuck t'es tombée bin j'la ramasse"
+                },
+                {
+                    "line": 50,
+                    "text": "J'me sens comme Patrick Star, J't'un osti d'cave"
+                },
+                {
+                    "line": 51,
+                    "text": "Mais j'veux get le même bread que l'osti d'crabe"
+                },
+                {
+                    "line": 52,
+                    "text": "Est sur mes noix j'l'appelle Sandy 'sti qu'à m'énerve"
+                },
+                {
+                    "line": 53,
+                    "text": "J'fais d'l'hypoglycémie t'as tu des ménardes"
+                },
+                {
+                    "line": 54,
+                    "text": "J'viens d'pogner la rage, là j'feel comme Taz"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-pc-1",
+                    "lineNumbers": [1],
+                    "excerpt": "J'ai mis d'la sauce soya dans mon pâté chinois",
+                    "explanation": "Le pâté chinois est un plat traditionnel québécois composé de trois étages superposés : viande hachée, maïs et purée de pommes de terre.",
+                    "keywords": ["pâté chinois", "Québec", "plat traditionnel"]
+                },
+                {
+                    "id": "ref-pc-2",
+                    "lineNumbers": [9, 10],
+                    "excerpt": "J'tallé flex mes deux parents",
+                    "explanation": "« Flex » signifie exhiber quelque chose avec fierté. Dans un orphelinat, avoir deux parents devient ironiquement un privilège à montrer.",
+                    "keywords": ["flex", "orphelinat", "ironie"]
+                },
+                {
+                    "id": "ref-pc-3",
+                    "lineNumbers": [14],
+                    "excerpt": "J'aime manger des grenades, mais j trippe pas su'les goupilles",
+                    "explanation": "Double sens sur le mot « grenade » : le fruit et l'explosif.",
+                    "keywords": ["grenade", "double sens", "fruit"]
+                },
+                {
+                    "id": "ref-pc-4",
+                    "lineNumbers": [15],
+                    "excerpt": "J'me sens comme juice world, mes rêves a moi sont toutes lucide",
+                    "explanation": "Référence à Juice WRLD et à sa chanson Lucid Dreams.",
+                    "keywords": ["Juice WRLD", "Lucid Dreams", "rap"]
+                },
+                {
+                    "id": "ref-pc-5",
+                    "lineNumbers": [17],
+                    "excerpt": "J'cours sur le fleuve saint Laurent tous les jours, j'ai le pieds d'athlète",
+                    "explanation": "Double sens : courir sur le fleuve (comme Jésus) le rend athlétique, et le « pied d'athlète » est aussi une infection fongique favorisée par l'humidité.",
+                    "keywords": ["pied d'athlète", "fleuve", "double sens"]
+                },
+                {
+                    "id": "ref-pc-6",
+                    "lineNumbers": [19],
+                    "excerpt": "J'suis trop pauvre pour get des pré-roulés, j'fume mon weed dans une canette",
+                    "explanation": "Expérience formatrice pour bien des fumeurs de cannabis : se rouler un joint de fortune dans une canette.",
+                    "keywords": ["weed", "canette", "cannabis"]
+                },
+                {
+                    "id": "ref-pc-7",
+                    "lineNumbers": [20],
+                    "excerpt": "J'suis boulanger pour Ron Weasley, j'ai construit sa baguette",
+                    "explanation": "Jeu de mot avec le pain baguette et la baguette de sorcier d'Harry Potter.",
+                    "keywords": ["Ron Weasley", "baguette", "Harry Potter", "jeu de mots"]
+                },
+                {
+                    "id": "ref-pc-8",
+                    "lineNumbers": [21],
+                    "excerpt": "Jreste sur ton algorithme sur ton phone j'feel comme John Pork",
+                    "explanation": "Référence au personnage internet John Pork, célèbre pour apparaître constamment sur les réseaux sociaux et pour ses appels téléphoniques viraux.",
+                    "keywords": ["John Pork", "internet", "meme"]
+                },
+                {
+                    "id": "ref-pc-9",
+                    "lineNumbers": [23],
+                    "excerpt": "J'ai mis du parfum Ivre Saint-Laurent, elle dit que j'sens fort",
+                    "explanation": "« Yves » devient « Ivre », donnant un parfum qui sent l'alcool, ou le « fort » (spiritueux).",
+                    "keywords": ["Yves Saint-Laurent", "ivre", "parfum", "jeu de mots"]
+                },
+                {
+                    "id": "ref-pc-10",
+                    "lineNumbers": [25],
+                    "excerpt": "Quand j'te dis qu'j'ai hit un perk, j'parle d'mon tambour",
+                    "explanation": "« Perk » renvoie habituellement à une pilule Percocet ; ici il détourne le terme vers la percussion : il a simplement frappé son tambour.",
+                    "keywords": ["perk", "Percocet", "percussion", "tambour"]
+                },
+                {
+                    "id": "ref-pc-11",
+                    "lineNumbers": [26],
+                    "excerpt": "Mon cousin il vit sur les six pack, y'a un strong core",
+                    "explanation": "Double sens entre le six-pack d'abdominaux et le six-pack de bière.",
+                    "keywords": ["six-pack", "abdos", "bière", "double sens"]
+                },
+                {
+                    "id": "ref-pc-12",
+                    "lineNumbers": [36],
+                    "excerpt": "Mon poils de poche est sans tchasse elle m'dit vas-y rases toi",
+                    "explanation": "Humour adolescent basé sur le poil pubien ; « sans tchasse » suggère qu'il dépasse ou manque d'entretien.",
+                    "keywords": ["poil pubien", "humour", "rasage"]
+                },
+                {
+                    "id": "ref-pc-13",
+                    "lineNumbers": [37],
+                    "excerpt": "Yea des fois j'suis quand même poilu j'suis un sosie d'Sasquatch",
+                    "explanation": "Référence à Sasquatch, créature légendaire réputée pour sa pilosité abondante.",
+                    "keywords": ["Sasquatch", "pilosité", "légende"]
+                },
+                {
+                    "id": "ref-pc-14",
+                    "lineNumbers": [44],
+                    "excerpt": "Je flex mon cheese a un intolérant au lactose",
+                    "explanation": "« Cheese » peut désigner du fromage ou de l'argent : dans les deux cas, le geste est cruel envers quelqu'un qui ne peut pas consommer de lactose.",
+                    "keywords": ["cheese", "fromage", "argent", "lactose"]
+                },
+                {
+                    "id": "ref-pc-15",
+                    "lineNumbers": [46],
+                    "excerpt": "Trap avec Elvis Gratton à Santa Banana",
+                    "explanation": "Références très québécoises : Elvis Gratton, caricature du Québécois kitsch, et Santa Banana, destination tropicale fictive récurrente de son univers.",
+                    "keywords": ["Elvis Gratton", "Santa Banana", "Québec", "cinéma"]
+                },
+                {
+                    "id": "ref-pc-16",
+                    "lineNumbers": [49, 50],
+                    "excerpt": "J'me sens comme Patrick Star, J't'un osti d'cave",
+                    "explanation": "Référence à Patrick Star et Mr. Krabs dans Bob l'Éponge : Patrick est naïf, Monsieur Krabs obsédé par l'argent. Il se voit comme l'un mais aspire à la richesse de l'autre.",
+                    "keywords": ["Patrick Star", "Mr. Krabs", "Bob l'Éponge", "argent"]
+                },
+                {
+                    "id": "ref-pc-17",
+                    "lineNumbers": [52],
+                    "excerpt": "Est sur mes noix j'l'appelle Sandy 'sti qu'à m'énerve",
+                    "explanation": "Référence à Sandy Cheeks, un écureuil (les écureuils adorent les noix) : une personne qui lui tape sur les nerfs se retrouve « sur ses noix ».",
+                    "keywords": ["Sandy Cheeks", "écureuil", "Bob l'Éponge", "jeu de mots"]
+                },
+                {
+                    "id": "ref-pc-18",
+                    "lineNumbers": [53],
+                    "excerpt": "J'fais d'l'hypoglycémie t'as tu des ménardes",
+                    "explanation": "Les Mentos (bonbons) servent à remonter rapidement le sucre sanguin ; le mot est déformé en « ménardes », rappelant aussi l'entreprise québécoise Ménard.",
+                    "keywords": ["Mentos", "hypoglycémie", "bonbons", "jeu de mots"]
+                },
+                {
+                    "id": "ref-pc-19",
+                    "lineNumbers": [54],
+                    "excerpt": "J'viens d'pogner la rage, là j'feel comme Taz",
+                    "explanation": "Référence au Tasmanian Devil (Taz), personnage connu pour son tempérament incontrôlable et sa fureur constante.",
+                    "keywords": ["Taz", "Tasmanian Devil", "rage", "cartoon"]
+                }
+            ],
+            "artist": "SMS, Mbee",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "ok",
+            "title": "ok!",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "Yo big"
+                },
+                {
+                    "line": 2,
+                    "text": "Pis ça va comment avec Nadine finalement?"
+                },
+                {
+                    "line": 3,
+                    "text": "Elle m'a mis une bombe à retardement dans l'anus pis la elle veut m'quitter"
+                },
+                {
+                    "line": 4,
+                    "text": "Ah ouin t'as dit quoi"
+                },
+                {
+                    "line": 5,
+                    "text": "J'ai dit ok"
+                },
+                {
+                    "line": 6,
+                    "text": "Elle a dit j'te criss là j'ai dit ok"
+                },
+                {
+                    "line": 7,
+                    "text": "Elle a dit qu'c'est fini j'ai dit ok"
+                },
+                {
+                    "line": 8,
+                    "text": "Elle a dit j'te déteste j'ai dit ok"
+                },
+                {
+                    "line": 9,
+                    "text": "Élodie m'a trompé j'ai dit ok"
+                },
+                {
+                    "line": 10,
+                    "text": "Ma tirelire est tombé j'ai dit d'accord"
+                },
+                {
+                    "line": 11,
+                    "text": "Hector y'a explosé j'ai dit ok"
+                },
+                {
+                    "line": 12,
+                    "text": "J'ai mis mon DO sur le SOL j'suis en accord"
+                },
+                {
+                    "line": 13,
+                    "text": "Elle m'a dit lâches la sauce j'ai dit foufou"
+                },
+                {
+                    "line": 14,
+                    "text": "J'ai mangé un windshield là j'suis poqué"
+                },
+                {
+                    "line": 15,
+                    "text": "J'ai vu Ice Age baby je l'ai"
+                },
+                {
+                    "line": 16,
+                    "text": "J'ai vu Ice Age baby je l'ai botté"
+                },
+                {
+                    "line": 17,
+                    "text": "J'ai vu une lampe à huile je l'ai frotté"
+                },
+                {
+                    "line": 18,
+                    "text": "Trois saucisses cocktails je l'ai souhaité"
+                },
+                {
+                    "line": 19,
+                    "text": "J'ai puni la crème je l'ai fouetté"
+                },
+                {
+                    "line": 20,
+                    "text": "J'ai reçu un ballon dans l'aine là j'vais boiter"
+                },
+                {
+                    "line": 21,
+                    "text": "J'ai reçu un avion dans face là j'suis couetté"
+                },
+                {
+                    "line": 22,
+                    "text": "Premier date avec cette b je suis ok"
+                },
+                {
+                    "line": 23,
+                    "text": "Elle me demande où on s'voit j'lui dis aux quais"
+                },
+                {
+                    "line": 24,
+                    "text": "Elle sait pas qu'jsuis un expert en bilboquet"
+                },
+                {
+                    "line": 25,
+                    "text": "J'suis dans la bibliothèque je bouquine des ouvrages antiques"
+                },
+                {
+                    "line": 26,
+                    "text": "J'suis avec sms donc le shit est Outre atlantique"
+                },
+                {
+                    "line": 27,
+                    "text": "Viens dans la ruche et tu t'fais Piquer par 400 guêpes"
+                },
+                {
+                    "line": 28,
+                    "text": "J'suis fonsde jcommence a rapper avec l'accent queb"
+                },
+                {
+                    "line": 29,
+                    "text": "Jsuis avec Justin Trudeau et Justin bieber"
+                },
+                {
+                    "line": 30,
+                    "text": "On a pas bu des masses on est juste imbibés"
+                },
+                {
+                    "line": 31,
+                    "text": "Tu le sais que j'suis con comme mes pieds"
+                },
+                {
+                    "line": 32,
+                    "text": "Sauf que mes pieds ils sont allés à Oxford"
+                },
+                {
+                    "line": 33,
+                    "text": "J'aime manger du gâteau et chanter"
+                },
+                {
+                    "line": 34,
+                    "text": "Mais Jtrouve que Fêter son anniv c'est awkward"
+                },
+                {
+                    "line": 35,
+                    "text": "J'ai un p'tit corps prismique j'suis comme Roblox"
+                },
+                {
+                    "line": 36,
+                    "text": "J'suis un gros gars basique j'mange du Oka"
+                },
+                {
+                    "line": 37,
+                    "text": "J'ai infiltré Brick j'suis dans d'beaux draps"
+                },
+                {
+                    "line": 38,
+                    "text": "Elle a queef comme un chef j'suis comme Sosa"
+                },
+                {
+                    "line": 39,
+                    "text": "Elle a dit désolé j'ai dit trop tard"
+                },
+                {
+                    "line": 40,
+                    "text": "Elle a un dump truck j'ai dit beau char"
+                },
+                {
+                    "line": 41,
+                    "text": "J'ai une toute petite caisse j'suis un go-kart"
+                },
+                {
+                    "line": 42,
+                    "text": "Mon oncle a ridé deux roux c'est un motard"
+                },
+                {
+                    "line": 43,
+                    "text": "J'ai les genoux en sang j'fais plus jamais d'trycicle"
+                },
+                {
+                    "line": 44,
+                    "text": "J'ai les coudes dans l'plâtre j'mange plus jamais d'missile"
+                },
+                {
+                    "line": 45,
+                    "text": "Mamie m'a mordu l'front j'y fait plus jamais d'visites"
+                },
+                {
+                    "line": 46,
+                    "text": "Si tu veux un orthographe vient m'voir à la clinique"
+                },
+                {
+                    "line": 47,
+                    "text": "Ma balayeuse est malade j'y ai donné une aspirine"
+                },
+                {
+                    "line": 48,
+                    "text": "J'ai l'cul en centre d'achat vient faire du lèche vitrine"
+                },
+                {
+                    "line": 49,
+                    "text": "J'suis fucking fort au pool j'habite dans l'club piscine"
+                },
+                {
+                    "line": 50,
+                    "text": "J'te garoche des obuts avec ma pelle missile"
+                },
+                {
+                    "line": 51,
+                    "text": "Ça j'te dirais qu'cest une des meilleures chansons"
+                },
+                {
+                    "line": 52,
+                    "text": "De toute notre catalogue"
+                },
+                {
+                    "line": 53,
+                    "text": "En tout cas selon moi"
+                },
+                {
+                    "line": 54,
+                    "text": "Ça c'est vraiment bon"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-ok-1",
+                    "lineNumbers": [9],
+                    "excerpt": "Élodie m'a trompé j'ai dit ok",
+                    "explanation": "Jeu de mot sonore avec « elle a dit » (les lignes précédentes) et « Élodie ».",
+                    "keywords": ["Élodie", "elle a dit", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ok-2",
+                    "lineNumbers": [12],
+                    "excerpt": "J'ai mis mon DO sur le SOL j'suis en accord",
+                    "explanation": "Sens littéral (il met son dos sur le sol et est d'accord) et sens musical : DO et SOL sont des notes qui, jouées ensemble, forment un accord.",
+                    "keywords": ["DO", "SOL", "accord", "musique"]
+                },
+                {
+                    "id": "ref-ok-3",
+                    "lineNumbers": [13],
+                    "excerpt": "Elle m'a dit lâches la sauce j'ai dit foufou",
+                    "explanation": "Référence au « foufou sauce graine », plat emblématique de l'Afrique de l'Ouest devenu populaire sur les réseaux pour son nom comique.",
+                    "keywords": ["foufou", "sauce graine", "Afrique de l'Ouest"]
+                },
+                {
+                    "id": "ref-ok-4",
+                    "lineNumbers": [14],
+                    "excerpt": "J'ai mangé un windshield là j'suis poqué",
+                    "explanation": "Au Québec, être « poqué » signifie être cabossé ou amoché.",
+                    "keywords": ["poqué", "Québec", "windshield"]
+                },
+                {
+                    "id": "ref-ok-5",
+                    "lineNumbers": [15, 16],
+                    "excerpt": "J'ai vu Ice Age baby je l'ai botté",
+                    "explanation": "Référence au bébé du film Ice Age, devenu un mème internet où les internautes prétendent le détester de façon disproportionnée.",
+                    "keywords": ["Ice Age", "bébé", "meme"]
+                },
+                {
+                    "id": "ref-ok-6",
+                    "lineNumbers": [19],
+                    "excerpt": "J'ai puni la crème je l'ai fouetté",
+                    "explanation": "Double sens pour « fouetté » : une technique culinaire pour la crème, ou une forme de punition physique.",
+                    "keywords": ["crème fouettée", "double sens", "punition"]
+                },
+                {
+                    "id": "ref-ok-7",
+                    "lineNumbers": [26],
+                    "excerpt": "J'suis avec sms donc le shit est Outre atlantique",
+                    "explanation": "Noah Naas habite en France et les membres de SMS vivent au Québec, d'où le « outre-atlantique ».",
+                    "keywords": ["Naas", "France", "Québec", "outre-atlantique"]
+                },
+                {
+                    "id": "ref-ok-8",
+                    "lineNumbers": [30],
+                    "excerpt": "On a pas bu des masses on est juste imbibés",
+                    "explanation": "Le narrateur minimise un état d'ébriété pourtant évident.",
+                    "keywords": ["alcool", "ébriété", "euphémisme"]
+                },
+                {
+                    "id": "ref-ok-9",
+                    "lineNumbers": [32],
+                    "excerpt": "Sauf que mes pieds ils sont allés à Oxford",
+                    "explanation": "L'expression habituelle est « con comme ses pieds » ; la ligne la détruit en accordant aux pieds une éducation prestigieuse à l'Université d'Oxford.",
+                    "keywords": ["Oxford", "con comme ses pieds", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ok-10",
+                    "lineNumbers": [34],
+                    "excerpt": "Mais Jtrouve que Fêter son anniv c'est awkward",
+                    "explanation": "Contradiction interne : il aime tous les éléments d'une fête d'anniversaire sauf la fête elle-même.",
+                    "keywords": ["anniversaire", "awkward", "contradiction"]
+                },
+                {
+                    "id": "ref-ok-11",
+                    "lineNumbers": [35],
+                    "excerpt": "J'ai un p'tit corps prismique j'suis comme Roblox",
+                    "explanation": "Dans Roblox, les personnages sont construits à partir de formes géométriques simples.",
+                    "keywords": ["Roblox", "prismique", "jeu vidéo"]
+                },
+                {
+                    "id": "ref-ok-12",
+                    "lineNumbers": [36],
+                    "excerpt": "J'suis un gros gars basique j'mange du Oka",
+                    "explanation": "Référence au fromage québécois Oka.",
+                    "keywords": ["Oka", "fromage", "Québec"]
+                },
+                {
+                    "id": "ref-ok-13",
+                    "lineNumbers": [37],
+                    "excerpt": "J'ai infiltré Brick j'suis dans d'beaux draps",
+                    "explanation": "« Être dans de beaux draps » = être dans le trouble. Littéralement, s'infiltrer chez Brick, qui vend de la literie, c'est se retrouver dans de beaux draps.",
+                    "keywords": ["Brick", "beaux draps", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ok-14",
+                    "lineNumbers": [38],
+                    "excerpt": "Elle a queef comme un chef j'suis comme Sosa",
+                    "explanation": "« Sosa » évoque Chief Keef, surnommé « Sosa » : jeu de mot avec queef/chef et Keef/Chief.",
+                    "keywords": ["Chief Keef", "Sosa", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ok-15",
+                    "lineNumbers": [40],
+                    "excerpt": "Elle a un dump truck j'ai dit beau char",
+                    "explanation": "« Dump truck » désigne de grosses fesses.",
+                    "keywords": ["dump truck", "fesses", "slang"]
+                },
+                {
+                    "id": "ref-ok-16",
+                    "lineNumbers": [41],
+                    "excerpt": "J'ai une toute petite caisse j'suis un go-kart",
+                    "explanation": "« Caisse » = voiture ou corps : il a un petit gabarit, comme un go-kart.",
+                    "keywords": ["caisse", "go-kart", "double sens"]
+                },
+                {
+                    "id": "ref-ok-17",
+                    "lineNumbers": [42],
+                    "excerpt": "Mon oncle a ridé deux roux c'est un motard",
+                    "explanation": "Jeu de mot avec « deux roues » (la moto) et « deux roux » (deux personnes rousses).",
+                    "keywords": ["deux roues", "roux", "motard", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ok-18",
+                    "lineNumbers": [46],
+                    "excerpt": "Si tu veux un orthographe vient m'voir à la clinique",
+                    "explanation": "Erreur volontaire : on dit « un autographe », pas « un orthographe ». La ligne joue sur la confusion entre deux mots proches phonétiquement.",
+                    "keywords": ["autographe", "orthographe", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ok-19",
+                    "lineNumbers": [49],
+                    "excerpt": "J'suis fucking fort au pool j'habite dans l'club piscine",
+                    "explanation": "En anglais « pool » = piscine, mais aussi billard. Club Piscine Super Fitness est une chaîne québécoise de piscines et spas.",
+                    "keywords": ["pool", "billard", "Club Piscine", "jeu de mots"]
+                }
+            ],
+            "artist": "SMS, Naas",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "voicemail",
+            "title": "Voicemail",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "J'ai call pour entendre ton voicemail"
+                },
+                {
+                    "line": 2,
+                    "text": "Y'a juste dans mes rêves que tu m'rappelles"
+                },
+                {
+                    "line": 3,
+                    "text": "J'savais pas qu'tu mangeais pas d'arachides"
+                },
+                {
+                    "line": 4,
+                    "text": "J'ai ruiné ta vie là j'suis dans pourriel"
+                },
+                {
+                    "line": 5,
+                    "text": "Ton poisson rouge j'le mettrai plus dans l'congel"
+                },
+                {
+                    "line": 6,
+                    "text": "Ton grand papa j'le mettrai plus dans l'congel"
+                },
+                {
+                    "line": 7,
+                    "text": "J'vais plus jamais l'faire, promis j'vais changer"
+                },
+                {
+                    "line": 8,
+                    "text": "Mon cœur est un désert, veux-tu m'abbreuver"
+                },
+                {
+                    "line": 9,
+                    "text": "J'vais plus jamais l'faire, j't'aime jusqu'à l'enfer"
+                },
+                {
+                    "line": 10,
+                    "text": "J'ai demandé à ton père, j'peux tu l'épouser"
+                },
+                {
+                    "line": 11,
+                    "text": "J'suis désolé d'avoir mis ta maison en fucking feu"
+                },
+                {
+                    "line": 12,
+                    "text": "J'suis désolé d'avoir bu ta piscine au complet"
+                },
+                {
+                    "line": 13,
+                    "text": "J'suis désolé d'm'avoir fait une barbe en te rasant les cheveux"
+                },
+                {
+                    "line": 14,
+                    "text": "Je vais plus jamais t'blesser"
+                },
+                {
+                    "line": 15,
+                    "text": "Promis je fais plus d'wheelie"
+                },
+                {
+                    "line": 16,
+                    "text": "J'suis désolé"
+                },
+                {
+                    "line": 17,
+                    "text": "J'ai call pour entendre ton voicemail"
+                },
+                {
+                    "line": 18,
+                    "text": "Y'a juste dans mes rêves que tu m'rappelles"
+                },
+                {
+                    "line": 19,
+                    "text": "J'savais pas qu'tu mangeais pas d'arachides"
+                },
+                {
+                    "line": 20,
+                    "text": "J'ai ruiné ta vie là j'suis dans pourriel"
+                },
+                {
+                    "line": 21,
+                    "text": "Le router du wifi, j'le mettrai plus dans l'congel"
+                },
+                {
+                    "line": 22,
+                    "text": "Ton pain à l'ail, j'le mettrai plus dans l'congel"
+                },
+                {
+                    "line": 23,
+                    "text": "J'vais plus jamais l'faire, promis j'vais changer"
+                },
+                {
+                    "line": 24,
+                    "text": "Mon cœur est un désert, veux-tu m'abbreuver"
+                },
+                {
+                    "line": 25,
+                    "text": "J'vais plus jamais l'faire, j't'aime jusqu'à l'enfer"
+                },
+                {
+                    "line": 26,
+                    "text": "J'ai demandé à ton père, j'peux tu l'épouser"
+                },
+                {
+                    "line": 27,
+                    "text": "Je l'avoue c'était pas Hector qui a chié dans ton rumba"
+                },
+                {
+                    "line": 28,
+                    "text": "J'suis désolé d't'avoir enfermé dans un sauna"
+                },
+                {
+                    "line": 29,
+                    "text": "C'est moi qui a caché le fromage dans les craques du sofa"
+                },
+                {
+                    "line": 30,
+                    "text": "Je ferai plus d'karaoké"
+                },
+                {
+                    "line": 31,
+                    "text": "En plein milieu de la nuit"
+                },
+                {
+                    "line": 32,
+                    "text": "J'suis désolé"
+                },
+                {
+                    "line": 33,
+                    "text": "J'ai call pour entendre ton voicemail"
+                },
+                {
+                    "line": 34,
+                    "text": "Y'a juste dans mes rêves que tu m'rappelles"
+                },
+                {
+                    "line": 35,
+                    "text": "J'savais pas qu'tu mangeais pas d'arachides"
+                },
+                {
+                    "line": 36,
+                    "text": "J'ai ruiné ta vie là j'suis dans pourriel"
+                },
+                {
+                    "line": 37,
+                    "text": "Eric Duhaime, j'le mettrai plus dans l'congel"
+                },
+                {
+                    "line": 38,
+                    "text": "Dis que tu m'aimes, j'le mettrai plus dans l'congel"
+                },
+                {
+                    "line": 39,
+                    "text": "J'vais plus jamais l'faire, promis j'vais changer"
+                },
+                {
+                    "line": 40,
+                    "text": "Mon cœur est un désert, veux-tu m'abbreuver"
+                },
+                {
+                    "line": 41,
+                    "text": "J'vais plus jamais l'faire, j't'aime jusqu'à l'enfer"
+                },
+                {
+                    "line": 42,
+                    "text": "J'ai demandé à ton père, j'peux tu l'épouser"
+                },
+                {
+                    "line": 43,
+                    "text": "J'vais plus jamais l'faire, promis j'vais changer"
+                },
+                {
+                    "line": 44,
+                    "text": "Mon cœur est un désert, veux-tu m'abbreuver"
+                },
+                {
+                    "line": 45,
+                    "text": "J'vais plus jamais l'faire, j't'aime jusqu'à l'enfer"
+                },
+                {
+                    "line": 46,
+                    "text": "J'ai demandé à ton père, j'peux tu l'épouser"
+                },
+                {
+                    "line": 47,
+                    "text": "J'veux entendre ton voicemail"
+                },
+                {
+                    "line": 48,
+                    "text": "Des arachides"
+                },
+                {
+                    "line": 49,
+                    "text": "jusqu'à l'enfer"
+                }
+            ],
+            "references": [],
+            "artist": "SMS",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "mon-perroquet-monica",
+            "title": "Mon perroquet Monica",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "C'est pas ma faute si t'es jaloux, c'est un you problem"
+                },
+                {
+                    "line": 2,
+                    "text": "J'bouge mes pieds dans les airs, it's my Boo calling"
+                },
+                {
+                    "line": 3,
+                    "text": "Stand sur la business, dans mes New balance"
+                },
+                {
+                    "line": 4,
+                    "text": "J'ai mis des couteaux dans mon gant, jsuis comme Hugh jackman"
+                },
+                {
+                    "line": 5,
+                    "text": "J'ai mis du tren dans mon smoothie, j'suis un huge jacked man"
+                },
+                {
+                    "line": 6,
+                    "text": "Mon cheval s'est sauvé dans minecraft, là j'ai full d'la peine"
+                },
+                {
+                    "line": 7,
+                    "text": "J'ai mis des lettres dans l'compte bancaire, là j'aime full l'algèbre"
+                },
+                {
+                    "line": 8,
+                    "text": "Mon ketchup y m'embrasse, mais j'aime ça quand moutarde French"
+                },
+                {
+                    "line": 9,
+                    "text": "Mes pommes font des squats, mais ma croustade bench"
+                },
+                {
+                    "line": 10,
+                    "text": "J'mange des legumes sur ma trempette, combo chourave-ranch"
+                },
+                {
+                    "line": 11,
+                    "text": "Ed Sheeran avec la peau verte, c'est un roux alien"
+                },
+                {
+                    "line": 12,
+                    "text": "Combat de mammifère marin, j'te sacre un coup d'baleine"
+                },
+                {
+                    "line": 13,
+                    "text": "J'ai fait un cauchemar c'tait Éric Duhaime"
+                },
+                {
+                    "line": 14,
+                    "text": "Gender reveal c'est Éric Duhaime (FUCK)"
+                },
+                {
+                    "line": 15,
+                    "text": "Est rentrée dans l'mur, c'est"
+                },
+                {
+                    "line": 16,
+                    "text": "Est rentrée dans l'mur, c'est Presbyte Mireille"
+                },
+                {
+                    "line": 17,
+                    "text": "Monika"
+                },
+                {
+                    "line": 18,
+                    "text": "J'aimerais que tu reviennes"
+                },
+                {
+                    "line": 19,
+                    "text": "Monika"
+                },
+                {
+                    "line": 20,
+                    "text": "Tu m'as fait de la peine"
+                },
+                {
+                    "line": 21,
+                    "text": "Monika"
+                },
+                {
+                    "line": 22,
+                    "text": "Tu m'as pris les enfants"
+                },
+                {
+                    "line": 23,
+                    "text": "Monika"
+                },
+                {
+                    "line": 24,
+                    "text": "Viens donc m'donner un bec"
+                },
+                {
+                    "line": 25,
+                    "text": "J'ai une infection pulmonaire, j'ai fumé du kraft diner"
+                },
+                {
+                    "line": 26,
+                    "text": "J'ai une inspection urinaire, j'lui en ai mis plein din yeux"
+                },
+                {
+                    "line": 27,
+                    "text": "J'suis la patante poilue nommée George, j'suis bin curieux"
+                },
+                {
+                    "line": 28,
+                    "text": "Ça c'est george il dit allo"
+                },
+                {
+                    "line": 29,
+                    "text": "On m'a mis dans une fourrière je sonne comme un zombie dans black ops 3"
+                },
+                {
+                    "line": 30,
+                    "text": "Ma tulipe est morte j'veux lui faire un enterrement dans black ops 3"
+                },
+                {
+                    "line": 31,
+                    "text": "Mon perroquet m'a divorcé y'a pris les enfants"
+                },
+                {
+                    "line": 32,
+                    "text": "J'ai bêché sur un bilboquet, sont où les pansements"
+                },
+                {
+                    "line": 33,
+                    "text": "J'ai frenché Chantale en géo j'suis un mauvais garçon"
+                },
+                {
+                    "line": 34,
+                    "text": "Apres J'lui ai crisser du gel-o dans son osti de gros front"
+                },
+                {
+                    "line": 35,
+                    "text": "Jai pas de temps à spare pour ça je hit juste des strikes"
+                },
+                {
+                    "line": 36,
+                    "text": "J'contrôle pas l'ballon je hit juste des fenêtres"
+                },
+                {
+                    "line": 37,
+                    "text": "J'contrôle plus l'guidon, j'propulsé de mon bike"
+                },
+                {
+                    "line": 38,
+                    "text": "J'atterris au Canac j'ai plein d'clous dans tête"
+                },
+                {
+                    "line": 39,
+                    "text": "Monika"
+                },
+                {
+                    "line": 40,
+                    "text": "J'aimerais que tu reviennes (s'te plaît)"
+                },
+                {
+                    "line": 41,
+                    "text": "Monika"
+                },
+                {
+                    "line": 42,
+                    "text": "Tu m'as fait de la peine (heehee)"
+                },
+                {
+                    "line": 43,
+                    "text": "Monika"
+                },
+                {
+                    "line": 44,
+                    "text": "Tu m'as pris les enfants (tu m'as pris les enfants)"
+                },
+                {
+                    "line": 45,
+                    "text": "Monika"
+                },
+                {
+                    "line": 46,
+                    "text": "Viens donc m'donner un bec"
+                },
+                {
+                    "line": 47,
+                    "text": "Ok répète apres moi"
+                },
+                {
+                    "line": 48,
+                    "text": "Monika"
+                },
+                {
+                    "line": 49,
+                    "text": "(Monika)"
+                },
+                {
+                    "line": 50,
+                    "text": "Monika veut un fromage"
+                },
+                {
+                    "line": 51,
+                    "text": "(Monika veut un fromage)"
+                },
+                {
+                    "line": 52,
+                    "text": "(Monika veut un fromage)"
+                },
+                {
+                    "line": 53,
+                    "text": "J'suis vraiment un gros cave"
+                },
+                {
+                    "line": 54,
+                    "text": "(T'es vraiment un gros cave)"
+                },
+                {
+                    "line": 55,
+                    "text": "J'TE DÉTESTE"
+                },
+                {
+                    "line": 56,
+                    "text": "Jumpscare dans l'usine de contenants, j'ai fait un saut"
+                },
+                {
+                    "line": 57,
+                    "text": "J'ai trop frotté ma lampe, j't'allé voir un génie-cologue"
+                },
+                {
+                    "line": 58,
+                    "text": "Aux élections provinciales, j'ai voté pour Pedro"
+                },
+                {
+                    "line": 59,
+                    "text": "J'cherchais mon père polonais mais y'est Pologne"
+                },
+                {
+                    "line": 60,
+                    "text": "J'me suis trop fait chauffer la raie, là j'suis infertile"
+                },
+                {
+                    "line": 61,
+                    "text": "J'me suis rentré un doigt dans l'nez j'me suis fait dilater la pupille"
+                },
+                {
+                    "line": 62,
+                    "text": "J'vraiment plus cool que mon voisin Gil"
+                },
+                {
+                    "line": 63,
+                    "text": "Me suis douché dans l'lave-vaisselle j'suis ressorti plein d'ustensiles"
+                },
+                {
+                    "line": 64,
+                    "text": "Monika"
+                },
+                {
+                    "line": 65,
+                    "text": "J'aimerais que tu reviennes"
+                },
+                {
+                    "line": 66,
+                    "text": "Monika"
+                },
+                {
+                    "line": 67,
+                    "text": "Tu m'as fait de la peine"
+                },
+                {
+                    "line": 68,
+                    "text": "Monika"
+                },
+                {
+                    "line": 69,
+                    "text": "Tu m'as pris les enfants"
+                },
+                {
+                    "line": 70,
+                    "text": "Monika"
+                },
+                {
+                    "line": 71,
+                    "text": "Viens donc m'donner un bec"
+                },
+                {
+                    "line": 72,
+                    "text": "Monika"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-monica-1",
+                    "lineNumbers": [3],
+                    "excerpt": "Stand sur la business, dans mes New balance",
+                    "explanation": "Référence à l'expression internet « stand on business » (assumer ses décisions), prise au sens littéral : il se tient debout sur la business avec ses New Balance, des souliers peu flatteurs qu'il tente de flex.",
+                    "keywords": ["stand on business", "New Balance", "internet"]
+                },
+                {
+                    "id": "ref-monica-2",
+                    "lineNumbers": [4],
+                    "excerpt": "J'ai mis des couteaux dans mon gant, jsuis comme Hugh jackman",
+                    "explanation": "Référence à Wolverine, joué par Hugh Jackman, dont les griffes sortent des mains.",
+                    "keywords": ["Hugh Jackman", "Wolverine", "griffes"]
+                },
+                {
+                    "id": "ref-monica-3",
+                    "lineNumbers": [5],
+                    "excerpt": "J'ai mis du tren dans mon smoothie, j'suis un huge jacked man",
+                    "explanation": "« Hugh Jackman » est transformé phonétiquement en « huge jacked man » (énorme homme musclé), justifié par la mention de la trenbolone (« tren »), un stéroïde anabolisant.",
+                    "keywords": ["huge jacked man", "tren", "stéroïde", "jeu de mots"]
+                },
+                {
+                    "id": "ref-monica-4",
+                    "lineNumbers": [7],
+                    "excerpt": "J'ai mis des lettres dans l'compte bancaire, là j'aime full l'algèbre",
+                    "explanation": "Les lettres servent d'abréviations pour des montants (« K » pour mille, « M » pour million). Ajouter des lettres à son compte suggère plus d'argent, et un mélange de chiffres et de lettres ressemble à de l'algèbre.",
+                    "keywords": ["lettres", "compte bancaire", "algèbre", "argent"]
+                },
+                {
+                    "id": "ref-monica-5",
+                    "lineNumbers": [8],
+                    "excerpt": "Mon ketchup y m'embrasse, mais j'aime ça quand moutarde French",
+                    "explanation": "Jeu de mots entre la marque de moutarde French's et le verbe québécois « frencher » (embrasser avec la langue).",
+                    "keywords": ["French's", "frencher", "moutarde", "jeu de mots"]
+                },
+                {
+                    "id": "ref-monica-6",
+                    "lineNumbers": [27],
+                    "excerpt": "J'suis la patante poilue nommée George, j'suis bin curieux",
+                    "explanation": "Référence à Georges le petit curieux, le célèbre singe des livres pour enfants.",
+                    "keywords": ["Georges le curieux", "singe", "livres"]
+                },
+                {
+                    "id": "ref-monica-7",
+                    "lineNumbers": [35],
+                    "excerpt": "Jai pas de temps à spare pour ça je hit juste des strikes",
+                    "explanation": "Double sens de « spare » : avoir du temps libre, et le spare au bowling (renverser toutes les quilles en deux lancers). Il ne fait que des strikes, donc il réussit tout du premier coup.",
+                    "keywords": ["spare", "strike", "bowling", "double sens"]
+                },
+                {
+                    "id": "ref-monica-8",
+                    "lineNumbers": [50, 53, 55],
+                    "excerpt": "J'TE DÉTESTE",
+                    "explanation": "Conversation entre le narrateur et Monika le perroquet, qui répète ce qu'on lui dit.",
+                    "keywords": ["Monika", "perroquet", "conversation"]
+                },
+                {
+                    "id": "ref-monica-9",
+                    "lineNumbers": [56],
+                    "excerpt": "Jumpscare dans l'usine de contenants, j'ai fait un saut",
+                    "explanation": "« Jumpscare » = avoir un sursaut. Pris au littéral dans une usine de contenants : elle aurait « fait un seau » (homophone de saut).",
+                    "keywords": ["jumpscare", "saut", "seau", "jeu de mots"]
+                },
+                {
+                    "id": "ref-monica-10",
+                    "lineNumbers": [57],
+                    "excerpt": "J'ai trop frotté ma lampe, j't'allé voir un génie-cologue",
+                    "explanation": "La lampe évoque le génie d'Aladdin et une image de masturbation ; « gynécologue » devient « génie-cologue ».",
+                    "keywords": ["génie", "lampe", "gynécologue", "jeu de mots"]
+                },
+                {
+                    "id": "ref-monica-11",
+                    "lineNumbers": [58],
+                    "excerpt": "Aux élections provinciales, j'ai voté pour Pedro",
+                    "explanation": "Référence probable au slogan « Vote for Pedro » du film Napoleon Dynamite.",
+                    "keywords": ["Vote for Pedro", "Napoleon Dynamite", "film"]
+                },
+                {
+                    "id": "ref-monica-12",
+                    "lineNumbers": [59],
+                    "excerpt": "J'cherchais mon père polonais mais y'est Pologne",
+                    "explanation": "Jeu phonétique typiquement québécois : « y'est pas là » ≈ « y'est Pologne ». Le pays devient un substitut sonore à l'expression.",
+                    "keywords": ["Pologne", "phonétique", "Québec", "jeu de mots"]
+                },
+                {
+                    "id": "ref-monica-13",
+                    "lineNumbers": [62],
+                    "excerpt": "J'vraiment plus cool que mon voisin Gil",
+                    "explanation": "Référence au personnage Gil dans la série télévisée Johnny Test.",
+                    "keywords": ["Gil", "Johnny Test", "dessin animé"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "louis-jose-coude",
+            "title": "Louis-José Coude",
+            "albumId": "hector",
+            "year": 2026,
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "Mes articulations y comptent des jokes, Louis-José Coude"
+                },
+                {
+                    "line": 2,
+                    "text": "Nouvelle recette de Ricardo, riz sauce et moules"
+                },
+                {
+                    "line": 3,
+                    "text": "Y'a volé toutes mes grosses cuillères, mon cuistot est louche"
+                },
+                {
+                    "line": 4,
+                    "text": "Chouinard y'a oublié les coqs dehors, Gino les poules!"
+                },
+                {
+                    "line": 5,
+                    "text": "Toute mon bread est dedans, faque mon frigo verrouille"
+                },
+                {
+                    "line": 6,
+                    "text": "Le DJ a laissé des pâtes sul feu, diplo les nouilles"
+                },
+                {
+                    "line": 7,
+                    "text": "J'ai 2 phobies dans vie, ci- aahhauh"
+                },
+                {
+                    "line": 8,
+                    "text": "J'ai 2 phobies dans vie, huh, ciseaux et clowns"
+                },
+                {
+                    "line": 9,
+                    "text": "Y'ont pas aimer ma take s'es couples ouverts, j'ai fait poly-mique (cancel culture)"
+                },
+                {
+                    "line": 10,
+                    "text": "Les vieux disent que je fais de l'art abstrait, fucking Paul-Émile (borduas)"
+                },
+                {
+                    "line": 11,
+                    "text": "J'vends mes romans qu'j'ai remplis de ma morve, j'fucking poétique (achoo)"
+                },
+                {
+                    "line": 12,
+                    "text": "J'tourne bleu en geekant s'a speed, J'comme le porc-épic"
+                },
+                {
+                    "line": 13,
+                    "text": "J'avais envi d'boir du jus d'marde j'ai pris une boisson aux bananes"
+                },
+                {
+                    "line": 14,
+                    "text": "J'ai mangé un requin tueur de femmes ça goûtait l'poisson aux madames"
+                },
+                {
+                    "line": 15,
+                    "text": "Mon déjeuner percussionne quand j'le digère, croissant Tam Tam"
+                },
+                {
+                    "line": 16,
+                    "text": "Tu veux vaincre sms? voilà 300 batman (Joker!)"
+                },
+                {
+                    "line": 17,
+                    "text": "Grosse semaine à soir je fume 300 battes, man"
+                },
+                {
+                    "line": 18,
+                    "text": "J'digère mal les fantômes passes moi donc un ice pac-man"
+                },
+                {
+                    "line": 19,
+                    "text": "J'connais mon ABC j'suis un Mike jack, fan"
+                },
+                {
+                    "line": 20,
+                    "text": "Elle grimpe din rideaux quand a peur c'est une chatte, femme (MIAOW)"
+                },
+                {
+                    "line": 21,
+                    "text": "Elle ma rizz en m'insultant, j'étais flabbergast"
+                },
+                {
+                    "line": 22,
+                    "text": "Le panneau on voit au travers du shit, c'est du fiberglass"
+                },
+                {
+                    "line": 23,
+                    "text": "Out the box les gars sont éclatés, c'est des Cracker jack"
+                },
+                {
+                    "line": 24,
+                    "text": "Pour un check ton cap a augmenté, David Pasternak"
+                },
+                {
+                    "line": 25,
+                    "text": "Ma hairline ravance avec le temps, benjamin button"
+                },
+                {
+                    "line": 26,
+                    "text": "Je focus sur une chose à la fois, benjamin locked in"
+                },
+                {
+                    "line": 27,
+                    "text": "J'ai volé l'tapis dans un avion, Aladin Cockpit"
+                },
+                {
+                    "line": 28,
+                    "text": "Georges Pain d'Seigle, combat à mort contre Sarrasin Maurice"
+                },
+                {
+                    "line": 29,
+                    "text": "J'voulais porter un toast mais fais bin trop chaud aujourd'hui"
+                },
+                {
+                    "line": 30,
+                    "text": "J'voulais manger mon dessert dans ma chambre la ya bin trop d'mousse dans mon lit"
+                },
+                {
+                    "line": 31,
+                    "text": "Spag quand j'me réveille j'fais despâtessitôt j'suis Luis Fonsi"
+                },
+                {
+                    "line": 32,
+                    "text": "J'voulais essayer des protéines russes la ya bin trop d'ours dans mon riz"
+                },
+                {
+                    "line": 33,
+                    "text": "J'ai les dawgs qui marinent dans la slush"
+                },
+                {
+                    "line": 34,
+                    "text": "Slush puppy"
+                },
+                {
+                    "line": 35,
+                    "text": "J'ai demandé des nouvelles à mon docteur"
+                },
+                {
+                    "line": 36,
+                    "text": "Bugs Bunny (quoi de neuf docteur)"
+                },
+                {
+                    "line": 37,
+                    "text": "Marathon goon en fin d'semaine"
+                },
+                {
+                    "line": 38,
+                    "text": "Cross country"
+                },
+                {
+                    "line": 39,
+                    "text": "Marathon food en fin d'semaine"
+                },
+                {
+                    "line": 40,
+                    "text": "Brocoli"
+                },
+                {
+                    "line": 41,
+                    "text": "J'suis léger comme une plume j'passerai pas devant un ventilateur"
+                },
+                {
+                    "line": 42,
+                    "text": "Crise du bacon faque live tu sais j'hyperventille à teurre"
+                },
+                {
+                    "line": 43,
+                    "text": "J'ai échappé mon toaster's Trudel y me reste juste des tartines au beurre"
+                },
+                {
+                    "line": 44,
+                    "text": "Ma relation doit être un jeu vidéo ma blonde a dit c'tait oveur"
+                },
+                {
+                    "line": 45,
+                    "text": "J'ai bin trop d'buns pis pas assez de toasters"
+                },
+                {
+                    "line": 46,
+                    "text": "Elle a dit j'avais des belles fesses j'les ai mis sur un poster"
+                },
+                {
+                    "line": 47,
+                    "text": "J'ai plein d'poques s'a tete on m'a prit pour un goaler"
+                },
+                {
+                    "line": 48,
+                    "text": "J'ai l'air d'une grosse limace derrière moi ya plein d'beurre"
+                },
+                {
+                    "line": 49,
+                    "text": "J'ai les poches pleines de bread comme Helene jpeux t'faire un spread"
+                },
+                {
+                    "line": 50,
+                    "text": "Fuck ton stoodio bitch Elpy cook tout sur FL"
+                },
+                {
+                    "line": 51,
+                    "text": "Fuck around and find out ça s'peut j't'etouffe sur un d'mes pet"
+                },
+                {
+                    "line": 52,
+                    "text": "J'peux pas sleep avec Alex, y'a des monstres nearby my bed"
+                },
+                {
+                    "line": 53,
+                    "text": "Dites le pas à mes opps, ma grand mère est quand même laide"
+                },
+                {
+                    "line": 54,
+                    "text": "Check mes pieds s'a montagne j'suis sexy red (skiiii)"
+                },
+                {
+                    "line": 55,
+                    "text": "Au spectacle des sœurs Boulay jtrouve pas Etienne"
+                },
+                {
+                    "line": 56,
+                    "text": "J'me suis baigné dans d'la lave mes bobettes sont en obsidienne"
+                }
+            ],
+            "references": [
+                {
+                    "id": "ref-ljc-1",
+                    "lineNumbers": [1],
+                    "excerpt": "Mes articulations y comptent des jokes, Louis-José Coude",
+                    "explanation": "Référence à Louis-José Houde, un humoriste québécois (jeu de mot avec « coude »).",
+                    "keywords": ["Louis-José Houde", "humoriste", "Québec", "coude"]
+                },
+                {
+                    "id": "ref-ljc-2",
+                    "lineNumbers": [2],
+                    "excerpt": "Nouvelle recette de Ricardo, riz sauce et moules",
+                    "explanation": "Référence à Ricardo Larrivée, un célèbre cuistot québécois.",
+                    "keywords": ["Ricardo", "cuisine", "Québec"]
+                },
+                {
+                    "id": "ref-ljc-3",
+                    "lineNumbers": [3],
+                    "excerpt": "Y'a volé toutes mes grosses cuillères, mon cuistot est louche",
+                    "explanation": "Jeu de mot avec « être louche » et la louche de cuisine.",
+                    "keywords": ["louche", "cuisine", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-4",
+                    "lineNumbers": [5],
+                    "excerpt": "Toute mon bread est dedans, faque mon frigo verrouille",
+                    "explanation": "« Bread » = argent : son argent est dans le frigo, donc il le verrouille.",
+                    "keywords": ["bread", "argent", "frigo", "slang"]
+                },
+                {
+                    "id": "ref-ljc-5",
+                    "lineNumbers": [6],
+                    "excerpt": "Le DJ a laissé des pâtes sul feu, diplo les nouilles",
+                    "explanation": "Référence à Diplo, un DJ américain.",
+                    "keywords": ["Diplo", "DJ", "nouilles"]
+                },
+                {
+                    "id": "ref-ljc-6",
+                    "lineNumbers": [7],
+                    "excerpt": "J'ai 2 phobies dans vie, ci- aahhauh",
+                    "explanation": "Il a peur : la ligne mime la frayeur avant de révéler les phobies.",
+                    "keywords": ["phobie", "peur", "ciseaux"]
+                },
+                {
+                    "id": "ref-ljc-7",
+                    "lineNumbers": [9],
+                    "excerpt": "Y'ont pas aimer ma take s'es couples ouverts, j'ai fait poly-mique (cancel culture)",
+                    "explanation": "Jeu de mot avec « polémique » et « polygamie » (le type relationnel des couples ouverts) = poly-mique.",
+                    "keywords": ["polémique", "polygamie", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-8",
+                    "lineNumbers": [10],
+                    "excerpt": "Les vieux disent que je fais de l'art abstrait, fucking Paul-Émile (borduas)",
+                    "explanation": "Référence à Paul-Émile Borduas, figure majeure de l'art abstrait québécois.",
+                    "keywords": ["Paul-Émile Borduas", "art abstrait", "Québec"]
+                },
+                {
+                    "id": "ref-ljc-9",
+                    "lineNumbers": [11],
+                    "excerpt": "J'vends mes romans qu'j'ai remplis de ma morve, j'fucking poétique (achoo)",
+                    "explanation": "Jeu de mot avec « poétique » et « pas éthique », puisqu'il n'est pas éthique de vendre des livres pleins de morve.",
+                    "keywords": ["poétique", "pas éthique", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-10",
+                    "lineNumbers": [12],
+                    "excerpt": "J'tourne bleu en geekant s'a speed, J'comme le porc-épic",
+                    "explanation": "Référence à Sonic le porc-épic, personnage de jeu vidéo reconnu pour être rapide et bleu.",
+                    "keywords": ["Sonic", "porc-épic", "jeu vidéo"]
+                },
+                {
+                    "id": "ref-ljc-11",
+                    "lineNumbers": [14],
+                    "excerpt": "J'ai mangé un requin tueur de femmes ça goûtait l'poisson aux madames",
+                    "explanation": "Ligne impliquant que le requin tueur de femmes goûte les femmes.",
+                    "keywords": ["requin", "humour noir", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-12",
+                    "lineNumbers": [16],
+                    "excerpt": "Tu veux vaincre sms? voilà 300 batman (Joker!)",
+                    "explanation": "Pour battre SMS, il faudrait 300 Batman tellement ils sont puissants.",
+                    "keywords": ["Batman", "SMS", "puissance"]
+                },
+                {
+                    "id": "ref-ljc-13",
+                    "lineNumbers": [17],
+                    "excerpt": "Grosse semaine à soir je fume 300 battes, man",
+                    "explanation": "Batte = joint. Jeu de mot avec « battes, man » et « Batman » (ligne précédente).",
+                    "keywords": ["batte", "joint", "Batman", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-14",
+                    "lineNumbers": [18],
+                    "excerpt": "J'digère mal les fantômes passes moi donc un ice pac-man",
+                    "explanation": "Il digère mal donc il a besoin d'un icepack, mais il mange des fantômes : jeu de mot avec Pac-Man.",
+                    "keywords": ["Pac-Man", "icepack", "fantômes", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-15",
+                    "lineNumbers": [19],
+                    "excerpt": "J'connais mon ABC j'suis un Mike jack, fan",
+                    "explanation": "Référence à Michael Jackson ; « ABC » est une chanson célèbre des Jackson 5.",
+                    "keywords": ["Michael Jackson", "ABC", "Jackson 5"]
+                },
+                {
+                    "id": "ref-ljc-16",
+                    "lineNumbers": [21],
+                    "excerpt": "Elle ma rizz en m'insultant, j'étais flabbergast",
+                    "explanation": "« Flabbergast » = époustouflé, dépassé par un événement inattendu.",
+                    "keywords": ["flabbergast", "rizz", "slang"]
+                },
+                {
+                    "id": "ref-ljc-17",
+                    "lineNumbers": [22],
+                    "excerpt": "Le panneau on voit au travers du shit, c'est du fiberglass",
+                    "explanation": "Implique qu'ils sont tombés dans le panneau, puisqu'il est transparent.",
+                    "keywords": ["fiberglass", "panneau", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-18",
+                    "lineNumbers": [23],
+                    "excerpt": "Out the box les gars sont éclatés, c'est des Cracker jack",
+                    "explanation": "Cracker Jack est un célèbre mélange de maïs soufflé et d'arachides au caramel ; « cracker » est aussi un terme péjoratif anglais pour une personne blanche.",
+                    "keywords": ["Cracker Jack", "maïs soufflé", "double sens"]
+                },
+                {
+                    "id": "ref-ljc-19",
+                    "lineNumbers": [24],
+                    "excerpt": "Pour un check ton cap a augmenté, David Pasternak",
+                    "explanation": "Double sens avec check/chèque et plafond salarial/mensonge. Pastrňák est une vedette de la LNH ; un « check » est une mise en échec et le « cap » le plafond salarial — ou « cap » (mensonge en anglais).",
+                    "keywords": ["Pasternak", "hockey", "cap", "LNH"]
+                },
+                {
+                    "id": "ref-ljc-20",
+                    "lineNumbers": [25],
+                    "excerpt": "Ma hairline ravance avec le temps, benjamin button",
+                    "explanation": "Référence au film The Curious Case of Benjamin Button, où le protagoniste rajeunit toute sa vie.",
+                    "keywords": ["Benjamin Button", "film", "rajeunir"]
+                },
+                {
+                    "id": "ref-ljc-21",
+                    "lineNumbers": [29],
+                    "excerpt": "J'voulais porter un toast mais fais bin trop chaud aujourd'hui",
+                    "explanation": "« Porter un toast » signifie boire à la santé de quelqu'un ; ici, pris au sens littéral de porter une toast (pain grillé) sur soi.",
+                    "keywords": ["toast", "littéral", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-22",
+                    "lineNumbers": [30],
+                    "excerpt": "J'voulais manger mon dessert dans ma chambre la ya bin trop d'mousse dans mon lit",
+                    "explanation": "La mousse au chocolat est un dessert.",
+                    "keywords": ["mousse", "dessert", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-23",
+                    "lineNumbers": [31],
+                    "excerpt": "Spag quand j'me réveille j'fais despâtessitôt j'suis Luis Fonsi",
+                    "explanation": "Jeu de mot avec « des pâtes si tôt » et la chanson Despacito de Luis Fonsi.",
+                    "keywords": ["Despacito", "Luis Fonsi", "pâtes", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-24",
+                    "lineNumbers": [32],
+                    "excerpt": "J'voulais essayer des protéines russes la ya bin trop d'ours dans mon riz",
+                    "explanation": "L'ours est l'un des symboles emblématiques de la Russie.",
+                    "keywords": ["ours", "Russie", "protéines"]
+                },
+                {
+                    "id": "ref-ljc-25",
+                    "lineNumbers": [33, 34],
+                    "excerpt": "J'ai les dawgs qui marinent dans la slush",
+                    "explanation": "« Dawgs » (dogs) = pieds en slang anglais ; « slush » = barbotine ou neige fondante. La Slush Puppy est une marque emblématique de barbotine.",
+                    "keywords": ["dawgs", "slush", "Slush Puppy", "slang"]
+                },
+                {
+                    "id": "ref-ljc-26",
+                    "lineNumbers": [35, 36],
+                    "excerpt": "Bugs Bunny (quoi de neuf docteur)",
+                    "explanation": "Référence à la phrase emblématique de Bugs Bunny, « Quoi de neuf docteur? ».",
+                    "keywords": ["Bugs Bunny", "quoi de neuf docteur", "cartoon"]
+                },
+                {
+                    "id": "ref-ljc-27",
+                    "lineNumbers": [37, 38],
+                    "excerpt": "Marathon goon en fin d'semaine",
+                    "explanation": "« Goon » et « cross » réfèrent à la masturbation ; le cross-country est une course d'endurance, cohérent avec « marathon ».",
+                    "keywords": ["goon", "cross country", "double sens"]
+                },
+                {
+                    "id": "ref-ljc-28",
+                    "lineNumbers": [42],
+                    "excerpt": "Crise du bacon faque live tu sais j'hyperventille à teurre",
+                    "explanation": "Déformation sonore volontaire de « à terre » pour l'effet humoristique et la rime.",
+                    "keywords": ["hyperventile", "à terre", "déformation"]
+                },
+                {
+                    "id": "ref-ljc-29",
+                    "lineNumbers": [44],
+                    "excerpt": "Ma relation doit être un jeu vidéo ma blonde a dit c'tait oveur",
+                    "explanation": "Déformation de « over » : les mots « game over » apparaissent à l'écran quand on perd. Il compare sa relation à un jeu vidéo sans comprendre qu'il s'est fait laisser.",
+                    "keywords": ["game over", "jeu vidéo", "rupture"]
+                },
+                {
+                    "id": "ref-ljc-30",
+                    "lineNumbers": [45],
+                    "excerpt": "J'ai bin trop d'buns pis pas assez de toasters",
+                    "explanation": "« Buns » = fesses en slang anglais : jeu de mot entre le pain et le fait d'avoir des fesses sans pouvoir en profiter.",
+                    "keywords": ["buns", "fesses", "pain", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-31",
+                    "lineNumbers": [47],
+                    "excerpt": "J'ai plein d'poques s'a tete on m'a prit pour un goaler",
+                    "explanation": "Référence aux gardiens de but au hockey, souvent marqués par les rondelles.",
+                    "keywords": ["goaler", "hockey", "gardien"]
+                },
+                {
+                    "id": "ref-ljc-32",
+                    "lineNumbers": [49],
+                    "excerpt": "J'ai les poches pleines de bread comme Helene jpeux t'faire un spread",
+                    "explanation": "« Bread » = argent : il peut faire un « money spread ». Aussi une référence à Hélène Boudreau, avec « spread » évoquant une pose suggestive.",
+                    "keywords": ["bread", "spread", "Hélène Boudreau", "argent"]
+                },
+                {
+                    "id": "ref-ljc-33",
+                    "lineNumbers": [50],
+                    "excerpt": "Fuck ton stoodio bitch Elpy cook tout sur FL",
+                    "explanation": "FL = FL Studio : ils produisent tout eux-mêmes dans FL Studio.",
+                    "keywords": ["FL Studio", "Elpy", "production"]
+                },
+                {
+                    "id": "ref-ljc-34",
+                    "lineNumbers": [52],
+                    "excerpt": "J'peux pas sleep avec Alex, y'a des monstres nearby my bed",
+                    "explanation": "Référence au personnage Alex dans Minecraft : quand des monstres sont proches, le jeu affiche « You may not rest now, there are monsters nearby ».",
+                    "keywords": ["Alex", "Minecraft", "monstres"]
+                },
+                {
+                    "id": "ref-ljc-35",
+                    "lineNumbers": [54],
+                    "excerpt": "Check mes pieds s'a montagne j'suis sexy red (skiiii)",
+                    "explanation": "Jeu de mot avec la rappeuse Sexyy Red et le fait d'être « sexy raide ». Les pieds sur la montagne et les skis renvoient à son ad-lib signature « Skiii ».",
+                    "keywords": ["Sexyy Red", "ski", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-36",
+                    "lineNumbers": [55],
+                    "excerpt": "Au spectacle des sœurs Boulay jtrouve pas Etienne",
+                    "explanation": "Référence au duo québécois Les Sœurs Boulay et au joueur de football Étienne Boulay : il cherche Étienne à cause du même nom de famille, bien qu'il n'ait aucun lien de parenté avec elles.",
+                    "keywords": ["Sœurs Boulay", "Étienne Boulay", "Québec", "jeu de mots"]
+                },
+                {
+                    "id": "ref-ljc-37",
+                    "lineNumbers": [56],
+                    "excerpt": "J'me suis baigné dans d'la lave mes bobettes sont en obsidienne",
+                    "explanation": "L'obsidienne est une roche volcanique formée par le refroidissement rapide de la lave, et aussi un bloc important dans Minecraft.",
+                    "keywords": ["obsidienne", "lave", "Minecraft"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Hector",
+            "duration": null,
+            "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+            "lastSync": "2026-06-18"
         },
         {
             "id": "barbies-resto-bar-grillz",
