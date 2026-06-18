@@ -56,7 +56,7 @@
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw",
         "geniusUrl": "search.html#song=eric-duhaime",
         "isNew": false,
-        "order": 4
+        "order": 5
     },
     {
         "id": "miss-steak",
@@ -71,7 +71,67 @@
         "spotifyUrl": "https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w",
         "geniusUrl": "search.html#song=miss-steak",
         "isNew": false,
-        "order": 5
+        "order": 4
+    },
+    {
+        "id": "guy-a-lepage",
+        "title": "Guy A. Lepage",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/guy_a.jpg",
+        "coverAlt": {
+            "en": "Guy A. Lepage – cover",
+            "fr": "Guy A. Lepage – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+        "geniusUrl": "search.html#song=guy-a-lepage",
+        "isNew": false,
+        "order": 6
+    },
+    {
+        "id": "bonne-fontaine",
+        "title": "Bonne fontaine",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/bonne_fontaine.jpg",
+        "coverAlt": {
+            "en": "Bonne fontaine – cover",
+            "fr": "Bonne fontaine – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+        "geniusUrl": "search.html#song=bonne-fontaine",
+        "isNew": false,
+        "order": 10
+    },
+    {
+        "id": "spin-le-block-en-hoverboard",
+        "title": "Spin le block en hoverboard",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/spin_le_block_en_hoverboard.jpg",
+        "coverAlt": {
+            "en": "Spin le block en hoverboard – cover",
+            "fr": "Spin le block en hoverboard – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+        "geniusUrl": "search.html#song=spin-le-block-en-hoverboard",
+        "isNew": false,
+        "order": 9
+    },
+    {
+        "id": "gino-chouinard",
+        "title": "Gino Chouinard",
+        "year": 2025,
+        "type": "Single",
+        "coverImage": "../assets/img/gino_chouinard.jpg",
+        "coverAlt": {
+            "en": "Gino Chouinard – cover",
+            "fr": "Gino Chouinard – cover"
+        },
+        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+        "geniusUrl": "search.html#song=gino-chouinard",
+        "isNew": false,
+        "order": 8
     },
     {
         "id": "barbies-resto-bar-grillz",
@@ -101,6 +161,6 @@
         "spotifyUrl": "https://open.spotify.com/intl-fr/track/2CpwG49FWVifN45QCsB0eD",
         "geniusUrl": "search.html#song=manon-masse",
         "isNew": false,
-        "order": 8
+        "order": 11
     }
 ]

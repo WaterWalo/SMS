@@ -224,6 +224,13 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
   position: relative;
   transition: background .15s ease, color .15s ease;
 }
+.track-list li > span {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .track-list li:hover { background: var(--bg-card); color: var(--ink); }
 .track-list li.is-current {
   background: var(--bg-card);

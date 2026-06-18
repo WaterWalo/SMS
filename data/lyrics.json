@@ -6605,6 +6605,708 @@
             "duration": null,
             "spotifyUrl": "https://open.spotify.com/track/5nGgpjrBqL8zklkb2dxScG",
             "lastSync": "2026-05-09T17:53:39.638635+00:00"
+        },
+        {
+            "id": "bonne-fontaine",
+            "title": "Bonne fontaine",
+            "albumId": "bonne-fontaine",
+            "year": 2025,
+            "lyrics": [
+                { "line": 1, "text": "J'aime les pompiers sont tellement chauds" },
+                { "line": 2, "text": "Pèse s'à gachette sors le tuyau" },
+                { "line": 3, "text": "Si tu dois t'plugger j'suis une bonne fontaine" },
+                { "line": 4, "text": "J'aime ton camion c'est toi qui mène" },
+                { "line": 5, "text": "Pull up à la station" },
+                { "line": 6, "text": "J'ai des flames sur mes souliers pour courir plus vite vers toi" },
+                { "line": 7, "text": "J'saute dans tes gros bras" },
+                { "line": 8, "text": "T'es sur mon calendrier mais jamais j'mettrai un x sur toi" },
+                { "line": 9, "text": "Xxx" },
+                { "line": 10, "text": "Ask pour ton numéro t'as dit 911" },
+                { "line": 11, "text": "Ça c'est quand j'ai besoin d'toi vite vite vite" },
+                { "line": 12, "text": "Quand t'es parti au travail j'suis triste triste triste" },
+                { "line": 13, "text": "J'regarde l'horloge comme tic tic tic" },
+                { "line": 14, "text": "J'peux être Angelina si t'es Brad Pitt Pitt Pitt" },
+                { "line": 15, "text": "J't'aime trop" },
+                { "line": 16, "text": "Nous deux c'est un win win" },
+                { "line": 17, "text": "J'attends juste la ring ring" },
+                { "line": 18, "text": "Entre nous ça clique clique clique" },
+                { "line": 19, "text": "J'te vois pis j'suis comme woah woah" },
+                { "line": 20, "text": "Amène moi avec toi sur tes épaules" },
+                { "line": 21, "text": "Amène-moi sauver le monde" },
+                { "line": 22, "text": "Y'a tellement de chats à sauver dans le monde" },
+                { "line": 23, "text": "J'aime les pompiers sont tellement chauds" },
+                { "line": 24, "text": "Pèse s'à gachette sors le tuyau" },
+                { "line": 25, "text": "Si tu dois t'plugger j'suis une bonne fontaine" },
+                { "line": 26, "text": "J'aime ton camion c'est toi qui mène" },
+                { "line": 27, "text": "C'est pas" },
+                { "line": 28, "text": "Les Flames qui tuent c'est ton regard" },
+                { "line": 29, "text": "C'est pas" },
+                { "line": 30, "text": "Le gaz qui tue t'es un petard" },
+                { "line": 31, "text": "J'veux pas" },
+                { "line": 32, "text": "Une ambulance" },
+                { "line": 33, "text": "C'est toi" },
+                { "line": 34, "text": "Qui va refaire battre mon cœur" },
+                { "line": 35, "text": "Je sais c'que j'veux pour m'amuser en janvier" },
+                { "line": 36, "text": "Le premier du mois j'tourne la page du calendrier" },
+                { "line": 37, "text": "Ta belle face moustachue j'perds le souffle trop d'CO2" },
+                { "line": 38, "text": "Premier répondant, réponds à mon appel j'veux ton pieux" },
+                { "line": 39, "text": "Fait chaud, get naked" },
+                { "line": 40, "text": "Je cries, une sirène" },
+                { "line": 41, "text": "J'suis wet, dans caserne" },
+                { "line": 42, "text": "Dans sauce, j'suis taken" },
+                { "line": 43, "text": "Yea fait chaud, pas d'mitaines quand tu m'sauves" },
+                { "line": 44, "text": "Pas d'latex j'suis un fauve, comme une hienne" },
+                { "line": 45, "text": "Yea j'suis home, en détresse" },
+                { "line": 46, "text": "T'es beau avec ton casque rouge" },
+                { "line": 47, "text": "Fluo sur tes vêtements" },
+                { "line": 48, "text": "On s'réchauffe dans la couverture" },
+                { "line": 49, "text": "T'es chaud avec ton costume" },
+                { "line": 50, "text": "Chuchotte dans mes tympans" },
+                { "line": 51, "text": "On fait monter le" },
+                { "line": 52, "text": "J'aime les pompiers sont tellement chaud" },
+                { "line": 53, "text": "Pèse s'à gachette sors le tuyau" },
+                { "line": 54, "text": "Si tu dois t'plugger j'suis une bonne fontaine" },
+                { "line": 55, "text": "J'aime ton camion c'est toi qui mène" },
+                { "line": 56, "text": "J'aime les pompiers sont tellement chaud" },
+                { "line": 57, "text": "J'aime ton camion c'est toi qui mène" }
+            ],
+            "references": [
+                {
+                    "id": "ref-bf-1",
+                    "lineNumbers": [2, 3],
+                    "excerpt": "Pèse s'à gachette sors le tuyau / Si tu dois t'plugger j'suis une bonne fontaine",
+                    "explanation": "'Gachette' désigne la détente d'un pistolet, mais ici c'est aussi la gâchette d'un pistolet à eau ou le robinet d'une lance d'incendie. 'Bonne fontaine' est une borne-fontaine au Québec (fire hydrant) — à laquelle les camions de pompiers se branchent. La chanson entière joue sur le double sens entre l'équipement des pompiers et le désir.",
+                    "keywords": ["gachette", "tuyau", "borne-fontaine", "bonne fontaine", "pompier", "double sens", "branchement"]
+                },
+                {
+                    "id": "ref-bf-2",
+                    "lineNumbers": [6],
+                    "excerpt": "J'ai des flames sur mes souliers pour courir plus vite vers toi",
+                    "explanation": "Les motifs de flammes sur les souliers sont une tendance mode streetwear — mais ici la logique absurde veut que des flammes dessinées permettent de courir plus vite. Ironie supplémentaire : les pompiers courent vers les flammes, pas avec.",
+                    "keywords": ["flames", "souliers", "mode", "streetwear", "motif", "flammes", "courir"]
+                },
+                {
+                    "id": "ref-bf-3",
+                    "lineNumbers": [10],
+                    "excerpt": "Ask pour ton numéro t'as dit 911",
+                    "explanation": "911 est le numéro d'urgence nord-américain pour appeler les pompiers, la police et les ambulances. Demander le numéro de téléphone d'un pompier et qu'il réponde '911' est à la fois une esquive et un jeu de mots — c'est le seul numéro qu'il donne, et ça signifie qu'il faudra être en urgence pour l'avoir.",
+                    "keywords": ["911", "numéro d'urgence", "pompiers", "numéro de téléphone", "jeu de mots"]
+                },
+                {
+                    "id": "ref-bf-4",
+                    "lineNumbers": [14],
+                    "excerpt": "J'peux être Angelina si t'es Brad Pitt Pitt Pitt",
+                    "explanation": "Angelina Jolie et Brad Pitt formaient le couple le plus glamour d'Hollywood dans les années 2000-2010, surnommé 'Brangelina'. La répétition 'Pitt Pitt Pitt' mime les battements de cœur ou reprend le rythme de la chanson — la référence au couple iconique est une façon de dire que leur duo serait aussi légendaire.",
+                    "keywords": ["Angelina Jolie", "Brad Pitt", "Brangelina", "couple", "Hollywood", "icône"]
+                },
+                {
+                    "id": "ref-bf-5",
+                    "lineNumbers": [28],
+                    "excerpt": "Les Flames qui tuent c'est ton regard",
+                    "explanation": "Les Flames de Calgary sont une équipe de la LNH (Ligue Nationale de Hockey). Le double sens joue sur 'flames' (flammes que les pompiers éteignent) et l'équipe de hockey. 'Ton regard tue' est une expression romantique — donc ni les flammes ni le gaz ne sont dangereux, seulement son regard.",
+                    "keywords": ["Calgary Flames", "LNH", "hockey", "flammes", "regard", "double sens"]
+                },
+                {
+                    "id": "ref-bf-6",
+                    "lineNumbers": [30],
+                    "excerpt": "Le gaz qui tue t'es un petard",
+                    "explanation": "Le monoxyde de carbone et autres gaz toxiques sont les principales causes de décès dans les incendies — les pompiers les affrontent quotidiennement. Mais 'pétard' en argot signifie quelqu'un de très séduisant. Le gaz ne tue pas parce que lui, il est un pétard — irrésistible.",
+                    "keywords": ["gaz", "monoxyde", "incendie", "pétard", "séduisant", "argot", "double sens"]
+                },
+                {
+                    "id": "ref-bf-7",
+                    "lineNumbers": [37],
+                    "excerpt": "Ta belle face moustachue j'perds le souffle trop d'CO2",
+                    "explanation": "Le CO2 est un gaz asphyxiant utilisé dans les extincteurs, et présent en forte concentration dans les incendies. 'Perdre le souffle à cause du CO2' est une réalité des pompiers — mais ici c'est sa moustache qui cause l'asphyxie amoureuse. Les pompiers portent aussi classiquement la moustache en culture populaire.",
+                    "keywords": ["CO2", "dioxyde de carbone", "extincteur", "souffle", "moustache", "asphyxie", "pompier moustache"]
+                },
+                {
+                    "id": "ref-bf-8",
+                    "lineNumbers": [38],
+                    "excerpt": "Premier répondant, réponds à mon appel j'veux ton pieux",
+                    "explanation": "Le 'premier répondant' est le terme officiel québécois pour les secouristes d'urgence (pompiers, paramédicaux). Triple sens sur 'pieux' : le poteau de pompier (fireman's pole) sur lequel ils glissent pour rejoindre le camion, 'pieu' en argot signifie le lit, et 'pieux' peut aussi être un adjectif (dévot). 'Réponds à mon appel' joue sur l'appel d'urgence et l'appel amoureux.",
+                    "keywords": ["premier répondant", "pieux", "poteau pompier", "fireman's pole", "lit", "triple sens", "urgence"]
+                },
+                {
+                    "id": "ref-bf-9",
+                    "lineNumbers": [40, 41, 42],
+                    "excerpt": "Je cries, une sirène / J'suis wet, dans caserne / Dans sauce, j'suis taken",
+                    "explanation": "Série de vers construits en deux parties : une situation et sa lecture romantique/sensuelle. La sirène est l'alarme des camions de pompiers + crier de désir. 'Wet' (mouillée) réfère aux lances d'incendie + excitation. La caserne est le lieu de travail des pompiers. 'Taken' (prise) = prise dans la sauce comme dans les émotions.",
+                    "keywords": ["sirène", "caserne", "taken", "wet", "double sens", "pompier", "urgence"]
+                },
+                {
+                    "id": "ref-bf-10",
+                    "lineNumbers": [44],
+                    "excerpt": "Pas d'latex j'suis un fauve, comme une hienne",
+                    "explanation": "'Hienne' est un mot-valise combinant 'hyène' et 'chienne' (terme vulgaire). Les pompiers utilisent des gants en latex ou nitrile pour se protéger. 'Fauve' désigne un animal sauvage non domestiqué. L'ensemble crée une image d'intensité animale.",
+                    "keywords": ["latex", "fauve", "hienne", "hyène", "chienne", "mot-valise", "animal", "gants"]
+                },
+                {
+                    "id": "ref-bf-11",
+                    "lineNumbers": [51],
+                    "excerpt": "On fait monter le",
+                    "explanation": "Phrase délibérément laissée en suspens. La fin évidente serait 'la température' ou un double sens sexuel. Le silence est la chute — laisser l'auditeur compléter mentalement crée l'effet comique et grivois. Également une référence à monter l'échelle des pompiers.",
+                    "keywords": ["phrase tronquée", "sous-entendu", "double sens", "chute", "température", "échelle"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Bonne fontaine",
+            "duration": null,
+            "spotifyUrl": null,
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "guy-a-lepage",
+            "title": "Guy A. Lepage",
+            "albumId": "guy-a-lepage",
+            "year": 2025,
+            "lyrics": [
+                { "line": 1, "text": "Allo Montréal" },
+                { "line": 2, "text": "Est-ce que ça va?" },
+                { "line": 3, "text": "Aujourd'hui" },
+                { "line": 4, "text": "À soir j'vais au casino je fuck up mon CELI" },
+                { "line": 5, "text": "J'suis à chier en cuisine j'ai fuck up mon céleri" },
+                { "line": 6, "text": "J't'un adepte du metro j'ai pas mon permis" },
+                { "line": 7, "text": "J't'un adepte du Mcdo j'ai hâte d'être servi" },
+                { "line": 8, "text": "J'ai des bulles d'air dans l'cerveau, j'suis tombé quand j'tais p'tit" },
+                { "line": 9, "text": "J'ai ball comme Nikola j'dois venir d'la Serbie" },
+                { "line": 10, "text": "J'ai chier dans mon baque de composte j'fais pas d'gaspillage" },
+                { "line": 11, "text": "Mon père a l'air d'un gros porc avec plein d'maquillage" },
+                { "line": 12, "text": "Tout l'monde en parle faque j'ai jâsé avec Guy A. Lepage" },
+                { "line": 13, "text": "J'mange du paper pour déjeuner j'm'appelle Gruau Lepage" },
+                { "line": 14, "text": "J'me suis pas peinturé la face j'suis Trudeau Lesage" },
+                { "line": 15, "text": "J'fais l'défi Pierre Lavoine j'vais vite quand j'pédale" },
+                { "line": 16, "text": "J'suis un croyant quand j'suis malade j'suis un Lipton Believer" },
+                { "line": 17, "text": "Mon chien y'est cuisinier j'l'appelle Gordon Retriever" },
+                { "line": 18, "text": "Quand j'veux y parler j'fais d'la salade césar" },
+                { "line": 19, "text": "J'ai une fucking coupe au bol j'ai l'air de Justin Bieber" },
+                { "line": 20, "text": "Ta blonde est built comme un 2 par 4, mais c'pas un 8" },
+                { "line": 21, "text": "J't'insulte sur internet, mais c'est pas un diss" },
+                { "line": 22, "text": "Si tu veux qu'on joue au parc, c'est pas moi la fiche" },
+                { "line": 23, "text": "Vovowing au Cineplex : maintenant à l'affiche" },
+                { "line": 24, "text": "J'haïe Gregory Charles, c'est un parasite" },
+                { "line": 25, "text": "J'ai beaucoup d'crottes de nez, j'ai des stalagmites" },
+                { "line": 26, "text": "J'porte ma couche sur mes pantalons quand j'magasine" },
+                { "line": 27, "text": "J'ai vendu mon bébé j'suis un père indigne" },
+                { "line": 28, "text": "J'écris mieux quand ma Kia shake son ass" },
+                { "line": 29, "text": "Du mouvement vient l'inspiration" },
+                { "line": 30, "text": "J'suis une menace sur la route j'check pas les indications" },
+                { "line": 31, "text": "François Perusse sur le track j'suis en lévitation" },
+                { "line": 32, "text": "Ma blonde a l'aire d'un cheval j'fais d'l'équitation" },
+                { "line": 33, "text": "J'viens d'apprendre à marcher mon père y'a dit félicitation" },
+                { "line": 34, "text": "J'suis étourdi j'ai descendu l'escalier en colimaçon" },
+                { "line": 35, "text": "Dans mes gros pantalons d'cuir j'ai l'air de Elvis Gratton" },
+                { "line": 36, "text": "Mon cousin y'est anglophone j'y ai dit retourne à maison" },
+                { "line": 37, "text": "J'voulais savoir c'est quoi qui pousse" },
+                { "line": 38, "text": "Il m'a dit les courges cette saison" },
+                { "line": 39, "text": "Fait fucking chaud ma crème glacée elle coule su'l béton" },
+                { "line": 40, "text": "J'tout nu avec ma bière pis ma cigarette su'l perron" },
+                { "line": 41, "text": "J'suis Florence t'es mon troll comme l'âne pis son Shrek" },
+                { "line": 42, "text": "J'peux pas avaler des pilules, j'prend mon Ritalin dans une pyrex" },
+                { "line": 43, "text": "Ça fait 3 heures que j'creuse dans gravel, j'trouve pas d'silex" },
+                { "line": 44, "text": "J'veux une femme gothique j'me suis mis du kitex" },
+                { "line": 45, "text": "J'me suis acheté une jupe à deux jambes" },
+                { "line": 46, "text": "J'me suis mis à rapper elle bouge ses deux anches" },
+                { "line": 47, "text": "J'ai commandé un Big Mac, mais j'voulais deux tranches" },
+                { "line": 48, "text": "J'tombé d'mon bicycle à s't'heure mes genoux" },
+                { "line": 49, "text": "Ils plient dans les 2 sens" },
+                { "line": 50, "text": "Ma mère a fait une soupe aux gourganes" },
+                { "line": 51, "text": "J'aime pas les gourganes" },
+                { "line": 52, "text": "Mon pâté chinois y'est tu brûlé si mon four il boucane" },
+                { "line": 53, "text": "Mon avocat y'est bon dans c'qu'il fait" },
+                { "line": 54, "text": "Il fait d'la très bonne guac" },
+                { "line": 55, "text": "Y'a essayé d'embarquer sur notre wave" },
+                { "line": 56, "text": "J'ai enlevé mon durag" }
+            ],
+            "references": [
+                {
+                    "id": "ref-gal-1",
+                    "lineNumbers": [4, 5],
+                    "excerpt": "À soir j'vais au casino je fuck up mon CELI / J'suis à chier en cuisine j'ai fuck up mon céleri",
+                    "explanation": "Le CELI (Compte d'Épargne Libre d'Impôt) est un compte d'investissement fiscal québécois/canadien — le dilapider au casino est une catastrophe financière. 'Céleri' sonne presque identique à 'CELI' : même désastre, cuisine plutôt que finances. La répétition de structure crée le gag par homophonie.",
+                    "keywords": ["CELI", "céleri", "casino", "compte épargne", "homophonie", "finances", "cuisine"]
+                },
+                {
+                    "id": "ref-gal-2",
+                    "lineNumbers": [9],
+                    "excerpt": "J'ai ball comme Nikola j'dois venir d'la Serbie",
+                    "explanation": "Nikola Jokić est le joueur de basketball NBA des Denver Nuggets, né en Serbie. Multiple MVP de la ligue, il est considéré comme le meilleur joueur du monde. 'Ball' signifie jouer au basketball à haut niveau. Déduire sa propre origine serbe de sa capacité à jouer est un raisonnement circulaire absurde.",
+                    "keywords": ["Nikola Jokić", "NBA", "Serbie", "Denver Nuggets", "basketball", "MVP", "ball"]
+                },
+                {
+                    "id": "ref-gal-3",
+                    "lineNumbers": [12, 13],
+                    "excerpt": "Tout l'monde en parle faque j'ai jâsé avec Guy A. Lepage / J'mange du paper pour déjeuner j'm'appelle Gruau Lepage",
+                    "explanation": "'Tout le monde en parle' est l'émission de talk-show dominical de Radio-Canada animée par Guy A. Lepage depuis 2004 — référence culturelle québécoise incontournable. 'Gruau Lepage' fusionne 'Guy A.' (phonétiquement proche de 'gruau') et son nom de famille. Manger du 'paper' (papier) comme du gruau au déjeuner complète l'absurde.",
+                    "keywords": ["Tout le monde en parle", "Guy A. Lepage", "Radio-Canada", "gruau", "talk-show", "déjeuner", "fusion"]
+                },
+                {
+                    "id": "ref-gal-4",
+                    "lineNumbers": [14],
+                    "excerpt": "J'me suis pas peinturé la face j'suis Trudeau Lesage",
+                    "explanation": "Pierre Elliott Trudeau et Jean Lesage sont deux figures politiques québécoises/canadiennes majeures. Trudeau (père) est connu pour son style élégant. La phrase 'peinturé la face' peut référer au scandale du blackface de Justin Trudeau (fils). Fusionner les deux noms crée un personnage politique hybride absurde.",
+                    "keywords": ["Trudeau", "Lesage", "politique", "Québec", "peinturé", "blackface", "fusion", "premier ministre"]
+                },
+                {
+                    "id": "ref-gal-5",
+                    "lineNumbers": [15],
+                    "excerpt": "J'fais l'défi Pierre Lavoine j'vais vite quand j'pédale",
+                    "explanation": "Pierre Lavoie est un triathlète et personnalité québécoise connu pour le Grand défi Pierre Lavoie, événement cycliste de sensibilisation à la santé. 'Pierre Lavoine' est une déformation de son nom. 'Aller vite quand on pédale' est la description minimale du cyclisme.",
+                    "keywords": ["Pierre Lavoie", "Grand défi", "cyclisme", "vélo", "Québec", "défi sportif", "santé"]
+                },
+                {
+                    "id": "ref-gal-6",
+                    "lineNumbers": [16],
+                    "excerpt": "J'suis un croyant quand j'suis malade j'suis un Lipton Believer",
+                    "explanation": "Les 'Beliebers' sont le nom des fans de Justin Bieber. 'Believer' (croyant) + Lipton (marque de thé, souvent bu chaud quand on est malade) = 'Lipton Believer'. Être croyant seulement quand on est malade (et qu'on boit du thé Lipton) est une observation sur la foi circonstancielle.",
+                    "keywords": ["Lipton", "Belieber", "Justin Bieber", "croyant", "malade", "thé", "fans", "fusion"]
+                },
+                {
+                    "id": "ref-gal-7",
+                    "lineNumbers": [17, 18],
+                    "excerpt": "Mon chien y'est cuisinier j'l'appelle Gordon Retriever / Quand j'veux y parler j'fais d'la salade césar",
+                    "explanation": "Gordon Ramsay est le chef cuisinier britannique de renom, connu pour ses émissions de cuisine. Golden Retriever est une race de chien. 'Gordon Retriever' fusionne les deux. Pour lui parler, il faut faire une salade César — référence à la commande vocale du chien-cuisinier, absurde et délirante.",
+                    "keywords": ["Gordon Ramsay", "Golden Retriever", "chien", "cuisinier", "salade césar", "fusion", "chef"]
+                },
+                {
+                    "id": "ref-gal-8",
+                    "lineNumbers": [19],
+                    "excerpt": "J'ai une fucking coupe au bol j'ai l'air de Justin Bieber",
+                    "explanation": "Justin Bieber était célèbre au début de sa carrière (2009-2011) pour sa coupe au bol distincte — frange lisse balayée sur le côté. La coupe au bol est depuis devenue synonyme de son image juvénile. La comparer est une insulte à la coiffure.",
+                    "keywords": ["coupe au bol", "Justin Bieber", "coiffure", "frange", "pop star"]
+                },
+                {
+                    "id": "ref-gal-9",
+                    "lineNumbers": [20],
+                    "excerpt": "Ta blonde est built comme un 2 par 4, mais c'pas un 8",
+                    "explanation": "Un '2 par 4' (deux-par-quatre) est une planche de bois standard en construction — rectangulaire, sans courbes. Mais en notation, c'est aussi 2×4 = 8. La blonde est 'built like a 2x4' (plate comme une planche), 'mais c'pas un 8' — ce n'est pas un 8/10 malgré que 2×4 = 8. Jeu mathématique et physique.",
+                    "keywords": ["2 par 4", "planche", "construction", "8", "notation", "mathématique", "jeu de mots", "insulte"]
+                },
+                {
+                    "id": "ref-gal-10",
+                    "lineNumbers": [22, 23],
+                    "excerpt": "Si tu veux qu'on joue au parc, c'est pas moi la fiche / Vovowing au Cineplex : maintenant à l'affiche",
+                    "explanation": "'La fiche' est un québécisme pour la prise électrique (plug) — 'je suis pas ton plug/contact'. Mais 'fiche' sonne comme 'affiche'. 'Maintenant à l'affiche' est la formule des cinémas pour annoncer les films en salle. Cineplex est la grande chaîne de cinémas canadienne. 'Vovowing' (vrombissant) arrive au Cineplex comme une vedette.",
+                    "keywords": ["fiche", "plug", "affiche", "Cineplex", "cinéma", "québécisme", "jeu de mots"]
+                },
+                {
+                    "id": "ref-gal-11",
+                    "lineNumbers": [25],
+                    "excerpt": "J'ai beaucoup d'crottes de nez, j'ai des stalagmites",
+                    "explanation": "Les stalagmites sont des formations géologiques calcaires qui poussent de bas en haut dans les grottes (contrairement aux stalactites qui pendent du plafond). Comparer des crottes de nez qui s'accumulent à des stalagmites qui poussent est une image géologique précise et dégoûtante.",
+                    "keywords": ["stalagmites", "grottes", "géologie", "crottes de nez", "formation", "calcaire"]
+                },
+                {
+                    "id": "ref-gal-12",
+                    "lineNumbers": [31],
+                    "excerpt": "François Perusse sur le track j'suis en lévitation",
+                    "explanation": "François Pérusse est un humoriste québécois iconique, créateur des '2 minutes du peuple' et des cassettes Perusse, célèbre pour ses voix et ses personnages absurdes. Avoir Pérusse sur une track de rap et s'en trouver en lévitation est une combinaison aussi improbable qu'excitante.",
+                    "keywords": ["François Pérusse", "2 minutes du peuple", "humoriste", "Québec", "track", "lévitation"]
+                },
+                {
+                    "id": "ref-gal-13",
+                    "lineNumbers": [35],
+                    "excerpt": "Dans mes gros pantalons d'cuir j'ai l'air de Elvis Gratton",
+                    "explanation": "Elvis Gratton est un personnage de film québécois créé par Pierre Falardeau (1981), un Québécois fédéraliste kitsch et patriote américain, toujours habillé de façon extravagante — pantalons de cuir, tenues Elvis Presley. Devenu symbole du mauvais goût québécois assumé.",
+                    "keywords": ["Elvis Gratton", "Pierre Falardeau", "film québécois", "pantalons de cuir", "kitsch", "fédéraliste", "Elvis Presley"]
+                },
+                {
+                    "id": "ref-gal-14",
+                    "lineNumbers": [36],
+                    "excerpt": "Mon cousin y'est anglophone j'y ai dit retourne à maison",
+                    "explanation": "'Retourne à maison' est un calque littéral de l'anglais 'go back home' au lieu du français correct 'retourne chez toi' ou 'rentre à la maison'. Dire à un anglophone de 'retourner à maison' avec une faute de français est un comble d'ironie.",
+                    "keywords": ["anglophone", "calque", "faute de français", "retourne à maison", "go back home", "ironie", "langue"]
+                },
+                {
+                    "id": "ref-gal-15",
+                    "lineNumbers": [41],
+                    "excerpt": "J'suis Florence t'es mon troll comme l'âne pis son Shrek",
+                    "explanation": "Dans le film Shrek, l'âne (Donkey) suit Shrek partout et lui sert de compagnon non désiré — un 'troll' fidèle. Florence + the Machine est un groupe de rock alternatif. La comparaison positionne le narrateur comme Florence et l'autre comme l'âne de Shrek, collé après lui.",
+                    "keywords": ["Florence", "Florence + the Machine", "Shrek", "âne", "Donkey", "troll", "DreamWorks", "compagnon"]
+                },
+                {
+                    "id": "ref-gal-16",
+                    "lineNumbers": [42],
+                    "excerpt": "J'peux pas avaler des pilules, j'prend mon Ritalin dans une pyrex",
+                    "explanation": "Le Ritalin (méthylphénidate) est un médicament prescrit pour le TDAH. La pyrex est un plat en verre résistant à la chaleur utilisé en cuisine. Prendre son Ritalin écrasé dans un plat en pyrex au lieu d'avaler la pilule est une image absurde qui joue aussi sur le vocabulaire de la préparation de drogues.",
+                    "keywords": ["Ritalin", "TDAH", "médicament", "pyrex", "pilule", "avaler", "absurde"]
+                },
+                {
+                    "id": "ref-gal-17",
+                    "lineNumbers": [43],
+                    "excerpt": "Ça fait 3 heures que j'creuse dans gravel, j'trouve pas d'silex",
+                    "explanation": "Le silex est une roche utilisée par les humains préhistoriques pour faire du feu et fabriquer des outils. Chercher du silex dans du gravel (gravier) pendant 3 heures est une activité à la fois archéologique, futile et absurde — comme si on essayait de revivre la préhistoire dans son entrée.",
+                    "keywords": ["silex", "gravel", "préhistoire", "feu", "pierre", "archéologie", "gravier"]
+                },
+                {
+                    "id": "ref-gal-18",
+                    "lineNumbers": [45, 46],
+                    "excerpt": "J'me suis acheté une jupe à deux jambes / J'me suis mis à rapper elle bouge ses deux anches",
+                    "explanation": "Un pantalon est littéralement 'une jupe à deux jambes' — redéfinition naïve du vêtement. 'Rapper' = faire du rap, mais aussi 'rapper ses hanches' (faire bouger ses hanches en dansant). 'Anches' = hanches en argot + anche en musique (la partie vibrante d'un instrument à vent). Triple sens en deux vers.",
+                    "keywords": ["jupe", "pantalon", "rapper", "anches", "hanches", "double sens", "musique", "danse"]
+                },
+                {
+                    "id": "ref-gal-19",
+                    "lineNumbers": [53, 54],
+                    "excerpt": "Mon avocat y'est bon dans c'qu'il fait / Il fait d'la très bonne guac",
+                    "explanation": "Jeu sur le double sens d'avocat : la profession juridique (lawyer) et le fruit (avocado). Son 'avocat' (lawyer) est bon dans son travail — il fait d'excellente guacamole. La chute révèle que l'avocat est littéralement un fruit qui prépare du guac.",
+                    "keywords": ["avocat", "guacamole", "guac", "lawyer", "avocat fruit", "double sens", "jeu de mots"]
+                },
+                {
+                    "id": "ref-gal-20",
+                    "lineNumbers": [55, 56],
+                    "excerpt": "Y'a essayé d'embarquer sur notre wave / J'ai enlevé mon durag",
+                    "explanation": "'Embarquer sur une wave' signifie suivre une tendance, s'intégrer à un mouvement. Le durag est un foulard porté sur la tête, accessoire rap/hip-hop. L'enlever en réaction à quelqu'un qui essaie de copier leur style est un geste de désapprobation — comme retirer son badge d'appartenance pour ne plus être associé à l'imitateur.",
+                    "keywords": ["durag", "wave", "tendance", "hip-hop", "accessoire", "imitation", "désapprobation"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Guy A. Lepage",
+            "duration": null,
+            "spotifyUrl": null,
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "spin-le-block-en-hoverboard",
+            "title": "Spin le block en hoverboard",
+            "albumId": "spin-le-block-en-hoverboard",
+            "year": 2025,
+            "lyrics": [
+                { "line": 1, "text": "J'ai des papillons dans l'ventre, j'aurais pas dû en manger" },
+                { "line": 2, "text": "Le monarque pull up dans l'temple, t'es mieux de t'prosterner" },
+                { "line": 3, "text": "Ma femme veut qu'j'la fourre, j'veux pas j'suis protestant" },
+                { "line": 4, "text": "Si tu conduis une fourgonette, touches pas à mes enfants" },
+                { "line": 5, "text": "J'ai 30 ans d'cigarettes dans gorge comme Éric Lapointe" },
+                { "line": 6, "text": "J'ai peur qu'mon patron il s'appelle Éric Salvail" },
+                { "line": 7, "text": "J'suis fan de Twisted Tea j'aime ça aller swins" },
+                { "line": 8, "text": "Chicane de twist-tétine, j'lui arrache le poil" },
+                { "line": 9, "text": "Y'a un caliss de macaque dans mon bain" },
+                { "line": 10, "text": "J'ai bouffé au Ashton, trois poutine pis un verre de vin" },
+                { "line": 11, "text": "J'peux tu avoir une gomme?" },
+                { "line": 12, "text": "J'ai la bouche bien trop humide" },
+                { "line": 13, "text": "Nages pas en arrière de mon bateau" },
+                { "line": 14, "text": "Tu vas t'pogner dans turbine" },
+                { "line": 15, "text": "Toi pis ton frère vous ressemblez à Toupie pis Binou" },
+                { "line": 16, "text": "J't'un caliss d'intimidateur, ta caliss de bine t'as veux où?" },
+                { "line": 17, "text": "J'peux pas jouer au bowling, j'ai oublier mon chat chez nous" },
+                { "line": 18, "text": "J't'aller au Couche Tard, mais j'trouve pas l'Dormez-Vous" },
+                { "line": 19, "text": "J'avais une p'tite fringale, faque j't'allé au Ashton" },
+                { "line": 20, "text": "Y'avait plus de saucisses j'ai traîté la caissière de conne" },
+                { "line": 21, "text": "Hier soir, c'tait vraiment une soirée d'marde" },
+                { "line": 22, "text": "J'ressens un bout de bois pis j'me suis fait une écharde" },
+                { "line": 23, "text": "J'suis tout seul dans mon taudis à attendre patiamment la nuit" },
+                { "line": 24, "text": "Joël" },
+                { "line": 25, "text": "J'suis tellement fatigué j'cognes des clous" },
+                { "line": 26, "text": "Inquiètes toi man j'ai fait mon DEP" },
+                { "line": 27, "text": "Martin" },
+                { "line": 28, "text": "Écoute" },
+                { "line": 29, "text": "J'peux même pas zigner" },
+                { "line": 30, "text": "Je stalk la femme de mes rêves j'suis deep dans VSCO" },
+                { "line": 31, "text": "La seule fois que j'shoot mon shot quand j'joue à CSGO" },
+                { "line": 32, "text": "J'ai beaucoup d'argent dans la banque, dans le BMO" },
+                { "line": 33, "text": "On pull up ensemble trois wrappers juste comme Ferrero" },
+                { "line": 34, "text": "Touche pas à mon étoile d'la mort bro c'est mes Legos" },
+                { "line": 35, "text": "J'ai reçu un appel de la monnaie j'ai dit oui hello" },
+                { "line": 36, "text": "Les haters portent des skinny jeans, c'est des milléniaux" },
+                { "line": 37, "text": "J'ai de très grosses qualités pis des p'tits défauts" },
+                { "line": 38, "text": "J'pas au chômage maman, j'vend des NFTs" },
+                { "line": 39, "text": "J'ai gagné 10 piaces à lotterie, je veux célébrer" },
+                { "line": 40, "text": "J't'ais tanné d'la vielle cuisine, je l'ai rénovée" },
+                { "line": 41, "text": "Je triche quand j'joue à omnikin, je suis désolé" },
+                { "line": 42, "text": "La semaine passé j'ai spin le op block en hoverboard" },
+                { "line": 43, "text": "J't'en amour avec la caissière, j'suis un loverboy" },
+                { "line": 44, "text": "Elle m'parle juste de son p'tit chat, je suis over bored" },
+                { "line": 45, "text": "J'prend des photos d'pizzas avec mon polaroid" }
+            ],
+            "references": [
+                {
+                    "id": "ref-slbeh-1",
+                    "lineNumbers": [1, 2],
+                    "excerpt": "J'ai des papillons dans l'ventre, j'aurais pas dû en manger / Le monarque pull up dans l'temple",
+                    "explanation": "Avoir des papillons dans le ventre signifie ressentir de la nervosité ou de l'excitation. Ici pris au pied de la lettre : il en a mangé. Le papillon monarque est l'espèce la plus emblématique — 'pull up dans le temple' traite l'insecte comme un rappeur qui arrive en force.",
+                    "keywords": ["papillons", "ventre", "monarque", "expression", "pied de la lettre", "nervosité"]
+                },
+                {
+                    "id": "ref-slbeh-2",
+                    "lineNumbers": [5],
+                    "excerpt": "J'ai 30 ans d'cigarettes dans gorge comme Éric Lapointe",
+                    "explanation": "Éric Lapointe est un chanteur rock québécois très populaire, reconnaissable à sa voix rauque et profonde, résultat de décennies de cigarettes et de vie rock'n'roll. La comparaison est absurde car elle sous-entend avoir littéralement 30 ans de cigarettes logées dans la gorge.",
+                    "keywords": ["Éric Lapointe", "rock québécois", "cigarettes", "voix rauque", "chanteur"]
+                },
+                {
+                    "id": "ref-slbeh-3",
+                    "lineNumbers": [6],
+                    "excerpt": "J'ai peur qu'mon patron il s'appelle Éric Salvail",
+                    "explanation": "Éric Salvail est un animateur et producteur québécois qui a été accusé de harcèlement sexuel en 2017, ce qui a mis fin à sa carrière à la télévision. La blague sous-entend avoir peur que son patron soit un prédateur — référence directe à l'affaire #MeToo québécoise.",
+                    "keywords": ["Éric Salvail", "harcèlement", "MeToo", "animateur", "Québec", "patron"]
+                },
+                {
+                    "id": "ref-slbeh-4",
+                    "lineNumbers": [7, 8],
+                    "excerpt": "J'suis fan de Twisted Tea j'aime ça aller swins / Chicane de twist-tétine, j'lui arrache le poil",
+                    "explanation": "Twisted Tea est une boisson alcoolisée (thé glacé alcoolisé). 'Aller swins' signifie se battre (swings). La marque Twisted Tea est aussi connue pour une vidéo virale où quelqu'un se fait frapper avec une canette. 'Twist-tétine' joue sur 'Twisted Tea' — une chicane autour de la boisson qui dégénère.",
+                    "keywords": ["Twisted Tea", "swins", "se battre", "viral", "tétine", "alcool"]
+                },
+                {
+                    "id": "ref-slbeh-5",
+                    "lineNumbers": [15],
+                    "excerpt": "Toi pis ton frère vous ressemblez à Toupie pis Binou",
+                    "explanation": "Toupie et Binou est une émission jeunesse québécoise très populaire diffusée depuis 1994, mettant en scène deux personnages colorés et ronds. Comparer quelqu'un et son frère à des personnages de maternelle est une insulte absurde et enfantine.",
+                    "keywords": ["Toupie", "Binou", "émission jeunesse", "Québec", "personnages", "insulte absurde"]
+                },
+                {
+                    "id": "ref-slbeh-6",
+                    "lineNumbers": [18],
+                    "excerpt": "J't'aller au Couche Tard, mais j'trouve pas l'Dormez-Vous",
+                    "explanation": "Couche-Tard est la grande chaîne de dépanneurs québécoise (Circle K). Dormez-Vous est une chaîne québécoise de magasins de matelas. Le jeu de mots est une opposition littérale : Couche-Tard (se coucher tard) vs Dormez-Vous (dormez-vous?) — chercher un magasin de matelas dans un dépanneur.",
+                    "keywords": ["Couche-Tard", "Dormez-Vous", "dépanneur", "matelas", "jeu de mots", "opposés", "Québec"]
+                },
+                {
+                    "id": "ref-slbeh-7",
+                    "lineNumbers": [19, 10],
+                    "excerpt": "J'avais une p'tite fringale, faque j't'allé au Ashton",
+                    "explanation": "Ashton est une chaîne de restauration rapide québécoise très populaire à Québec, connue pour ses poutines. Mentionnée deux fois dans la chanson (lignes 10 et 19), c'est une référence culturelle forte pour les Québécois de la région de Québec.",
+                    "keywords": ["Ashton", "poutine", "restauration rapide", "Québec", "fringale"]
+                },
+                {
+                    "id": "ref-slbeh-8",
+                    "lineNumbers": [24, 25, 26, 27, 28, 29],
+                    "excerpt": "Joël / J'suis tellement fatigué j'cognes des clous / Inquiètes toi man j'ai fait mon DEP / Martin / Écoute / J'peux même pas zigner",
+                    "explanation": "Séquence de dialogue improvisé entre deux personnages — Joël et Martin. 'Cogner des clous' = s'endormir debout. Le DEP (Diplôme d'études professionnelles) est une formation technique et professionnelle au Québec. 'Zigner' est un québécisme vulgaire signifiant manquer d'énergie/d'envie. Le dialogue est absurde et décousu, comme une vraie conversation de sous-sol.",
+                    "keywords": ["Joël", "Martin", "cogner des clous", "DEP", "zigner", "dialogue", "DEP", "formation professionnelle"]
+                },
+                {
+                    "id": "ref-slbeh-9",
+                    "lineNumbers": [30, 31],
+                    "excerpt": "Je stalk la femme de mes rêves j'suis deep dans VSCO / La seule fois que j'shoot mon shot quand j'joue à CSGO",
+                    "explanation": "VSCO est une application de photo et réseau social avec une esthétique particulière, populaire chez les jeunes femmes. 'Shoot my shot' signifie tenter sa chance amoureusement. CSGO (Counter-Strike: Global Offensive) est un jeu de tir — la seule façon dont il 'shoot' est dans un jeu vidéo, jamais dans la vraie vie.",
+                    "keywords": ["VSCO", "stalk", "shoot my shot", "CSGO", "Counter-Strike", "jeu vidéo", "timidité"]
+                },
+                {
+                    "id": "ref-slbeh-10",
+                    "lineNumbers": [33],
+                    "excerpt": "On pull up ensemble trois wrappers juste comme Ferrero",
+                    "explanation": "Ferrero Rocher est une marque de chocolats italiens vendue en boîtes de trois enveloppés dans du papier doré. 'Pull up avec des wrappers' (arriver avec des billets enveloppés) est une expression rap pour montrer sa richesse — ici comparée aux trois chocolats emballés ensemble.",
+                    "keywords": ["Ferrero Rocher", "wrapper", "chocolat", "argent", "billets", "rap", "or"]
+                },
+                {
+                    "id": "ref-slbeh-11",
+                    "lineNumbers": [34],
+                    "excerpt": "Touche pas à mon étoile d'la mort bro c'est mes Legos",
+                    "explanation": "L'Étoile de la Mort est la station spatiale emblématique de Star Wars. Lego commercialise des sets de construction Star Wars très populaires, dont l'Étoile de la Mort en milliers de pièces. Défendre ses Legos avec l'intensité d'un rappeur défendant son territoire est le cœur de l'absurdité.",
+                    "keywords": ["étoile de la mort", "Death Star", "Star Wars", "Lego", "collection", "défense du territoire"]
+                },
+                {
+                    "id": "ref-slbeh-12",
+                    "lineNumbers": [35],
+                    "excerpt": "J'ai reçu un appel de la monnaie j'ai dit oui hello",
+                    "explanation": "La Monnaie royale canadienne (Royal Canadian Mint) est l'organisme fédéral qui fabrique les pièces de monnaie au Canada. Recevoir un appel de 'la monnaie' (l'institution) plutôt que de la 'monnaie' (petite change) et répondre poliment 'oui hello' est un quiproquo absurde.",
+                    "keywords": ["Monnaie royale canadienne", "pièces", "Canada", "appel", "quiproquo"]
+                },
+                {
+                    "id": "ref-slbeh-13",
+                    "lineNumbers": [38],
+                    "excerpt": "J'pas au chômage maman, j'vend des NFTs",
+                    "explanation": "Les NFTs (Non-Fungible Tokens) sont des actifs numériques blockchain qui ont connu un engouement massif en 2021-2022 avant de s'effondrer. Prétendre ne pas être au chômage parce qu'on vend des NFTs — une activité considérée par beaucoup comme sans valeur réelle — est une blague sur la déconnexion entre technologie et emploi réel.",
+                    "keywords": ["NFT", "chômage", "blockchain", "crypto", "maman", "emploi fictif"]
+                },
+                {
+                    "id": "ref-slbeh-14",
+                    "lineNumbers": [41],
+                    "excerpt": "Je triche quand j'joue à omnikin, je suis désolé",
+                    "explanation": "L'Omnikin est un sport d'équipe québécois inventé en 1996, joué avec un immense ballon mou. Très populaire dans les écoles primaires et secondaires du Québec. Tricher à l'Omnikin — sport amateur par excellence — et s'en excuser sérieusement est d'un absurde total.",
+                    "keywords": ["omnikin", "sport québécois", "triche", "école", "ballon", "inventé au Québec"]
+                },
+                {
+                    "id": "ref-slbeh-15",
+                    "lineNumbers": [42, 43, 44],
+                    "excerpt": "La semaine passé j'ai spin le op block en hoverboard / J't'en amour avec la caissière, j'suis un loverboy / Elle m'parle juste de son p'tit chat, je suis over bored",
+                    "explanation": "'Spin the block' est une expression rap signifiant retourner dans le quartier ennemi pour régler ses comptes — ici fait en hoverboard au lieu d'une voiture. 'Loverboy' joue sur 'lover' + boy. 'Over bored' (trop ennuyé) sonne comme 'overboard' (par-dessus bord). Triple rime en -oard/-ord.",
+                    "keywords": ["spin the block", "hoverboard", "loverboy", "over bored", "caissière", "rime", "rap"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Spin le block en hoverboard",
+            "duration": null,
+            "spotifyUrl": null,
+            "lastSync": "2026-06-18"
+        },
+        {
+            "id": "gino-chouinard",
+            "title": "Gino Chouinard",
+            "albumId": "gino-chouinard",
+            "year": 2025,
+            "lyrics": [
+                { "line": 1, "text": "Je viens de finir d'écouter toutes vos tounes" },
+                { "line": 2, "text": "Et j'ai un top 3" },
+                { "line": 3, "text": "Mon premier c'est Midski" },
+                { "line": 4, "text": "Mon deuxième c'est Anaconda" },
+                { "line": 5, "text": "Et mon troisième c'est Le Chauve Dans Caillou" },
+                { "line": 6, "text": "C'matin j'me suis levé d'mon lit" },
+                { "line": 7, "text": "J'check mon cell, j'ai genre 0 messages" },
+                { "line": 8, "text": "J'suis jamais lonely, j'get le bread, des fois j'parle à mes stacks" },
+                { "line": 9, "text": "J'me fais des toasts, j'mange pas d'Cheerios, j'mange pas de céréales" },
+                { "line": 10, "text": "J'mange rien qu'des toasts, j'me fais pas de gauffres" },
+                { "line": 11, "text": "J'mange pas d'sirop d'érable" },
+                { "line": 12, "text": "J'me lève le matin, j'comme rise and grind" },
+                { "line": 13, "text": "J'suis comme Gino Chouinard" },
+                { "line": 14, "text": "J'suis daltonien, j'commence par la 8 ball quand je joue au billard" },
+                { "line": 15, "text": "J't'un dalmatien, c'est juste que j'ai pas d'taches" },
+                { "line": 16, "text": "Pis j'ai pas cent amis" },
+                { "line": 17, "text": "Du sarrasin, j'en ai mangé une fois, j'l'ai donné à un sans-abri" },
+                { "line": 18, "text": "C'est SMS, on spam les W comme un Twitch chat" },
+                { "line": 19, "text": "C'est LMFAO quand j'check tes beats c'est un shitpack" },
+                { "line": 20, "text": "Entre vous autres pis nous autres, y'a genre 4 ligues" },
+                { "line": 21, "text": "C'est un big gap" },
+                { "line": 22, "text": "J'arrête pas d'crunch les numbers, à la longue, j'ai un six-pack" },
+                { "line": 23, "text": "J'fais juste ça crunch les numbers à la longue, j'ai des abdominaux" },
+                { "line": 24, "text": "J'ai mal au dos à force de carry l'game, j'ai de la scoliose" },
+                { "line": 25, "text": "J'vais actually get un gros dalmatien pis l'appeler Oreo" },
+                { "line": 26, "text": "Nan, j'vais actually get un p'tit chien saucisse pis l'appeler Giorgio" },
+                { "line": 27, "text": "Le soir j'arrive d'la job j'ai cook un spaghetti" },
+                { "line": 28, "text": "Pâtes, sauce, viande, légumes pis du mozzarella" },
+                { "line": 29, "text": "J'me cante su'l'couch, j'bois une bière pis un Pepsi" },
+                { "line": 30, "text": "Star Académie, je watch gagner Mia" },
+                { "line": 31, "text": "J'pas canadien j'suis québécois" },
+                { "line": 32, "text": "J'supporte les produits d'ici" },
+                { "line": 33, "text": "Fâches-moi pas sinon j'go apeshit, j'ai confus Darwin" },
+                { "line": 34, "text": "J'ai drag mes balls sur tout mon ice, j'ai créé le curling" },
+                { "line": 35, "text": "Yea toutes des pierres, quand j'parle d'argent j'parle pas de Sterling" },
+                { "line": 36, "text": "Yeah j'suis Molière dans les temps modernes" },
+                { "line": 37, "text": "Juste moins quétaine pis s'à kétamine" },
+                { "line": 38, "text": "Non moi j'écoute pas et j'vois pas les haters" },
+                { "line": 39, "text": "Straight up pas d'vue ou d'ouïe, appelle-moi Helen Keller" },
+                { "line": 40, "text": "Mon père veut qu'les Pingouins gagnent la coupe Stanley cette année" },
+                { "line": 41, "text": "Y'a eu chaud, mais garde son sang-froid comme une bouteille Stanley" },
+                { "line": 42, "text": "J'ai vendu d'la meth laced au ketchup, appelle-moi Heinzenberg" },
+                { "line": 43, "text": "Je care pour ses deux grosses planètes comme Greta Thunberg" },
+                { "line": 44, "text": "Les éditeurs m'aiment pas, j'donne des shifts coupés" },
+                { "line": 45, "text": "J'ai wipe mon ass pis mon nez avec le même papier" },
+                { "line": 46, "text": "C'est SMS, on spam les W comme un Twitch chat" },
+                { "line": 47, "text": "C'est LMFAO quand j'check tes beats c'est un shitpack" },
+                { "line": 48, "text": "Entre vous autres pis nous autres, y'a genre 4 ligues" },
+                { "line": 49, "text": "C'est un big gap" },
+                { "line": 50, "text": "J'arrête pas d'crunch les numbers à la longue, j'ai un six-pack" },
+                { "line": 51, "text": "J'me suis lavé avec du Vicks pis la mon cul il respire" },
+                { "line": 52, "text": "J'ai 2 spots foncés en-d'sous d'mes bras, j'sais que j'transpire" },
+                { "line": 53, "text": "J'cours tellement plus vite quand que j'porte mes Geox Respire" },
+                { "line": 54, "text": "J'me tape un sprint jusqu'au Renaud-Bray" },
+                { "line": 55, "text": "Pis j'cambriole plein d'livres" },
+                { "line": 56, "text": "J'me suis rendu au McDo, j'ai pris un quart de livre" },
+                { "line": 57, "text": "J'ai essayé d'lire le dictionnaire, j'ai lu le quart du livre" },
+                { "line": 58, "text": "Arrêtez donc de dire que j'suis gros, j'ai des abdominaux" },
+                { "line": 59, "text": "J'ai des gros points sur le corps, j'ai plus l'air d'un domino" },
+                { "line": 60, "text": "Y'a une fille qui m'a dit que j'tais beau" },
+                { "line": 61, "text": "J'y ai dit \"Non moi c'est Samuel\"" },
+                { "line": 62, "text": "J'ai magasiné au Bath And Body Works pour un parfum à' cannelle" },
+                { "line": 63, "text": "J'me suis fait fourré, j'pensais c'tait une collab Passe-Partout" },
+                { "line": 64, "text": "J'ai bouffé 6 bananes pis du Sprite, j'ai vomi partout" }
+            ],
+            "references": [
+                {
+                    "id": "ref-gc-1",
+                    "lineNumbers": [3, 4, 5],
+                    "excerpt": "Mon premier c'est Midski / Mon deuxième c'est Anaconda / Et mon troisième c'est Le Chauve Dans Caillou",
+                    "explanation": "Top 3 fictif totalement absurde. 'Midski' n'existe pas. 'Anaconda' réfère probablement à la chanson de Nicki Minaj. 'Le Chauve Dans Caillou' est un personnage secondaire de la série animée jeunesse québécoise Caillou — le choisir dans un top 3 rap est un non-sens comique.",
+                    "keywords": ["Midski", "Anaconda", "Caillou", "top 3", "absurde", "Nicki Minaj", "cartoon", "jeunesse"]
+                },
+                {
+                    "id": "ref-gc-2",
+                    "lineNumbers": [12, 13],
+                    "excerpt": "J'me lève le matin, j'comme rise and grind / J'suis comme Gino Chouinard",
+                    "explanation": "'Rise and grind' est une expression de la culture hustle signifiant se lever tôt et travailler dur. Gino Chouinard est un animateur québécois connu pour animer Salut Bonjour, émission matinale de TVA. Le comparer à la culture hustle est une référence absurde à son lever aux aurores.",
+                    "keywords": ["rise and grind", "hustle", "Gino Chouinard", "Salut Bonjour", "TVA", "matin", "animateur"]
+                },
+                {
+                    "id": "ref-gc-3",
+                    "lineNumbers": [14, 15, 16],
+                    "excerpt": "J'suis daltonien, j'commence par la 8 ball quand je joue au billard / J't'un dalmatien, c'est juste que j'ai pas d'taches / Pis j'ai pas cent amis",
+                    "explanation": "Triple jeu de mots : être daltonien (ne pas distinguer les couleurs) force à commencer par la 8 ball noire au billard. 'Dalmatien' (race de chien à taches) sonne presque pareil que 'daltonien'. Et 'cent amis' / 'sans taches' joue sur l'homophonie — le dalmatien a des taches, lui n'en a pas (et n'a pas 100 amis non plus).",
+                    "keywords": ["daltonien", "dalmatien", "8 ball", "billard", "taches", "cent amis", "sans taches", "homophonie", "jeu de mots"]
+                },
+                {
+                    "id": "ref-gc-4",
+                    "lineNumbers": [22, 23, 50],
+                    "excerpt": "J'arrête pas d'crunch les numbers, à la longue, j'ai un six-pack",
+                    "explanation": "'Crunch the numbers' signifie analyser des chiffres, faire des calculs. Mais 'crunch' est aussi un exercice abdominal. Le jeu de mots fait croire qu'en faisant des calculs, on développe un six-pack — les abdominaux venant de la répétition des crunches.",
+                    "keywords": ["crunch", "numbers", "six-pack", "abdominaux", "calcul", "exercice", "double sens"]
+                },
+                {
+                    "id": "ref-gc-5",
+                    "lineNumbers": [33],
+                    "excerpt": "Fâches-moi pas sinon j'go apeshit, j'ai confus Darwin",
+                    "explanation": "'Go apeshit' signifie péter les plombes (littéralement 'faire comme un singe en furie'). En disant qu'il va apeshit, il confond Darwin — qui a théorisé que l'homme descend du singe — car lui régresse vers l'état animal.",
+                    "keywords": ["apeshit", "Darwin", "évolution", "singe", "théorie", "péter les plombes"]
+                },
+                {
+                    "id": "ref-gc-6",
+                    "lineNumbers": [34, 35],
+                    "excerpt": "J'ai drag mes balls sur tout mon ice, j'ai créé le curling / Yea toutes des pierres, quand j'parle d'argent j'parle pas de Sterling",
+                    "explanation": "Le curling se joue avec des pierres (stones) sur la glace. Prétendre avoir inventé le sport en traînant ses... pierres est de l'humour absurde. 'Sterling' (argent sterling) est une qualité d'argent métal, pas de la monnaie — double sens sur le mot 'argent'.",
+                    "keywords": ["curling", "glace", "ice", "pierres", "stones", "Sterling", "argent", "sport"]
+                },
+                {
+                    "id": "ref-gc-7",
+                    "lineNumbers": [36, 37],
+                    "excerpt": "Yeah j'suis Molière dans les temps modernes / Juste moins quétaine pis s'à kétamine",
+                    "explanation": "Molière est le grand auteur de théâtre français du XVIIe siècle, symbole de la langue française. Le comparer à soi-même est une vantardise absurde. 'Quétaine' est un québécisme pour kitsch/de mauvais goût. La rime Molière/kétamine/temps modernes est un exemple de jeu sonore inattendu.",
+                    "keywords": ["Molière", "kétamine", "quétaine", "littérature", "français", "XVIIe siècle", "rime"]
+                },
+                {
+                    "id": "ref-gc-8",
+                    "lineNumbers": [39],
+                    "excerpt": "Straight up pas d'vue ou d'ouïe, appelle-moi Helen Keller",
+                    "explanation": "Helen Keller était une militante américaine sourde et aveugle depuis la petite enfance, devenue symbole de résilience. Ici c'est une métaphore pour dire qu'il ignore complètement les haters — ni les voir ni les entendre.",
+                    "keywords": ["Helen Keller", "sourd", "aveugle", "haters", "ignore", "militante", "résilience"]
+                },
+                {
+                    "id": "ref-gc-9",
+                    "lineNumbers": [40, 41],
+                    "excerpt": "Mon père veut qu'les Pingouins gagnent la coupe Stanley cette année / Y'a eu chaud, mais garde son sang-froid comme une bouteille Stanley",
+                    "explanation": "Les Pingouins de Pittsburgh (Penguins) sont une équipe de la LNH. La Coupe Stanley est le trophée suprême du hockey. Double sens sur 'Stanley' : la coupe Stanley trophée VS une bouteille thermos Stanley (marque connue pour garder les boissons froides). 'Garde son sang-froid' = reste calme, comme une Stanley garde la boisson froide.",
+                    "keywords": ["Pingouins", "Pittsburgh Penguins", "coupe Stanley", "LNH", "hockey", "bouteille Stanley", "thermos", "sang-froid", "jeu de mots"]
+                },
+                {
+                    "id": "ref-gc-10",
+                    "lineNumbers": [42],
+                    "excerpt": "J'ai vendu d'la meth laced au ketchup, appelle-moi Heinzenberg",
+                    "explanation": "Fusion de Heinz (marque de ketchup emblématique) et de Heisenberg, le pseudonyme de Walter White dans la série Breaking Bad. Walter White vend de la méthamphétamine et devient Heisenberg — ici c'est la même chose mais avec du ketchup Heinz mélangé dedans.",
+                    "keywords": ["Heinzenberg", "Heisenberg", "Heinz", "ketchup", "meth", "Breaking Bad", "Walter White", "fusion"]
+                },
+                {
+                    "id": "ref-gc-11",
+                    "lineNumbers": [43],
+                    "excerpt": "Je care pour ses deux grosses planètes comme Greta Thunberg",
+                    "explanation": "Greta Thunberg est la militante suédoise pour le climat connue pour 'care for the planet'. 'Ses deux grosses planètes' est un jeu de mots grivois — prétendre avoir des préoccupations environnementales avec un double sens anatomique.",
+                    "keywords": ["Greta Thunberg", "planètes", "environnement", "climat", "militante", "double sens", "grivois"]
+                },
+                {
+                    "id": "ref-gc-12",
+                    "lineNumbers": [51, 52, 53],
+                    "excerpt": "J'me suis lavé avec du Vicks pis la mon cul il respire / J'cours tellement plus vite quand que j'porte mes Geox Respire",
+                    "explanation": "Vicks VapoRub est un baume menthol pour dégager les voies respiratoires — l'appliquer sur les fesses pour les faire 'respirer' est absurde. Les Geox sont une marque de chaussures dont le slogan est 'La chaussure qui respire' grâce à leur semelle aérée. Les deux jouent sur le mot 'respire'.",
+                    "keywords": ["Vicks", "VapoRub", "Geox", "respire", "chaussures", "baume", "publicité", "jeu de mots"]
+                },
+                {
+                    "id": "ref-gc-13",
+                    "lineNumbers": [54, 55, 56, 57],
+                    "excerpt": "J'me tape un sprint jusqu'au Renaud-Bray / Pis j'cambriole plein d'livres / J'me suis rendu au McDo, j'ai pris un quart de livre / J'ai essayé d'lire le dictionnaire, j'ai lu le quart du livre",
+                    "explanation": "Renaud-Bray est une chaîne de librairies québécoise. Cambriole des livres = vole des livres dans une librairie. Puis 'quart de livre' : unité de poids AU McDo (le fameux quart de livre) VS lire un quart du dictionnaire. Trois sens du mot 'livre' : l'objet librairie, l'unité de poids, et le verbe lire.",
+                    "keywords": ["Renaud-Bray", "librairie", "quart de livre", "McDo", "dictionnaire", "livre", "triple sens", "poids", "lecture"]
+                },
+                {
+                    "id": "ref-gc-14",
+                    "lineNumbers": [62, 63],
+                    "excerpt": "J'ai magasiné au Bath And Body Works pour un parfum à' cannelle / J'me suis fait fourré, j'pensais c'tait une collab Passe-Partout",
+                    "explanation": "Bath & Body Works est une chaîne américaine de cosmétiques connue pour ses senteurs. Passe-Partout est une émission jeunesse québécoise culte des années 80-90. Le personnage Passe-Partout portait des vêtements à rayures vertes et jaunes — une 'collab' entre les deux marques n'a aucun sens, ce qui crée le gag.",
+                    "keywords": ["Bath And Body Works", "Passe-Partout", "collab", "cannelle", "parfum", "émission jeunesse", "Québec", "absurde"]
+                }
+            ],
+            "artist": "SMS",
+            "album": "Gino Chouinard",
+            "duration": null,
+            "spotifyUrl": null,
+            "lastSync": "2026-06-18"
         }
     ]
 }
