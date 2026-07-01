@@ -148,6 +148,56 @@ collections:
                   - { label: "Rights", name: rights, widget: string }
                   - { label: "Location", name: location, widget: string }
 
+  # ─── PAROLES ────────────────────────────────────────────────────────
+  - name: lyrics
+    label: "Paroles"
+    icon: music_note
+    files:
+      - name: lyrics
+        label: "Paroles des chansons"
+        file: "data/lyrics.json"
+        description: "Paroles ligne par ligne + références/explications utilisées par la page de recherche (Génie)."
+        fields:
+          - { label: "Dernière mise à jour", name: lastUpdated, widget: string, required: false, hint: "Format AAAA-MM-JJ" }
+          - label: "Chansons"
+            name: songs
+            widget: list
+            label_singular: "Chanson"
+            summary: "{{fields.title}}"
+            collapsed: true
+            fields:
+              - { label: "ID (slug)", name: id, widget: string, hint: "Doit correspondre à l'ID de l'album lié." }
+              - { label: "Titre", name: title, widget: string }
+              - { label: "ID de l'album lié", name: albumId, widget: string }
+              - { label: "Année", name: year, widget: number, value_type: int }
+              - label: "Paroles (une ligne = un item)"
+                name: lyrics
+                widget: list
+                label_singular: "Ligne"
+                summary: "{{fields.line}}. {{fields.text}}"
+                fields:
+                  - { label: "N° de ligne", name: line, widget: number, value_type: int }
+                  - { label: "Texte", name: text, widget: string }
+              - label: "Références / explications"
+                name: references
+                widget: list
+                required: false
+                label_singular: "Référence"
+                summary: "{{fields.excerpt}}"
+                collapsed: true
+                fields:
+                  - { label: "ID", name: id, widget: string }
+                  - label: "N° de lignes concernées"
+                    name: lineNumbers
+                    widget: list
+                    field: { label: "Ligne", name: line, widget: number, value_type: int }
+                  - { label: "Extrait", name: excerpt, widget: string }
+                  - { label: "Explication", name: explanation, widget: text }
+                  - label: "Mots-clés"
+                    name: keywords
+                    widget: list
+                    field: { label: "Mot-clé", name: keyword, widget: string }
+
   # ─── RÉSEAUX SOCIAUX ────────────────────────────────────────────────
   - name: social
     label: "Réseaux sociaux"
