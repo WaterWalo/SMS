@@ -1,0 +1,733 @@
+{
+    "id": "louis-jose-coude",
+    "title": "Louis-José Coude",
+    "artist": "SMS",
+    "album": "Hector",
+    "albumId": "hector",
+    "year": 2026,
+    "duration": null,
+    "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "Mes articulations y comptent des jokes, Louis-José Coude"
+        },
+        {
+            "line": 2,
+            "text": "Nouvelle recette de Ricardo, riz sauce et moules"
+        },
+        {
+            "line": 3,
+            "text": "Y'a volé toutes mes grosses cuillères, mon cuistot est louche"
+        },
+        {
+            "line": 4,
+            "text": "Chouinard y'a oublié les coqs dehors, Gino les poules!"
+        },
+        {
+            "line": 5,
+            "text": "Toute mon bread est dedans, faque mon frigo verrouille"
+        },
+        {
+            "line": 6,
+            "text": "Le DJ a laissé des pâtes sul feu, diplo les nouilles"
+        },
+        {
+            "line": 7,
+            "text": "J'ai 2 phobies dans vie, ci- aahhauh"
+        },
+        {
+            "line": 8,
+            "text": "J'ai 2 phobies dans vie, huh, ciseaux et clowns"
+        },
+        {
+            "line": 9,
+            "text": "Y'ont pas aimer ma take s'es couples ouverts, j'ai fait poly-mique (cancel culture)"
+        },
+        {
+            "line": 10,
+            "text": "Les vieux disent que je fais de l'art abstrait, fucking Paul-Émile (borduas)"
+        },
+        {
+            "line": 11,
+            "text": "J'vends mes romans qu'j'ai remplis de ma morve, j'fucking poétique (achoo)"
+        },
+        {
+            "line": 12,
+            "text": "J'tourne bleu en geekant s'a speed, J'comme le porc-épic"
+        },
+        {
+            "line": 13,
+            "text": "J'avais envi d'boir du jus d'marde j'ai pris une boisson aux bananes"
+        },
+        {
+            "line": 14,
+            "text": "J'ai mangé un requin tueur de femmes ça goûtait l'poisson aux madames"
+        },
+        {
+            "line": 15,
+            "text": "Mon déjeuner percussionne quand j'le digère, croissant Tam Tam"
+        },
+        {
+            "line": 16,
+            "text": "Tu veux vaincre sms? voilà 300 batman (Joker!)"
+        },
+        {
+            "line": 17,
+            "text": "Grosse semaine à soir je fume 300 battes, man"
+        },
+        {
+            "line": 18,
+            "text": "J'digère mal les fantômes passes moi donc un ice pac-man"
+        },
+        {
+            "line": 19,
+            "text": "J'connais mon ABC j'suis un Mike jack, fan"
+        },
+        {
+            "line": 20,
+            "text": "Elle grimpe din rideaux quand a peur c'est une chatte, femme (MIAOW)"
+        },
+        {
+            "line": 21,
+            "text": "Elle ma rizz en m'insultant, j'étais flabbergast"
+        },
+        {
+            "line": 22,
+            "text": "Le panneau on voit au travers du shit, c'est du fiberglass"
+        },
+        {
+            "line": 23,
+            "text": "Out the box les gars sont éclatés, c'est des Cracker jack"
+        },
+        {
+            "line": 24,
+            "text": "Pour un check ton cap a augmenté, David Pasternak"
+        },
+        {
+            "line": 25,
+            "text": "Ma hairline ravance avec le temps, benjamin button"
+        },
+        {
+            "line": 26,
+            "text": "Je focus sur une chose à la fois, benjamin locked in"
+        },
+        {
+            "line": 27,
+            "text": "J'ai volé l'tapis dans un avion, Aladin Cockpit"
+        },
+        {
+            "line": 28,
+            "text": "Georges Pain d'Seigle, combat à mort contre Sarrasin Maurice"
+        },
+        {
+            "line": 29,
+            "text": "J'voulais porter un toast mais fais bin trop chaud aujourd'hui"
+        },
+        {
+            "line": 30,
+            "text": "J'voulais manger mon dessert dans ma chambre la ya bin trop d'mousse dans mon lit"
+        },
+        {
+            "line": 31,
+            "text": "Spag quand j'me réveille j'fais despâtessitôt j'suis Luis Fonsi"
+        },
+        {
+            "line": 32,
+            "text": "J'voulais essayer des protéines russes la ya bin trop d'ours dans mon riz"
+        },
+        {
+            "line": 33,
+            "text": "J'ai les dawgs qui marinent dans la slush"
+        },
+        {
+            "line": 34,
+            "text": "Slush puppy"
+        },
+        {
+            "line": 35,
+            "text": "J'ai demandé des nouvelles à mon docteur"
+        },
+        {
+            "line": 36,
+            "text": "Bugs Bunny (quoi de neuf docteur)"
+        },
+        {
+            "line": 37,
+            "text": "Marathon goon en fin d'semaine"
+        },
+        {
+            "line": 38,
+            "text": "Cross country"
+        },
+        {
+            "line": 39,
+            "text": "Marathon food en fin d'semaine"
+        },
+        {
+            "line": 40,
+            "text": "Brocoli"
+        },
+        {
+            "line": 41,
+            "text": "J'suis léger comme une plume j'passerai pas devant un ventilateur"
+        },
+        {
+            "line": 42,
+            "text": "Crise du bacon faque live tu sais j'hyperventille à teurre"
+        },
+        {
+            "line": 43,
+            "text": "J'ai échappé mon toaster's Trudel y me reste juste des tartines au beurre"
+        },
+        {
+            "line": 44,
+            "text": "Ma relation doit être un jeu vidéo ma blonde a dit c'tait oveur"
+        },
+        {
+            "line": 45,
+            "text": "J'ai bin trop d'buns pis pas assez de toasters"
+        },
+        {
+            "line": 46,
+            "text": "Elle a dit j'avais des belles fesses j'les ai mis sur un poster"
+        },
+        {
+            "line": 47,
+            "text": "J'ai plein d'poques s'a tete on m'a prit pour un goaler"
+        },
+        {
+            "line": 48,
+            "text": "J'ai l'air d'une grosse limace derrière moi ya plein d'beurre"
+        },
+        {
+            "line": 49,
+            "text": "J'ai les poches pleines de bread comme Helene jpeux t'faire un spread"
+        },
+        {
+            "line": 50,
+            "text": "Fuck ton stoodio bitch Elpy cook tout sur FL"
+        },
+        {
+            "line": 51,
+            "text": "Fuck around and find out ça s'peut j't'etouffe sur un d'mes pet"
+        },
+        {
+            "line": 52,
+            "text": "J'peux pas sleep avec Alex, y'a des monstres nearby my bed"
+        },
+        {
+            "line": 53,
+            "text": "Dites le pas à mes opps, ma grand mère est quand même laide"
+        },
+        {
+            "line": 54,
+            "text": "Check mes pieds s'a montagne j'suis sexy red (skiiii)"
+        },
+        {
+            "line": 55,
+            "text": "Au spectacle des sœurs Boulay jtrouve pas Etienne"
+        },
+        {
+            "line": 56,
+            "text": "J'me suis baigné dans d'la lave mes bobettes sont en obsidienne"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-ljc-1",
+            "lineNumbers": [
+                1
+            ],
+            "excerpt": "Mes articulations y comptent des jokes, Louis-José Coude",
+            "explanation": "Référence à Louis-José Houde, un humoriste québécois (jeu de mot avec « coude »).",
+            "keywords": [
+                "Louis-José Houde",
+                "humoriste",
+                "Québec",
+                "coude"
+            ]
+        },
+        {
+            "id": "ref-ljc-2",
+            "lineNumbers": [
+                2
+            ],
+            "excerpt": "Nouvelle recette de Ricardo, riz sauce et moules",
+            "explanation": "Référence à Ricardo Larrivée, un célèbre cuistot québécois.",
+            "keywords": [
+                "Ricardo",
+                "cuisine",
+                "Québec"
+            ]
+        },
+        {
+            "id": "ref-ljc-3",
+            "lineNumbers": [
+                3
+            ],
+            "excerpt": "Y'a volé toutes mes grosses cuillères, mon cuistot est louche",
+            "explanation": "Jeu de mot avec « être louche » et la louche de cuisine.",
+            "keywords": [
+                "louche",
+                "cuisine",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-4",
+            "lineNumbers": [
+                5
+            ],
+            "excerpt": "Toute mon bread est dedans, faque mon frigo verrouille",
+            "explanation": "« Bread » = argent : son argent est dans le frigo, donc il le verrouille.",
+            "keywords": [
+                "bread",
+                "argent",
+                "frigo",
+                "slang"
+            ]
+        },
+        {
+            "id": "ref-ljc-5",
+            "lineNumbers": [
+                6
+            ],
+            "excerpt": "Le DJ a laissé des pâtes sul feu, diplo les nouilles",
+            "explanation": "Référence à Diplo, un DJ américain.",
+            "keywords": [
+                "Diplo",
+                "DJ",
+                "nouilles"
+            ]
+        },
+        {
+            "id": "ref-ljc-6",
+            "lineNumbers": [
+                7
+            ],
+            "excerpt": "J'ai 2 phobies dans vie, ci- aahhauh",
+            "explanation": "Il a peur : la ligne mime la frayeur avant de révéler les phobies.",
+            "keywords": [
+                "phobie",
+                "peur",
+                "ciseaux"
+            ]
+        },
+        {
+            "id": "ref-ljc-7",
+            "lineNumbers": [
+                9
+            ],
+            "excerpt": "Y'ont pas aimer ma take s'es couples ouverts, j'ai fait poly-mique (cancel culture)",
+            "explanation": "Jeu de mot avec « polémique » et « polygamie » (le type relationnel des couples ouverts) = poly-mique.",
+            "keywords": [
+                "polémique",
+                "polygamie",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-8",
+            "lineNumbers": [
+                10
+            ],
+            "excerpt": "Les vieux disent que je fais de l'art abstrait, fucking Paul-Émile (borduas)",
+            "explanation": "Référence à Paul-Émile Borduas, figure majeure de l'art abstrait québécois.",
+            "keywords": [
+                "Paul-Émile Borduas",
+                "art abstrait",
+                "Québec"
+            ]
+        },
+        {
+            "id": "ref-ljc-9",
+            "lineNumbers": [
+                11
+            ],
+            "excerpt": "J'vends mes romans qu'j'ai remplis de ma morve, j'fucking poétique (achoo)",
+            "explanation": "Jeu de mot avec « poétique » et « pas éthique », puisqu'il n'est pas éthique de vendre des livres pleins de morve.",
+            "keywords": [
+                "poétique",
+                "pas éthique",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-10",
+            "lineNumbers": [
+                12
+            ],
+            "excerpt": "J'tourne bleu en geekant s'a speed, J'comme le porc-épic",
+            "explanation": "Référence à Sonic le porc-épic, personnage de jeu vidéo reconnu pour être rapide et bleu.",
+            "keywords": [
+                "Sonic",
+                "porc-épic",
+                "jeu vidéo"
+            ]
+        },
+        {
+            "id": "ref-ljc-11",
+            "lineNumbers": [
+                14
+            ],
+            "excerpt": "J'ai mangé un requin tueur de femmes ça goûtait l'poisson aux madames",
+            "explanation": "Ligne impliquant que le requin tueur de femmes goûte les femmes.",
+            "keywords": [
+                "requin",
+                "humour noir",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-12",
+            "lineNumbers": [
+                16
+            ],
+            "excerpt": "Tu veux vaincre sms? voilà 300 batman (Joker!)",
+            "explanation": "Pour battre SMS, il faudrait 300 Batman tellement ils sont puissants.",
+            "keywords": [
+                "Batman",
+                "SMS",
+                "puissance"
+            ]
+        },
+        {
+            "id": "ref-ljc-13",
+            "lineNumbers": [
+                17
+            ],
+            "excerpt": "Grosse semaine à soir je fume 300 battes, man",
+            "explanation": "Batte = joint. Jeu de mot avec « battes, man » et « Batman » (ligne précédente).",
+            "keywords": [
+                "batte",
+                "joint",
+                "Batman",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-14",
+            "lineNumbers": [
+                18
+            ],
+            "excerpt": "J'digère mal les fantômes passes moi donc un ice pac-man",
+            "explanation": "Il digère mal donc il a besoin d'un icepack, mais il mange des fantômes : jeu de mot avec Pac-Man.",
+            "keywords": [
+                "Pac-Man",
+                "icepack",
+                "fantômes",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-15",
+            "lineNumbers": [
+                19
+            ],
+            "excerpt": "J'connais mon ABC j'suis un Mike jack, fan",
+            "explanation": "Référence à Michael Jackson ; « ABC » est une chanson célèbre des Jackson 5.",
+            "keywords": [
+                "Michael Jackson",
+                "ABC",
+                "Jackson 5"
+            ]
+        },
+        {
+            "id": "ref-ljc-16",
+            "lineNumbers": [
+                21
+            ],
+            "excerpt": "Elle ma rizz en m'insultant, j'étais flabbergast",
+            "explanation": "« Flabbergast » = époustouflé, dépassé par un événement inattendu.",
+            "keywords": [
+                "flabbergast",
+                "rizz",
+                "slang"
+            ]
+        },
+        {
+            "id": "ref-ljc-17",
+            "lineNumbers": [
+                22
+            ],
+            "excerpt": "Le panneau on voit au travers du shit, c'est du fiberglass",
+            "explanation": "Implique qu'ils sont tombés dans le panneau, puisqu'il est transparent.",
+            "keywords": [
+                "fiberglass",
+                "panneau",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-18",
+            "lineNumbers": [
+                23
+            ],
+            "excerpt": "Out the box les gars sont éclatés, c'est des Cracker jack",
+            "explanation": "Cracker Jack est un célèbre mélange de maïs soufflé et d'arachides au caramel ; « cracker » est aussi un terme péjoratif anglais pour une personne blanche.",
+            "keywords": [
+                "Cracker Jack",
+                "maïs soufflé",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-ljc-19",
+            "lineNumbers": [
+                24
+            ],
+            "excerpt": "Pour un check ton cap a augmenté, David Pasternak",
+            "explanation": "Double sens avec check/chèque et plafond salarial/mensonge. Pastrňák est une vedette de la LNH ; un « check » est une mise en échec et le « cap » le plafond salarial — ou « cap » (mensonge en anglais).",
+            "keywords": [
+                "Pasternak",
+                "hockey",
+                "cap",
+                "LNH"
+            ]
+        },
+        {
+            "id": "ref-ljc-20",
+            "lineNumbers": [
+                25
+            ],
+            "excerpt": "Ma hairline ravance avec le temps, benjamin button",
+            "explanation": "Référence au film The Curious Case of Benjamin Button, où le protagoniste rajeunit toute sa vie.",
+            "keywords": [
+                "Benjamin Button",
+                "film",
+                "rajeunir"
+            ]
+        },
+        {
+            "id": "ref-ljc-21",
+            "lineNumbers": [
+                29
+            ],
+            "excerpt": "J'voulais porter un toast mais fais bin trop chaud aujourd'hui",
+            "explanation": "« Porter un toast » signifie boire à la santé de quelqu'un ; ici, pris au sens littéral de porter une toast (pain grillé) sur soi.",
+            "keywords": [
+                "toast",
+                "littéral",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-22",
+            "lineNumbers": [
+                30
+            ],
+            "excerpt": "J'voulais manger mon dessert dans ma chambre la ya bin trop d'mousse dans mon lit",
+            "explanation": "La mousse au chocolat est un dessert.",
+            "keywords": [
+                "mousse",
+                "dessert",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-23",
+            "lineNumbers": [
+                31
+            ],
+            "excerpt": "Spag quand j'me réveille j'fais despâtessitôt j'suis Luis Fonsi",
+            "explanation": "Jeu de mot avec « des pâtes si tôt » et la chanson Despacito de Luis Fonsi.",
+            "keywords": [
+                "Despacito",
+                "Luis Fonsi",
+                "pâtes",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-24",
+            "lineNumbers": [
+                32
+            ],
+            "excerpt": "J'voulais essayer des protéines russes la ya bin trop d'ours dans mon riz",
+            "explanation": "L'ours est l'un des symboles emblématiques de la Russie.",
+            "keywords": [
+                "ours",
+                "Russie",
+                "protéines"
+            ]
+        },
+        {
+            "id": "ref-ljc-25",
+            "lineNumbers": [
+                33,
+                34
+            ],
+            "excerpt": "J'ai les dawgs qui marinent dans la slush",
+            "explanation": "« Dawgs » (dogs) = pieds en slang anglais ; « slush » = barbotine ou neige fondante. La Slush Puppy est une marque emblématique de barbotine.",
+            "keywords": [
+                "dawgs",
+                "slush",
+                "Slush Puppy",
+                "slang"
+            ]
+        },
+        {
+            "id": "ref-ljc-26",
+            "lineNumbers": [
+                35,
+                36
+            ],
+            "excerpt": "Bugs Bunny (quoi de neuf docteur)",
+            "explanation": "Référence à la phrase emblématique de Bugs Bunny, « Quoi de neuf docteur? ».",
+            "keywords": [
+                "Bugs Bunny",
+                "quoi de neuf docteur",
+                "cartoon"
+            ]
+        },
+        {
+            "id": "ref-ljc-27",
+            "lineNumbers": [
+                37,
+                38
+            ],
+            "excerpt": "Marathon goon en fin d'semaine",
+            "explanation": "« Goon » et « cross » réfèrent à la masturbation ; le cross-country est une course d'endurance, cohérent avec « marathon ».",
+            "keywords": [
+                "goon",
+                "cross country",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-ljc-28",
+            "lineNumbers": [
+                42
+            ],
+            "excerpt": "Crise du bacon faque live tu sais j'hyperventille à teurre",
+            "explanation": "Déformation sonore volontaire de « à terre » pour l'effet humoristique et la rime.",
+            "keywords": [
+                "hyperventile",
+                "à terre",
+                "déformation"
+            ]
+        },
+        {
+            "id": "ref-ljc-29",
+            "lineNumbers": [
+                44
+            ],
+            "excerpt": "Ma relation doit être un jeu vidéo ma blonde a dit c'tait oveur",
+            "explanation": "Déformation de « over » : les mots « game over » apparaissent à l'écran quand on perd. Il compare sa relation à un jeu vidéo sans comprendre qu'il s'est fait laisser.",
+            "keywords": [
+                "game over",
+                "jeu vidéo",
+                "rupture"
+            ]
+        },
+        {
+            "id": "ref-ljc-30",
+            "lineNumbers": [
+                45
+            ],
+            "excerpt": "J'ai bin trop d'buns pis pas assez de toasters",
+            "explanation": "« Buns » = fesses en slang anglais : jeu de mot entre le pain et le fait d'avoir des fesses sans pouvoir en profiter.",
+            "keywords": [
+                "buns",
+                "fesses",
+                "pain",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-31",
+            "lineNumbers": [
+                47
+            ],
+            "excerpt": "J'ai plein d'poques s'a tete on m'a prit pour un goaler",
+            "explanation": "Référence aux gardiens de but au hockey, souvent marqués par les rondelles.",
+            "keywords": [
+                "goaler",
+                "hockey",
+                "gardien"
+            ]
+        },
+        {
+            "id": "ref-ljc-32",
+            "lineNumbers": [
+                49
+            ],
+            "excerpt": "J'ai les poches pleines de bread comme Helene jpeux t'faire un spread",
+            "explanation": "« Bread » = argent : il peut faire un « money spread ». Aussi une référence à Hélène Boudreau, avec « spread » évoquant une pose suggestive.",
+            "keywords": [
+                "bread",
+                "spread",
+                "Hélène Boudreau",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-ljc-33",
+            "lineNumbers": [
+                50
+            ],
+            "excerpt": "Fuck ton stoodio bitch Elpy cook tout sur FL",
+            "explanation": "FL = FL Studio : ils produisent tout eux-mêmes dans FL Studio.",
+            "keywords": [
+                "FL Studio",
+                "Elpy",
+                "production"
+            ]
+        },
+        {
+            "id": "ref-ljc-34",
+            "lineNumbers": [
+                52
+            ],
+            "excerpt": "J'peux pas sleep avec Alex, y'a des monstres nearby my bed",
+            "explanation": "Référence au personnage Alex dans Minecraft : quand des monstres sont proches, le jeu affiche « You may not rest now, there are monsters nearby ».",
+            "keywords": [
+                "Alex",
+                "Minecraft",
+                "monstres"
+            ]
+        },
+        {
+            "id": "ref-ljc-35",
+            "lineNumbers": [
+                54
+            ],
+            "excerpt": "Check mes pieds s'a montagne j'suis sexy red (skiiii)",
+            "explanation": "Jeu de mot avec la rappeuse Sexyy Red et le fait d'être « sexy raide ». Les pieds sur la montagne et les skis renvoient à son ad-lib signature « Skiii ».",
+            "keywords": [
+                "Sexyy Red",
+                "ski",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-36",
+            "lineNumbers": [
+                55
+            ],
+            "excerpt": "Au spectacle des sœurs Boulay jtrouve pas Etienne",
+            "explanation": "Référence au duo québécois Les Sœurs Boulay et au joueur de football Étienne Boulay : il cherche Étienne à cause du même nom de famille, bien qu'il n'ait aucun lien de parenté avec elles.",
+            "keywords": [
+                "Sœurs Boulay",
+                "Étienne Boulay",
+                "Québec",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ljc-37",
+            "lineNumbers": [
+                56
+            ],
+            "excerpt": "J'me suis baigné dans d'la lave mes bobettes sont en obsidienne",
+            "explanation": "L'obsidienne est une roche volcanique formée par le refroidissement rapide de la lave, et aussi un bloc important dans Minecraft.",
+            "keywords": [
+                "obsidienne",
+                "lave",
+                "Minecraft"
+            ]
+        }
+    ]
+}

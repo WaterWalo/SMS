@@ -148,60 +148,58 @@ collections:
                   - { label: "Rights", name: rights, widget: string }
                   - { label: "Location", name: location, widget: string }
 
-  # ─── PAROLES ────────────────────────────────────────────────────────
+  # ─── PAROLES (un fichier par chanson → sauvegarde rapide) ───────────
+  # Chaque chanson = data/lyrics/<id>.json. Le fichier combiné data/lyrics.json
+  # (lu par la recherche) est régénéré automatiquement par la GitHub Action
+  # .github/workflows/build-lyrics.yml — NE PAS l'éditer à la main.
   - name: lyrics
     label: "Paroles"
     icon: music_note
-    files:
-      - name: lyrics
-        label: "Paroles des chansons"
-        file: "data/lyrics.json"
-        description: "Paroles ligne par ligne + références/explications utilisées par la page de recherche (Génie)."
+    folder: "data/lyrics"
+    extension: json
+    format: json
+    identifier_field: title
+    slug: "{{fields.id}}"
+    create: true
+    summary: "{{fields.title}}"
+    description: "Une chanson par fiche. Paroles ligne par ligne + références/explications (page Génie)."
+    fields:
+      - { label: "ID (slug)", name: id, widget: string, hint: "Identifiant unique = nom du fichier. Doit correspondre à l'ID de l'album lié." }
+      - { label: "Titre", name: title, widget: string }
+      - { label: "Artiste", name: artist, widget: string, required: false, default: "SMS" }
+      - { label: "Album", name: album, widget: string, required: false }
+      - { label: "ID de l'album lié", name: albumId, widget: string }
+      - { label: "Année", name: year, widget: number, value_type: int, required: false }
+      - { label: "Durée (secondes)", name: duration, widget: number, value_type: int, required: false }
+      - { label: "Lien Spotify", name: spotifyUrl, widget: string, required: false }
+      - { label: "Dernière synchro (technique — ne pas modifier)", name: lastSync, widget: string, required: false }
+      - label: "Paroles (une ligne = un item)"
+        name: lyrics
+        widget: list
+        label_singular: "Ligne"
+        summary: "{{fields.line}}. {{fields.text}}"
         fields:
-          - { label: "Dernière mise à jour", name: lastUpdated, widget: string, required: false, hint: "Format AAAA-MM-JJ" }
-          - label: "Chansons"
-            name: songs
+          - { label: "N° de ligne", name: line, widget: number, value_type: int }
+          - { label: "Texte", name: text, widget: string }
+      - label: "Références / explications"
+        name: references
+        widget: list
+        required: false
+        label_singular: "Référence"
+        summary: "{{fields.excerpt}}"
+        collapsed: true
+        fields:
+          - { label: "ID", name: id, widget: string }
+          - label: "N° de lignes concernées"
+            name: lineNumbers
             widget: list
-            label_singular: "Chanson"
-            summary: "{{fields.title}}"
-            collapsed: true
-            fields:
-              - { label: "ID (slug)", name: id, widget: string, hint: "Doit correspondre à l'ID de l'album lié." }
-              - { label: "Titre", name: title, widget: string }
-              - { label: "Artiste", name: artist, widget: string, required: false, default: "SMS" }
-              - { label: "Album", name: album, widget: string, required: false }
-              - { label: "ID de l'album lié", name: albumId, widget: string }
-              - { label: "Année", name: year, widget: number, value_type: int, required: false }
-              - { label: "Durée (secondes)", name: duration, widget: number, value_type: int, required: false }
-              - { label: "Lien Spotify", name: spotifyUrl, widget: string, required: false }
-              - { label: "Dernière synchro (technique — ne pas modifier)", name: lastSync, widget: string, required: false }
-              - label: "Paroles (une ligne = un item)"
-                name: lyrics
-                widget: list
-                label_singular: "Ligne"
-                summary: "{{fields.line}}. {{fields.text}}"
-                fields:
-                  - { label: "N° de ligne", name: line, widget: number, value_type: int }
-                  - { label: "Texte", name: text, widget: string }
-              - label: "Références / explications"
-                name: references
-                widget: list
-                required: false
-                label_singular: "Référence"
-                summary: "{{fields.excerpt}}"
-                collapsed: true
-                fields:
-                  - { label: "ID", name: id, widget: string }
-                  - label: "N° de lignes concernées"
-                    name: lineNumbers
-                    widget: list
-                    field: { label: "Ligne", name: line, widget: number, value_type: int }
-                  - { label: "Extrait", name: excerpt, widget: string }
-                  - { label: "Explication", name: explanation, widget: text }
-                  - label: "Mots-clés"
-                    name: keywords
-                    widget: list
-                    field: { label: "Mot-clé", name: keyword, widget: string }
+            field: { label: "Ligne", name: line, widget: number, value_type: int }
+          - { label: "Extrait", name: excerpt, widget: string }
+          - { label: "Explication", name: explanation, widget: text }
+          - label: "Mots-clés"
+            name: keywords
+            widget: list
+            field: { label: "Mot-clé", name: keyword, widget: string }
 
   # ─── RÉSEAUX SOCIAUX ────────────────────────────────────────────────
   - name: social

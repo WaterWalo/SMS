@@ -1,0 +1,449 @@
+{
+    "id": "spin-le-block-en-hoverboard",
+    "title": "Spin le block en hoverboard",
+    "artist": "SMS",
+    "album": "Spin le block en hoverboard",
+    "albumId": "spin-le-block-en-hoverboard",
+    "year": 2025,
+    "duration": null,
+    "spotifyUrl": null,
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "J'ai des papillons dans l'ventre, j'aurais pas dû en manger"
+        },
+        {
+            "line": 2,
+            "text": "Le monarque pull up dans l'temple, t'es mieux de t'prosterner"
+        },
+        {
+            "line": 3,
+            "text": "Ma femme veut qu'j'la fourre, j'veux pas j'suis protestant"
+        },
+        {
+            "line": 4,
+            "text": "Si tu conduis une fourgonette, touches pas à mes enfants"
+        },
+        {
+            "line": 5,
+            "text": "J'ai 30 ans d'cigarettes dans gorge comme Éric Lapointe"
+        },
+        {
+            "line": 6,
+            "text": "J'ai peur qu'mon patron il s'appelle Éric Salvail"
+        },
+        {
+            "line": 7,
+            "text": "J'suis fan de Twisted Tea j'aime ça aller swins"
+        },
+        {
+            "line": 8,
+            "text": "Chicane de twist-tétine, j'lui arrache le poil"
+        },
+        {
+            "line": 9,
+            "text": "Y'a un caliss de macaque dans mon bain"
+        },
+        {
+            "line": 10,
+            "text": "J'ai bouffé au Ashton, trois poutine pis un verre de vin"
+        },
+        {
+            "line": 11,
+            "text": "J'peux tu avoir une gomme?"
+        },
+        {
+            "line": 12,
+            "text": "J'ai la bouche bien trop humide"
+        },
+        {
+            "line": 13,
+            "text": "Nages pas en arrière de mon bateau"
+        },
+        {
+            "line": 14,
+            "text": "Tu vas t'pogner dans turbine"
+        },
+        {
+            "line": 15,
+            "text": "Toi pis ton frère vous ressemblez à Toupie pis Binou"
+        },
+        {
+            "line": 16,
+            "text": "J't'un caliss d'intimidateur, ta caliss de bine t'as veux où?"
+        },
+        {
+            "line": 17,
+            "text": "J'peux pas jouer au bowling, j'ai oublier mon chat chez nous"
+        },
+        {
+            "line": 18,
+            "text": "J't'aller au Couche Tard, mais j'trouve pas l'Dormez-Vous"
+        },
+        {
+            "line": 19,
+            "text": "J'avais une p'tite fringale, faque j't'allé au Ashton"
+        },
+        {
+            "line": 20,
+            "text": "Y'avait plus de saucisses j'ai traîté la caissière de conne"
+        },
+        {
+            "line": 21,
+            "text": "Hier soir, c'tait vraiment une soirée d'marde"
+        },
+        {
+            "line": 22,
+            "text": "J'ressens un bout de bois pis j'me suis fait une écharde"
+        },
+        {
+            "line": 23,
+            "text": "J'suis tout seul dans mon taudis à attendre patiamment la nuit"
+        },
+        {
+            "line": 24,
+            "text": "Joël"
+        },
+        {
+            "line": 25,
+            "text": "J'suis tellement fatigué j'cognes des clous"
+        },
+        {
+            "line": 26,
+            "text": "Inquiètes toi man j'ai fait mon DEP"
+        },
+        {
+            "line": 27,
+            "text": "Martin"
+        },
+        {
+            "line": 28,
+            "text": "Écoute"
+        },
+        {
+            "line": 29,
+            "text": "J'peux même pas zigner"
+        },
+        {
+            "line": 30,
+            "text": "Je stalk la femme de mes rêves j'suis deep dans VSCO"
+        },
+        {
+            "line": 31,
+            "text": "La seule fois que j'shoot mon shot quand j'joue à CSGO"
+        },
+        {
+            "line": 32,
+            "text": "J'ai beaucoup d'argent dans la banque, dans le BMO"
+        },
+        {
+            "line": 33,
+            "text": "On pull up ensemble trois wrappers juste comme Ferrero"
+        },
+        {
+            "line": 34,
+            "text": "Touche pas à mon étoile d'la mort bro c'est mes Legos"
+        },
+        {
+            "line": 35,
+            "text": "J'ai reçu un appel de la monnaie j'ai dit oui hello"
+        },
+        {
+            "line": 36,
+            "text": "Les haters portent des skinny jeans, c'est des milléniaux"
+        },
+        {
+            "line": 37,
+            "text": "J'ai de très grosses qualités pis des p'tits défauts"
+        },
+        {
+            "line": 38,
+            "text": "J'pas au chômage maman, j'vend des NFTs"
+        },
+        {
+            "line": 39,
+            "text": "J'ai gagné 10 piaces à lotterie, je veux célébrer"
+        },
+        {
+            "line": 40,
+            "text": "J't'ais tanné d'la vielle cuisine, je l'ai rénovée"
+        },
+        {
+            "line": 41,
+            "text": "Je triche quand j'joue à omnikin, je suis désolé"
+        },
+        {
+            "line": 42,
+            "text": "La semaine passé j'ai spin le op block en hoverboard"
+        },
+        {
+            "line": 43,
+            "text": "J't'en amour avec la caissière, j'suis un loverboy"
+        },
+        {
+            "line": 44,
+            "text": "Elle m'parle juste de son p'tit chat, je suis over bored"
+        },
+        {
+            "line": 45,
+            "text": "J'prend des photos d'pizzas avec mon polaroid"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-slbeh-1",
+            "lineNumbers": [
+                1,
+                2
+            ],
+            "excerpt": "J'ai des papillons dans l'ventre, j'aurais pas dû en manger / Le monarque pull up dans l'temple",
+            "explanation": "Avoir des papillons dans le ventre signifie ressentir de la nervosité ou de l'excitation. Ici pris au pied de la lettre : il en a mangé. Le papillon monarque est l'espèce la plus emblématique — 'pull up dans le temple' traite l'insecte comme un rappeur qui arrive en force.",
+            "keywords": [
+                "papillons",
+                "ventre",
+                "monarque",
+                "expression",
+                "pied de la lettre",
+                "nervosité"
+            ]
+        },
+        {
+            "id": "ref-slbeh-2",
+            "lineNumbers": [
+                5
+            ],
+            "excerpt": "J'ai 30 ans d'cigarettes dans gorge comme Éric Lapointe",
+            "explanation": "Éric Lapointe est un chanteur rock québécois très populaire, reconnaissable à sa voix rauque et profonde, résultat de décennies de cigarettes et de vie rock'n'roll. La comparaison est absurde car elle sous-entend avoir littéralement 30 ans de cigarettes logées dans la gorge.",
+            "keywords": [
+                "Éric Lapointe",
+                "rock québécois",
+                "cigarettes",
+                "voix rauque",
+                "chanteur"
+            ]
+        },
+        {
+            "id": "ref-slbeh-3",
+            "lineNumbers": [
+                6
+            ],
+            "excerpt": "J'ai peur qu'mon patron il s'appelle Éric Salvail",
+            "explanation": "Éric Salvail est un animateur et producteur québécois qui a été accusé de harcèlement sexuel en 2017, ce qui a mis fin à sa carrière à la télévision. La blague sous-entend avoir peur que son patron soit un prédateur — référence directe à l'affaire #MeToo québécoise.",
+            "keywords": [
+                "Éric Salvail",
+                "harcèlement",
+                "MeToo",
+                "animateur",
+                "Québec",
+                "patron"
+            ]
+        },
+        {
+            "id": "ref-slbeh-4",
+            "lineNumbers": [
+                7,
+                8
+            ],
+            "excerpt": "J'suis fan de Twisted Tea j'aime ça aller swins / Chicane de twist-tétine, j'lui arrache le poil",
+            "explanation": "Twisted Tea est une boisson alcoolisée (thé glacé alcoolisé). 'Aller swins' signifie se battre (swings). La marque Twisted Tea est aussi connue pour une vidéo virale où quelqu'un se fait frapper avec une canette. 'Twist-tétine' joue sur 'Twisted Tea' — une chicane autour de la boisson qui dégénère.",
+            "keywords": [
+                "Twisted Tea",
+                "swins",
+                "se battre",
+                "viral",
+                "tétine",
+                "alcool"
+            ]
+        },
+        {
+            "id": "ref-slbeh-5",
+            "lineNumbers": [
+                15
+            ],
+            "excerpt": "Toi pis ton frère vous ressemblez à Toupie pis Binou",
+            "explanation": "Toupie et Binou est une émission jeunesse québécoise très populaire diffusée depuis 1994, mettant en scène deux personnages colorés et ronds. Comparer quelqu'un et son frère à des personnages de maternelle est une insulte absurde et enfantine.",
+            "keywords": [
+                "Toupie",
+                "Binou",
+                "émission jeunesse",
+                "Québec",
+                "personnages",
+                "insulte absurde"
+            ]
+        },
+        {
+            "id": "ref-slbeh-6",
+            "lineNumbers": [
+                18
+            ],
+            "excerpt": "J't'aller au Couche Tard, mais j'trouve pas l'Dormez-Vous",
+            "explanation": "Couche-Tard est la grande chaîne de dépanneurs québécoise (Circle K). Dormez-Vous est une chaîne québécoise de magasins de matelas. Le jeu de mots est une opposition littérale : Couche-Tard (se coucher tard) vs Dormez-Vous (dormez-vous?) — chercher un magasin de matelas dans un dépanneur.",
+            "keywords": [
+                "Couche-Tard",
+                "Dormez-Vous",
+                "dépanneur",
+                "matelas",
+                "jeu de mots",
+                "opposés",
+                "Québec"
+            ]
+        },
+        {
+            "id": "ref-slbeh-7",
+            "lineNumbers": [
+                19,
+                10
+            ],
+            "excerpt": "J'avais une p'tite fringale, faque j't'allé au Ashton",
+            "explanation": "Ashton est une chaîne de restauration rapide québécoise très populaire à Québec, connue pour ses poutines. Mentionnée deux fois dans la chanson (lignes 10 et 19), c'est une référence culturelle forte pour les Québécois de la région de Québec.",
+            "keywords": [
+                "Ashton",
+                "poutine",
+                "restauration rapide",
+                "Québec",
+                "fringale"
+            ]
+        },
+        {
+            "id": "ref-slbeh-8",
+            "lineNumbers": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+            ],
+            "excerpt": "Joël / J'suis tellement fatigué j'cognes des clous / Inquiètes toi man j'ai fait mon DEP / Martin / Écoute / J'peux même pas zigner",
+            "explanation": "Séquence de dialogue improvisé entre deux personnages — Joël et Martin. 'Cogner des clous' = s'endormir debout. Le DEP (Diplôme d'études professionnelles) est une formation technique et professionnelle au Québec. 'Zigner' est un québécisme vulgaire signifiant manquer d'énergie/d'envie. Le dialogue est absurde et décousu, comme une vraie conversation de sous-sol.",
+            "keywords": [
+                "Joël",
+                "Martin",
+                "cogner des clous",
+                "DEP",
+                "zigner",
+                "dialogue",
+                "DEP",
+                "formation professionnelle"
+            ]
+        },
+        {
+            "id": "ref-slbeh-9",
+            "lineNumbers": [
+                30,
+                31
+            ],
+            "excerpt": "Je stalk la femme de mes rêves j'suis deep dans VSCO / La seule fois que j'shoot mon shot quand j'joue à CSGO",
+            "explanation": "VSCO est une application de photo et réseau social avec une esthétique particulière, populaire chez les jeunes femmes. 'Shoot my shot' signifie tenter sa chance amoureusement. CSGO (Counter-Strike: Global Offensive) est un jeu de tir — la seule façon dont il 'shoot' est dans un jeu vidéo, jamais dans la vraie vie.",
+            "keywords": [
+                "VSCO",
+                "stalk",
+                "shoot my shot",
+                "CSGO",
+                "Counter-Strike",
+                "jeu vidéo",
+                "timidité"
+            ]
+        },
+        {
+            "id": "ref-slbeh-10",
+            "lineNumbers": [
+                33
+            ],
+            "excerpt": "On pull up ensemble trois wrappers juste comme Ferrero",
+            "explanation": "Ferrero Rocher est une marque de chocolats italiens vendue en boîtes de trois enveloppés dans du papier doré. 'Pull up avec des wrappers' (arriver avec des billets enveloppés) est une expression rap pour montrer sa richesse — ici comparée aux trois chocolats emballés ensemble.",
+            "keywords": [
+                "Ferrero Rocher",
+                "wrapper",
+                "chocolat",
+                "argent",
+                "billets",
+                "rap",
+                "or"
+            ]
+        },
+        {
+            "id": "ref-slbeh-11",
+            "lineNumbers": [
+                34
+            ],
+            "excerpt": "Touche pas à mon étoile d'la mort bro c'est mes Legos",
+            "explanation": "L'Étoile de la Mort est la station spatiale emblématique de Star Wars. Lego commercialise des sets de construction Star Wars très populaires, dont l'Étoile de la Mort en milliers de pièces. Défendre ses Legos avec l'intensité d'un rappeur défendant son territoire est le cœur de l'absurdité.",
+            "keywords": [
+                "étoile de la mort",
+                "Death Star",
+                "Star Wars",
+                "Lego",
+                "collection",
+                "défense du territoire"
+            ]
+        },
+        {
+            "id": "ref-slbeh-12",
+            "lineNumbers": [
+                35
+            ],
+            "excerpt": "J'ai reçu un appel de la monnaie j'ai dit oui hello",
+            "explanation": "La Monnaie royale canadienne (Royal Canadian Mint) est l'organisme fédéral qui fabrique les pièces de monnaie au Canada. Recevoir un appel de 'la monnaie' (l'institution) plutôt que de la 'monnaie' (petite change) et répondre poliment 'oui hello' est un quiproquo absurde.",
+            "keywords": [
+                "Monnaie royale canadienne",
+                "pièces",
+                "Canada",
+                "appel",
+                "quiproquo"
+            ]
+        },
+        {
+            "id": "ref-slbeh-13",
+            "lineNumbers": [
+                38
+            ],
+            "excerpt": "J'pas au chômage maman, j'vend des NFTs",
+            "explanation": "Les NFTs (Non-Fungible Tokens) sont des actifs numériques blockchain qui ont connu un engouement massif en 2021-2022 avant de s'effondrer. Prétendre ne pas être au chômage parce qu'on vend des NFTs — une activité considérée par beaucoup comme sans valeur réelle — est une blague sur la déconnexion entre technologie et emploi réel.",
+            "keywords": [
+                "NFT",
+                "chômage",
+                "blockchain",
+                "crypto",
+                "maman",
+                "emploi fictif"
+            ]
+        },
+        {
+            "id": "ref-slbeh-14",
+            "lineNumbers": [
+                41
+            ],
+            "excerpt": "Je triche quand j'joue à omnikin, je suis désolé",
+            "explanation": "L'Omnikin est un sport d'équipe québécois inventé en 1996, joué avec un immense ballon mou. Très populaire dans les écoles primaires et secondaires du Québec. Tricher à l'Omnikin — sport amateur par excellence — et s'en excuser sérieusement est d'un absurde total.",
+            "keywords": [
+                "omnikin",
+                "sport québécois",
+                "triche",
+                "école",
+                "ballon",
+                "inventé au Québec"
+            ]
+        },
+        {
+            "id": "ref-slbeh-15",
+            "lineNumbers": [
+                42,
+                43,
+                44
+            ],
+            "excerpt": "La semaine passé j'ai spin le op block en hoverboard / J't'en amour avec la caissière, j'suis un loverboy / Elle m'parle juste de son p'tit chat, je suis over bored",
+            "explanation": "'Spin the block' est une expression rap signifiant retourner dans le quartier ennemi pour régler ses comptes — ici fait en hoverboard au lieu d'une voiture. 'Loverboy' joue sur 'lover' + boy. 'Over bored' (trop ennuyé) sonne comme 'overboard' (par-dessus bord). Triple rime en -oard/-ord.",
+            "keywords": [
+                "spin the block",
+                "hoverboard",
+                "loverboy",
+                "over bored",
+                "caissière",
+                "rime",
+                "rap"
+            ]
+        }
+    ]
+}

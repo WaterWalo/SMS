@@ -1,0 +1,435 @@
+{
+    "id": "jacuzzi",
+    "title": "Jacuzzi",
+    "artist": "SMS, Kalibre",
+    "album": "Hector",
+    "albumId": "hector",
+    "year": 2026,
+    "duration": null,
+    "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "Posé dans l'jacuzzi, baby sors le kodak"
+        },
+        {
+            "line": 2,
+            "text": "J'joue du pitbull, c'est des classiques pas des throwbacks"
+        },
+        {
+            "line": 3,
+            "text": "Tu sais qu'ça get real, au moment qu'j'enlève mes chaussettes"
+        },
+        {
+            "line": 4,
+            "text": "Mon spa il tremble de peur, quand je step, dans mes godasses"
+        },
+        {
+            "line": 5,
+            "text": "Y'a tellement d'flashs de couleurs gros warning d'épilepsie"
+        },
+        {
+            "line": 6,
+            "text": "Brain est rendu fried, des fois j'fais des crises de dyslexie"
+        },
+        {
+            "line": 7,
+            "text": "Premier ministre dans mon maillot d'bain, Maurice Duplessis"
+        },
+        {
+            "line": 8,
+            "text": "J'ai construit mon char en pâtes alimentaires, bolide fusilli"
+        },
+        {
+            "line": 9,
+            "text": "J'suis dans le spa pis j'fais du wakeboard, diras c'que tu veux"
+        },
+        {
+            "line": 10,
+            "text": "Tu peux hate mais j't'avec Mike Ward là il fait du surf"
+        },
+        {
+            "line": 11,
+            "text": "J'perds du poids le soir je skinny dip"
+        },
+        {
+            "line": 12,
+            "text": "Load l'ordi sur Miniclip"
+        },
+        {
+            "line": 13,
+            "text": "Ils m'croient pas qu'jai mis un barrage d'hydro, but I really did"
+        },
+        {
+            "line": 14,
+            "text": "On est trois à stack la dough notre pile de cash c'comme un Mille feuille"
+        },
+        {
+            "line": 15,
+            "text": "Est dans sa smaine mais c'est pas grave, à soir j'suis un saigneur"
+        },
+        {
+            "line": 16,
+            "text": "La moune poste une story boomerang d'sa mamie dans son cercueil"
+        },
+        {
+            "line": 17,
+            "text": "Balloune pleine de protoxyde c'est comme ma fête mais en meilleur (bonne fête Kevin)"
+        },
+        {
+            "line": 18,
+            "text": "Ma Jacuzzi est trois mille fois plus grosse qu'la tienne"
+        },
+        {
+            "line": 19,
+            "text": "J'ai des grosses mains faque en hiver il m'faut des grosses mitaines"
+        },
+        {
+            "line": 20,
+            "text": "J'aime graille des gros déjeuners j'tai dis j'voulais du grosse bacon"
+        },
+        {
+            "line": 21,
+            "text": "J'aime smoke mon weed devant mon micro j'me sens comme Joe Rogan"
+        },
+        {
+            "line": 22,
+            "text": "Faut qu't'arrêtes d'flex t'as même pas l'cash pour un trio McValeur"
+        },
+        {
+            "line": 23,
+            "text": "J'parle espagnol à Cuba una cervesa por faveur (GRACIAS!)"
+        },
+        {
+            "line": 24,
+            "text": "J'comme un devoir à mes dates, attends-toi pas j'sois là à l'heure"
+        },
+        {
+            "line": 25,
+            "text": "Si tu me beg pour des piaces, j'vais les compter sur mes majeurs"
+        },
+        {
+            "line": 26,
+            "text": "Les rumeurs sont vrais: à soir j'me dérenche la face"
+        },
+        {
+            "line": 27,
+            "text": "J'raise mon cash comme des flos, tu peux m'appeller moneyteur"
+        },
+        {
+            "line": 28,
+            "text": "J'veux d'la bière pas de l'eau, Molson dry pour étancher ma soif"
+        },
+        {
+            "line": 29,
+            "text": "Vvs s'é 4 doigts, dans ma whip j'suis ton biggest Auditeur"
+        },
+        {
+            "line": 30,
+            "text": "Elle dit j't'un épais dans mon spa j'mets dla 10.1"
+        },
+        {
+            "line": 31,
+            "text": "J'ai une piscine de cash pis y'a juste des bruns"
+        },
+        {
+            "line": 32,
+            "text": "Ça m'prend deux Xanax par jour j'suis jamais à jeun"
+        },
+        {
+            "line": 33,
+            "text": "Pis j'ai une bitch qui fait le shift au Métro Verdun"
+        },
+        {
+            "line": 34,
+            "text": "Lunettes fumées j'suis s'es perks pis ça ferme les yeux"
+        },
+        {
+            "line": 35,
+            "text": "Huh"
+        },
+        {
+            "line": 36,
+            "text": "Fuck une bitch chauve j'veux lui venir din cheveux"
+        },
+        {
+            "line": 37,
+            "text": "Pis si ton boy il veut m'rob j'ai une arme à feu"
+        },
+        {
+            "line": 38,
+            "text": "J'suis un génie frotte ma lampe et puis fait un vœux"
+        },
+        {
+            "line": 39,
+            "text": "J'suis dans l'trap et j'bouge des sacs"
+        },
+        {
+            "line": 40,
+            "text": "Kahnawake j'paye pas d'taxes"
+        },
+        {
+            "line": 41,
+            "text": "Si j'fuck la bitch j'met pas d'casque"
+        },
+        {
+            "line": 42,
+            "text": "Si j'fais un lick j'ai un masque"
+        },
+        {
+            "line": 43,
+            "text": "J'fuck pas la bitch à des bas"
+        },
+        {
+            "line": 44,
+            "text": "Ma luck semi faut j'debuzz"
+        },
+        {
+            "line": 45,
+            "text": "J'fais des serve en Toyota"
+        },
+        {
+            "line": 46,
+            "text": "J'suis au Dagobert sont où les huzz"
+        },
+        {
+            "line": 47,
+            "text": "Y'a dla place en masse dans mon Jacuzzi"
+        },
+        {
+            "line": 48,
+            "text": "Ça sent"
+        },
+        {
+            "line": 49,
+            "text": "Ça sent"
+        },
+        {
+            "line": 50,
+            "text": "Ça sent la jalousie"
+        },
+        {
+            "line": 51,
+            "text": "Y'a d'la place en masse dans mon Jacuzzi"
+        },
+        {
+            "line": 52,
+            "text": "Voulez-vous venir dans mon Jacuzzi"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-jz-1",
+            "lineNumbers": [
+                5
+            ],
+            "excerpt": "Y'a tellement d'flashs de couleurs gros warning d'épilepsie",
+            "explanation": "Cette verse multiplie les références aux jacuzzis. Ici, on réfère aux LEDs présentes dans la majorité de ceux-ci.",
+            "keywords": [
+                "jacuzzi",
+                "LED",
+                "épilepsie"
+            ]
+        },
+        {
+            "id": "ref-jz-2",
+            "lineNumbers": [
+                9
+            ],
+            "excerpt": "J'suis dans le spa pis j'fais du wakeboard, diras c'que tu veux",
+            "explanation": "Le wakeboard nécessite normalement un bateau et une grande étendue d'eau. En faire dans un jacuzzi est physiquement impossible, d'où l'humour.",
+            "keywords": [
+                "wakeboard",
+                "spa",
+                "absurde"
+            ]
+        },
+        {
+            "id": "ref-jz-3",
+            "lineNumbers": [
+                11
+            ],
+            "excerpt": "J'perds du poids le soir je skinny dip",
+            "explanation": "Double sens : « skinny dipping » = se baigner nu, et « skinny » = mince. Il prétend littéralement perdre du poids simplement en enlevant ses vêtements.",
+            "keywords": [
+                "skinny dip",
+                "poids",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-jz-4",
+            "lineNumbers": [
+                14
+            ],
+            "excerpt": "On est trois à stack la dough notre pile de cash c'comme un Mille feuille",
+            "explanation": "Un mille-feuille a trois couches de pâte ; en slang anglais, « dough » = argent, mais aussi pâte à pâtisserie. Ils sont trois à empiler la « dough » : empiler des couches de pâte et empiler de l'argent. « Mille feuilles » évoque aussi une grande quantité d'argent.",
+            "keywords": [
+                "mille-feuille",
+                "dough",
+                "argent",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-jz-5",
+            "lineNumbers": [
+                15
+            ],
+            "excerpt": "Est dans sa smaine mais c'est pas grave, à soir j'suis un saigneur",
+            "explanation": "Jeu de mot avec « Seigneur » et « saigneur » (mot inventé à partir de saigner).",
+            "keywords": [
+                "saigneur",
+                "Seigneur",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-jz-6",
+            "lineNumbers": [
+                17
+            ],
+            "excerpt": "Balloune pleine de protoxyde c'est comme ma fête mais en meilleur (bonne fête Kevin)",
+            "explanation": "Référence au protoxyde d'azote (le « gaz hilarant »).",
+            "keywords": [
+                "protoxyde d'azote",
+                "gaz hilarant",
+                "fête"
+            ]
+        },
+        {
+            "id": "ref-jz-7",
+            "lineNumbers": [
+                18
+            ],
+            "excerpt": "Ma Jacuzzi est trois mille fois plus grosse qu'la tienne",
+            "explanation": "Référence directe aux paroles de la chanson samplée « Jacuzzi » du groupe Radio Radio.",
+            "keywords": [
+                "Radio Radio",
+                "Jacuzzi",
+                "sample"
+            ]
+        },
+        {
+            "id": "ref-jz-8",
+            "lineNumbers": [
+                21
+            ],
+            "excerpt": "J'aime smoke mon weed devant mon micro j'me sens comme Joe Rogan",
+            "explanation": "Référence à Joe Rogan, connu pour son podcast où les invités discutent souvent de cannabis et de sujets variés pendant des heures.",
+            "keywords": [
+                "Joe Rogan",
+                "podcast",
+                "weed"
+            ]
+        },
+        {
+            "id": "ref-jz-9",
+            "lineNumbers": [
+                23
+            ],
+            "excerpt": "J'parle espagnol à Cuba una cervesa por faveur (GRACIAS!)",
+            "explanation": "Le gag repose sur le mauvais espagnol, qui permet aussi la rime : une approximation phonétique de « Una cerveza por favor ». Il se présente comme bilingue alors qu'il sait seulement commander une bière.",
+            "keywords": [
+                "espagnol",
+                "Cuba",
+                "bière",
+                "humour"
+            ]
+        },
+        {
+            "id": "ref-jz-10",
+            "lineNumbers": [
+                25
+            ],
+            "excerpt": "Si tu me beg pour des piaces, j'vais les compter sur mes majeurs",
+            "explanation": "Il refuse de prêter de l'argent tout en insultant la personne (compter sur les majeurs).",
+            "keywords": [
+                "argent",
+                "majeur",
+                "insulte"
+            ]
+        },
+        {
+            "id": "ref-jz-11",
+            "lineNumbers": [
+                27
+            ],
+            "excerpt": "J'raise mon cash comme des flos, tu peux m'appeller moneyteur",
+            "explanation": "Jeu de mot avec « moniteur » et « moneyteur » : il élève / fait grandir son argent.",
+            "keywords": [
+                "moneyteur",
+                "moniteur",
+                "argent",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-jz-12",
+            "lineNumbers": [
+                29
+            ],
+            "excerpt": "Vvs s'é 4 doigts, dans ma whip j'suis ton biggest Auditeur",
+            "explanation": "VVS = diamants haut de gamme (bling). « 4 doigts » renvoie à 4 anneaux portés aux doigts, qui évoquent le logo d'Audi (quatre anneaux entrelacés), le tout lié par la punchline « auditeur », dans laquelle se cache aussi « Audi ».",
+            "keywords": [
+                "VVS",
+                "diamants",
+                "Audi",
+                "auditeur"
+            ]
+        },
+        {
+            "id": "ref-jz-13",
+            "lineNumbers": [
+                38
+            ],
+            "excerpt": "J'suis un génie frotte ma lampe et puis fait un vœux",
+            "explanation": "Allusion sexuelle (handjob) sous couvert du génie de la lampe.",
+            "keywords": [
+                "génie",
+                "lampe",
+                "allusion"
+            ]
+        },
+        {
+            "id": "ref-jz-14",
+            "lineNumbers": [
+                40
+            ],
+            "excerpt": "Kahnawake j'paye pas d'taxes",
+            "explanation": "Kahnawake est une communauté des Premières Nations ; selon le statut de réserve et certains contextes, la taxation peut différer sur le territoire.",
+            "keywords": [
+                "Kahnawake",
+                "Premières Nations",
+                "taxes"
+            ]
+        },
+        {
+            "id": "ref-jz-15",
+            "lineNumbers": [
+                41
+            ],
+            "excerpt": "Si j'fuck la bitch j'met pas d'casque",
+            "explanation": "Implique qu'il ne se protège pas lors des rapports sexuels.",
+            "keywords": [
+                "protection",
+                "casque",
+                "allusion"
+            ]
+        },
+        {
+            "id": "ref-jz-16",
+            "lineNumbers": [
+                46
+            ],
+            "excerpt": "J'suis au Dagobert sont où les huzz",
+            "explanation": "« Huzz » est un terme internet récent utilisé pour désigner des femmes de manière humoristique ou ironique.",
+            "keywords": [
+                "huzz",
+                "internet",
+                "slang"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,481 @@
+{
+    "id": "mon-perroquet-monica",
+    "title": "Mon perroquet Monica",
+    "artist": "SMS",
+    "album": "Hector",
+    "albumId": "hector",
+    "year": 2026,
+    "duration": null,
+    "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "C'est pas ma faute si t'es jaloux, c'est un you problem"
+        },
+        {
+            "line": 2,
+            "text": "J'bouge mes pieds dans les airs, it's my Boo calling"
+        },
+        {
+            "line": 3,
+            "text": "Stand sur la business, dans mes New balance"
+        },
+        {
+            "line": 4,
+            "text": "J'ai mis des couteaux dans mon gant, jsuis comme Hugh jackman"
+        },
+        {
+            "line": 5,
+            "text": "J'ai mis du tren dans mon smoothie, j'suis un huge jacked man"
+        },
+        {
+            "line": 6,
+            "text": "Mon cheval s'est sauvé dans minecraft, là j'ai full d'la peine"
+        },
+        {
+            "line": 7,
+            "text": "J'ai mis des lettres dans l'compte bancaire, là j'aime full l'algèbre"
+        },
+        {
+            "line": 8,
+            "text": "Mon ketchup y m'embrasse, mais j'aime ça quand moutarde French"
+        },
+        {
+            "line": 9,
+            "text": "Mes pommes font des squats, mais ma croustade bench"
+        },
+        {
+            "line": 10,
+            "text": "J'mange des legumes sur ma trempette, combo chourave-ranch"
+        },
+        {
+            "line": 11,
+            "text": "Ed Sheeran avec la peau verte, c'est un roux alien"
+        },
+        {
+            "line": 12,
+            "text": "Combat de mammifère marin, j'te sacre un coup d'baleine"
+        },
+        {
+            "line": 13,
+            "text": "J'ai fait un cauchemar c'tait Éric Duhaime"
+        },
+        {
+            "line": 14,
+            "text": "Gender reveal c'est Éric Duhaime (FUCK)"
+        },
+        {
+            "line": 15,
+            "text": "Est rentrée dans l'mur, c'est"
+        },
+        {
+            "line": 16,
+            "text": "Est rentrée dans l'mur, c'est Presbyte Mireille"
+        },
+        {
+            "line": 17,
+            "text": "Monika"
+        },
+        {
+            "line": 18,
+            "text": "J'aimerais que tu reviennes"
+        },
+        {
+            "line": 19,
+            "text": "Monika"
+        },
+        {
+            "line": 20,
+            "text": "Tu m'as fait de la peine"
+        },
+        {
+            "line": 21,
+            "text": "Monika"
+        },
+        {
+            "line": 22,
+            "text": "Tu m'as pris les enfants"
+        },
+        {
+            "line": 23,
+            "text": "Monika"
+        },
+        {
+            "line": 24,
+            "text": "Viens donc m'donner un bec"
+        },
+        {
+            "line": 25,
+            "text": "J'ai une infection pulmonaire, j'ai fumé du kraft diner"
+        },
+        {
+            "line": 26,
+            "text": "J'ai une inspection urinaire, j'lui en ai mis plein din yeux"
+        },
+        {
+            "line": 27,
+            "text": "J'suis la patante poilue nommée George, j'suis bin curieux"
+        },
+        {
+            "line": 28,
+            "text": "Ça c'est george il dit allo"
+        },
+        {
+            "line": 29,
+            "text": "On m'a mis dans une fourrière je sonne comme un zombie dans black ops 3"
+        },
+        {
+            "line": 30,
+            "text": "Ma tulipe est morte j'veux lui faire un enterrement dans black ops 3"
+        },
+        {
+            "line": 31,
+            "text": "Mon perroquet m'a divorcé y'a pris les enfants"
+        },
+        {
+            "line": 32,
+            "text": "J'ai bêché sur un bilboquet, sont où les pansements"
+        },
+        {
+            "line": 33,
+            "text": "J'ai frenché Chantale en géo j'suis un mauvais garçon"
+        },
+        {
+            "line": 34,
+            "text": "Apres J'lui ai crisser du gel-o dans son osti de gros front"
+        },
+        {
+            "line": 35,
+            "text": "Jai pas de temps à spare pour ça je hit juste des strikes"
+        },
+        {
+            "line": 36,
+            "text": "J'contrôle pas l'ballon je hit juste des fenêtres"
+        },
+        {
+            "line": 37,
+            "text": "J'contrôle plus l'guidon, j'propulsé de mon bike"
+        },
+        {
+            "line": 38,
+            "text": "J'atterris au Canac j'ai plein d'clous dans tête"
+        },
+        {
+            "line": 39,
+            "text": "Monika"
+        },
+        {
+            "line": 40,
+            "text": "J'aimerais que tu reviennes (s'te plaît)"
+        },
+        {
+            "line": 41,
+            "text": "Monika"
+        },
+        {
+            "line": 42,
+            "text": "Tu m'as fait de la peine (heehee)"
+        },
+        {
+            "line": 43,
+            "text": "Monika"
+        },
+        {
+            "line": 44,
+            "text": "Tu m'as pris les enfants (tu m'as pris les enfants)"
+        },
+        {
+            "line": 45,
+            "text": "Monika"
+        },
+        {
+            "line": 46,
+            "text": "Viens donc m'donner un bec"
+        },
+        {
+            "line": 47,
+            "text": "Ok répète apres moi"
+        },
+        {
+            "line": 48,
+            "text": "Monika"
+        },
+        {
+            "line": 49,
+            "text": "(Monika)"
+        },
+        {
+            "line": 50,
+            "text": "Monika veut un fromage"
+        },
+        {
+            "line": 51,
+            "text": "(Monika veut un fromage)"
+        },
+        {
+            "line": 52,
+            "text": "(Monika veut un fromage)"
+        },
+        {
+            "line": 53,
+            "text": "J'suis vraiment un gros cave"
+        },
+        {
+            "line": 54,
+            "text": "(T'es vraiment un gros cave)"
+        },
+        {
+            "line": 55,
+            "text": "J'TE DÉTESTE"
+        },
+        {
+            "line": 56,
+            "text": "Jumpscare dans l'usine de contenants, j'ai fait un saut"
+        },
+        {
+            "line": 57,
+            "text": "J'ai trop frotté ma lampe, j't'allé voir un génie-cologue"
+        },
+        {
+            "line": 58,
+            "text": "Aux élections provinciales, j'ai voté pour Pedro"
+        },
+        {
+            "line": 59,
+            "text": "J'cherchais mon père polonais mais y'est Pologne"
+        },
+        {
+            "line": 60,
+            "text": "J'me suis trop fait chauffer la raie, là j'suis infertile"
+        },
+        {
+            "line": 61,
+            "text": "J'me suis rentré un doigt dans l'nez j'me suis fait dilater la pupille"
+        },
+        {
+            "line": 62,
+            "text": "J'vraiment plus cool que mon voisin Gil"
+        },
+        {
+            "line": 63,
+            "text": "Me suis douché dans l'lave-vaisselle j'suis ressorti plein d'ustensiles"
+        },
+        {
+            "line": 64,
+            "text": "Monika"
+        },
+        {
+            "line": 65,
+            "text": "J'aimerais que tu reviennes"
+        },
+        {
+            "line": 66,
+            "text": "Monika"
+        },
+        {
+            "line": 67,
+            "text": "Tu m'as fait de la peine"
+        },
+        {
+            "line": 68,
+            "text": "Monika"
+        },
+        {
+            "line": 69,
+            "text": "Tu m'as pris les enfants"
+        },
+        {
+            "line": 70,
+            "text": "Monika"
+        },
+        {
+            "line": 71,
+            "text": "Viens donc m'donner un bec"
+        },
+        {
+            "line": 72,
+            "text": "Monika"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-monica-1",
+            "lineNumbers": [
+                3
+            ],
+            "excerpt": "Stand sur la business, dans mes New balance",
+            "explanation": "Référence à l'expression internet « stand on business » (assumer ses décisions), prise au sens littéral : il se tient debout sur la business avec ses New Balance, des souliers peu flatteurs qu'il tente de flex.",
+            "keywords": [
+                "stand on business",
+                "New Balance",
+                "internet"
+            ]
+        },
+        {
+            "id": "ref-monica-2",
+            "lineNumbers": [
+                4
+            ],
+            "excerpt": "J'ai mis des couteaux dans mon gant, jsuis comme Hugh jackman",
+            "explanation": "Référence à Wolverine, joué par Hugh Jackman, dont les griffes sortent des mains.",
+            "keywords": [
+                "Hugh Jackman",
+                "Wolverine",
+                "griffes"
+            ]
+        },
+        {
+            "id": "ref-monica-3",
+            "lineNumbers": [
+                5
+            ],
+            "excerpt": "J'ai mis du tren dans mon smoothie, j'suis un huge jacked man",
+            "explanation": "« Hugh Jackman » est transformé phonétiquement en « huge jacked man » (énorme homme musclé), justifié par la mention de la trenbolone (« tren »), un stéroïde anabolisant.",
+            "keywords": [
+                "huge jacked man",
+                "tren",
+                "stéroïde",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-monica-4",
+            "lineNumbers": [
+                7
+            ],
+            "excerpt": "J'ai mis des lettres dans l'compte bancaire, là j'aime full l'algèbre",
+            "explanation": "Les lettres servent d'abréviations pour des montants (« K » pour mille, « M » pour million). Ajouter des lettres à son compte suggère plus d'argent, et un mélange de chiffres et de lettres ressemble à de l'algèbre.",
+            "keywords": [
+                "lettres",
+                "compte bancaire",
+                "algèbre",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-monica-5",
+            "lineNumbers": [
+                8
+            ],
+            "excerpt": "Mon ketchup y m'embrasse, mais j'aime ça quand moutarde French",
+            "explanation": "Jeu de mots entre la marque de moutarde French's et le verbe québécois « frencher » (embrasser avec la langue).",
+            "keywords": [
+                "French's",
+                "frencher",
+                "moutarde",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-monica-6",
+            "lineNumbers": [
+                27
+            ],
+            "excerpt": "J'suis la patante poilue nommée George, j'suis bin curieux",
+            "explanation": "Référence à Georges le petit curieux, le célèbre singe des livres pour enfants.",
+            "keywords": [
+                "Georges le curieux",
+                "singe",
+                "livres"
+            ]
+        },
+        {
+            "id": "ref-monica-7",
+            "lineNumbers": [
+                35
+            ],
+            "excerpt": "Jai pas de temps à spare pour ça je hit juste des strikes",
+            "explanation": "Double sens de « spare » : avoir du temps libre, et le spare au bowling (renverser toutes les quilles en deux lancers). Il ne fait que des strikes, donc il réussit tout du premier coup.",
+            "keywords": [
+                "spare",
+                "strike",
+                "bowling",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-monica-8",
+            "lineNumbers": [
+                50,
+                53,
+                55
+            ],
+            "excerpt": "J'TE DÉTESTE",
+            "explanation": "Conversation entre le narrateur et Monika le perroquet, qui répète ce qu'on lui dit.",
+            "keywords": [
+                "Monika",
+                "perroquet",
+                "conversation"
+            ]
+        },
+        {
+            "id": "ref-monica-9",
+            "lineNumbers": [
+                56
+            ],
+            "excerpt": "Jumpscare dans l'usine de contenants, j'ai fait un saut",
+            "explanation": "« Jumpscare » = avoir un sursaut. Pris au littéral dans une usine de contenants : elle aurait « fait un seau » (homophone de saut).",
+            "keywords": [
+                "jumpscare",
+                "saut",
+                "seau",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-monica-10",
+            "lineNumbers": [
+                57
+            ],
+            "excerpt": "J'ai trop frotté ma lampe, j't'allé voir un génie-cologue",
+            "explanation": "La lampe évoque le génie d'Aladdin et une image de masturbation ; « gynécologue » devient « génie-cologue ».",
+            "keywords": [
+                "génie",
+                "lampe",
+                "gynécologue",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-monica-11",
+            "lineNumbers": [
+                58
+            ],
+            "excerpt": "Aux élections provinciales, j'ai voté pour Pedro",
+            "explanation": "Référence probable au slogan « Vote for Pedro » du film Napoleon Dynamite.",
+            "keywords": [
+                "Vote for Pedro",
+                "Napoleon Dynamite",
+                "film"
+            ]
+        },
+        {
+            "id": "ref-monica-12",
+            "lineNumbers": [
+                59
+            ],
+            "excerpt": "J'cherchais mon père polonais mais y'est Pologne",
+            "explanation": "Jeu phonétique typiquement québécois : « y'est pas là » ≈ « y'est Pologne ». Le pays devient un substitut sonore à l'expression.",
+            "keywords": [
+                "Pologne",
+                "phonétique",
+                "Québec",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-monica-13",
+            "lineNumbers": [
+                62
+            ],
+            "excerpt": "J'vraiment plus cool que mon voisin Gil",
+            "explanation": "Référence au personnage Gil dans la série télévisée Johnny Test.",
+            "keywords": [
+                "Gil",
+                "Johnny Test",
+                "dessin animé"
+            ]
+        }
+    ]
+}

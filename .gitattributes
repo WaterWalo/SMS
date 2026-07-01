@@ -1,0 +1,4 @@
+# data/lyrics.json est un artefact GÉNÉRÉ par tools/build_lyrics.py
+# (via .github/workflows/build-lyrics.yml). Ne pas l'éditer à la main :
+# éditer les fichiers par chanson data/lyrics/*.json (ou via le CMS /admin/).
+data/lyrics.json linguist-generated=true

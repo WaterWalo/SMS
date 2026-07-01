@@ -1,0 +1,483 @@
+{
+    "id": "some-morning",
+    "title": "Some morning are arder than other",
+    "artist": "SMS",
+    "album": "Hector",
+    "albumId": "hector",
+    "year": 2026,
+    "duration": null,
+    "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "J'suis avec GSP dans le club"
+        },
+        {
+            "line": 2,
+            "text": "Il m'a dit met de quoi dans mon cup"
+        },
+        {
+            "line": 3,
+            "text": "Il m'a dit some morning are 'arder than others"
+        },
+        {
+            "line": 4,
+            "text": "Demain on s'en rappellera pas"
+        },
+        {
+            "line": 5,
+            "text": "Il ma dit you crazy in your head man"
+        },
+        {
+            "line": 6,
+            "text": "Il ma dit viens on fait l'tour du globe"
+        },
+        {
+            "line": 7,
+            "text": "Tous les jours on get bigger comme Ant Man"
+        },
+        {
+            "line": 8,
+            "text": "SMS yea on feel que du love"
+        },
+        {
+            "line": 9,
+            "text": "J'viens de mettre le bouncer sur la blacklist"
+        },
+        {
+            "line": 10,
+            "text": "Bro aime juste les billets bruns il est raciste"
+        },
+        {
+            "line": 11,
+            "text": "J'm'intéresse à l'espèce j'suis comme Darwin"
+        },
+        {
+            "line": 12,
+            "text": "J'm'intéresse au papier j'suis comme Napkin"
+        },
+        {
+            "line": 13,
+            "text": "J'ai le bread dans le club j'suis comme sandwich"
+        },
+        {
+            "line": 14,
+            "text": "Si j'me fight dans le club j'suis comme Brad Pitt"
+        },
+        {
+            "line": 15,
+            "text": "Faut j'aille checker George, il s'enligne ligne après ligne après ligne comme un parking"
+        },
+        {
+            "line": 16,
+            "text": "L'autre jour j'ai fait la split"
+        },
+        {
+            "line": 17,
+            "text": "J'ai perforé mes pants"
+        },
+        {
+            "line": 18,
+            "text": "Gsp y'a dit I'm not impressed by your performance"
+        },
+        {
+            "line": 19,
+            "text": "Il m'sacre des coups s'a yeule"
+        },
+        {
+            "line": 20,
+            "text": "On beat c'est une dance"
+        },
+        {
+            "line": 21,
+            "text": "J'dois etre Mr Elastic la façon sur mes bras j'ai des bands"
+        },
+        {
+            "line": 22,
+            "text": "J'suis avec GSP dans le club"
+        },
+        {
+            "line": 23,
+            "text": "Il m'a dit met de quoi dans mon cup"
+        },
+        {
+            "line": 24,
+            "text": "Il m'a dit some morning are 'arder than others"
+        },
+        {
+            "line": 25,
+            "text": "Demain on s'en rappellera pas"
+        },
+        {
+            "line": 26,
+            "text": "Il m'a dit you crazy in your head man"
+        },
+        {
+            "line": 27,
+            "text": "Il m'a dit viens on fait l'tour du globe"
+        },
+        {
+            "line": 28,
+            "text": "Tous les jours on get bigger comme Ant Man"
+        },
+        {
+            "line": 29,
+            "text": "SMS yea on feel que du love"
+        },
+        {
+            "line": 30,
+            "text": "Y'avait pu d'fireball dans la taverne"
+        },
+        {
+            "line": 31,
+            "text": "J'tais calissement fru j'ai vargé sur le barman"
+        },
+        {
+            "line": 32,
+            "text": "J'suis bronzé d'un bord j'ai une half tan"
+        },
+        {
+            "line": 33,
+            "text": "C'est un 10 en chaise roulante, elle c'est une half ten"
+        },
+        {
+            "line": 34,
+            "text": "Elle m'supllie à genoux j'lui ai répondu amen"
+        },
+        {
+            "line": 35,
+            "text": "Mon exe mange d'la marde c'est une s-"
+        },
+        {
+            "line": 36,
+            "text": "J'ai sorti mes billets pour flexer au Ardenne"
+        },
+        {
+            "line": 37,
+            "text": "On m'a confié la garde d'un million j'suis une gardienne"
+        },
+        {
+            "line": 38,
+            "text": "J'me suis fait rentré dedans su'l dance floor, j'ai un bloody dans mes pantalons"
+        },
+        {
+            "line": 39,
+            "text": "J'y ai sacré un coup s'a yeule mais y'avait pas d'menton"
+        },
+        {
+            "line": 40,
+            "text": "Mon coup y'est passé au travers c'est un gros fantôme"
+        },
+        {
+            "line": 41,
+            "text": "Le dj y'a mit Gangnam Style j'ai dit c'est ma chanson"
+        },
+        {
+            "line": 42,
+            "text": "J'ai sorti mes deux cuisse dit bonjour à mes deux gros jambons"
+        },
+        {
+            "line": 43,
+            "text": "J'me suis noyé dans ma broue j'suis un moussaillon"
+        },
+        {
+            "line": 44,
+            "text": "J'suis avec GSP dans le club"
+        },
+        {
+            "line": 45,
+            "text": "Il m'a dit met de quoi dans mon cup"
+        },
+        {
+            "line": 46,
+            "text": "Il m'a dit some morning are 'arder than others"
+        },
+        {
+            "line": 47,
+            "text": "Demain on s'en rappellera pas"
+        },
+        {
+            "line": 48,
+            "text": "Il ma dit you crazy in your head man"
+        },
+        {
+            "line": 49,
+            "text": "Il ma dit viens on fait l'tour du globe"
+        },
+        {
+            "line": 50,
+            "text": "Tous les jours on get bigger comme Ant Man"
+        },
+        {
+            "line": 51,
+            "text": "SMS yea on feel que du love"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-sm-1",
+            "lineNumbers": [
+                1,
+                22,
+                44
+            ],
+            "excerpt": "J'suis avec GSP dans le club",
+            "explanation": "Référence à Georges St-Pierre (GSP), figure récurrente du morceau.",
+            "keywords": [
+                "GSP",
+                "Georges St-Pierre",
+                "UFC"
+            ]
+        },
+        {
+            "id": "ref-sm-2",
+            "lineNumbers": [
+                2,
+                23,
+                45
+            ],
+            "excerpt": "Il m'a dit met de quoi dans mon cup",
+            "explanation": "Image classique de soirée : se faire remplir son verre, ce qui installe l'ambiance festive et alcoolisée.",
+            "keywords": [
+                "club",
+                "alcool",
+                "fête"
+            ]
+        },
+        {
+            "id": "ref-sm-3",
+            "lineNumbers": [
+                3,
+                24,
+                46
+            ],
+            "excerpt": "Il m'a dit some morning are 'arder than others",
+            "explanation": "Citation célèbre de GSP : « Some morning are harder than others ». Son accent québécois en anglais, souvent imité, est devenu un meme.",
+            "keywords": [
+                "GSP",
+                "citation",
+                "meme",
+                "accent"
+            ]
+        },
+        {
+            "id": "ref-sm-4",
+            "lineNumbers": [
+                4,
+                25,
+                47
+            ],
+            "excerpt": "Demain on s'en rappellera pas",
+            "explanation": "Référence aux excès de la veille et aux trous de mémoire liés à l'alcool.",
+            "keywords": [
+                "alcool",
+                "veille",
+                "mémoire"
+            ]
+        },
+        {
+            "id": "ref-sm-5",
+            "lineNumbers": [
+                5,
+                26,
+                48
+            ],
+            "excerpt": "Il ma dit you crazy in your head man",
+            "explanation": "Autre citation associée à GSP : « you crazy in your head man ».",
+            "keywords": [
+                "GSP",
+                "citation",
+                "meme"
+            ]
+        },
+        {
+            "id": "ref-sm-6",
+            "lineNumbers": [
+                7,
+                28,
+                50
+            ],
+            "excerpt": "Tous les jours on get bigger comme Ant Man",
+            "explanation": "Normalement Ant-Man rétrécit, mais il possède aussi une forme géante : la ligne joue sur l'idée de prendre de l'ampleur / devenir plus populaire.",
+            "keywords": [
+                "Ant-Man",
+                "Marvel",
+                "grandir"
+            ]
+        },
+        {
+            "id": "ref-sm-7",
+            "lineNumbers": [
+                10
+            ],
+            "excerpt": "Bro aime juste les billets bruns il est raciste",
+            "explanation": "Les billets de 100 $ canadiens sont bruns. Le videur n'aime que l'argent, donc « les bruns » ; le mot « raciste » détourne cette préférence monétaire.",
+            "keywords": [
+                "billets",
+                "100$",
+                "videur",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-sm-8",
+            "lineNumbers": [
+                11
+            ],
+            "excerpt": "J'm'intéresse à l'espèce j'suis comme Darwin",
+            "explanation": "Référence à Charles Darwin. « Espèce » a un double sens : espèce animale et argent (« de l'espèce »).",
+            "keywords": [
+                "Darwin",
+                "espèce",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-sm-9",
+            "lineNumbers": [
+                12
+            ],
+            "excerpt": "J'm'intéresse au papier j'suis comme Napkin",
+            "explanation": "« Napkin » = serviette de table en anglais, jeu sur « papier » (l'argent).",
+            "keywords": [
+                "napkin",
+                "papier",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-sm-10",
+            "lineNumbers": [
+                13
+            ],
+            "excerpt": "J'ai le bread dans le club j'suis comme sandwich",
+            "explanation": "« Bread » est un slang anglais pour l'argent ; avoir le bread dans le club mène au jeu de mot sur le sandwich.",
+            "keywords": [
+                "bread",
+                "sandwich",
+                "argent",
+                "slang"
+            ]
+        },
+        {
+            "id": "ref-sm-11",
+            "lineNumbers": [
+                14
+            ],
+            "excerpt": "Si j'me fight dans le club j'suis comme Brad Pitt",
+            "explanation": "Référence au film Fight Club, dans lequel joue Brad Pitt.",
+            "keywords": [
+                "Brad Pitt",
+                "Fight Club",
+                "film"
+            ]
+        },
+        {
+            "id": "ref-sm-12",
+            "lineNumbers": [
+                18
+            ],
+            "excerpt": "Gsp y'a dit I'm not impressed by your performance",
+            "explanation": "Citation célèbre de GSP après un combat : « I'm not impressed by your performance ».",
+            "keywords": [
+                "GSP",
+                "citation",
+                "combat"
+            ]
+        },
+        {
+            "id": "ref-sm-13",
+            "lineNumbers": [
+                21
+            ],
+            "excerpt": "J'dois etre Mr Elastic la façon sur mes bras j'ai des bands",
+            "explanation": "Référence à Mister Fantastic, l'homme élastique. En anglais, « bands » = élastiques, mais aussi de grosses liasses de billets tenues par un élastique ; image du money spread étalé sur les avant-bras.",
+            "keywords": [
+                "Mister Fantastic",
+                "élastique",
+                "bands",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-sm-14",
+            "lineNumbers": [
+                32
+            ],
+            "excerpt": "J'suis bronzé d'un bord j'ai une half tan",
+            "explanation": "« Tan » est un mot anglais signifiant bronzé ; il n'est bronzé que d'un côté (half tan).",
+            "keywords": [
+                "tan",
+                "bronzage",
+                "anglais"
+            ]
+        },
+        {
+            "id": "ref-sm-15",
+            "lineNumbers": [
+                33
+            ],
+            "excerpt": "C'est un 10 en chaise roulante, elle c'est une half ten",
+            "explanation": "Un « 10 » désigne quelqu'un de très attirant. Comme elle est en chaise roulante (donc assise), seule une « moitié de 10 » est visible : une half ten.",
+            "keywords": [
+                "10",
+                "chaise roulante",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sm-16",
+            "lineNumbers": [
+                37
+            ],
+            "excerpt": "On m'a confié la garde d'un million j'suis une gardienne",
+            "explanation": "Double sens sur « garde » : garder de l'argent et être gardienne d'enfants.",
+            "keywords": [
+                "garde",
+                "gardienne",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-sm-17",
+            "lineNumbers": [
+                38
+            ],
+            "excerpt": "J'me suis fait rentré dedans su'l dance floor, j'ai un bloody dans mes pantalons",
+            "explanation": "Il s'est fait bousculer sur le dance floor et a renversé son Bloody Mary sur/dans ses pantalons.",
+            "keywords": [
+                "bloody mary",
+                "club",
+                "dance floor"
+            ]
+        },
+        {
+            "id": "ref-sm-18",
+            "lineNumbers": [
+                40
+            ],
+            "excerpt": "Mon coup y'est passé au travers c'est un gros fantôme",
+            "explanation": "Comme l'autre n'a pas de menton, le coup traverse complètement sa tête, comme s'il était un fantôme.",
+            "keywords": [
+                "fantôme",
+                "menton",
+                "baston"
+            ]
+        },
+        {
+            "id": "ref-sm-19",
+            "lineNumbers": [
+                43
+            ],
+            "excerpt": "J'me suis noyé dans ma broue j'suis un moussaillon",
+            "explanation": "Jeu de mot avec « mousse » dans moussaillon et « broue » (la mousse de la bière).",
+            "keywords": [
+                "moussaillon",
+                "broue",
+                "bière",
+                "jeu de mots"
+            ]
+        }
+    ]
+}

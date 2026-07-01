@@ -1,0 +1,535 @@
+{
+    "id": "gino-chouinard",
+    "title": "Gino Chouinard",
+    "artist": "SMS",
+    "album": "Gino Chouinard",
+    "albumId": "gino-chouinard",
+    "year": 2025,
+    "duration": null,
+    "spotifyUrl": null,
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "Je viens de finir d'écouter toutes vos tounes"
+        },
+        {
+            "line": 2,
+            "text": "Et j'ai un top 3"
+        },
+        {
+            "line": 3,
+            "text": "Mon premier c'est Midski"
+        },
+        {
+            "line": 4,
+            "text": "Mon deuxième c'est Anaconda"
+        },
+        {
+            "line": 5,
+            "text": "Et mon troisième c'est Le Chauve Dans Caillou"
+        },
+        {
+            "line": 6,
+            "text": "C'matin j'me suis levé d'mon lit"
+        },
+        {
+            "line": 7,
+            "text": "J'check mon cell, j'ai genre 0 messages"
+        },
+        {
+            "line": 8,
+            "text": "J'suis jamais lonely, j'get le bread, des fois j'parle à mes stacks"
+        },
+        {
+            "line": 9,
+            "text": "J'me fais des toasts, j'mange pas d'Cheerios, j'mange pas de céréales"
+        },
+        {
+            "line": 10,
+            "text": "J'mange rien qu'des toasts, j'me fais pas de gauffres"
+        },
+        {
+            "line": 11,
+            "text": "J'mange pas d'sirop d'érable"
+        },
+        {
+            "line": 12,
+            "text": "J'me lève le matin, j'comme rise and grind"
+        },
+        {
+            "line": 13,
+            "text": "J'suis comme Gino Chouinard"
+        },
+        {
+            "line": 14,
+            "text": "J'suis daltonien, j'commence par la 8 ball quand je joue au billard"
+        },
+        {
+            "line": 15,
+            "text": "J't'un dalmatien, c'est juste que j'ai pas d'taches"
+        },
+        {
+            "line": 16,
+            "text": "Pis j'ai pas cent amis"
+        },
+        {
+            "line": 17,
+            "text": "Du sarrasin, j'en ai mangé une fois, j'l'ai donné à un sans-abri"
+        },
+        {
+            "line": 18,
+            "text": "C'est SMS, on spam les W comme un Twitch chat"
+        },
+        {
+            "line": 19,
+            "text": "C'est LMFAO quand j'check tes beats c'est un shitpack"
+        },
+        {
+            "line": 20,
+            "text": "Entre vous autres pis nous autres, y'a genre 4 ligues"
+        },
+        {
+            "line": 21,
+            "text": "C'est un big gap"
+        },
+        {
+            "line": 22,
+            "text": "J'arrête pas d'crunch les numbers, à la longue, j'ai un six-pack"
+        },
+        {
+            "line": 23,
+            "text": "J'fais juste ça crunch les numbers à la longue, j'ai des abdominaux"
+        },
+        {
+            "line": 24,
+            "text": "J'ai mal au dos à force de carry l'game, j'ai de la scoliose"
+        },
+        {
+            "line": 25,
+            "text": "J'vais actually get un gros dalmatien pis l'appeler Oreo"
+        },
+        {
+            "line": 26,
+            "text": "Nan, j'vais actually get un p'tit chien saucisse pis l'appeler Giorgio"
+        },
+        {
+            "line": 27,
+            "text": "Le soir j'arrive d'la job j'ai cook un spaghetti"
+        },
+        {
+            "line": 28,
+            "text": "Pâtes, sauce, viande, légumes pis du mozzarella"
+        },
+        {
+            "line": 29,
+            "text": "J'me cante su'l'couch, j'bois une bière pis un Pepsi"
+        },
+        {
+            "line": 30,
+            "text": "Star Académie, je watch gagner Mia"
+        },
+        {
+            "line": 31,
+            "text": "J'pas canadien j'suis québécois"
+        },
+        {
+            "line": 32,
+            "text": "J'supporte les produits d'ici"
+        },
+        {
+            "line": 33,
+            "text": "Fâches-moi pas sinon j'go apeshit, j'ai confus Darwin"
+        },
+        {
+            "line": 34,
+            "text": "J'ai drag mes balls sur tout mon ice, j'ai créé le curling"
+        },
+        {
+            "line": 35,
+            "text": "Yea toutes des pierres, quand j'parle d'argent j'parle pas de Sterling"
+        },
+        {
+            "line": 36,
+            "text": "Yeah j'suis Molière dans les temps modernes"
+        },
+        {
+            "line": 37,
+            "text": "Juste moins quétaine pis s'à kétamine"
+        },
+        {
+            "line": 38,
+            "text": "Non moi j'écoute pas et j'vois pas les haters"
+        },
+        {
+            "line": 39,
+            "text": "Straight up pas d'vue ou d'ouïe, appelle-moi Helen Keller"
+        },
+        {
+            "line": 40,
+            "text": "Mon père veut qu'les Pingouins gagnent la coupe Stanley cette année"
+        },
+        {
+            "line": 41,
+            "text": "Y'a eu chaud, mais garde son sang-froid comme une bouteille Stanley"
+        },
+        {
+            "line": 42,
+            "text": "J'ai vendu d'la meth laced au ketchup, appelle-moi Heinzenberg"
+        },
+        {
+            "line": 43,
+            "text": "Je care pour ses deux grosses planètes comme Greta Thunberg"
+        },
+        {
+            "line": 44,
+            "text": "Les éditeurs m'aiment pas, j'donne des shifts coupés"
+        },
+        {
+            "line": 45,
+            "text": "J'ai wipe mon ass pis mon nez avec le même papier"
+        },
+        {
+            "line": 46,
+            "text": "C'est SMS, on spam les W comme un Twitch chat"
+        },
+        {
+            "line": 47,
+            "text": "C'est LMFAO quand j'check tes beats c'est un shitpack"
+        },
+        {
+            "line": 48,
+            "text": "Entre vous autres pis nous autres, y'a genre 4 ligues"
+        },
+        {
+            "line": 49,
+            "text": "C'est un big gap"
+        },
+        {
+            "line": 50,
+            "text": "J'arrête pas d'crunch les numbers à la longue, j'ai un six-pack"
+        },
+        {
+            "line": 51,
+            "text": "J'me suis lavé avec du Vicks pis la mon cul il respire"
+        },
+        {
+            "line": 52,
+            "text": "J'ai 2 spots foncés en-d'sous d'mes bras, j'sais que j'transpire"
+        },
+        {
+            "line": 53,
+            "text": "J'cours tellement plus vite quand que j'porte mes Geox Respire"
+        },
+        {
+            "line": 54,
+            "text": "J'me tape un sprint jusqu'au Renaud-Bray"
+        },
+        {
+            "line": 55,
+            "text": "Pis j'cambriole plein d'livres"
+        },
+        {
+            "line": 56,
+            "text": "J'me suis rendu au McDo, j'ai pris un quart de livre"
+        },
+        {
+            "line": 57,
+            "text": "J'ai essayé d'lire le dictionnaire, j'ai lu le quart du livre"
+        },
+        {
+            "line": 58,
+            "text": "Arrêtez donc de dire que j'suis gros, j'ai des abdominaux"
+        },
+        {
+            "line": 59,
+            "text": "J'ai des gros points sur le corps, j'ai plus l'air d'un domino"
+        },
+        {
+            "line": 60,
+            "text": "Y'a une fille qui m'a dit que j'tais beau"
+        },
+        {
+            "line": 61,
+            "text": "J'y ai dit \"Non moi c'est Samuel\""
+        },
+        {
+            "line": 62,
+            "text": "J'ai magasiné au Bath And Body Works pour un parfum à' cannelle"
+        },
+        {
+            "line": 63,
+            "text": "J'me suis fait fourré, j'pensais c'tait une collab Passe-Partout"
+        },
+        {
+            "line": 64,
+            "text": "J'ai bouffé 6 bananes pis du Sprite, j'ai vomi partout"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-gc-1",
+            "lineNumbers": [
+                3,
+                4,
+                5
+            ],
+            "excerpt": "Mon premier c'est Midski / Mon deuxième c'est Anaconda / Et mon troisième c'est Le Chauve Dans Caillou",
+            "explanation": "Top 3 fictif totalement absurde. 'Midski' n'existe pas. 'Anaconda' réfère probablement à la chanson de Nicki Minaj. 'Le Chauve Dans Caillou' est un personnage secondaire de la série animée jeunesse québécoise Caillou — le choisir dans un top 3 rap est un non-sens comique.",
+            "keywords": [
+                "Midski",
+                "Anaconda",
+                "Caillou",
+                "top 3",
+                "absurde",
+                "Nicki Minaj",
+                "cartoon",
+                "jeunesse"
+            ]
+        },
+        {
+            "id": "ref-gc-2",
+            "lineNumbers": [
+                12,
+                13
+            ],
+            "excerpt": "J'me lève le matin, j'comme rise and grind / J'suis comme Gino Chouinard",
+            "explanation": "'Rise and grind' est une expression de la culture hustle signifiant se lever tôt et travailler dur. Gino Chouinard est un animateur québécois connu pour animer Salut Bonjour, émission matinale de TVA. Le comparer à la culture hustle est une référence absurde à son lever aux aurores.",
+            "keywords": [
+                "rise and grind",
+                "hustle",
+                "Gino Chouinard",
+                "Salut Bonjour",
+                "TVA",
+                "matin",
+                "animateur"
+            ]
+        },
+        {
+            "id": "ref-gc-3",
+            "lineNumbers": [
+                14,
+                15,
+                16
+            ],
+            "excerpt": "J'suis daltonien, j'commence par la 8 ball quand je joue au billard / J't'un dalmatien, c'est juste que j'ai pas d'taches / Pis j'ai pas cent amis",
+            "explanation": "Triple jeu de mots : être daltonien (ne pas distinguer les couleurs) force à commencer par la 8 ball noire au billard. 'Dalmatien' (race de chien à taches) sonne presque pareil que 'daltonien'. Et 'cent amis' / 'sans taches' joue sur l'homophonie — le dalmatien a des taches, lui n'en a pas (et n'a pas 100 amis non plus).",
+            "keywords": [
+                "daltonien",
+                "dalmatien",
+                "8 ball",
+                "billard",
+                "taches",
+                "cent amis",
+                "sans taches",
+                "homophonie",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-gc-4",
+            "lineNumbers": [
+                22,
+                23,
+                50
+            ],
+            "excerpt": "J'arrête pas d'crunch les numbers, à la longue, j'ai un six-pack",
+            "explanation": "'Crunch the numbers' signifie analyser des chiffres, faire des calculs. Mais 'crunch' est aussi un exercice abdominal. Le jeu de mots fait croire qu'en faisant des calculs, on développe un six-pack — les abdominaux venant de la répétition des crunches.",
+            "keywords": [
+                "crunch",
+                "numbers",
+                "six-pack",
+                "abdominaux",
+                "calcul",
+                "exercice",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-gc-5",
+            "lineNumbers": [
+                33
+            ],
+            "excerpt": "Fâches-moi pas sinon j'go apeshit, j'ai confus Darwin",
+            "explanation": "'Go apeshit' signifie péter les plombes (littéralement 'faire comme un singe en furie'). En disant qu'il va apeshit, il confond Darwin — qui a théorisé que l'homme descend du singe — car lui régresse vers l'état animal.",
+            "keywords": [
+                "apeshit",
+                "Darwin",
+                "évolution",
+                "singe",
+                "théorie",
+                "péter les plombes"
+            ]
+        },
+        {
+            "id": "ref-gc-6",
+            "lineNumbers": [
+                34,
+                35
+            ],
+            "excerpt": "J'ai drag mes balls sur tout mon ice, j'ai créé le curling / Yea toutes des pierres, quand j'parle d'argent j'parle pas de Sterling",
+            "explanation": "Le curling se joue avec des pierres (stones) sur la glace. Prétendre avoir inventé le sport en traînant ses... pierres est de l'humour absurde. 'Sterling' (argent sterling) est une qualité d'argent métal, pas de la monnaie — double sens sur le mot 'argent'.",
+            "keywords": [
+                "curling",
+                "glace",
+                "ice",
+                "pierres",
+                "stones",
+                "Sterling",
+                "argent",
+                "sport"
+            ]
+        },
+        {
+            "id": "ref-gc-7",
+            "lineNumbers": [
+                36,
+                37
+            ],
+            "excerpt": "Yeah j'suis Molière dans les temps modernes / Juste moins quétaine pis s'à kétamine",
+            "explanation": "Molière est le grand auteur de théâtre français du XVIIe siècle, symbole de la langue française. Le comparer à soi-même est une vantardise absurde. 'Quétaine' est un québécisme pour kitsch/de mauvais goût. La rime Molière/kétamine/temps modernes est un exemple de jeu sonore inattendu.",
+            "keywords": [
+                "Molière",
+                "kétamine",
+                "quétaine",
+                "littérature",
+                "français",
+                "XVIIe siècle",
+                "rime"
+            ]
+        },
+        {
+            "id": "ref-gc-8",
+            "lineNumbers": [
+                39
+            ],
+            "excerpt": "Straight up pas d'vue ou d'ouïe, appelle-moi Helen Keller",
+            "explanation": "Helen Keller était une militante américaine sourde et aveugle depuis la petite enfance, devenue symbole de résilience. Ici c'est une métaphore pour dire qu'il ignore complètement les haters — ni les voir ni les entendre.",
+            "keywords": [
+                "Helen Keller",
+                "sourd",
+                "aveugle",
+                "haters",
+                "ignore",
+                "militante",
+                "résilience"
+            ]
+        },
+        {
+            "id": "ref-gc-9",
+            "lineNumbers": [
+                40,
+                41
+            ],
+            "excerpt": "Mon père veut qu'les Pingouins gagnent la coupe Stanley cette année / Y'a eu chaud, mais garde son sang-froid comme une bouteille Stanley",
+            "explanation": "Les Pingouins de Pittsburgh (Penguins) sont une équipe de la LNH. La Coupe Stanley est le trophée suprême du hockey. Double sens sur 'Stanley' : la coupe Stanley trophée VS une bouteille thermos Stanley (marque connue pour garder les boissons froides). 'Garde son sang-froid' = reste calme, comme une Stanley garde la boisson froide.",
+            "keywords": [
+                "Pingouins",
+                "Pittsburgh Penguins",
+                "coupe Stanley",
+                "LNH",
+                "hockey",
+                "bouteille Stanley",
+                "thermos",
+                "sang-froid",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-gc-10",
+            "lineNumbers": [
+                42
+            ],
+            "excerpt": "J'ai vendu d'la meth laced au ketchup, appelle-moi Heinzenberg",
+            "explanation": "Fusion de Heinz (marque de ketchup emblématique) et de Heisenberg, le pseudonyme de Walter White dans la série Breaking Bad. Walter White vend de la méthamphétamine et devient Heisenberg — ici c'est la même chose mais avec du ketchup Heinz mélangé dedans.",
+            "keywords": [
+                "Heinzenberg",
+                "Heisenberg",
+                "Heinz",
+                "ketchup",
+                "meth",
+                "Breaking Bad",
+                "Walter White",
+                "fusion"
+            ]
+        },
+        {
+            "id": "ref-gc-11",
+            "lineNumbers": [
+                43
+            ],
+            "excerpt": "Je care pour ses deux grosses planètes comme Greta Thunberg",
+            "explanation": "Greta Thunberg est la militante suédoise pour le climat connue pour 'care for the planet'. 'Ses deux grosses planètes' est un jeu de mots grivois — prétendre avoir des préoccupations environnementales avec un double sens anatomique.",
+            "keywords": [
+                "Greta Thunberg",
+                "planètes",
+                "environnement",
+                "climat",
+                "militante",
+                "double sens",
+                "grivois"
+            ]
+        },
+        {
+            "id": "ref-gc-12",
+            "lineNumbers": [
+                51,
+                52,
+                53
+            ],
+            "excerpt": "J'me suis lavé avec du Vicks pis la mon cul il respire / J'cours tellement plus vite quand que j'porte mes Geox Respire",
+            "explanation": "Vicks VapoRub est un baume menthol pour dégager les voies respiratoires — l'appliquer sur les fesses pour les faire 'respirer' est absurde. Les Geox sont une marque de chaussures dont le slogan est 'La chaussure qui respire' grâce à leur semelle aérée. Les deux jouent sur le mot 'respire'.",
+            "keywords": [
+                "Vicks",
+                "VapoRub",
+                "Geox",
+                "respire",
+                "chaussures",
+                "baume",
+                "publicité",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-gc-13",
+            "lineNumbers": [
+                54,
+                55,
+                56,
+                57
+            ],
+            "excerpt": "J'me tape un sprint jusqu'au Renaud-Bray / Pis j'cambriole plein d'livres / J'me suis rendu au McDo, j'ai pris un quart de livre / J'ai essayé d'lire le dictionnaire, j'ai lu le quart du livre",
+            "explanation": "Renaud-Bray est une chaîne de librairies québécoise. Cambriole des livres = vole des livres dans une librairie. Puis 'quart de livre' : unité de poids AU McDo (le fameux quart de livre) VS lire un quart du dictionnaire. Trois sens du mot 'livre' : l'objet librairie, l'unité de poids, et le verbe lire.",
+            "keywords": [
+                "Renaud-Bray",
+                "librairie",
+                "quart de livre",
+                "McDo",
+                "dictionnaire",
+                "livre",
+                "triple sens",
+                "poids",
+                "lecture"
+            ]
+        },
+        {
+            "id": "ref-gc-14",
+            "lineNumbers": [
+                62,
+                63
+            ],
+            "excerpt": "J'ai magasiné au Bath And Body Works pour un parfum à' cannelle / J'me suis fait fourré, j'pensais c'tait une collab Passe-Partout",
+            "explanation": "Bath & Body Works est une chaîne américaine de cosmétiques connue pour ses senteurs. Passe-Partout est une émission jeunesse québécoise culte des années 80-90. Le personnage Passe-Partout portait des vêtements à rayures vertes et jaunes — une 'collab' entre les deux marques n'a aucun sens, ce qui crée le gag.",
+            "keywords": [
+                "Bath And Body Works",
+                "Passe-Partout",
+                "collab",
+                "cannelle",
+                "parfum",
+                "émission jeunesse",
+                "Québec",
+                "absurde"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,687 @@
+{
+    "id": "sabrina-carpentiere",
+    "title": "Sabrina Carpentière",
+    "artist": "SMS",
+    "album": "Hector",
+    "albumId": "hector",
+    "year": 2026,
+    "duration": null,
+    "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "On va sauver l'Québec"
+        },
+        {
+            "line": 2,
+            "text": "Ok"
+        },
+        {
+            "line": 3,
+            "text": "Elle habite dans mes pants"
+        },
+        {
+            "line": 4,
+            "text": "J'pense qu'elle a le zip code"
+        },
+        {
+            "line": 5,
+            "text": "Non j'te donnerai pas d'snap j'ai juste un flip-phone"
+        },
+        {
+            "line": 6,
+            "text": "Non J'pas en surpoids j'suis juste big-boned"
+        },
+        {
+            "line": 7,
+            "text": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone"
+        },
+        {
+            "line": 8,
+            "text": "J'ai escaladé une très grande femme j'me sens comme King Kong"
+        },
+        {
+            "line": 9,
+            "text": "Mes recherches sont parties en fumé, c'est un Bing bong"
+        },
+        {
+            "line": 10,
+            "text": "Trois stars avec des big racks, bonhomme ping-pong"
+        },
+        {
+            "line": 11,
+            "text": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond"
+        },
+        {
+            "line": 12,
+            "text": "Annie m'a trompé avec une drill, c'est un plotte twist  (tu m'as fait tellement d'mal)"
+        },
+        {
+            "line": 13,
+            "text": "François Legault y'a tué ma grand-mère, j'suis complotiste (tu m'as fait tellement d'mal)"
+        },
+        {
+            "line": 14,
+            "text": "J'ai mis mes palmes jaunes à piscine j'ai l'air de Doris"
+        },
+        {
+            "line": 15,
+            "text": "Il paraît que j'manque de fer j'ai mangé un plat d'vis"
+        },
+        {
+            "line": 16,
+            "text": "J'ai la même coupe que mon biggest opp j'me sens comme Boris"
+        },
+        {
+            "line": 17,
+            "text": "J'ai cinq poules dans mon énorme couche y'est où mon coq six"
+        },
+        {
+            "line": 18,
+            "text": "J'écoute juste d'la musique en français, Sabrina Carpentière"
+        },
+        {
+            "line": 19,
+            "text": "Hier j'avais envi d'poisson j'ai mangé une carpe entière"
+        },
+        {
+            "line": 20,
+            "text": "J'suis un grand fan de fractions j'ai mangé une carpe en tiers"
+        },
+        {
+            "line": 21,
+            "text": "J'ai l'estomac déchiré j'ai mangé une tarte en verre"
+        },
+        {
+            "line": 22,
+            "text": "J'voulais du changement dans ma vie j'me suis  mis à chié à l'envers"
+        },
+        {
+            "line": 23,
+            "text": "64 diamants dans les poches plus de place dans mon inventaire"
+        },
+        {
+            "line": 24,
+            "text": "J'me suis enfargé sur mes 100 piasses là j'ai les quatre fers en l'air"
+        },
+        {
+            "line": 25,
+            "text": "J'aime pas les poissons j'ai mené quatre guerres en mer"
+        },
+        {
+            "line": 26,
+            "text": "J'ai les genoux circulaires mes jambes c'est deux parenthèses"
+        },
+        {
+            "line": 27,
+            "text": "J'ai deux petits grands-pères pis j'ai deux grosses grands-mères"
+        },
+        {
+            "line": 28,
+            "text": "J't'allé au VVV pis là j'ai plein d'verrues plantaires"
+        },
+        {
+            "line": 29,
+            "text": "Mon voisin c'est Willibed ma vie est un enfer"
+        },
+        {
+            "line": 30,
+            "text": "Mes opps pensent qu'j'suis sur d'l'œstrogène la façon j'fais grossir mon rack"
+        },
+        {
+            "line": 31,
+            "text": "Si j'tais un fruit j'serais Éric Salvail"
+        },
+        {
+            "line": 32,
+            "text": "Moi pis mon bro on a volé l'concessionnaire on est deux sans plaques"
+        },
+        {
+            "line": 33,
+            "text": "J'suis tombé dans un puit c'tait un vrai carnage"
+        },
+        {
+            "line": 34,
+            "text": "J'suis tombé dans un puit j'ai chuté en échos"
+        },
+        {
+            "line": 35,
+            "text": "Mon bébé il s'est étouffé j'lui ai donné une suce en LEGO"
+        },
+        {
+            "line": 36,
+            "text": "J't'un incroyable ingénieur, transformé ma luge en vélo"
+        },
+        {
+            "line": 37,
+            "text": "Elle habite dans mes pants"
+        },
+        {
+            "line": 38,
+            "text": "J'pense qu'elle a le zip code"
+        },
+        {
+            "line": 39,
+            "text": "Non j'te donnerai pas d'snap j'ai juste un flip-phone"
+        },
+        {
+            "line": 40,
+            "text": "Non J'pas en surpoids j'suis juste big-boned"
+        },
+        {
+            "line": 41,
+            "text": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone"
+        },
+        {
+            "line": 42,
+            "text": "J'ai escaladé une très grande femme j'me sens comme King Kong"
+        },
+        {
+            "line": 43,
+            "text": "Mes recherches sont parties en fumé, c'est un Bing bong"
+        },
+        {
+            "line": 44,
+            "text": "Trois stars avec des big racks, bonhomme ping-pong"
+        },
+        {
+            "line": 45,
+            "text": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond"
+        },
+        {
+            "line": 46,
+            "text": "Samuel sur le beat, j'vais rendre la toune écoutable"
+        },
+        {
+            "line": 47,
+            "text": "J'ai des problèmes de sommeil, je joue trop à Apex Legends"
+        },
+        {
+            "line": 48,
+            "text": "J'me suis acheté des gummies au magnésium"
+        },
+        {
+            "line": 49,
+            "text": "Et là j'arrête pas d'en prendre"
+        },
+        {
+            "line": 50,
+            "text": "J'voulais poster mes glutes, j'me suis piqué au stéroïdes"
+        },
+        {
+            "line": 51,
+            "text": "Mes fesses c'est deux grosses planètes, j'ai des assthémoroïdes"
+        },
+        {
+            "line": 52,
+            "text": "J'pèse dans le game j'suis obèse morbide"
+        },
+        {
+            "line": 53,
+            "text": "Un trio crottes de nez, hamburger-morve-frites"
+        },
+        {
+            "line": 54,
+            "text": "J'ai coupé l'fentanyl de mon voisin avec du gluten (y'est mort)"
+        },
+        {
+            "line": 55,
+            "text": "J'voulais avoir les cheveux blonds j'les ai bleacher avec du Purell"
+        },
+        {
+            "line": 56,
+            "text": "Ma viande hachée elle me torture, elle est crue elle"
+        },
+        {
+            "line": 57,
+            "text": "J'ai une passion pour le jardinage, tout ce qui est arrosoirs et truelles"
+        },
+        {
+            "line": 58,
+            "text": "Ma gardienne s'est endormie j'pense qu'elle me sur veille"
+        },
+        {
+            "line": 59,
+            "text": "J'fais facilement un trou dans l'mur, c'est un mur beigne"
+        },
+        {
+            "line": 60,
+            "text": "Plein d'Twizzlers à licorice, met ça dans pubelle"
+        },
+        {
+            "line": 61,
+            "text": "Un Twister contre un contorsionniste, mon fémur saigne"
+        },
+        {
+            "line": 62,
+            "text": "J'ai essayé d'crier mais ma tête était dans reliche"
+        },
+        {
+            "line": 63,
+            "text": "J'ai des sanglots particuliers tu peux dire que je pleur niche"
+        },
+        {
+            "line": 64,
+            "text": "Je suis aigris j'l'ai échappé à terre pis c'était ma seule quiche"
+        },
+        {
+            "line": 65,
+            "text": "Y'était tout gris j'l'ai échappé dans glaise c'tait mon seul fils"
+        },
+        {
+            "line": 66,
+            "text": "Y'a d'l'asphalte dans ma choucroute aux fraises"
+        },
+        {
+            "line": 67,
+            "text": "Manges moins vite y'a du couscous pour 16"
+        },
+        {
+            "line": 68,
+            "text": "Il manque une roue dessus, c'est un tuk tuk austère"
+        },
+        {
+            "line": 69,
+            "text": "Il m'manque une rotule je suis tombé dans les stairs"
+        },
+        {
+            "line": 70,
+            "text": "J'ai commandé une root beer ils m'ont donné du thé glacé"
+        },
+        {
+            "line": 71,
+            "text": "On a pas envi d'grossir on s'est mis à pédaler"
+        },
+        {
+            "line": 72,
+            "text": "J'ai pogné une grosse shear mes organes sont étalés"
+        },
+        {
+            "line": 73,
+            "text": "Un intestin grêle difficile à réparer"
+        },
+        {
+            "line": 74,
+            "text": "Elle habite dans mes pants"
+        },
+        {
+            "line": 75,
+            "text": "J'pense qu'elle a le zip code"
+        },
+        {
+            "line": 76,
+            "text": "Non j'te donnerai pas d'snap j'ai juste un flip-phone"
+        },
+        {
+            "line": 77,
+            "text": "Non J'pas en surpoids j'suis juste big-boned"
+        },
+        {
+            "line": 78,
+            "text": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone"
+        },
+        {
+            "line": 79,
+            "text": "J'ai escaladé une très grande femme j'me sens comme King Kong"
+        },
+        {
+            "line": 80,
+            "text": "Mes recherches sont parties en fumé, c'est un Bing bong"
+        },
+        {
+            "line": 81,
+            "text": "Trois stars avec des big racks, bonhomme ping-pong"
+        },
+        {
+            "line": 82,
+            "text": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-sc-1",
+            "lineNumbers": [
+                4,
+                38,
+                75
+            ],
+            "excerpt": "J'pense qu'elle a le zip code",
+            "explanation": "« Zip code » désigne normalement un code postal. Comme elle « habite dans ses pants », son adresse serait littéralement dans son pantalon : jeu de mots entre code postal et zipper (la fermeture éclair).",
+            "keywords": [
+                "zip code",
+                "code postal",
+                "zipper",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-2",
+            "lineNumbers": [
+                6,
+                40,
+                77
+            ],
+            "excerpt": "Non J'pas en surpoids j'suis juste big-boned",
+            "explanation": "Expression classique utilisée par des personnes en surpoids pour attribuer leur gabarit à leur ossature.",
+            "keywords": [
+                "big-boned",
+                "surpoids",
+                "humour"
+            ]
+        },
+        {
+            "id": "ref-sc-3",
+            "lineNumbers": [
+                7,
+                41,
+                78
+            ],
+            "excerpt": "Mon style m'est tombé dessus comme une roche, c'est d'la drip stone",
+            "explanation": "« Dripstone » se traduit par stalactite : une roche qui pend du plafond et tombe parfois. Son « drip » (son style) lui tombe donc dessus sous forme de « drip stone ».",
+            "keywords": [
+                "drip stone",
+                "stalactite",
+                "style",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-4",
+            "lineNumbers": [
+                9,
+                43,
+                80
+            ],
+            "excerpt": "Mes recherches sont parties en fumé, c'est un Bing bong",
+            "explanation": "Fusion de Bing (le moteur de recherche de Microsoft) et de Bong (pipe à eau). Ses « recherches sont parties en fumée », ce qui associe Bing à un bong et crée l'onomatopée « Bing bong ».",
+            "keywords": [
+                "Bing",
+                "bong",
+                "recherche",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-5",
+            "lineNumbers": [
+                10,
+                44,
+                81
+            ],
+            "excerpt": "Trois stars avec des big racks, bonhomme ping-pong",
+            "explanation": "Référence au film Marty Supreme, dont le logo comporte trois étoiles. « Stars » = étoiles/célébrités ; « big racks » = argent mais aussi raquettes (rackets) ; « bonhomme ping-pong » renvoie à l'univers du tennis de table du film.",
+            "keywords": [
+                "Marty Supreme",
+                "ping-pong",
+                "racks",
+                "film"
+            ]
+        },
+        {
+            "id": "ref-sc-6",
+            "lineNumbers": [
+                11,
+                45,
+                82
+            ],
+            "excerpt": "J'me suis battu avec huit femmes, j'me sens comme Phil Bond",
+            "explanation": "La punchline repose sur la réputation publique controversée de Phil Bond et les allégations de violence conjugale ayant fait les manchettes.",
+            "keywords": [
+                "Phil Bond",
+                "controverse",
+                "manchettes"
+            ]
+        },
+        {
+            "id": "ref-sc-7",
+            "lineNumbers": [
+                12
+            ],
+            "excerpt": "Annie m'a trompé avec une drill, c'est un plotte twist  (tu m'as fait tellement d'mal)",
+            "explanation": "Jeu de mot avec « plot-twist » et « plotte », un québécisme vulgaire désignant l'appareil génital féminin.",
+            "keywords": [
+                "plot twist",
+                "jeu de mots",
+                "québécisme"
+            ]
+        },
+        {
+            "id": "ref-sc-8",
+            "lineNumbers": [
+                13
+            ],
+            "excerpt": "François Legault y'a tué ma grand-mère, j'suis complotiste (tu m'as fait tellement d'mal)",
+            "explanation": "Référence aux théories du complot ayant circulé durant la pandémie autour de François Legault.",
+            "keywords": [
+                "François Legault",
+                "complot",
+                "pandémie"
+            ]
+        },
+        {
+            "id": "ref-sc-9",
+            "lineNumbers": [
+                14
+            ],
+            "excerpt": "J'ai mis mes palmes jaunes à piscine j'ai l'air de Doris",
+            "explanation": "Référence au personnage Dory ; les palmes jaunes rappellent les nageoires du poisson.",
+            "keywords": [
+                "Dory",
+                "palmes",
+                "Nemo"
+            ]
+        },
+        {
+            "id": "ref-sc-10",
+            "lineNumbers": [
+                15
+            ],
+            "excerpt": "Il paraît que j'manque de fer j'ai mangé un plat d'vis",
+            "explanation": "Le fer alimentaire est pris au sens littéral : les vis étant en métal, il croit corriger sa carence.",
+            "keywords": [
+                "fer",
+                "vis",
+                "carence",
+                "littéral"
+            ]
+        },
+        {
+            "id": "ref-sc-11",
+            "lineNumbers": [
+                16
+            ],
+            "excerpt": "J'ai la même coupe que mon biggest opp j'me sens comme Boris",
+            "explanation": "Référence à Boris Johnson et sa coiffure célèbre : son « ennemi » aurait exactement la même coupe.",
+            "keywords": [
+                "Boris Johnson",
+                "coiffure",
+                "opp"
+            ]
+        },
+        {
+            "id": "ref-sc-12",
+            "lineNumbers": [
+                17
+            ],
+            "excerpt": "J'ai cinq poules dans mon énorme couche y'est où mon coq six",
+            "explanation": "Le corps humain possède un coccyx ; lui cherche littéralement un sixième oiseau (coq six).",
+            "keywords": [
+                "coccyx",
+                "coq",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-13",
+            "lineNumbers": [
+                18
+            ],
+            "excerpt": "J'écoute juste d'la musique en français, Sabrina Carpentière",
+            "explanation": "Transformation francisée du nom de la chanteuse Sabrina Carpenter.",
+            "keywords": [
+                "Sabrina Carpenter",
+                "francisation",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-14",
+            "lineNumbers": [
+                23
+            ],
+            "excerpt": "64 diamants dans les poches plus de place dans mon inventaire",
+            "explanation": "Référence directe à Minecraft : 64 est la taille maximale d'une pile d'objets dans le jeu.",
+            "keywords": [
+                "Minecraft",
+                "64",
+                "inventaire"
+            ]
+        },
+        {
+            "id": "ref-sc-15",
+            "lineNumbers": [
+                24
+            ],
+            "excerpt": "J'me suis enfargé sur mes 100 piasses là j'ai les quatre fers en l'air",
+            "explanation": "« Avoir les quatre fers en l'air » est une expression québécoise signifiant tomber à la renverse.",
+            "keywords": [
+                "quatre fers en l'air",
+                "expression",
+                "Québec"
+            ]
+        },
+        {
+            "id": "ref-sc-16",
+            "lineNumbers": [
+                28
+            ],
+            "excerpt": "J't'allé au VVV pis là j'ai plein d'verrues plantaires",
+            "explanation": "Le sigle VVV renvoie couramment au Village Vacances Valcartier, un immense complexe récréotouristique au Québec.",
+            "keywords": [
+                "VVV",
+                "Valcartier",
+                "Québec"
+            ]
+        },
+        {
+            "id": "ref-sc-17",
+            "lineNumbers": [
+                30
+            ],
+            "excerpt": "Mes opps pensent qu'j'suis sur d'l'œstrogène la façon j'fais grossir mon rack",
+            "explanation": "L'œstrogène est associé aux caractéristiques féminines. « Rack » peut désigner la poitrine ou de l'argent : ses opps croient à tort à un changement hormonal alors qu'il parle de richesse (faire grossir son « rack »).",
+            "keywords": [
+                "œstrogène",
+                "rack",
+                "argent",
+                "malentendu"
+            ]
+        },
+        {
+            "id": "ref-sc-18",
+            "lineNumbers": [
+                32
+            ],
+            "excerpt": "Moi pis mon bro on a volé l'concessionnaire on est deux sans plaques",
+            "explanation": "Jeu de mot avec « deux sans plaques » et « 200 plaques », puisqu'ils ont volé un concessionnaire.",
+            "keywords": [
+                "concessionnaire",
+                "plaques",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-19",
+            "lineNumbers": [
+                35
+            ],
+            "excerpt": "Mon bébé il s'est étouffé j'lui ai donné une suce en LEGO",
+            "explanation": "Objet extrêmement dangereux transformé en suce pour bébé.",
+            "keywords": [
+                "LEGO",
+                "suce",
+                "bébé",
+                "absurde"
+            ]
+        },
+        {
+            "id": "ref-sc-20",
+            "lineNumbers": [
+                51
+            ],
+            "excerpt": "Mes fesses c'est deux grosses planètes, j'ai des assthémoroïdes",
+            "explanation": "Fusion du mot « ass » et du mot « hémorroïdes », une ligne construite sur la sonorité.",
+            "keywords": [
+                "assthémoroïdes",
+                "mot-valise",
+                "sonorité"
+            ]
+        },
+        {
+            "id": "ref-sc-21",
+            "lineNumbers": [
+                52
+            ],
+            "excerpt": "J'pèse dans le game j'suis obèse morbide",
+            "explanation": "Détourne l'expression « peser dans le game » (avoir de l'influence) en la prenant au sens littéral d'être réellement lourd.",
+            "keywords": [
+                "peser dans le game",
+                "littéral",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-22",
+            "lineNumbers": [
+                56
+            ],
+            "excerpt": "Ma viande hachée elle me torture, elle est crue elle",
+            "explanation": "Jeu de mot avec « cruelle » et « crue elle », la viande hachée étant généralement crue à l'achat.",
+            "keywords": [
+                "cruelle",
+                "viande hachée",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-23",
+            "lineNumbers": [
+                58
+            ],
+            "excerpt": "Ma gardienne s'est endormie j'pense qu'elle me sur veille",
+            "explanation": "Jeu de mot avec « surveille » et « sur veille », puisqu'elle s'est endormie.",
+            "keywords": [
+                "surveille",
+                "veille",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-24",
+            "lineNumbers": [
+                63
+            ],
+            "excerpt": "J'ai des sanglots particuliers tu peux dire que je pleur niche",
+            "explanation": "Jeu de mot entre « pleurniche » et « pleur niche » (vu les sanglots particuliers).",
+            "keywords": [
+                "pleurniche",
+                "niche",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-sc-25",
+            "lineNumbers": [
+                68
+            ],
+            "excerpt": "Il manque une roue dessus, c'est un tuk tuk austère",
+            "explanation": "Un tuk-tuk a normalement trois roues ; en retirer une le rend « austère », minimaliste à l'extrême.",
+            "keywords": [
+                "tuk-tuk",
+                "roue",
+                "austère"
+            ]
+        }
+    ]
+}

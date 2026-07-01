@@ -1,0 +1,587 @@
+{
+    "id": "guy-a-lepage",
+    "title": "Guy A. Lepage",
+    "artist": "SMS",
+    "album": "Guy A. Lepage",
+    "albumId": "guy-a-lepage",
+    "year": 2025,
+    "duration": null,
+    "spotifyUrl": null,
+    "lastSync": "2026-06-18",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "Allo Montréal"
+        },
+        {
+            "line": 2,
+            "text": "Est-ce que ça va?"
+        },
+        {
+            "line": 3,
+            "text": "Aujourd'hui"
+        },
+        {
+            "line": 4,
+            "text": "À soir j'vais au casino je fuck up mon CELI"
+        },
+        {
+            "line": 5,
+            "text": "J'suis à chier en cuisine j'ai fuck up mon céleri"
+        },
+        {
+            "line": 6,
+            "text": "J't'un adepte du metro j'ai pas mon permis"
+        },
+        {
+            "line": 7,
+            "text": "J't'un adepte du Mcdo j'ai hâte d'être servi"
+        },
+        {
+            "line": 8,
+            "text": "J'ai des bulles d'air dans l'cerveau, j'suis tombé quand j'tais p'tit"
+        },
+        {
+            "line": 9,
+            "text": "J'ai ball comme Nikola j'dois venir d'la Serbie"
+        },
+        {
+            "line": 10,
+            "text": "J'ai chier dans mon baque de composte j'fais pas d'gaspillage"
+        },
+        {
+            "line": 11,
+            "text": "Mon père a l'air d'un gros porc avec plein d'maquillage"
+        },
+        {
+            "line": 12,
+            "text": "Tout l'monde en parle faque j'ai jâsé avec Guy A. Lepage"
+        },
+        {
+            "line": 13,
+            "text": "J'mange du paper pour déjeuner j'm'appelle Gruau Lepage"
+        },
+        {
+            "line": 14,
+            "text": "J'me suis pas peinturé la face j'suis Trudeau Lesage"
+        },
+        {
+            "line": 15,
+            "text": "J'fais l'défi Pierre Lavoine j'vais vite quand j'pédale"
+        },
+        {
+            "line": 16,
+            "text": "J'suis un croyant quand j'suis malade j'suis un Lipton Believer"
+        },
+        {
+            "line": 17,
+            "text": "Mon chien y'est cuisinier j'l'appelle Gordon Retriever"
+        },
+        {
+            "line": 18,
+            "text": "Quand j'veux y parler j'fais d'la salade césar"
+        },
+        {
+            "line": 19,
+            "text": "J'ai une fucking coupe au bol j'ai l'air de Justin Bieber"
+        },
+        {
+            "line": 20,
+            "text": "Ta blonde est built comme un 2 par 4, mais c'pas un 8"
+        },
+        {
+            "line": 21,
+            "text": "J't'insulte sur internet, mais c'est pas un diss"
+        },
+        {
+            "line": 22,
+            "text": "Si tu veux qu'on joue au parc, c'est pas moi la fiche"
+        },
+        {
+            "line": 23,
+            "text": "Vovowing au Cineplex : maintenant à l'affiche"
+        },
+        {
+            "line": 24,
+            "text": "J'haïe Gregory Charles, c'est un parasite"
+        },
+        {
+            "line": 25,
+            "text": "J'ai beaucoup d'crottes de nez, j'ai des stalagmites"
+        },
+        {
+            "line": 26,
+            "text": "J'porte ma couche sur mes pantalons quand j'magasine"
+        },
+        {
+            "line": 27,
+            "text": "J'ai vendu mon bébé j'suis un père indigne"
+        },
+        {
+            "line": 28,
+            "text": "J'écris mieux quand ma Kia shake son ass"
+        },
+        {
+            "line": 29,
+            "text": "Du mouvement vient l'inspiration"
+        },
+        {
+            "line": 30,
+            "text": "J'suis une menace sur la route j'check pas les indications"
+        },
+        {
+            "line": 31,
+            "text": "François Perusse sur le track j'suis en lévitation"
+        },
+        {
+            "line": 32,
+            "text": "Ma blonde a l'aire d'un cheval j'fais d'l'équitation"
+        },
+        {
+            "line": 33,
+            "text": "J'viens d'apprendre à marcher mon père y'a dit félicitation"
+        },
+        {
+            "line": 34,
+            "text": "J'suis étourdi j'ai descendu l'escalier en colimaçon"
+        },
+        {
+            "line": 35,
+            "text": "Dans mes gros pantalons d'cuir j'ai l'air de Elvis Gratton"
+        },
+        {
+            "line": 36,
+            "text": "Mon cousin y'est anglophone j'y ai dit retourne à maison"
+        },
+        {
+            "line": 37,
+            "text": "J'voulais savoir c'est quoi qui pousse"
+        },
+        {
+            "line": 38,
+            "text": "Il m'a dit les courges cette saison"
+        },
+        {
+            "line": 39,
+            "text": "Fait fucking chaud ma crème glacée elle coule su'l béton"
+        },
+        {
+            "line": 40,
+            "text": "J'tout nu avec ma bière pis ma cigarette su'l perron"
+        },
+        {
+            "line": 41,
+            "text": "J'suis Florence t'es mon troll comme l'âne pis son Shrek"
+        },
+        {
+            "line": 42,
+            "text": "J'peux pas avaler des pilules, j'prend mon Ritalin dans une pyrex"
+        },
+        {
+            "line": 43,
+            "text": "Ça fait 3 heures que j'creuse dans gravel, j'trouve pas d'silex"
+        },
+        {
+            "line": 44,
+            "text": "J'veux une femme gothique j'me suis mis du kitex"
+        },
+        {
+            "line": 45,
+            "text": "J'me suis acheté une jupe à deux jambes"
+        },
+        {
+            "line": 46,
+            "text": "J'me suis mis à rapper elle bouge ses deux anches"
+        },
+        {
+            "line": 47,
+            "text": "J'ai commandé un Big Mac, mais j'voulais deux tranches"
+        },
+        {
+            "line": 48,
+            "text": "J'tombé d'mon bicycle à s't'heure mes genoux"
+        },
+        {
+            "line": 49,
+            "text": "Ils plient dans les 2 sens"
+        },
+        {
+            "line": 50,
+            "text": "Ma mère a fait une soupe aux gourganes"
+        },
+        {
+            "line": 51,
+            "text": "J'aime pas les gourganes"
+        },
+        {
+            "line": 52,
+            "text": "Mon pâté chinois y'est tu brûlé si mon four il boucane"
+        },
+        {
+            "line": 53,
+            "text": "Mon avocat y'est bon dans c'qu'il fait"
+        },
+        {
+            "line": 54,
+            "text": "Il fait d'la très bonne guac"
+        },
+        {
+            "line": 55,
+            "text": "Y'a essayé d'embarquer sur notre wave"
+        },
+        {
+            "line": 56,
+            "text": "J'ai enlevé mon durag"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-gal-1",
+            "lineNumbers": [
+                4,
+                5
+            ],
+            "excerpt": "À soir j'vais au casino je fuck up mon CELI / J'suis à chier en cuisine j'ai fuck up mon céleri",
+            "explanation": "Le CELI (Compte d'Épargne Libre d'Impôt) est un compte d'investissement fiscal québécois/canadien — le dilapider au casino est une catastrophe financière. 'Céleri' sonne presque identique à 'CELI' : même désastre, cuisine plutôt que finances. La répétition de structure crée le gag par homophonie.",
+            "keywords": [
+                "CELI",
+                "céleri",
+                "casino",
+                "compte épargne",
+                "homophonie",
+                "finances",
+                "cuisine"
+            ]
+        },
+        {
+            "id": "ref-gal-2",
+            "lineNumbers": [
+                9
+            ],
+            "excerpt": "J'ai ball comme Nikola j'dois venir d'la Serbie",
+            "explanation": "Nikola Jokić est le joueur de basketball NBA des Denver Nuggets, né en Serbie. Multiple MVP de la ligue, il est considéré comme le meilleur joueur du monde. 'Ball' signifie jouer au basketball à haut niveau. Déduire sa propre origine serbe de sa capacité à jouer est un raisonnement circulaire absurde.",
+            "keywords": [
+                "Nikola Jokić",
+                "NBA",
+                "Serbie",
+                "Denver Nuggets",
+                "basketball",
+                "MVP",
+                "ball"
+            ]
+        },
+        {
+            "id": "ref-gal-3",
+            "lineNumbers": [
+                12,
+                13
+            ],
+            "excerpt": "Tout l'monde en parle faque j'ai jâsé avec Guy A. Lepage / J'mange du paper pour déjeuner j'm'appelle Gruau Lepage",
+            "explanation": "'Tout le monde en parle' est l'émission de talk-show dominical de Radio-Canada animée par Guy A. Lepage depuis 2004 — référence culturelle québécoise incontournable. 'Gruau Lepage' fusionne 'Guy A.' (phonétiquement proche de 'gruau') et son nom de famille. Manger du 'paper' (papier) comme du gruau au déjeuner complète l'absurde.",
+            "keywords": [
+                "Tout le monde en parle",
+                "Guy A. Lepage",
+                "Radio-Canada",
+                "gruau",
+                "talk-show",
+                "déjeuner",
+                "fusion"
+            ]
+        },
+        {
+            "id": "ref-gal-4",
+            "lineNumbers": [
+                14
+            ],
+            "excerpt": "J'me suis pas peinturé la face j'suis Trudeau Lesage",
+            "explanation": "Pierre Elliott Trudeau et Jean Lesage sont deux figures politiques québécoises/canadiennes majeures. Trudeau (père) est connu pour son style élégant. La phrase 'peinturé la face' peut référer au scandale du blackface de Justin Trudeau (fils). Fusionner les deux noms crée un personnage politique hybride absurde.",
+            "keywords": [
+                "Trudeau",
+                "Lesage",
+                "politique",
+                "Québec",
+                "peinturé",
+                "blackface",
+                "fusion",
+                "premier ministre"
+            ]
+        },
+        {
+            "id": "ref-gal-5",
+            "lineNumbers": [
+                15
+            ],
+            "excerpt": "J'fais l'défi Pierre Lavoine j'vais vite quand j'pédale",
+            "explanation": "Pierre Lavoie est un triathlète et personnalité québécoise connu pour le Grand défi Pierre Lavoie, événement cycliste de sensibilisation à la santé. 'Pierre Lavoine' est une déformation de son nom. 'Aller vite quand on pédale' est la description minimale du cyclisme.",
+            "keywords": [
+                "Pierre Lavoie",
+                "Grand défi",
+                "cyclisme",
+                "vélo",
+                "Québec",
+                "défi sportif",
+                "santé"
+            ]
+        },
+        {
+            "id": "ref-gal-6",
+            "lineNumbers": [
+                16
+            ],
+            "excerpt": "J'suis un croyant quand j'suis malade j'suis un Lipton Believer",
+            "explanation": "Les 'Beliebers' sont le nom des fans de Justin Bieber. 'Believer' (croyant) + Lipton (marque de thé, souvent bu chaud quand on est malade) = 'Lipton Believer'. Être croyant seulement quand on est malade (et qu'on boit du thé Lipton) est une observation sur la foi circonstancielle.",
+            "keywords": [
+                "Lipton",
+                "Belieber",
+                "Justin Bieber",
+                "croyant",
+                "malade",
+                "thé",
+                "fans",
+                "fusion"
+            ]
+        },
+        {
+            "id": "ref-gal-7",
+            "lineNumbers": [
+                17,
+                18
+            ],
+            "excerpt": "Mon chien y'est cuisinier j'l'appelle Gordon Retriever / Quand j'veux y parler j'fais d'la salade césar",
+            "explanation": "Gordon Ramsay est le chef cuisinier britannique de renom, connu pour ses émissions de cuisine. Golden Retriever est une race de chien. 'Gordon Retriever' fusionne les deux. Pour lui parler, il faut faire une salade César — référence à la commande vocale du chien-cuisinier, absurde et délirante.",
+            "keywords": [
+                "Gordon Ramsay",
+                "Golden Retriever",
+                "chien",
+                "cuisinier",
+                "salade césar",
+                "fusion",
+                "chef"
+            ]
+        },
+        {
+            "id": "ref-gal-8",
+            "lineNumbers": [
+                19
+            ],
+            "excerpt": "J'ai une fucking coupe au bol j'ai l'air de Justin Bieber",
+            "explanation": "Justin Bieber était célèbre au début de sa carrière (2009-2011) pour sa coupe au bol distincte — frange lisse balayée sur le côté. La coupe au bol est depuis devenue synonyme de son image juvénile. La comparer est une insulte à la coiffure.",
+            "keywords": [
+                "coupe au bol",
+                "Justin Bieber",
+                "coiffure",
+                "frange",
+                "pop star"
+            ]
+        },
+        {
+            "id": "ref-gal-9",
+            "lineNumbers": [
+                20
+            ],
+            "excerpt": "Ta blonde est built comme un 2 par 4, mais c'pas un 8",
+            "explanation": "Un '2 par 4' (deux-par-quatre) est une planche de bois standard en construction — rectangulaire, sans courbes. Mais en notation, c'est aussi 2×4 = 8. La blonde est 'built like a 2x4' (plate comme une planche), 'mais c'pas un 8' — ce n'est pas un 8/10 malgré que 2×4 = 8. Jeu mathématique et physique.",
+            "keywords": [
+                "2 par 4",
+                "planche",
+                "construction",
+                "8",
+                "notation",
+                "mathématique",
+                "jeu de mots",
+                "insulte"
+            ]
+        },
+        {
+            "id": "ref-gal-10",
+            "lineNumbers": [
+                22,
+                23
+            ],
+            "excerpt": "Si tu veux qu'on joue au parc, c'est pas moi la fiche / Vovowing au Cineplex : maintenant à l'affiche",
+            "explanation": "'La fiche' est un québécisme pour la prise électrique (plug) — 'je suis pas ton plug/contact'. Mais 'fiche' sonne comme 'affiche'. 'Maintenant à l'affiche' est la formule des cinémas pour annoncer les films en salle. Cineplex est la grande chaîne de cinémas canadienne. 'Vovowing' (vrombissant) arrive au Cineplex comme une vedette.",
+            "keywords": [
+                "fiche",
+                "plug",
+                "affiche",
+                "Cineplex",
+                "cinéma",
+                "québécisme",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-gal-11",
+            "lineNumbers": [
+                25
+            ],
+            "excerpt": "J'ai beaucoup d'crottes de nez, j'ai des stalagmites",
+            "explanation": "Les stalagmites sont des formations géologiques calcaires qui poussent de bas en haut dans les grottes (contrairement aux stalactites qui pendent du plafond). Comparer des crottes de nez qui s'accumulent à des stalagmites qui poussent est une image géologique précise et dégoûtante.",
+            "keywords": [
+                "stalagmites",
+                "grottes",
+                "géologie",
+                "crottes de nez",
+                "formation",
+                "calcaire"
+            ]
+        },
+        {
+            "id": "ref-gal-12",
+            "lineNumbers": [
+                31
+            ],
+            "excerpt": "François Perusse sur le track j'suis en lévitation",
+            "explanation": "François Pérusse est un humoriste québécois iconique, créateur des '2 minutes du peuple' et des cassettes Perusse, célèbre pour ses voix et ses personnages absurdes. Avoir Pérusse sur une track de rap et s'en trouver en lévitation est une combinaison aussi improbable qu'excitante.",
+            "keywords": [
+                "François Pérusse",
+                "2 minutes du peuple",
+                "humoriste",
+                "Québec",
+                "track",
+                "lévitation"
+            ]
+        },
+        {
+            "id": "ref-gal-13",
+            "lineNumbers": [
+                35
+            ],
+            "excerpt": "Dans mes gros pantalons d'cuir j'ai l'air de Elvis Gratton",
+            "explanation": "Elvis Gratton est un personnage de film québécois créé par Pierre Falardeau (1981), un Québécois fédéraliste kitsch et patriote américain, toujours habillé de façon extravagante — pantalons de cuir, tenues Elvis Presley. Devenu symbole du mauvais goût québécois assumé.",
+            "keywords": [
+                "Elvis Gratton",
+                "Pierre Falardeau",
+                "film québécois",
+                "pantalons de cuir",
+                "kitsch",
+                "fédéraliste",
+                "Elvis Presley"
+            ]
+        },
+        {
+            "id": "ref-gal-14",
+            "lineNumbers": [
+                36
+            ],
+            "excerpt": "Mon cousin y'est anglophone j'y ai dit retourne à maison",
+            "explanation": "'Retourne à maison' est un calque littéral de l'anglais 'go back home' au lieu du français correct 'retourne chez toi' ou 'rentre à la maison'. Dire à un anglophone de 'retourner à maison' avec une faute de français est un comble d'ironie.",
+            "keywords": [
+                "anglophone",
+                "calque",
+                "faute de français",
+                "retourne à maison",
+                "go back home",
+                "ironie",
+                "langue"
+            ]
+        },
+        {
+            "id": "ref-gal-15",
+            "lineNumbers": [
+                41
+            ],
+            "excerpt": "J'suis Florence t'es mon troll comme l'âne pis son Shrek",
+            "explanation": "Dans le film Shrek, l'âne (Donkey) suit Shrek partout et lui sert de compagnon non désiré — un 'troll' fidèle. Florence + the Machine est un groupe de rock alternatif. La comparaison positionne le narrateur comme Florence et l'autre comme l'âne de Shrek, collé après lui.",
+            "keywords": [
+                "Florence",
+                "Florence + the Machine",
+                "Shrek",
+                "âne",
+                "Donkey",
+                "troll",
+                "DreamWorks",
+                "compagnon"
+            ]
+        },
+        {
+            "id": "ref-gal-16",
+            "lineNumbers": [
+                42
+            ],
+            "excerpt": "J'peux pas avaler des pilules, j'prend mon Ritalin dans une pyrex",
+            "explanation": "Le Ritalin (méthylphénidate) est un médicament prescrit pour le TDAH. La pyrex est un plat en verre résistant à la chaleur utilisé en cuisine. Prendre son Ritalin écrasé dans un plat en pyrex au lieu d'avaler la pilule est une image absurde qui joue aussi sur le vocabulaire de la préparation de drogues.",
+            "keywords": [
+                "Ritalin",
+                "TDAH",
+                "médicament",
+                "pyrex",
+                "pilule",
+                "avaler",
+                "absurde"
+            ]
+        },
+        {
+            "id": "ref-gal-17",
+            "lineNumbers": [
+                43
+            ],
+            "excerpt": "Ça fait 3 heures que j'creuse dans gravel, j'trouve pas d'silex",
+            "explanation": "Le silex est une roche utilisée par les humains préhistoriques pour faire du feu et fabriquer des outils. Chercher du silex dans du gravel (gravier) pendant 3 heures est une activité à la fois archéologique, futile et absurde — comme si on essayait de revivre la préhistoire dans son entrée.",
+            "keywords": [
+                "silex",
+                "gravel",
+                "préhistoire",
+                "feu",
+                "pierre",
+                "archéologie",
+                "gravier"
+            ]
+        },
+        {
+            "id": "ref-gal-18",
+            "lineNumbers": [
+                45,
+                46
+            ],
+            "excerpt": "J'me suis acheté une jupe à deux jambes / J'me suis mis à rapper elle bouge ses deux anches",
+            "explanation": "Un pantalon est littéralement 'une jupe à deux jambes' — redéfinition naïve du vêtement. 'Rapper' = faire du rap, mais aussi 'rapper ses hanches' (faire bouger ses hanches en dansant). 'Anches' = hanches en argot + anche en musique (la partie vibrante d'un instrument à vent). Triple sens en deux vers.",
+            "keywords": [
+                "jupe",
+                "pantalon",
+                "rapper",
+                "anches",
+                "hanches",
+                "double sens",
+                "musique",
+                "danse"
+            ]
+        },
+        {
+            "id": "ref-gal-19",
+            "lineNumbers": [
+                53,
+                54
+            ],
+            "excerpt": "Mon avocat y'est bon dans c'qu'il fait / Il fait d'la très bonne guac",
+            "explanation": "Jeu sur le double sens d'avocat : la profession juridique (lawyer) et le fruit (avocado). Son 'avocat' (lawyer) est bon dans son travail — il fait d'excellente guacamole. La chute révèle que l'avocat est littéralement un fruit qui prépare du guac.",
+            "keywords": [
+                "avocat",
+                "guacamole",
+                "guac",
+                "lawyer",
+                "avocat fruit",
+                "double sens",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-gal-20",
+            "lineNumbers": [
+                55,
+                56
+            ],
+            "excerpt": "Y'a essayé d'embarquer sur notre wave / J'ai enlevé mon durag",
+            "explanation": "'Embarquer sur une wave' signifie suivre une tendance, s'intégrer à un mouvement. Le durag est un foulard porté sur la tête, accessoire rap/hip-hop. L'enlever en réaction à quelqu'un qui essaie de copier leur style est un geste de désapprobation — comme retirer son badge d'appartenance pour ne plus être associé à l'imitateur.",
+            "keywords": [
+                "durag",
+                "wave",
+                "tendance",
+                "hip-hop",
+                "accessoire",
+                "imitation",
+                "désapprobation"
+            ]
+        }
+    ]
+}

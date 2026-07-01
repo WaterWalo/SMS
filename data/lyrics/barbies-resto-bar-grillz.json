@@ -1,0 +1,521 @@
+{
+    "id": "barbies-resto-bar-grillz",
+    "title": "Barbies Resto Bar Grillz",
+    "artist": "SMS",
+    "album": "Barbies Resto Bar Grillz",
+    "albumId": "barbies-resto-bar-grillz",
+    "year": 2025,
+    "duration": "0:00",
+    "spotifyUrl": "https://open.spotify.com/intl-fr/track/2JGSAX8ZHyTMjrZCFT36Fs",
+    "lastSync": "2026-05-24",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "Chez Barbie's Resto Bar Grill"
+        },
+        {
+            "line": 2,
+            "text": "Non j'veux pas un film de Barbie j'parle du Resto Bar Grill"
+        },
+        {
+            "line": 3,
+            "text": "j'connais la serveuse par son nom j'ai le Resto Bar Rizz"
+        },
+        {
+            "line": 4,
+            "text": "Big ass diamonds dans ma bouche j'ai les Resto Bar Grillz"
+        },
+        {
+            "line": 5,
+            "text": "J'ai mis mon poignet dans mon verre d'eau j'ai le Reste d'eau Bar Wrist"
+        },
+        {
+            "line": 6,
+            "text": "J'ai mis mon burger dans ma face bro je go ham"
+        },
+        {
+            "line": 7,
+            "text": "J'suis tout décoiffé après ça j'ai besoin d'un gros peigne"
+        },
+        {
+            "line": 8,
+            "text": "Bro j'ai mis un gros trou dans la table c'est un gros beigne"
+        },
+        {
+            "line": 9,
+            "text": "J'fais genre j'ai oublié mon portefeuille quand il faut j'paye"
+        },
+        {
+            "line": 10,
+            "text": "J'prends pas d'salade grecque,"
+        },
+        {
+            "line": 11,
+            "text": "Mes poches sont déjà remplies de bread et cheese"
+        },
+        {
+            "line": 12,
+            "text": "J'men va direct au Barbie's les dépenser quand j'fais des G's"
+        },
+        {
+            "line": 13,
+            "text": "J'suis généreux avec le tip"
+        },
+        {
+            "line": 14,
+            "text": "J'donnes toujours mon 100 pour 100"
+        },
+        {
+            "line": 15,
+            "text": "Mon cousin il dine and dash il mange pis il repart en courant"
+        },
+        {
+            "line": 16,
+            "text": "Quand c'est ma fête à chaque année j'm'en va au Barbie's"
+        },
+        {
+            "line": 17,
+            "text": "J'suis bin trop saoul pour repartir donne moi mes car keys"
+        },
+        {
+            "line": 18,
+            "text": "J'passe la nuit dans mon p'tit Kia Soul, j'm'endors dans l'parking"
+        },
+        {
+            "line": 19,
+            "text": "Le matin j'pars avec Luigi l'plongeur, on fait du karting"
+        },
+        {
+            "line": 20,
+            "text": "J'ai si faim je sais pas quoi manger au Barbie's"
+        },
+        {
+            "line": 21,
+            "text": "Y'a tellement de choix"
+        },
+        {
+            "line": 22,
+            "text": "Y'a tellement de plats"
+        },
+        {
+            "line": 23,
+            "text": "Escargots, burger, pizza,"
+        },
+        {
+            "line": 24,
+            "text": "Escargots, escargots, escargots, à l'ail"
+        },
+        {
+            "line": 25,
+            "text": "J'veux faire changement à soir j'vais t'prendre de quoi d'différent"
+        },
+        {
+            "line": 26,
+            "text": "Hein c'est donc bin bizarre ils vendent des brochettes de poulet de graine"
+        },
+        {
+            "line": 27,
+            "text": "Ouin écoute je sais pas si ça m'tente vraiment"
+        },
+        {
+            "line": 28,
+            "text": "C'pas grave, m'a t'prendre ma fidèle poutine poulet croustillant"
+        },
+        {
+            "line": 29,
+            "text": "J'ai mis mes pantalons trois quart"
+        },
+        {
+            "line": 30,
+            "text": "J'ai mis mes pantalons trois quart"
+        },
+        {
+            "line": 31,
+            "text": "J'ai mis mes pantalons trois quart pis j'ai commandé une salade"
+        },
+        {
+            "line": 32,
+            "text": "Vu qu'y'est pas trop tôt j'ai commandé un rhum and coke"
+        },
+        {
+            "line": 33,
+            "text": "J'prendrai pas d'dessert, demain j'ai une randonné dans l'bois"
+        },
+        {
+            "line": 34,
+            "text": "C'pas grave chez nous j'mangerai mon yogurt aux baies des bois"
+        },
+        {
+            "line": 35,
+            "text": "Chez Barbie's Resto Bar Grill"
+        },
+        {
+            "line": 36,
+            "text": "Non j'veux pas un film de Barbie j'parle du Resto Bar Grill"
+        },
+        {
+            "line": 37,
+            "text": "j'connais la serveuse par son nom j'ai le Resto Bar Rizz"
+        },
+        {
+            "line": 38,
+            "text": "Big ass diamonds dans ma bouche j'ai les Resto Bar Grillz"
+        },
+        {
+            "line": 39,
+            "text": "J'ai mis mon poignet dans mon verre d'eau j'ai le Reste d'eau Bar Wrist"
+        },
+        {
+            "line": 40,
+            "text": "L'autre jour j'ai manger ailleurs qu'au Barbie's pis j'ai chier dans le lit comme Amber heard"
+        },
+        {
+            "line": 41,
+            "text": "Mange la boulette entre mes deux buns, jmappelle hamburger"
+        },
+        {
+            "line": 42,
+            "text": "Leur viande go tellement hard, j'pense y'ont mis du viagra"
+        },
+        {
+            "line": 43,
+            "text": "J'suis fried avec plein d'cheese, j'suis comme un batte au mozzarella"
+        },
+        {
+            "line": 44,
+            "text": "Ils m'ont mit du ketchup d'la moutarde pis d'la reliche dans l'cul"
+        },
+        {
+            "line": 45,
+            "text": "Vu qu'j'suis un dog mon ass a l'air d'un hot-dog garnie"
+        },
+        {
+            "line": 46,
+            "text": "Y'ont essayé d'm'expliquer, le menu mais j'répond comme Tacu"
+        },
+        {
+            "line": 47,
+            "text": "J'ai mal au cou j'pense j'ai mangé, trop de tortellinis"
+        },
+        {
+            "line": 48,
+            "text": "Fuck la cage, fuck Normandin pis fuck you Saint-hubert"
+        },
+        {
+            "line": 49,
+            "text": "Yea si j'ai faim y'a juste une place qui peut me satisfaire"
+        },
+        {
+            "line": 50,
+            "text": "Dans l'désert, j'ride Barbie's non-stop comme un dromadaire"
+        },
+        {
+            "line": 51,
+            "text": "Nan pas d'dessert, j'ai pu faim, j'ai trop manger d'pelures de pommes de terres"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-barbies-1",
+            "lineNumbers": [
+                3,
+                37
+            ],
+            "excerpt": "j'connais la serveuse par son nom j'ai le Resto Bar Rizz",
+            "explanation": "« Rizz » est un terme d'argot internet popularisé sur TikTok signifiant du charme ou une capacité à séduire. Le jeu de mots transforme « Resto Bar Grill » en « Resto Bar Rizz ».",
+            "keywords": [
+                "rizz",
+                "TikTok",
+                "slang",
+                "charme",
+                "séduction",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-barbies-2",
+            "lineNumbers": [
+                4,
+                38
+            ],
+            "excerpt": "Big ass diamonds dans ma bouche j'ai les Resto Bar Grillz",
+            "explanation": "Jeu phonétique entre « grill » et « grillz », les bijoux dentaires popularisés dans la culture hip-hop.",
+            "keywords": [
+                "grillz",
+                "bijoux dentaires",
+                "hip-hop",
+                "diamonds",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-barbies-3",
+            "lineNumbers": [
+                5,
+                39
+            ],
+            "excerpt": "J'ai mis mon poignet dans mon verre d'eau j'ai le Reste d'eau Bar Wrist",
+            "explanation": "En slang, le terme « water » fait parfois référence à des diamants très brillants, souvent appelés water / icy / flooded (« my wrist is water » = bijoux très glacés). Il y a un jeu de mot phonétique avec « Resto » et reste d'eau, et en gros il flex sa montre pleine de diamants.",
+            "keywords": [
+                "water",
+                "wrist",
+                "diamants",
+                "bijoux",
+                "slang",
+                "jeu de mots",
+                "reste d'eau"
+            ]
+        },
+        {
+            "id": "ref-barbies-4",
+            "lineNumbers": [
+                6
+            ],
+            "excerpt": "J'ai mis mon burger dans ma face bro je go ham",
+            "explanation": "« Go ham » est une expression anglophone signifiant devenir extrêmement intense/excessif. « Ham » renvoie aussi à « hamburger ».",
+            "keywords": [
+                "go ham",
+                "expression anglaise",
+                "hamburger",
+                "intense",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-barbies-5",
+            "lineNumbers": [
+                9
+            ],
+            "excerpt": "J'fais genre j'ai oublié mon portefeuille quand il faut j'paye",
+            "explanation": "Référence au comportement cliché des gens qui prétendent avoir oublié leur portefeuille pour éviter de payer l'addition.",
+            "keywords": [
+                "portefeuille",
+                "addition",
+                "restaurant",
+                "cliché"
+            ]
+        },
+        {
+            "id": "ref-barbies-6",
+            "lineNumbers": [
+                11
+            ],
+            "excerpt": "Mes poches sont déjà remplies de bread et cheese",
+            "explanation": "« Bread » et « cheese » sont des synonymes slang pour l'argent. Il refuse la salade grecque car il a déjà assez de « fromage ».",
+            "keywords": [
+                "bread",
+                "cheese",
+                "argent",
+                "slang",
+                "anglais"
+            ]
+        },
+        {
+            "id": "ref-barbies-7",
+            "lineNumbers": [
+                12
+            ],
+            "excerpt": "J'men va direct au Barbie's les dépenser quand j'fais des G's",
+            "explanation": "« Faire des G's » signifie faire de l'argent.",
+            "keywords": [
+                "G's",
+                "argent",
+                "slang",
+                "gains"
+            ]
+        },
+        {
+            "id": "ref-barbies-8",
+            "lineNumbers": [
+                14
+            ],
+            "excerpt": "J'donnes toujours mon 100 pour 100",
+            "explanation": "Double sens entre « 100 % » (tout donner) et laisser un pourboire énorme de 100 %.",
+            "keywords": [
+                "100 pour 100",
+                "pourboire",
+                "tip",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-barbies-9",
+            "lineNumbers": [
+                15
+            ],
+            "excerpt": "Mon cousin il dine and dash il mange pis il repart en courant",
+            "explanation": "« Dine and dash » est l'expression anglaise pour quitter un restaurant sans payer.",
+            "keywords": [
+                "dine and dash",
+                "restaurant",
+                "expression anglaise",
+                "partir sans payer"
+            ]
+        },
+        {
+            "id": "ref-barbies-10",
+            "lineNumbers": [
+                17
+            ],
+            "excerpt": "J'suis bin trop saoul pour repartir donne moi mes car keys",
+            "explanation": "Référence très irresponsable à la conduite en état d'ébriété.",
+            "keywords": [
+                "saoul",
+                "alcool",
+                "conduite",
+                "irresponsable"
+            ]
+        },
+        {
+            "id": "ref-barbies-11",
+            "lineNumbers": [
+                19
+            ],
+            "excerpt": "Le matin j'pars avec Luigi l'plongeur, on fait du karting",
+            "explanation": "Référence à Luigi et à Mario Kart, le célèbre jeu vidéo de course de Nintendo.",
+            "keywords": [
+                "Luigi",
+                "Mario Kart",
+                "Nintendo",
+                "jeu vidéo",
+                "plongeur"
+            ]
+        },
+        {
+            "id": "ref-barbies-12",
+            "lineNumbers": [
+                26
+            ],
+            "excerpt": "Hein c'est donc bin bizarre ils vendent des brochettes de poulet de graine",
+            "explanation": "Double sens sexuel québécois : « poulet de grain » est une vraie catégorie de poulet, mais enlever le « r » transforme « grain » en « graine », slang pour pénis.",
+            "keywords": [
+                "poulet de grain",
+                "poulet de graine",
+                "double sens",
+                "sexuel",
+                "québécois"
+            ]
+        },
+        {
+            "id": "ref-barbies-13",
+            "lineNumbers": [
+                40
+            ],
+            "excerpt": "L'autre jour j'ai manger ailleurs qu'au Barbie's pis j'ai chier dans le lit comme Amber heard",
+            "explanation": "Référence au scandale médiatique entourant Amber Heard et les accusations de Johnny Depp affirmant qu'elle aurait déféqué dans leur lit.",
+            "keywords": [
+                "Amber Heard",
+                "Johnny Depp",
+                "scandale",
+                "procès",
+                "médiatique"
+            ]
+        },
+        {
+            "id": "ref-barbies-14",
+            "lineNumbers": [
+                41
+            ],
+            "excerpt": "Mange la boulette entre mes deux buns, jmappelle hamburger",
+            "explanation": "Double sens sexuel basé sur la structure du hamburger. « Buns » est le mot pour les pains de hamburger, et la boulette représente ce qu'a Amber Heard entre ses fesses. Aussi une rime proche entre Amber Heard et Hamburger.",
+            "keywords": [
+                "hamburger",
+                "buns",
+                "double sens",
+                "sexuel",
+                "Amber Heard"
+            ]
+        },
+        {
+            "id": "ref-barbies-15",
+            "lineNumbers": [
+                42
+            ],
+            "excerpt": "Leur viande go tellement hard, j'pense y'ont mis du viagra",
+            "explanation": "Viagra est associé aux érections. Il compare la viande « qui go hard » à cet effet.",
+            "keywords": [
+                "viagra",
+                "érection",
+                "viande",
+                "hard",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-barbies-16",
+            "lineNumbers": [
+                43
+            ],
+            "excerpt": "J'suis fried avec plein d'cheese, j'suis comme un batte au mozzarella",
+            "explanation": "Un « batte » est parfois utilisé pour désigné un joint, être « fried » signifie être très intoxiqué au cannabis, et le « cheese » est un mot de slang synonyme à l'argent. Un « batte au mozzarella » est une autre façon de parler de bâtonnet de fromage/mozzarella sticks.",
+            "keywords": [
+                "fried",
+                "batte",
+                "joint",
+                "cannabis",
+                "cheese",
+                "argent",
+                "mozzarella sticks"
+            ]
+        },
+        {
+            "id": "ref-barbies-17",
+            "lineNumbers": [
+                44,
+                45
+            ],
+            "excerpt": "Vu qu'j'suis un dog mon ass a l'air d'un hot-dog garnie",
+            "explanation": "Jeu absurde entre « dog » et « hot-dog ».",
+            "keywords": [
+                "dog",
+                "hot-dog",
+                "jeu de mots",
+                "absurde"
+            ]
+        },
+        {
+            "id": "ref-barbies-18",
+            "lineNumbers": [
+                46
+            ],
+            "excerpt": "Y'ont essayé d'm'expliquer, le menu mais j'répond comme Tacu",
+            "explanation": "Référence au créateur québécois Tacu, connu pour son ton particulier et ses réactions/confusions virales.",
+            "keywords": [
+                "Tacu",
+                "créateur québécois",
+                "viral",
+                "TikTok",
+                "confusion"
+            ]
+        },
+        {
+            "id": "ref-barbies-19",
+            "lineNumbers": [
+                47
+            ],
+            "excerpt": "J'ai mal au cou j'pense j'ai mangé, trop de tortellinis",
+            "explanation": "Jeu de mot avec tortellini et torticolis.",
+            "keywords": [
+                "tortellini",
+                "torticolis",
+                "jeu de mots",
+                "cou"
+            ]
+        },
+        {
+            "id": "ref-barbies-20",
+            "lineNumbers": [
+                48
+            ],
+            "excerpt": "Fuck la cage, fuck Normandin pis fuck you Saint-hubert",
+            "explanation": "Références à trois grandes chaînes de restaurants québécoises : La Cage aux Sports (brasserie sportive), Normandin (restaurant familial) et Saint-Hubert (spécialisé en poulet rôti).",
+            "keywords": [
+                "La Cage",
+                "Normandin",
+                "Saint-Hubert",
+                "restaurants québécois",
+                "chaînes"
+            ]
+        }
+    ]
+}

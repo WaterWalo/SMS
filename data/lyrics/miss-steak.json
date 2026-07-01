@@ -1,0 +1,772 @@
+{
+    "id": "miss-steak",
+    "title": "Miss Steak",
+    "artist": "SMS",
+    "album": "Miss Steak",
+    "albumId": "miss-steak",
+    "year": 2026,
+    "duration": null,
+    "spotifyUrl": "https://open.spotify.com/track/5nGgpjrBqL8zklkb2dxScG",
+    "lastSync": "2026-05-09T17:53:39.638635+00:00",
+    "lyrics": [
+        {
+            "line": 1,
+            "text": "Man"
+        },
+        {
+            "line": 2,
+            "text": "Ils nous cachent plein d'affaires hein"
+        },
+        {
+            "line": 3,
+            "text": "J'dressed in all black comme les Epstein files"
+        },
+        {
+            "line": 4,
+            "text": "Mon 'dog y'est all-dressed pistache Mayo ketchup moutarde"
+        },
+        {
+            "line": 5,
+            "text": "J'ai frappé ma grand mère dans sa grosse face j'feel comme Yuno miles"
+        },
+        {
+            "line": 6,
+            "text": "J'ai la face dans la monnaie pis dans mon back j'ai une outarde"
+        },
+        {
+            "line": 7,
+            "text": "A l'hôpital, j'ai bouffé toutes les seringues, j'suis un glouton"
+        },
+        {
+            "line": 8,
+            "text": "J'zigne mon lit d'creeper, Minecraft j'rock mon bed edition"
+        },
+        {
+            "line": 9,
+            "text": "J'ai gobé la facture, Appelles-moi Minecraft, j'avale l'addition"
+        },
+        {
+            "line": 10,
+            "text": "J'ai mis une chaîne sur ma femme pour la garder"
+        },
+        {
+            "line": 11,
+            "text": "Call me Jabba le glouton"
+        },
+        {
+            "line": 12,
+            "text": "Moi j'aime juste les rousses si t'es brune j'ai pas d'feels"
+        },
+        {
+            "line": 13,
+            "text": "J'suis tellement chaud"
+        },
+        {
+            "line": 14,
+            "text": "Si j'tais un roux tétraplégique j'm'appellerais Hot wheels"
+        },
+        {
+            "line": 15,
+            "text": "J'ai un shortcut pour drop du heat, j'use mes hotkeys"
+        },
+        {
+            "line": 16,
+            "text": "La game marche pas sans SMS, on spin la machine comme des cogwheels"
+        },
+        {
+            "line": 17,
+            "text": "Des francaises dans les DMs mais c'que j'veux c't'une hab baby"
+        },
+        {
+            "line": 18,
+            "text": "Pourquoi la caissière m'demande ça"
+        },
+        {
+            "line": 19,
+            "text": "Oui j'veux un bag baby"
+        },
+        {
+            "line": 20,
+            "text": "Appelles-moi la ligne bleue j't'en repeat sur le track baby"
+        },
+        {
+            "line": 21,
+            "text": "La competition ça fait 2 tours qu'on les lap baby"
+        },
+        {
+            "line": 22,
+            "text": "Des francaises dans les DMs mais c'que jveux c't'une québécoise"
+        },
+        {
+            "line": 23,
+            "text": "Si c'est moi qui paie la dough, c'tu moi Mr. Quebecor"
+        },
+        {
+            "line": 24,
+            "text": "Euro step sur votre bullshit, Mr. Matador"
+        },
+        {
+            "line": 25,
+            "text": "Des carrots sur mes tubercules, Mr. Patate d'or"
+        },
+        {
+            "line": 26,
+            "text": "Huh, parlez pas trop fort, Mr. Salade Dort"
+        },
+        {
+            "line": 27,
+            "text": "Fais attention avec la sauce, c'est un hamac rare"
+        },
+        {
+            "line": 28,
+            "text": "Banquier y parle juste en check check, c'est une maracas"
+        },
+        {
+            "line": 29,
+            "text": "Baja blast dans mon cup, j'suis au Bahamas"
+        },
+        {
+            "line": 30,
+            "text": "Avec 3 bars j'étais partout sur ton phone"
+        },
+        {
+            "line": 31,
+            "text": "3G dans ton algorithme, professeur videotron"
+        },
+        {
+            "line": 32,
+            "text": "Quand on pull up dans la mazda"
+        },
+        {
+            "line": 33,
+            "text": "Monte le encore"
+        },
+        {
+            "line": 34,
+            "text": "Quand on pull up dans la mazda le volume il est au fond"
+        },
+        {
+            "line": 35,
+            "text": "On dit qu'j'suis off-beat, moi j'dis qu'j'suis en avance sur mon temps"
+        },
+        {
+            "line": 36,
+            "text": "Y'attendaient qu'on aille un flop, ils vont attendre ca longtemps"
+        },
+        {
+            "line": 37,
+            "text": "Demande un feat ou un feet pic, c'est genre 40 le montant"
+        },
+        {
+            "line": 38,
+            "text": "On dit qu'l'argent fait pas l'bonheur, mais mon argent est content"
+        },
+        {
+            "line": 39,
+            "text": "Alphonse desjardins sur le speed dial"
+        },
+        {
+            "line": 40,
+            "text": "Faut qu'tu m'mettes dessus, si tu veux vraiment qu'le beat die"
+        },
+        {
+            "line": 41,
+            "text": "Des fois j'ramasse des pierres ivre, j'collectionne les PY"
+        },
+        {
+            "line": 42,
+            "text": "Big ass boite à lunch, c'est Louis Garneau sur le design"
+        },
+        {
+            "line": 43,
+            "text": "J'ai drop kick Charles 3 dans sa jugulaire"
+        },
+        {
+            "line": 44,
+            "text": "J'veux pas sa face sur mes twennies"
+        },
+        {
+            "line": 45,
+            "text": "J'ai reçu un award pour le meilleur coked up rapper"
+        },
+        {
+            "line": 46,
+            "text": "Merci pour le Grammy"
+        },
+        {
+            "line": 47,
+            "text": "J'ai une bedaine de six pack"
+        },
+        {
+            "line": 48,
+            "text": "On dirait jporte toujours mon fanny"
+        },
+        {
+            "line": 49,
+            "text": "J'pensais qu'était thick mais 'était flat comme une pancake au Denn'ys"
+        },
+        {
+            "line": 50,
+            "text": "J'me compare pas avec les 2-face"
+        },
+        {
+            "line": 51,
+            "text": "L'gazon y'est plus vert quand y'est fake"
+        },
+        {
+            "line": 52,
+            "text": "Corny ass avec du dandruff j'ai mes froot loops"
+        },
+        {
+            "line": 53,
+            "text": "J'veux pas de tes corn flakes"
+        },
+        {
+            "line": 54,
+            "text": "Quand tu transcris c'que j'dis mais le gras, j'ai des bold takes"
+        },
+        {
+            "line": 55,
+            "text": "J'ai flappy bird dans mon frigo Samsung, je l'ai jailbreak"
+        },
+        {
+            "line": 56,
+            "text": "J'ai sorti mon frigo d'prison, j'voulais me faire des pancakes"
+        },
+        {
+            "line": 57,
+            "text": "Tu passe pas la porte si t'as pas d'cob, j'me sens comme Bill Gates"
+        },
+        {
+            "line": 58,
+            "text": "J'passe mes vacances sur un île tropical, j'me sens comme Bill Gates"
+        },
+        {
+            "line": 59,
+            "text": "J'ai fait une erreur en mariant une vache"
+        },
+        {
+            "line": 60,
+            "text": "Maintenant j'l'appelle Miss steak"
+        }
+    ],
+    "references": [
+        {
+            "id": "ref-ms-1",
+            "lineNumbers": [
+                3
+            ],
+            "excerpt": "J'dressed in all black comme les Epstein files",
+            "explanation": "Référence aux documents judiciaires controversés de Jeffrey Epstein, milliardaire américain condamné pour crimes sexuels. Les 'Epstein files' sont tristement célèbres pour leurs nombreuses pages fortement caviardées, couvertes de grosses barres noires ('blacked out'), censurant les noms de personnalités impliquées. 'All black' compare donc son outfit noir à ces pages entièrement remplies de noir.",
+            "keywords": [
+                "Epstein",
+                "Jeffrey Epstein",
+                "documents classifiés",
+                "scandale",
+                "all black",
+                "censure",
+                "caviardage",
+                "blacked out"
+            ]
+        },
+        {
+            "id": "ref-ms-2",
+            "lineNumbers": [
+                5
+            ],
+            "excerpt": "J'ai frappé ma grand mère dans sa grosse face j'feel comme Yuno miles",
+            "explanation": "Yuno Miles est un rappeur américain de Detroit connu pour ses performances vocales inhabituelles, ses paroles absurdes et son style unique qui en fait un meme Internet viral. Ses chansons sont intentionnellement mauvaises et hilarantes",
+            "keywords": [
+                "Yuno Miles",
+                "rappeur",
+                "Detroit",
+                "meme",
+                "rap viral",
+                "absurde",
+                "Internet"
+            ]
+        },
+        {
+            "id": "ref-ms-3",
+            "lineNumbers": [
+                7,
+                8,
+                9
+            ],
+            "excerpt": "J'zigne mon lit d'creeper, Minecraft j'rock mon bed edition / J'ai gobé la facture, Appelles-moi Minecraft, j'avale l'addition",
+            "explanation": "Double référence à Minecraft, jeu vidéo sandbox phénomène mondial. Le Creeper est l'ennemi iconique vert qui explose près des joueurs. 'Rock mon bed edition' fait référence à Bedrock Edition, la version console/mobile de Minecraft, avec le jeu de mots 'rock mon bed' (faire vivre une expérience intense à son lit). 'J'avale l'addition' fait référence à Java Edition, la version originale exclusive aux ordinateurs, 'avale' se rapprochant phonétiquement de 'Java'.",
+            "keywords": [
+                "Minecraft",
+                "Creeper",
+                "jeu vidéo",
+                "Bedrock Edition",
+                "Java Edition",
+                "sandbox",
+                "gaming",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ms-4",
+            "lineNumbers": [
+                10,
+                11
+            ],
+            "excerpt": "J'ai mis une chaîne sur ma femme pour la garder / Call me Jabba le glouton",
+            "explanation": "Jabba the Hutt (Jabba le Hutt), crimelord alien slug massif et obèse de la saga Star Wars. Dans Le Retour du Jedi, Jabba garde la princesse Leia prisonnière en la tenant attachée avec une chaîne. La ligne rejoue cette scène en mettant une chaîne sur sa femme pour la garder. Jabba est aussi symbole de gloutonnerie et décadence.",
+            "keywords": [
+                "Jabba the Hutt",
+                "Star Wars",
+                "Jabba",
+                "Leia",
+                "chaîne",
+                "Le Retour du Jedi",
+                "Return of the Jedi",
+                "glouton"
+            ]
+        },
+        {
+            "id": "ref-ms-5",
+            "lineNumbers": [
+                14
+            ],
+            "excerpt": "Si j'tais un roux tétraplégique j'm'appellerais Hot wheels",
+            "explanation": "Hot Wheels, marque iconique de petites voitures miniatures Mattel depuis 1968. Jeu de mots sombre entre 'hot' (chaud/roux) et 'wheels' (roues/fauteuil roulant) pour tétraplégie",
+            "keywords": [
+                "Hot Wheels",
+                "Mattel",
+                "voitures miniatures",
+                "jouets",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ms-6",
+            "lineNumbers": [
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ],
+            "excerpt": "Des francaises dans les DMs mais c'que j'veux c't'une hab baby / Oui j'veux un bag baby / Appelles-moi la ligne bleue j't'en repeat sur le track baby / La competition ça fait 2 tours qu'on les lap baby / Des francaises dans les DMs mais c'que jveux c't'une québécoise",
+            "explanation": "Plusieurs jeux de mots dans ce couplet. 'Hab' est slang pour Habitante, désignant une Québécoise/francophone du Québec. 'Bag' joue sur le double sens entre un sac à l'épicerie (la caissière demande si on veut un bag) et 'get the bag' (faire de l'argent en slang). 'La ligne bleue' fait référence à la ligne bleue du métro de Montréal, connue pour ses répétitions de stations, comparée à un refrain qui revient constamment sur le track. 'Lap' = dépasser d'un tour dans une course, signifiant avoir largement dépassé la compétition.",
+            "keywords": [
+                "Hab",
+                "Habitant",
+                "Québécoise",
+                "bag",
+                "sac",
+                "argent",
+                "ligne bleue",
+                "métro de Montréal",
+                "STM",
+                "lap",
+                "course"
+            ]
+        },
+        {
+            "id": "ref-ms-7",
+            "lineNumbers": [
+                23
+            ],
+            "excerpt": "Si c'est moi qui paie la dough, c'tu moi Mr. Quebecor",
+            "explanation": "Quebecor Inc., conglomérat québécois de médias et télécommunications possédant Vidéotron, TVA, Le Journal de Montréal. Symbole de pouvoir corporatif au Québec, contrôlée par la famille Péladeau. 'Dough' est slang anglais pour l'argent (se traduisant par 'pâte' en français).",
+            "keywords": [
+                "Quebecor",
+                "Vidéotron",
+                "télécommunications",
+                "médias",
+                "Québec",
+                "Pierre Karl Péladeau",
+                "Péladeau",
+                "dough",
+                "argent"
+            ]
+        },
+        {
+            "id": "ref-ms-8",
+            "lineNumbers": [
+                29
+            ],
+            "excerpt": "Baja blast dans mon cup, j'suis au Bahamas",
+            "explanation": "Mountain Dew Baja Blast, boisson gazeuse turquoise exclusive à Taco Bell, devenue culte et mème Internet. Saveur tropical lime très populaire dans la culture fast-food américaine",
+            "keywords": [
+                "Baja Blast",
+                "Mountain Dew",
+                "Taco Bell",
+                "boisson gazeuse",
+                "fast food",
+                "meme"
+            ]
+        },
+        {
+            "id": "ref-ms-9",
+            "lineNumbers": [
+                30,
+                31
+            ],
+            "excerpt": "Avec 3 bars j'étais partout sur ton phone / 3G dans ton algorithme, professeur videotron",
+            "explanation": "Double sens sur '3 bars' : barres de signal cellulaire (3 barres de réception) et 'bars' comme terme rap (lignes de texte). Vidéotron, principale compagnie de télécommunications québécoise (filiale de Quebecor), fournisseur Internet et cellulaire. '3G' fait référence à la technologie mobile de troisième génération, désormais obsolète, comparée à leur présence dans les algorithmes. Toutes ces références technologiques s'imbriquent : bars de rap = bars de signal = 3G de Vidéotron.",
+            "keywords": [
+                "Vidéotron",
+                "3G",
+                "télécommunications",
+                "Internet",
+                "téléphonie mobile",
+                "Québec",
+                "bars",
+                "signal",
+                "algorithme"
+            ]
+        },
+        {
+            "id": "ref-ms-10",
+            "lineNumbers": [
+                39
+            ],
+            "excerpt": "Alphonse desjardins sur le speed dial",
+            "explanation": "Alphonse Desjardins (1854-1920), fondateur des Caisses Desjardins, mouvement coopératif de crédit québécois. Institution financière emblématique au Québec, équivalent des credit unions",
+            "keywords": [
+                "Alphonse Desjardins",
+                "Desjardins",
+                "Caisse populaire",
+                "banque",
+                "Québec",
+                "coopérative",
+                "finance"
+            ]
+        },
+        {
+            "id": "ref-ms-11",
+            "lineNumbers": [
+                42
+            ],
+            "excerpt": "Big ass boite à lunch, c'est Louis Garneau sur le design",
+            "explanation": "Louis Garneau Sports, compagnie québécoise fondée par le cycliste olympique Louis Garneau, spécialisée en équipement de vélo et vêtements de sport. Marque iconique québécoise dans le cyclisme",
+            "keywords": [
+                "Louis Garneau",
+                "cyclisme",
+                "vélo",
+                "équipement sportif",
+                "Québec",
+                "design"
+            ]
+        },
+        {
+            "id": "ref-ms-12",
+            "lineNumbers": [
+                43,
+                44
+            ],
+            "excerpt": "J'ai drop kick Charles 3 dans sa jugulaire / J'veux pas sa face sur mes twennies",
+            "explanation": "Référence au Roi Charles III d'Angleterre, dont le portrait apparaît maintenant sur les billets de 20 dollars canadiens (twennies), remplaçant la Reine Elizabeth II. 'Drop kick' fait référence au mouvement de lutte/arts martiaux",
+            "keywords": [
+                "Charles III",
+                "Roi Charles",
+                "monarque",
+                "argent canadien",
+                "billet 20 dollars",
+                "royauté britannique"
+            ]
+        },
+        {
+            "id": "ref-ms-13",
+            "lineNumbers": [
+                45,
+                46
+            ],
+            "excerpt": "J'ai reçu un award pour le meilleur coked up rapper / Merci pour le Grammy",
+            "explanation": "Les Grammy Awards, prix musicaux les plus prestigieux de l'industrie musicale américaine, décernés par la Recording Academy. 'Coked up' amène le jeu de mots central : un 'gramme' est l'unité de mesure de la cocaïne, et 'Grammy' se prononce comme 'gramme'. La ligne joue donc à la fois sur les stéréotypes de la drogue dans le rap et sur la récompense musicale.",
+            "keywords": [
+                "Grammy",
+                "Grammy Awards",
+                "musique",
+                "prix",
+                "rap",
+                "industrie musicale",
+                "gramme",
+                "cocaïne",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ms-14",
+            "lineNumbers": [
+                49
+            ],
+            "excerpt": "J'pensais qu'était thick mais 'était flat comme une pancake au Denn'ys",
+            "explanation": "Denny's, chaîne américaine de restaurants familiaux ouverts 24/7, réputée pour ses petits-déjeuners et pancakes. Institution de la culture diner américaine, souvent visitée tard la nuit",
+            "keywords": [
+                "Denny's",
+                "restaurant",
+                "diner",
+                "pancakes",
+                "petit-déjeuner",
+                "24/7",
+                "États-Unis"
+            ]
+        },
+        {
+            "id": "ref-ms-15",
+            "lineNumbers": [
+                52,
+                53
+            ],
+            "excerpt": "Corny ass avec du dandruff j'ai mes froot loops / J'veux pas de tes corn flakes",
+            "explanation": "Froot Loops et Corn Flakes, deux céréales iconiques de petit-déjeuner de Kellogg's. 'Corny' signifie ringard/niais en anglais, créant un jeu de mots avec 'corn' (maïs). Les pellicules (dandruff) ressemblent aux céréales",
+            "keywords": [
+                "Froot Loops",
+                "Corn Flakes",
+                "Kellogg's",
+                "céréales",
+                "petit-déjeuner",
+                "corny",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ms-16",
+            "lineNumbers": [
+                55,
+                56
+            ],
+            "excerpt": "J'ai flappy bird dans mon frigo Samsung, je l'ai jailbreak / J'ai sorti mon frigo d'prison",
+            "explanation": "Flappy Bird, jeu mobile viral ultra-addictif de 2013 retiré par son créateur. Samsung fait référence aux frigos intelligents Samsung avec écrans tactiles. 'Jailbreak' est le terme pour débloquer un appareil iOS/Android, jeu de mots avec 'sorti de prison'",
+            "keywords": [
+                "Flappy Bird",
+                "jeu mobile",
+                "viral",
+                "Samsung",
+                "frigo intelligent",
+                "jailbreak",
+                "smartphone"
+            ]
+        },
+        {
+            "id": "ref-ms-17",
+            "lineNumbers": [
+                57,
+                58
+            ],
+            "excerpt": "Tu passe pas la porte si t'as pas d'cob, j'me sens comme Bill Gates / J'passe mes vacances sur un île tropical, j'me sens comme Bill Gates",
+            "explanation": "Bill Gates, co-fondateur de Microsoft, homme le plus riche du monde pendant des années. Double référence dans ces deux lignes. La première joue sur 'Bill' qui signifie aussi facture en français : seuls ceux qui ont de l'argent ('cob' = cash) peuvent entrer, comme Bill Gates n'ouvre sa porte qu'aux riches. La seconde fait référence aux liens controversés entre Bill Gates et Jeffrey Epstein, qui se sont rencontrés à plusieurs reprises : le punchline évoque l'image des milliardaires passant du temps sur des îles privées tropicales, en faisant implicitement écho à l'île d'Epstein.",
+            "keywords": [
+                "Bill Gates",
+                "Microsoft",
+                "milliardaire",
+                "richesse",
+                "bill",
+                "facture",
+                "Epstein",
+                "île",
+                "tropicale",
+                "cob",
+                "cash"
+            ]
+        },
+        {
+            "id": "ref-ms-18",
+            "lineNumbers": [
+                59,
+                60
+            ],
+            "excerpt": "J'ai fait une erreur en mariant une vache / Maintenant j'l'appelle Miss steak",
+            "explanation": "Jeu de mots final et titre de la chanson : 'Miss steak' qui se prononce comme 'mistake' (erreur en anglais). Double sens avec 'steak' (viande de bœuf/vache) et 'mistake', créant un calembour parfait sur le mariage raté",
+            "keywords": [
+                "Miss steak",
+                "mistake",
+                "jeu de mots",
+                "calembour",
+                "steak",
+                "vache",
+                "titre"
+            ]
+        },
+        {
+            "id": "ref-ms-19",
+            "lineNumbers": [
+                4
+            ],
+            "excerpt": "Mon 'dog y'est all-dressed pistache Mayo ketchup moutarde",
+            "explanation": "Double sens sur 'all-dressed' : en cuisine québécoise, un hot-dog all-dressed est garni de plusieurs condiments (mayonnaise, ketchup, moutarde, relish, etc.). Ici, son 'dog' (ami/buddy en slang) est aussi 'all-dressed', c'est-à-dire drippé avec plein de couleurs et d'accessoires, comme un hot-dog surgarni. La pistache ajoute une touche absurde.",
+            "keywords": [
+                "all-dressed",
+                "hot-dog",
+                "condiments",
+                "dog",
+                "ami",
+                "drip",
+                "québécois",
+                "double sens"
+            ]
+        },
+        {
+            "id": "ref-ms-20",
+            "lineNumbers": [
+                6
+            ],
+            "excerpt": "J'ai la face dans la monnaie pis dans mon back j'ai une outarde",
+            "explanation": "'Avoir la face dans la monnaie' signifie être concentré sur l'argent, mais fait aussi référence au côté face d'une pièce de monnaie canadienne, où figure un portrait. 'Outarde' réfère à l'oiseau censé figurer au dos des pièces de monnaie, bien que ce soit en réalité un huard (le loon). C'est probablement un choix humoristique volontaire de nommer le mauvais oiseau pour une meilleure rime.",
+            "keywords": [
+                "outarde",
+                "monnaie",
+                "pièce canadienne",
+                "huard",
+                "loon",
+                "face",
+                "argent",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ms-21",
+            "lineNumbers": [
+                15,
+                16
+            ],
+            "excerpt": "J'ai un shortcut pour drop du heat, j'use mes hotkeys / La game marche pas sans SMS, on spin la machine comme des cogwheels",
+            "explanation": "'Hotkeys' sont des raccourcis clavier sur ordinateur. Il compare son efficacité à sortir de bons tracks ('drop du heat') à des commandes rapides sur ordinateur. 'Cogwheels' sont des engrenages mécaniques. SMS se présente comme une pièce maîtresse indispensable qui fait tourner toute la machine du rap game.",
+            "keywords": [
+                "hotkeys",
+                "raccourcis clavier",
+                "informatique",
+                "cogwheels",
+                "engrenages",
+                "rap game",
+                "drop du heat"
+            ]
+        },
+        {
+            "id": "ref-ms-22",
+            "lineNumbers": [
+                24
+            ],
+            "excerpt": "Euro step sur votre bullshit, Mr. Matador",
+            "explanation": "L'euro step est un mouvement de basketball popularisé en NBA, où le joueur effectue deux pas dans des directions différentes pour contourner le défenseur. 'Matador' évoque le toréador espagnol qui esquive élégamment le taureau, parallèle à l'euro step qui esquive les défenseurs. Un 'bull' se traduit par bœuf en français, concrétisant l'usage du 'matador' : il esquive les bulls (adversaires/BS) comme un toréador esquive le taureau.",
+            "keywords": [
+                "euro step",
+                "basketball",
+                "NBA",
+                "matador",
+                "toréador",
+                "esquive",
+                "Espagne"
+            ]
+        },
+        {
+            "id": "ref-ms-23",
+            "lineNumbers": [
+                25
+            ],
+            "excerpt": "Des carrots sur mes tubercules, Mr. Patate d'or",
+            "explanation": "'Carrots' peut signifier des diamants en slang ('carats' pour la mesure de la pureté de l'or/diamants). 'Tubercules' réfère aux patates. Il mélange vocabulaire luxueux (carrots = diamants) avec celui des légumes (tubercules = patates) pour un effet absurde, culminant avec 'Mr. Patate d'or', jouant sur Monsieur Patate du jouet Potato Head.",
+            "keywords": [
+                "carrots",
+                "carats",
+                "diamants",
+                "tubercules",
+                "patates",
+                "Mr. Patate",
+                "Potato Head",
+                "absurde",
+                "luxe"
+            ]
+        },
+        {
+            "id": "ref-ms-24",
+            "lineNumbers": [
+                28
+            ],
+            "excerpt": "Banquier y parle juste en check check, c'est une maracas",
+            "explanation": "Le banquier ne parle que d'argent ('check' = chèque). Le mot 'check' répété évoque le bruit rythmique d'une maracas, instrument de musique à percussion latino.",
+            "keywords": [
+                "maracas",
+                "check",
+                "chèque",
+                "banquier",
+                "argent",
+                "percussion",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ms-25",
+            "lineNumbers": [
+                35,
+                37,
+                38
+            ],
+            "excerpt": "On dit qu'j'suis off-beat, moi j'dis qu'j'suis en avance sur mon temps / Demande un feat ou un feet pic, c'est genre 40 le montant / On dit qu'l'argent fait pas l'bonheur, mais mon argent est content",
+            "explanation": "Trois jeux de mots distincts. 'Off-beat' : la critique de décalage musical est retournée en argument artistique avant-gardiste. 'Feat ou feet pic' : jeu de mots entre feat (collaboration musicale) et feet pic (photo de pieds, référence aux demandes sur les réseaux sociaux). 'Argent est content' : jeu de mots avec 'argent comptant' (cash liquide) et 'argent content' (l'argent est heureux).",
+            "keywords": [
+                "off-beat",
+                "avant-garde",
+                "feat",
+                "collaboration",
+                "feet pic",
+                "pieds",
+                "argent comptant",
+                "argent content",
+                "jeu de mots"
+            ]
+        },
+        {
+            "id": "ref-ms-26",
+            "lineNumbers": [
+                47,
+                48
+            ],
+            "excerpt": "J'ai une bedaine de six pack / On dirait jporte toujours mon fanny",
+            "explanation": "Jeu de mots sur l'apparence physique : une 'bedaine de six pack' serait idéalement un ventre musclé (six-pack abdominal), mais ici c'est une bedaine (ventre rond). Le 'fanny pack' (sac banane) porté à la taille donne justement une bosse à l'avant du ventre, ce qui pourrait ressembler à une bedaine, créant le contraste humoristique.",
+            "keywords": [
+                "bedaine",
+                "six-pack",
+                "abdominaux",
+                "fanny pack",
+                "sac banane",
+                "ventre",
+                "jeu de mots",
+                "corps"
+            ]
+        },
+        {
+            "id": "ref-ms-27",
+            "lineNumbers": [
+                50,
+                51
+            ],
+            "excerpt": "J'me compare pas avec les 2-face / L'gazon y'est plus vert quand y'est fake",
+            "explanation": "'2-face' désigne les personnes hypocrites, à double visage. 'L'gazon y'est plus vert quand y'est fake' retourne l'expression 'l'herbe est plus verte chez le voisin' en ironisant : le faux gazon artificiel est littéralement plus vert car il ne jaunit jamais, donc les hypocrites peuvent paraître mieux en surface.",
+            "keywords": [
+                "2-face",
+                "hypocrite",
+                "double visage",
+                "gazon",
+                "artificiel",
+                "fake",
+                "herbe plus verte",
+                "ironie"
+            ]
+        },
+        {
+            "id": "ref-ms-28",
+            "lineNumbers": [
+                54
+            ],
+            "excerpt": "Quand tu transcris c'que j'dis mais le gras, j'ai des bold takes",
+            "explanation": "Double sens sur 'bold' : en typographie, 'bold' signifie gras (mise en forme du texte en caractères épais). Mais 'bold take' signifie aussi une opinion audacieuse ou controversée. La ligne joue sur les deux : mettre le texte en gras (bold) et avoir des opinions audacieuses (bold takes).",
+            "keywords": [
+                "bold",
+                "gras",
+                "typographie",
+                "bold take",
+                "opinion",
+                "audacieux",
+                "jeu de mots",
+                "transcription"
+            ]
+        }
+    ]
+}
