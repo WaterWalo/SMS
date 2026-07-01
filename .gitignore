@@ -1,6 +1,8 @@
 test.html
 docs/specs/*
 tools/*
+# Exception : script requis par la GitHub Action build-lyrics
+!tools/build_lyrics.py
 # Environment variables (cookies, tokens)
 .env
 .env.local
