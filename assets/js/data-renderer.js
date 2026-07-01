@@ -6,12 +6,13 @@
     try {
         // ── LOAD ALL DATA IN PARALLEL ─────────────────────────────────────
         const basePath = './data/';
-        const [albums, social, content, config] = await window.SMSUtils.loadJSON(
+        const [albumsData, social, content, config] = await window.SMSUtils.loadJSON(
             basePath + 'albums.json',
             basePath + 'social.json',
             basePath + 'content.json',
             basePath + 'config.json'
         );
+        const albums = albumsData.albums;
 
         // Get language from window.siteConfig (set by language-manager.js)
         const lang = window.siteConfig?.lang || 'fr';

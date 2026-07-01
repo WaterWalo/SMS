@@ -248,7 +248,8 @@
 
   /* ── INIT ────────────────────────────────────────────────────────── */
   try {
-    const [lyrics, albums] = await Utils.loadJSON('./data/lyrics.json', './data/albums.json');
+    const [lyrics, albumsData] = await Utils.loadJSON('./data/lyrics.json', './data/albums.json');
+    const albums = albumsData.albums;
     songsData = enrichSongsWithAlbums(lyrics.songs, albums);
 
     buildAlbumList(songsData, albums, sidebarAlbums, id => loadSong(id));

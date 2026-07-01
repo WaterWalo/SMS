@@ -1,0 +1,188 @@
+backend:
+  name: github
+  repo: WaterWalo/SMS
+  branch: master
+  # Remplacer par l'URL de votre Worker Cloudflare (proxy OAuth sveltia-cms-auth).
+  base_url: https://sveltia-cms-auth-sms.anthonylevesque-dev.workers.dev
+
+# Emplacement des images dans le repo + préfixe (absolu) utilisé dans les fichiers JSON.
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+# Langue de l'interface d'admin
+locale: fr
+
+collections:
+  # ─── ALBUMS & SINGLES ───────────────────────────────────────────────
+  - name: albums
+    label: "Albums & Singles"
+    icon: album
+    files:
+      - name: albums
+        label: "Discographie"
+        file: "data/albums.json"
+        description: "La liste des albums affichés sur la page d'accueil. L'ordre d'affichage est défini par le champ « Ordre »."
+        fields:
+          - label: "Albums"
+            name: albums
+            widget: list
+            label_singular: "Album"
+            summary: "{{fields.title}} ({{fields.year}})"
+            fields:
+              - { label: "ID (slug technique, sans espaces)", name: id, widget: string, hint: "Identifiant unique, ex. gaufre-spaghetti" }
+              - { label: "Titre", name: title, widget: string }
+              - { label: "Année", name: year, widget: number, value_type: int, min: 2000, max: 2100 }
+              - { label: "Type", name: type, widget: select, options: ["Album", "Single", "EP"] }
+              - { label: "Pochette", name: coverImage, widget: image }
+              - label: "Texte alternatif de l'image (accessibilité)"
+                name: coverAlt
+                widget: object
+                fields:
+                  - { label: "Anglais", name: en, widget: string }
+                  - { label: "Français", name: fr, widget: string }
+              - { label: "Lien Spotify", name: spotifyUrl, widget: string }
+              - { label: "Lien paroles (Genius)", name: geniusUrl, widget: string, required: false, hint: "Optionnel. Laisser vide pour lier directement vers Spotify." }
+              - { label: "Badge « Nouveau » ?", name: isNew, widget: boolean, default: false }
+              - { label: "Ordre d'affichage", name: order, widget: number, value_type: int, hint: "Plus petit = affiché en premier." }
+
+  # ─── TEXTES DU SITE (FR / EN) ───────────────────────────────────────
+  - name: content
+    label: "Textes du site"
+    icon: translate
+    files:
+      - name: content
+        label: "Contenu bilingue"
+        file: "data/content.json"
+        description: "Tous les textes de l'interface, en français et en anglais. Certains champs acceptent du HTML simple (ex. <strong>gras</strong>)."
+        fields:
+          - label: "Français"
+            name: fr
+            widget: object
+            fields:
+              - label: "Navigation"
+                name: nav
+                widget: object
+                fields:
+                  - { label: "Accueil", name: home, widget: string }
+                  - { label: "À propos", name: about, widget: string }
+                  - { label: "Albums", name: albums, widget: string }
+                  - { label: "Recherche", name: search, widget: string }
+                  - { label: "Génie", name: genius, widget: string }
+                  - { label: "Contact / Réseaux", name: contact, widget: string }
+                  - { label: "Bouton de langue", name: langSwitcher, widget: string }
+              - label: "Sections"
+                name: sections
+                widget: object
+                fields:
+                  - { label: "Label discographie", name: discographyLabel, widget: string }
+                  - { label: "Titre discographie", name: discographyTitle, widget: string }
+                  - { label: "Label réseaux", name: socialLabel, widget: string }
+                  - { label: "Titre réseaux", name: socialTitle, widget: string }
+                  - { label: "Description réseaux", name: socialDescription, widget: text }
+                  - { label: "Label à propos", name: aboutLabel, widget: string }
+                  - { label: "Titre à propos", name: aboutTitle, widget: string }
+              - label: "Biographie"
+                name: bio
+                widget: object
+                fields:
+                  - { label: "Intro (HTML autorisé)", name: intro, widget: text }
+                  - { label: "Accroche", name: tagline, widget: text }
+                  - { label: "Sous-titre héros", name: heroSubtitle, widget: string }
+                  - { label: "Origine héros (HTML autorisé)", name: heroOrigin, widget: string }
+              - label: "Appels à l'action"
+                name: cta
+                widget: object
+                fields:
+                  - { label: "En savoir plus", name: learnMore, widget: string }
+                  - { label: "Badge nouveau", name: newBadge, widget: string }
+              - label: "Pied de page"
+                name: footer
+                widget: object
+                fields:
+                  - { label: "Droits", name: rights, widget: string }
+                  - { label: "Localisation", name: location, widget: string }
+          - label: "English"
+            name: en
+            widget: object
+            fields:
+              - label: "Navigation"
+                name: nav
+                widget: object
+                fields:
+                  - { label: "Home", name: home, widget: string }
+                  - { label: "About", name: about, widget: string }
+                  - { label: "Albums", name: albums, widget: string }
+                  - { label: "Search", name: search, widget: string }
+                  - { label: "Génie", name: genius, widget: string }
+                  - { label: "Contact / Networks", name: contact, widget: string }
+                  - { label: "Language button", name: langSwitcher, widget: string }
+              - label: "Sections"
+                name: sections
+                widget: object
+                fields:
+                  - { label: "Discography label", name: discographyLabel, widget: string }
+                  - { label: "Discography title", name: discographyTitle, widget: string }
+                  - { label: "Social label", name: socialLabel, widget: string }
+                  - { label: "Social title", name: socialTitle, widget: string }
+                  - { label: "Social description", name: socialDescription, widget: text }
+                  - { label: "About label", name: aboutLabel, widget: string }
+                  - { label: "About title", name: aboutTitle, widget: string }
+              - label: "Biography"
+                name: bio
+                widget: object
+                fields:
+                  - { label: "Intro (HTML allowed)", name: intro, widget: text }
+                  - { label: "Tagline", name: tagline, widget: text }
+                  - { label: "Hero subtitle", name: heroSubtitle, widget: string }
+                  - { label: "Hero origin (HTML allowed)", name: heroOrigin, widget: string }
+              - label: "Call to action"
+                name: cta
+                widget: object
+                fields:
+                  - { label: "Learn more", name: learnMore, widget: string }
+                  - { label: "New badge", name: newBadge, widget: string }
+              - label: "Footer"
+                name: footer
+                widget: object
+                fields:
+                  - { label: "Rights", name: rights, widget: string }
+                  - { label: "Location", name: location, widget: string }
+
+  # ─── RÉSEAUX SOCIAUX ────────────────────────────────────────────────
+  - name: social
+    label: "Réseaux sociaux"
+    icon: share
+    files:
+      - name: social
+        label: "Liens des réseaux"
+        file: "data/social.json"
+        fields:
+          - { label: "Spotify", name: spotify, widget: string }
+          - { label: "Apple Music", name: appleMusic, widget: string }
+          - { label: "Instagram", name: instagram, widget: string }
+          - { label: "YouTube", name: youtube, widget: string }
+          - { label: "TikTok", name: tiktok, widget: string }
+
+  # ─── CONFIGURATION GLOBALE ──────────────────────────────────────────
+  - name: config
+    label: "Configuration"
+    icon: settings
+    files:
+      - name: config
+        label: "Paramètres du site"
+        file: "data/config.json"
+        fields:
+          - { label: "Nom du site", name: siteName, widget: string }
+          - { label: "Nom court", name: siteNameShort, widget: string }
+          - { label: "Domaine", name: domain, widget: string }
+          - label: "Copyright"
+            name: copyright
+            widget: object
+            fields:
+              - { label: "Année", name: year, widget: number, value_type: int }
+              - { label: "Détenteur", name: holder, widget: string }
+          - { label: "Langue par défaut", name: defaultLanguage, widget: string }
+          - label: "Langues disponibles"
+            name: availableLanguages
+            widget: list
+            field: { label: "Code langue", name: lang, widget: string }

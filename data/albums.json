@@ -1,9 +1,10 @@
-[{
+{
+    "albums": [{
         "id": "hector",
         "title": "Hector",
         "year": 2026,
         "type": "Album",
-        "coverImage": "../assets/img/Hector.jpg",
+        "coverImage": "/assets/img/Hector.jpg",
         "coverAlt": {
             "en": "Hector – cover",
             "fr": "Hector – cover"
@@ -18,7 +19,7 @@
         "title": "Gaufre, spaghetti",
         "year": 2026,
         "type": "Single",
-        "coverImage": "../assets/img/gaufre_spaghetti.jpg",
+        "coverImage": "/assets/img/gaufre_spaghetti.jpg",
         "coverAlt": {
             "en": "Gaufre, spaghetti – cover",
             "fr": "Gaufre, spaghetti – cover"
@@ -33,7 +34,7 @@
         "title": "Avec Politesse",
         "year": 2026,
         "type": "Single",
-        "coverImage": "../assets/img/Avec_Politesse.jpg",
+        "coverImage": "/assets/img/Avec_Politesse.jpg",
         "coverAlt": {
             "en": "Avec Politesse – cover",
             "fr": "Avec Politesse – cover"
@@ -48,7 +49,7 @@
         "title": "Éric Duhaime",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/Eric_Duhaime.jpg",
+        "coverImage": "/assets/img/Eric_Duhaime.jpg",
         "coverAlt": {
             "en": "Éric Duhaime – cover",
             "fr": "Éric Duhaime – cover"
@@ -63,7 +64,7 @@
         "title": "Miss Steak",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/Miss_Steak.jpg",
+        "coverImage": "/assets/img/Miss_Steak.jpg",
         "coverAlt": {
             "en": "Miss Steak – cover",
             "fr": "Miss Steak – cover"
@@ -78,7 +79,7 @@
         "title": "Guy A. Lepage",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/guy_a.jpg",
+        "coverImage": "/assets/img/guy_a.jpg",
         "coverAlt": {
             "en": "Guy A. Lepage – cover",
             "fr": "Guy A. Lepage – cover"
@@ -93,7 +94,7 @@
         "title": "Bonne fontaine",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/bonne_fontaine.jpg",
+        "coverImage": "/assets/img/bonne_fontaine.jpg",
         "coverAlt": {
             "en": "Bonne fontaine – cover",
             "fr": "Bonne fontaine – cover"
@@ -108,7 +109,7 @@
         "title": "Spin le block en hoverboard",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/spin_le_block_en_hoverboard.jpg",
+        "coverImage": "/assets/img/spin_le_block_en_hoverboard.jpg",
         "coverAlt": {
             "en": "Spin le block en hoverboard – cover",
             "fr": "Spin le block en hoverboard – cover"
@@ -123,7 +124,7 @@
         "title": "Gino Chouinard",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/gino_chouinard.jpg",
+        "coverImage": "/assets/img/gino_chouinard.jpg",
         "coverAlt": {
             "en": "Gino Chouinard – cover",
             "fr": "Gino Chouinard – cover"
@@ -138,7 +139,7 @@
         "title": "Barbies Resto Bar Grillz",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/Barbies_Bar_Grillz.jpg",
+        "coverImage": "/assets/img/Barbies_Bar_Grillz.jpg",
         "coverAlt": {
             "en": "Barbies Resto Bar Grillz – cover",
             "fr": "Barbies Resto Bar Grillz – cover"
@@ -153,7 +154,7 @@
         "title": "Manon Massé",
         "year": 2025,
         "type": "Single",
-        "coverImage": "../assets/img/Manon_Masse.jpg",
+        "coverImage": "/assets/img/Manon_Masse.jpg",
         "coverAlt": {
             "en": "Manon Massé – cover",
             "fr": "Manon Massé – cover"
@@ -162,5 +163,5 @@
         "geniusUrl": "search.html#song=manon-masse",
         "isNew": false,
         "order": 11
-    }
-]
+    }]
+}
