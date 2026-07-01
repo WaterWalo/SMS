@@ -168,8 +168,13 @@ collections:
             fields:
               - { label: "ID (slug)", name: id, widget: string, hint: "Doit correspondre à l'ID de l'album lié." }
               - { label: "Titre", name: title, widget: string }
+              - { label: "Artiste", name: artist, widget: string, required: false, default: "SMS" }
+              - { label: "Album", name: album, widget: string, required: false }
               - { label: "ID de l'album lié", name: albumId, widget: string }
-              - { label: "Année", name: year, widget: number, value_type: int }
+              - { label: "Année", name: year, widget: number, value_type: int, required: false }
+              - { label: "Durée (secondes)", name: duration, widget: number, value_type: int, required: false }
+              - { label: "Lien Spotify", name: spotifyUrl, widget: string, required: false }
+              - { label: "Dernière synchro (technique — ne pas modifier)", name: lastSync, widget: string, required: false }
               - label: "Paroles (une ligne = un item)"
                 name: lyrics
                 widget: list
