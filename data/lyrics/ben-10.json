@@ -1,477 +1,477 @@
 {
-    "id": "ben-10",
-    "title": "Ben 10",
-    "artist": "SMS",
-    "album": "Hector",
-    "albumId": "hector",
-    "year": 2026,
-    "duration": null,
-    "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
-    "lastSync": "2026-06-18",
-    "lyrics": [
-        {
-            "line": 1,
-            "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros pork"
-        },
-        {
-            "line": 2,
-            "text": "Big bands sur mes deux mains, j'suis un homard"
-        },
-        {
-            "line": 3,
-            "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
-        },
-        {
-            "line": 4,
-            "text": "Big Ben shit grosse horloge sur une grosse montre"
-        },
-        {
-            "line": 5,
-            "text": "Mon bras y'est tellement lourd c'est une aberration"
-        },
-        {
-            "line": 6,
-            "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
-        },
-        {
-            "line": 7,
-            "text": "Figure de style dans mes textes"
-        },
-        {
-            "line": 8,
-            "text": "Virgules dans mes checks"
-        },
-        {
-            "line": 9,
-            "text": "Ils m'étudient dans les cégeps pour ma rédaction"
-        },
-        {
-            "line": 10,
-            "text": "Au club de rodéo j'ai gagné un prix d'participation"
-        },
-        {
-            "line": 11,
-            "text": "Au club videotron j'ai starté une violente manifestation"
-        },
-        {
-            "line": 12,
-            "text": "Au club des fucking cool j'subissait d'l'intimidation"
-        },
-        {
-            "line": 13,
-            "text": "Au club des fucking poules j'm'occupait d'l'incubation"
-        },
-        {
-            "line": 14,
-            "text": "J'ai gagné l'championnat d'la plus grosse golden shower"
-        },
-        {
-            "line": 15,
-            "text": "Ma blonde doit vendre du shampoing elle m'donne du head and Shoulder?"
-        },
-        {
-            "line": 16,
-            "text": "J'vais t'boucher un coin avec des falafels aux p'tits oeufs"
-        },
-        {
-            "line": 17,
-            "text": "J'aime ça jouer des tours, j'suis un farfadet malicieux"
-        },
-        {
-            "line": 18,
-            "text": "J'ai mangé la cuillère bionique, c't'un appareil délicieux"
-        },
-        {
-            "line": 19,
-            "text": "Mes godasses y s'detachent tout seul j'ai des lacets très vieux"
-        },
-        {
-            "line": 20,
-            "text": "Y'a plein d'ornithorynques dans le lac, c'est un marais périlleux"
-        },
-        {
-            "line": 21,
-            "text": "J'ai fait une guerre de fort, j'ai mangé 33 pelles din yeux"
-        },
-        {
-            "line": 22,
-            "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc"
-        },
-        {
-            "line": 23,
-            "text": "Big bands sur mes deux mains, j'suis un homard"
-        },
-        {
-            "line": 24,
-            "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
-        },
-        {
-            "line": 25,
-            "text": "Big Ben shit grosse horloge sur une grosse montre"
-        },
-        {
-            "line": 26,
-            "text": "Mon bras y'est tellement lourd c'est une aberration"
-        },
-        {
-            "line": 27,
-            "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
-        },
-        {
-            "line": 28,
-            "text": "Figure de style dans mes textes"
-        },
-        {
-            "line": 29,
-            "text": "Virgules dans mes checks"
-        },
-        {
-            "line": 30,
-            "text": "Ils m'étudient dans les cégeps pour ma rédaction"
-        },
-        {
-            "line": 31,
-            "text": "J'ai mangé au buffet des continents, j'ai vomi dans l'assiette"
-        },
-        {
-            "line": 32,
-            "text": "J'ai vu un furet incontinent, j'ai vomi dans ma veste"
-        },
-        {
-            "line": 33,
-            "text": "J'ai vu un furry pas très confiant, il s'cachait dans sa laine"
-        },
-        {
-            "line": 34,
-            "text": "J'ai vu Nick Fury dans mon bain il m'recrute dans Marvel"
-        },
-        {
-            "line": 35,
-            "text": "J'suis devenu un super hero j'm'appelle SuperPouvoir"
-        },
-        {
-            "line": 36,
-            "text": "J'arrête pas d'pleurer j'ai besoin d'un SuperMouchoir"
-        },
-        {
-            "line": 37,
-            "text": "J'arrête pas d'marcher c'est long j'pense c'est un super couloir"
-        },
-        {
-            "line": 38,
-            "text": "J'me suis viandé su'l béton j'm'appelle super trottoir"
-        },
-        {
-            "line": 39,
-            "text": "J'ai avalé mon waxpen, j'l'ai dans l'fond d'la trachée-"
-        },
-        {
-            "line": 40,
-            "text": "J'pense c'est bon j'viens d'le cracher"
-        },
-        {
-            "line": 41,
-            "text": "Anthony y'est masochiste, j'viens d'le frapper"
-        },
-        {
-            "line": 42,
-            "text": "J'mangerai pas mes lentilles si j'ai pas mon fruité"
-        },
-        {
-            "line": 43,
-            "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc"
-        },
-        {
-            "line": 44,
-            "text": "Big bands sur mes deux mains, j'suis un homard"
-        },
-        {
-            "line": 45,
-            "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
-        },
-        {
-            "line": 46,
-            "text": "Big Ben shit grosse horloge sur une grosse montre"
-        },
-        {
-            "line": 47,
-            "text": "Mon bras y'est tellement lourd c'est une aberration"
-        },
-        {
-            "line": 48,
-            "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
-        },
-        {
-            "line": 49,
-            "text": "Figure de style dans mes textes"
-        },
-        {
-            "line": 50,
-            "text": "Virgules dans mes checks"
-        },
-        {
-            "line": 51,
-            "text": "Ils m'étudient dans les cégeps pour ma rédaction"
-        }
-    ],
-    "references": [
-        {
-            "id": "ref-b10-1",
-            "lineNumbers": [
-                1,
-                22,
-                43
-            ],
-            "excerpt": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc",
-            "explanation": "L'expression « manger le beat » (ou « ate the beat ») est une expression d'argot Internet en anglais. Elle signifie qu'un danseur, un rappeur ou un artiste a synchronisé sa performance de manière absolument parfaite avec le rythme de la musique.",
-            "keywords": [
-                "manger le beat",
-                "ate the beat",
-                "slang",
-                "rap",
-                "performance",
-                "musique"
-            ]
-        },
-        {
-            "id": "ref-b10-2",
-            "lineNumbers": [
-                2,
-                23,
-                44
-            ],
-            "excerpt": "Big bands sur mes deux mains, j'suis un homard",
-            "explanation": "En slang, « bands » signifie de grosses sommes d'argent, plus précisément des liasses de billets de banque. Le terme vient des bandes élastiques ou en papier que les banques utilisent pour attacher les liasses de billets. Les pêcheurs installent des élastiques sur les pinces des homards par raison de sécurité. La ligne fait donc une allusion au fait d'avoir de l'argent (bands) et aux élastiques présents sur les pinces de homard.",
-            "keywords": [
-                "bands",
-                "argent",
-                "homard",
-                "élastiques",
-                "slang",
-                "liasses"
-            ]
-        },
-        {
-            "id": "ref-b10-3",
-            "lineNumbers": [
-                3,
-                24,
-                45
-            ],
-            "excerpt": "Ben 10 shit sur le wrist, ça vient d'un autre monde",
-            "explanation": "Ben 10 est une célèbre franchise de séries d'animation américaines diffusée sur la chaîne Cartoon Network. Dans la série, le héros utilise une grosse montre (l'Omnitrix) pour se transformer en divers aliens.",
-            "keywords": [
-                "Ben 10",
-                "Cartoon Network",
-                "Omnitrix",
-                "montre",
-                "aliens",
-                "transformation"
-            ]
-        },
-        {
-            "id": "ref-b10-4",
-            "lineNumbers": [
-                4,
-                25,
-                46
-            ],
-            "excerpt": "Big Ben shit grosse horloge sur une grosse montre",
-            "explanation": "Big Ben est le surnom mondialement connu de la grande cloche de la tour horloge du Palais de Westminster, le siège du Parlement britannique à Londres. Le dude flex sa fucking grosse montre.",
-            "keywords": [
-                "Big Ben",
-                "horloge",
-                "Londres",
-                "Westminster",
-                "montre",
-                "flex"
-            ]
-        },
-        {
-            "id": "ref-b10-5",
-            "lineNumbers": [
-                6,
-                27,
-                48
-            ],
-            "excerpt": "J'ai pas besoin d'altères j'toujours dans des altercations",
-            "explanation": "Jeu de mot avec altères (équipement de musculation) et altercations (disputes, conflits).",
-            "keywords": [
-                "altères",
-                "altercations",
-                "jeu de mots",
-                "musculation",
-                "conflit"
-            ]
-        },
-        {
-            "id": "ref-b10-6",
-            "lineNumbers": [
-                7,
-                28,
-                49
-            ],
-            "excerpt": "Figure de style dans mes textes",
-            "explanation": "Une figure de style est un procédé d'expression qui s'écarte de l'usage ordinaire de la langue pour rendre un propos plus expressif, imagé ou persuasif. Dans cette ligne, c'est aussi une allusion au style présent dans la poésie incroyable de SMS.",
-            "keywords": [
-                "figure de style",
-                "poésie",
-                "SMS",
-                "littérature",
-                "expression"
-            ]
-        },
-        {
-            "id": "ref-b10-7",
-            "lineNumbers": [
-                8,
-                29,
-                50
-            ],
-            "excerpt": "Virgules dans mes checks",
-            "explanation": "Les virgules sont signes de grosses sommes d'argent dans le monde bancaire.",
-            "keywords": [
-                "virgules",
-                "argent",
-                "chèques",
-                "banque",
-                "grosses sommes"
-            ]
-        },
-        {
-            "id": "ref-b10-8",
-            "lineNumbers": [
-                14
-            ],
-            "excerpt": "J'ai gagné l'championnat d'la plus grosse golden shower",
-            "explanation": "Une « golden shower » (ou douche d'or en français) est une expression urologique et sexuelle qui désigne la pratique de l'urophilie (ou fétichisme de l'urine), consistant à uriner sur son partenaire ou à se faire uriner dessus avec son consentement.",
-            "keywords": [
-                "golden shower",
-                "urophilie",
-                "fétichisme",
-                "sexuel"
-            ]
-        },
-        {
-            "id": "ref-b10-9",
-            "lineNumbers": [
-                15
-            ],
-            "excerpt": "Ma blonde doit vendre du shampoing elle m'donne du head and Shoulder?",
-            "explanation": "Lancée en 1961 par le groupe américain Procter & Gamble, Head and Shoulders est la marque de shampoing antipelliculaire la plus vendue au monde. Traduit littéralement par « Tête et Épaules », ce nom fait référence à la zone touchée par les pellicules (qui tombent de la tête sur les épaules). L'expression « donner du head » (parfois orthographiée give head en anglais) est une expression d'argot sexuel très courante, signifiant de pratiquer le sexe oral (fellation ou cunnilingus) sur son ou sa partenaire. Donc la ligne fait à moitié du sens, ce que le narrateur aperçoit et questionne lui-même.",
-            "keywords": [
-                "Head and Shoulders",
-                "shampoing",
-                "give head",
-                "sexuel",
-                "double sens",
-                "Procter & Gamble"
-            ]
-        },
-        {
-            "id": "ref-b10-10",
-            "lineNumbers": [
-                17
-            ],
-            "excerpt": "J'aime ça jouer des tours, j'suis un farfadet malicieux",
-            "explanation": "Un farfadet malicieux est une créature légendaire issue du folklore français, particulièrement présente dans les croyances de la Vendée, du Poitou et de la Bretagne.",
-            "keywords": [
-                "farfadet",
-                "folklore français",
-                "Vendée",
-                "Poitou",
-                "Bretagne",
-                "créature légendaire"
-            ]
-        },
-        {
-            "id": "ref-b10-11",
-            "lineNumbers": [
-                20
-            ],
-            "excerpt": "Y'a plein d'ornithorynques dans le lac, c'est un marais périlleux",
-            "explanation": "Dans cette ligne, il y a un jeu de mot avec périlleux en référence à Perry l'ornithorynque, qui est un personnage central de la série d'animation à succès Phinéas et Ferb, diffusée sur Disney Channel.",
-            "keywords": [
-                "Perry l'ornithorynque",
-                "Phinéas et Ferb",
-                "Disney Channel",
-                "périlleux",
-                "jeu de mots"
-            ]
-        },
-        {
-            "id": "ref-b10-12",
-            "lineNumbers": [
-                31
-            ],
-            "excerpt": "J'ai mangé au buffet des continents, j'ai vomi dans l'assiette",
-            "explanation": "Le Buffet des Continents est une chaîne de restaurants québécoise très populaire, spécialisée dans les buffets à volonté haut de gamme et de style familial. L'indigestion après un buffet est un problème très courant provoqué par l'absorption d'une grande quantité de nourriture ou de mélanges d'aliments inhabituels sur une courte période.",
-            "keywords": [
-                "Buffet des Continents",
-                "restaurant québécois",
-                "buffet",
-                "indigestion",
-                "à volonté"
-            ]
-        },
-        {
-            "id": "ref-b10-13",
-            "lineNumbers": [
-                33
-            ],
-            "excerpt": "J'ai vu un furry pas très confiant, il s'cachait dans sa laine",
-            "explanation": "L'expression « se cacher dans sa laine » est une image poétique et familière, souvent utilisée au Québec, pour exprimer le besoin de se replier sur soi-même, de se mettre à l'abri du monde ou de chercher le confort et la sécurité. Les furry portent parfois des « fursuits », costumes d'animaux souvent en fourrure ou en laine.",
-            "keywords": [
-                "furry",
-                "fursuit",
-                "se cacher dans sa laine",
-                "Québec",
-                "costume"
-            ]
-        },
-        {
-            "id": "ref-b10-14",
-            "lineNumbers": [
-                34
-            ],
-            "excerpt": "J'ai vu Nick Fury dans mon bain il m'recrute dans Marvel",
-            "explanation": "Nick Fury est un personnage de fiction majeur de l'univers des bandes dessinées Marvel.",
-            "keywords": [
-                "Nick Fury",
-                "Marvel",
-                "bande dessinée",
-                "super-héros"
-            ]
-        },
-        {
-            "id": "ref-b10-15",
-            "lineNumbers": [
-                38
-            ],
-            "excerpt": "J'me suis viandé su'l béton j'm'appelle super trottoir",
-            "explanation": "L'expression « se viander » signifie tomber brutalement, faire une lourde chute ou avoir un accident.",
-            "keywords": [
-                "se viander",
-                "tomber",
-                "chute",
-                "accident",
-                "québécois"
-            ]
-        },
-        {
-            "id": "ref-b10-16",
-            "lineNumbers": [
-                42
-            ],
-            "excerpt": "J'mangerai pas mes lentilles si j'ai pas mon fruité",
-            "explanation": "« Fruité » est l'une des marques de jus de fruits les plus emblématiques et populaires au Québec et au Canada.",
-            "keywords": [
-                "Fruité",
-                "jus",
-                "Québec",
-                "Canada",
-                "marque"
-            ]
-        }
-    ]
+  "id": "ben-10",
+  "title": "Ben 10",
+  "artist": "SMS",
+  "album": "Hector",
+  "albumId": "hector",
+  "year": 2026,
+  "duration": null,
+  "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+  "lastSync": "2026-06-18",
+  "lyrics": [
+    {
+      "line": 1,
+      "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc"
+    },
+    {
+      "line": 2,
+      "text": "Big bands sur mes deux mains, j'suis un homard"
+    },
+    {
+      "line": 3,
+      "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
+    },
+    {
+      "line": 4,
+      "text": "Big Ben shit grosse horloge sur une grosse montre"
+    },
+    {
+      "line": 5,
+      "text": "Mon bras y'est tellement lourd c'est une aberration"
+    },
+    {
+      "line": 6,
+      "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
+    },
+    {
+      "line": 7,
+      "text": "Figure de style dans mes textes"
+    },
+    {
+      "line": 8,
+      "text": "Virgules dans mes checks"
+    },
+    {
+      "line": 9,
+      "text": "Ils m'étudient dans les cégeps pour ma rédaction"
+    },
+    {
+      "line": 10,
+      "text": "Au club de rodéo j'ai gagné un prix d'participation"
+    },
+    {
+      "line": 11,
+      "text": "Au club videotron j'ai starté une violente manifestation"
+    },
+    {
+      "line": 12,
+      "text": "Au club des fucking cool j'subissait d'l'intimidation"
+    },
+    {
+      "line": 13,
+      "text": "Au club des fucking poules j'm'occupait d'l'incubation"
+    },
+    {
+      "line": 14,
+      "text": "J'ai gagné l'championnat d'la plus grosse golden shower"
+    },
+    {
+      "line": 15,
+      "text": "Ma blonde doit vendre du shampoing elle m'donne du head and Shoulder?"
+    },
+    {
+      "line": 16,
+      "text": "J'vais t'boucher un coin avec des falafels aux p'tits oeufs"
+    },
+    {
+      "line": 17,
+      "text": "J'aime ça jouer des tours, j'suis un farfadet malicieux"
+    },
+    {
+      "line": 18,
+      "text": "J'ai mangé la cuillère bionique, c't'un appareil délicieux"
+    },
+    {
+      "line": 19,
+      "text": "Mes godasses y s'detachent tout seul j'ai des lacets très vieux"
+    },
+    {
+      "line": 20,
+      "text": "Y'a plein d'ornithorynques dans le lac, c'est un marais périlleux"
+    },
+    {
+      "line": 21,
+      "text": "J'ai fait une guerre de fort, j'ai mangé 33 pelles din yeux"
+    },
+    {
+      "line": 22,
+      "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc"
+    },
+    {
+      "line": 23,
+      "text": "Big bands sur mes deux mains, j'suis un homard"
+    },
+    {
+      "line": 24,
+      "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
+    },
+    {
+      "line": 25,
+      "text": "Big Ben shit grosse horloge sur une grosse montre"
+    },
+    {
+      "line": 26,
+      "text": "Mon bras y'est tellement lourd c'est une aberration"
+    },
+    {
+      "line": 27,
+      "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
+    },
+    {
+      "line": 28,
+      "text": "Figure de style dans mes textes"
+    },
+    {
+      "line": 29,
+      "text": "Virgules dans mes checks"
+    },
+    {
+      "line": 30,
+      "text": "Ils m'étudient dans les cégeps pour ma rédaction"
+    },
+    {
+      "line": 31,
+      "text": "J'ai mangé au buffet des continents, j'ai vomi dans l'assiette"
+    },
+    {
+      "line": 32,
+      "text": "J'ai vu un furet incontinent, j'ai vomi dans ma veste"
+    },
+    {
+      "line": 33,
+      "text": "J'ai vu un furry pas très confiant, il s'cachait dans sa laine"
+    },
+    {
+      "line": 34,
+      "text": "J'ai vu Nick Fury dans mon bain il m'recrute dans Marvel"
+    },
+    {
+      "line": 35,
+      "text": "J'suis devenu un super hero j'm'appelle SuperPouvoir"
+    },
+    {
+      "line": 36,
+      "text": "J'arrête pas d'pleurer j'ai besoin d'un SuperMouchoir"
+    },
+    {
+      "line": 37,
+      "text": "J'arrête pas d'marcher c'est long j'pense c'est un super couloir"
+    },
+    {
+      "line": 38,
+      "text": "J'me suis viandé su'l béton j'm'appelle super trottoir"
+    },
+    {
+      "line": 39,
+      "text": "J'ai avalé mon waxpen, j'l'ai dans l'fond d'la trachée-"
+    },
+    {
+      "line": 40,
+      "text": "J'pense c'est bon j'viens d'le cracher"
+    },
+    {
+      "line": 41,
+      "text": "Anthony y'est masochiste, j'viens d'le frapper"
+    },
+    {
+      "line": 42,
+      "text": "J'mangerai pas mes lentilles si j'ai pas mon fruité"
+    },
+    {
+      "line": 43,
+      "text": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc"
+    },
+    {
+      "line": 44,
+      "text": "Big bands sur mes deux mains, j'suis un homard"
+    },
+    {
+      "line": 45,
+      "text": "Ben 10 shit sur le wrist, ça vient d'un autre monde"
+    },
+    {
+      "line": 46,
+      "text": "Big Ben shit grosse horloge sur une grosse montre"
+    },
+    {
+      "line": 47,
+      "text": "Mon bras y'est tellement lourd c'est une aberration"
+    },
+    {
+      "line": 48,
+      "text": "J'ai pas besoin d'altères j'toujours dans des altercations"
+    },
+    {
+      "line": 49,
+      "text": "Figure de style dans mes textes"
+    },
+    {
+      "line": 50,
+      "text": "Virgules dans mes checks"
+    },
+    {
+      "line": 51,
+      "text": "Ils m'étudient dans les cégeps pour ma rédaction"
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-b10-1",
+      "lineNumbers": [
+        1,
+        22,
+        43
+      ],
+      "excerpt": "J'ai mangé l'dernier beat j'ai encore faim, j'suis un gros porc",
+      "explanation": "L'expression « manger le beat » (ou « ate the beat ») est une expression d'argot Internet en anglais. Elle signifie qu'un danseur, un rappeur ou un artiste a synchronisé sa performance de manière absolument parfaite avec le rythme de la musique.",
+      "keywords": [
+        "manger le beat",
+        "ate the beat",
+        "slang",
+        "rap",
+        "performance",
+        "musique"
+      ]
+    },
+    {
+      "id": "ref-b10-2",
+      "lineNumbers": [
+        2,
+        23,
+        44
+      ],
+      "excerpt": "Big bands sur mes deux mains, j'suis un homard",
+      "explanation": "En slang, « bands » signifie de grosses sommes d'argent, plus précisément des liasses de billets de banque. Le terme vient des bandes élastiques ou en papier que les banques utilisent pour attacher les liasses de billets. Les pêcheurs installent des élastiques sur les pinces des homards par raison de sécurité. La ligne fait donc une allusion au fait d'avoir de l'argent (bands) et aux élastiques présents sur les pinces de homard.",
+      "keywords": [
+        "bands",
+        "argent",
+        "homard",
+        "élastiques",
+        "slang",
+        "liasses"
+      ]
+    },
+    {
+      "id": "ref-b10-3",
+      "lineNumbers": [
+        3,
+        24,
+        45
+      ],
+      "excerpt": "Ben 10 shit sur le wrist, ça vient d'un autre monde",
+      "explanation": "Ben 10 est une célèbre franchise de séries d'animation américaines diffusée sur la chaîne Cartoon Network. Dans la série, le héros utilise une grosse montre (l'Omnitrix) pour se transformer en divers aliens.",
+      "keywords": [
+        "Ben 10",
+        "Cartoon Network",
+        "Omnitrix",
+        "montre",
+        "aliens",
+        "transformation"
+      ]
+    },
+    {
+      "id": "ref-b10-4",
+      "lineNumbers": [
+        4,
+        25,
+        46
+      ],
+      "excerpt": "Big Ben shit grosse horloge sur une grosse montre",
+      "explanation": "Big Ben est le surnom mondialement connu de la grande cloche de la tour horloge du Palais de Westminster, le siège du Parlement britannique à Londres. Le dude flex sa fucking grosse montre.",
+      "keywords": [
+        "Big Ben",
+        "horloge",
+        "Londres",
+        "Westminster",
+        "montre",
+        "flex"
+      ]
+    },
+    {
+      "id": "ref-b10-5",
+      "lineNumbers": [
+        6,
+        27,
+        48
+      ],
+      "excerpt": "J'ai pas besoin d'altères j'toujours dans des altercations",
+      "explanation": "Jeu de mot avec altères (équipement de musculation) et altercations (disputes, conflits).",
+      "keywords": [
+        "altères",
+        "altercations",
+        "jeu de mots",
+        "musculation",
+        "conflit"
+      ]
+    },
+    {
+      "id": "ref-b10-6",
+      "lineNumbers": [
+        7,
+        28,
+        49
+      ],
+      "excerpt": "Figure de style dans mes textes",
+      "explanation": "Une figure de style est un procédé d'expression qui s'écarte de l'usage ordinaire de la langue pour rendre un propos plus expressif, imagé ou persuasif. Dans cette ligne, c'est aussi une allusion au style présent dans la poésie incroyable de SMS.",
+      "keywords": [
+        "figure de style",
+        "poésie",
+        "SMS",
+        "littérature",
+        "expression"
+      ]
+    },
+    {
+      "id": "ref-b10-7",
+      "lineNumbers": [
+        8,
+        29,
+        50
+      ],
+      "excerpt": "Virgules dans mes checks",
+      "explanation": "Les virgules sont signes de grosses sommes d'argent dans le monde bancaire.",
+      "keywords": [
+        "virgules",
+        "argent",
+        "chèques",
+        "banque",
+        "grosses sommes"
+      ]
+    },
+    {
+      "id": "ref-b10-8",
+      "lineNumbers": [
+        14
+      ],
+      "excerpt": "J'ai gagné l'championnat d'la plus grosse golden shower",
+      "explanation": "Une « golden shower » (ou douche d'or en français) est une expression urologique et sexuelle qui désigne la pratique de l'urophilie (ou fétichisme de l'urine), consistant à uriner sur son partenaire ou à se faire uriner dessus avec son consentement.",
+      "keywords": [
+        "golden shower",
+        "urophilie",
+        "fétichisme",
+        "sexuel"
+      ]
+    },
+    {
+      "id": "ref-b10-9",
+      "lineNumbers": [
+        15
+      ],
+      "excerpt": "Ma blonde doit vendre du shampoing elle m'donne du head and Shoulder?",
+      "explanation": "Lancée en 1961 par le groupe américain Procter & Gamble, Head and Shoulders est la marque de shampoing antipelliculaire la plus vendue au monde. Traduit littéralement par « Tête et Épaules », ce nom fait référence à la zone touchée par les pellicules (qui tombent de la tête sur les épaules). L'expression « donner du head » (parfois orthographiée give head en anglais) est une expression d'argot sexuel très courante, signifiant de pratiquer le sexe oral (fellation ou cunnilingus) sur son ou sa partenaire. Donc la ligne fait à moitié du sens, ce que le narrateur aperçoit et questionne lui-même.",
+      "keywords": [
+        "Head and Shoulders",
+        "shampoing",
+        "give head",
+        "sexuel",
+        "double sens",
+        "Procter & Gamble"
+      ]
+    },
+    {
+      "id": "ref-b10-10",
+      "lineNumbers": [
+        17
+      ],
+      "excerpt": "J'aime ça jouer des tours, j'suis un farfadet malicieux",
+      "explanation": "Un farfadet malicieux est une créature légendaire issue du folklore français, particulièrement présente dans les croyances de la Vendée, du Poitou et de la Bretagne.",
+      "keywords": [
+        "farfadet",
+        "folklore français",
+        "Vendée",
+        "Poitou",
+        "Bretagne",
+        "créature légendaire"
+      ]
+    },
+    {
+      "id": "ref-b10-11",
+      "lineNumbers": [
+        20
+      ],
+      "excerpt": "Y'a plein d'ornithorynques dans le lac, c'est un marais périlleux",
+      "explanation": "Dans cette ligne, il y a un jeu de mot avec périlleux en référence à Perry l'ornithorynque, qui est un personnage central de la série d'animation à succès Phinéas et Ferb, diffusée sur Disney Channel.",
+      "keywords": [
+        "Perry l'ornithorynque",
+        "Phinéas et Ferb",
+        "Disney Channel",
+        "périlleux",
+        "jeu de mots"
+      ]
+    },
+    {
+      "id": "ref-b10-12",
+      "lineNumbers": [
+        31
+      ],
+      "excerpt": "J'ai mangé au buffet des continents, j'ai vomi dans l'assiette",
+      "explanation": "Le Buffet des Continents est une chaîne de restaurants québécoise très populaire, spécialisée dans les buffets à volonté haut de gamme et de style familial. L'indigestion après un buffet est un problème très courant provoqué par l'absorption d'une grande quantité de nourriture ou de mélanges d'aliments inhabituels sur une courte période.",
+      "keywords": [
+        "Buffet des Continents",
+        "restaurant québécois",
+        "buffet",
+        "indigestion",
+        "à volonté"
+      ]
+    },
+    {
+      "id": "ref-b10-13",
+      "lineNumbers": [
+        33
+      ],
+      "excerpt": "J'ai vu un furry pas très confiant, il s'cachait dans sa laine",
+      "explanation": "L'expression « se cacher dans sa laine » est une image poétique et familière, souvent utilisée au Québec, pour exprimer le besoin de se replier sur soi-même, de se mettre à l'abri du monde ou de chercher le confort et la sécurité. Les furry portent parfois des « fursuits », costumes d'animaux souvent en fourrure ou en laine.",
+      "keywords": [
+        "furry",
+        "fursuit",
+        "se cacher dans sa laine",
+        "Québec",
+        "costume"
+      ]
+    },
+    {
+      "id": "ref-b10-14",
+      "lineNumbers": [
+        34
+      ],
+      "excerpt": "J'ai vu Nick Fury dans mon bain il m'recrute dans Marvel",
+      "explanation": "Nick Fury est un personnage de fiction majeur de l'univers des bandes dessinées Marvel.",
+      "keywords": [
+        "Nick Fury",
+        "Marvel",
+        "bande dessinée",
+        "super-héros"
+      ]
+    },
+    {
+      "id": "ref-b10-15",
+      "lineNumbers": [
+        38
+      ],
+      "excerpt": "J'me suis viandé su'l béton j'm'appelle super trottoir",
+      "explanation": "L'expression « se viander » signifie tomber brutalement, faire une lourde chute ou avoir un accident.",
+      "keywords": [
+        "se viander",
+        "tomber",
+        "chute",
+        "accident",
+        "québécois"
+      ]
+    },
+    {
+      "id": "ref-b10-16",
+      "lineNumbers": [
+        42
+      ],
+      "excerpt": "J'mangerai pas mes lentilles si j'ai pas mon fruité",
+      "explanation": "« Fruité » est l'une des marques de jus de fruits les plus emblématiques et populaires au Québec et au Canada.",
+      "keywords": [
+        "Fruité",
+        "jus",
+        "Québec",
+        "Canada",
+        "marque"
+      ]
+    }
+  ]
 }
