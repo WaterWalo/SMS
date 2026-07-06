@@ -1220,7 +1220,7 @@ section {
     gap: 0.8rem;
 }
 
-/* Bouton secondaire (outline) pour différencier de « voir plus ». */
+/* Bouton secondaire (outline) pour différencier de « En Savoir plus ». */
 .quote-riddle {
     display: inline-flex;
     align-items: center;
@@ -1241,6 +1241,29 @@ section {
     color: var(--blue-deep);
     border-color: var(--blue-ocean);
     box-shadow: 0 6px 24px rgba(79, 168, 186, 0.25);
+    transform: translateY(-2px);
+}
+
+/* Bouton discret pour piocher une autre citation au hasard. */
+.quote-shuffle {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--blue-deep);
+    padding: 0.7rem 1.4rem;
+    border: 2px dashed var(--blue-pastel);
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    transition: color 0.25s, border-color 0.25s, background 0.25s, transform 0.2s;
+}
+
+.quote-shuffle:hover {
+    border-color: var(--blue-ocean);
+    background: rgba(79, 168, 186, 0.08);
     transform: translateY(-2px);
 }
 

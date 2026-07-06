@@ -253,7 +253,7 @@ function renderFooter(socialLinks) {
 /**
  * RENDER QUOTE OF THE DAY
  * Affiche une punchline référencée + le début de son explication, avec un lien
- * « voir plus » qui ouvre la référence dans le viewer Génie (search.html).
+ * « En Savoir plus » qui ouvre la référence dans le viewer Génie (search.html).
  * La citation change chaque jour à minuit heure locale, de façon déterministe
  * (même citation pour tous les visiteurs un jour donné), en rotation sur toutes
  * les références du site.
@@ -273,8 +273,20 @@ function renderQuoteOfDay(quotesData) {
     const d = new Date();
     const jour = Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000)
         + d.getFullYear() * 366;
-    const quote = quotes[jour % quotes.length];
 
+    // Pool de chansons distinctes (songId → titre) pour les choix de la devinette.
+    const songPool = Array.from(
+        new Map(quotes.map(q => [q.songId, q.songTitle])).entries()
+    ).map(([songId, songTitle]) => ({ songId, songTitle }));
+
+    renderQuoteCard(card, quotes[jour % quotes.length], quotes, songPool);
+}
+
+/**
+ * Affiche une citation donnée dans la carte, et branche les actions
+ * (devinette + tirage d'une autre citation au hasard).
+ */
+function renderQuoteCard(card, quote, quotes, songPool) {
     // Début de l'explication : première phrase ou ~160 caractères, + « … ».
     const MAX = 160;
     let snippet = String(quote.explanation).trim();
@@ -300,8 +312,9 @@ function renderQuoteOfDay(quotesData) {
         <div class="quote-body">
             <p class="quote-snippet"></p>
             <div class="quote-actions">
-                <a class="quote-more" href="${href}">voir plus →</a>
+                <a class="quote-more" href="${href}">En Savoir plus</a>
                 <button class="quote-riddle" type="button">Devinette</button>
+                <button class="quote-shuffle" type="button" title="Une autre citation">Autre citation</button>
             </div>
         </div>
     `;
@@ -309,13 +322,19 @@ function renderQuoteOfDay(quotesData) {
     card.querySelector('.quote-snippet').textContent = truncated ? snippet + ' …' : snippet;
     card.querySelector('.quote-more').setAttribute('aria-label', `Voir la référence « ${quote.excerpt} » sur Génie`);
 
-    // Pool de chansons distinctes (songId → titre) pour les choix de la devinette.
-    const songPool = Array.from(
-        new Map(quotes.map(q => [q.songId, q.songTitle])).entries()
-    ).map(([songId, songTitle]) => ({ songId, songTitle }));
-
     card.querySelector('.quote-riddle').addEventListener('click', e => {
         openRiddle(quote, songPool, e.currentTarget);
+    });
+
+    card.querySelector('.quote-shuffle').addEventListener('click', () => {
+        // Tire une autre citation que celle affichée (si le pool le permet).
+        let next = quote;
+        if (quotes.length > 1) {
+            do {
+                next = quotes[Math.floor(Math.random() * quotes.length)];
+            } while (next === quote);
+        }
+        renderQuoteCard(card, next, quotes, songPool);
     });
 
     // Déclencher l'animation reveal comme pour les albums.
