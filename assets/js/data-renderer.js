@@ -30,6 +30,7 @@
         initLogoEasterEgg(lang); // Easter egg: Ctrl+Click logo to access search
         renderSocialDock(social);
         renderSocialLinks(social);
+        renderFooter(social);
         renderQuoteOfDay(quotesData);
         renderAlbums(albums, lang, currentContent.cta.newBadge);
         updateContent(currentContent, config);
@@ -178,11 +179,8 @@ function renderSocialDock(socialLinks) {
  * RENDER SOCIAL LINKS
  * Generates the social media section links (all 4 platforms)
  */
-function renderSocialLinks(socialLinks) {
-    const socialLinksContainer = document.querySelector('.social-links');
-    if (!socialLinksContainer) return;
-
-    const platforms = [
+function buildSocialPlatforms(socialLinks) {
+    return [
         {
             name: 'Spotify',
             url: socialLinks.spotify,
@@ -219,11 +217,35 @@ function renderSocialLinks(socialLinks) {
             </svg>`
         }
     ];
+}
+
+function renderSocialLinks(socialLinks) {
+    const socialLinksContainer = document.querySelector('.social-links');
+    if (!socialLinksContainer) return;
+
+    const platforms = buildSocialPlatforms(socialLinks);
 
     socialLinksContainer.innerHTML = platforms.map(platform => `
         <a class="social-link" href="${platform.url}" target="_blank" rel="noopener">
             ${platform.icon}
             ${platform.name}
+        </a>
+    `).join('');
+}
+
+/**
+ * RENDER FOOTER SOCIAL
+ * Generates the compact, icon-only social row in the footer
+ */
+function renderFooter(socialLinks) {
+    const footerSocial = document.querySelector('.footer-social');
+    if (!footerSocial) return;
+
+    const platforms = buildSocialPlatforms(socialLinks);
+
+    footerSocial.innerHTML = platforms.map(platform => `
+        <a href="${platform.url}" target="_blank" rel="noopener" aria-label="${platform.name}" title="${platform.name}">
+            ${platform.icon}
         </a>
     `).join('');
 }

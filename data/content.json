@@ -30,7 +30,9 @@
         },
         "footer": {
             "rights": "All rights reserved",
-            "location": "Quebec City, QC"
+            "location": "Quebec City, QC",
+            "explore": "Explore",
+            "followUs": "Follow us"
         }
     },
     "fr": {
@@ -64,7 +66,9 @@
         },
         "footer": {
             "rights": "Tous droits réservés",
-            "location": "Ville de Québec, QC"
+            "location": "",
+            "explore": "Explorer",
+            "followUs": "Suivez-nous"
         }
     }
 }
