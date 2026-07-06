@@ -12,6 +12,12 @@
             basePath + 'content.json',
             basePath + 'config.json'
         );
+
+        // quotes.json chargé à part : une absence/erreur ne doit désactiver
+        // que la « Quote of the Day », pas casser le reste de la page.
+        const quotesData = await fetch(basePath + 'quotes.json')
+            .then(r => (r.ok ? r.json() : null))
+            .catch(() => null);
         const albums = albumsData.albums;
 
         // Get language from window.siteConfig (set by language-manager.js)
@@ -24,6 +30,7 @@
         initLogoEasterEgg(lang); // Easter egg: Ctrl+Click logo to access search
         renderSocialDock(social);
         renderSocialLinks(social);
+        renderQuoteOfDay(quotesData);
         renderAlbums(albums, lang, currentContent.cta.newBadge);
         updateContent(currentContent, config);
 
@@ -220,6 +227,200 @@ function renderSocialLinks(socialLinks) {
         </a>
     `).join('');
 }
+
+/**
+ * RENDER QUOTE OF THE DAY
+ * Affiche une punchline référencée + le début de son explication, avec un lien
+ * « voir plus » qui ouvre la référence dans le viewer Génie (search.html).
+ * La citation change chaque jour à minuit heure locale, de façon déterministe
+ * (même citation pour tous les visiteurs un jour donné), en rotation sur toutes
+ * les références du site.
+ */
+function renderQuoteOfDay(quotesData) {
+    const section = document.getElementById('quote-of-day');
+    const card = section && section.querySelector('.quote-card');
+    if (!card) return;
+
+    const quotes = quotesData && Array.isArray(quotesData.quotes) ? quotesData.quotes : [];
+    if (quotes.length === 0) {
+        section.style.display = 'none';
+        return;
+    }
+
+    // Numéro de jour local (change à minuit dans le fuseau du visiteur).
+    const d = new Date();
+    const jour = Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000)
+        + d.getFullYear() * 366;
+    const quote = quotes[jour % quotes.length];
+
+    // Début de l'explication : première phrase ou ~160 caractères, + « … ».
+    const MAX = 160;
+    let snippet = String(quote.explanation).trim();
+    let truncated = false;
+    const firstStop = snippet.search(/[.!?](\s|$)/);
+    if (firstStop !== -1 && firstStop + 1 <= MAX) {
+        snippet = snippet.slice(0, firstStop + 1);
+    } else if (snippet.length > MAX) {
+        snippet = snippet.slice(0, MAX).replace(/\s+\S*$/, '');
+        truncated = true;
+    }
+
+    const href = `search.html#song=${encodeURIComponent(quote.songId)}&ref=${encodeURIComponent(quote.refId)}`;
+
+    // Structure statique via innerHTML ; textes dynamiques injectés en textContent
+    // pour éviter toute injection si une explication contient des caractères spéciaux.
+    card.innerHTML = `
+        <div class="quote-feature">
+            <span class="quote-badge"><em>Génie</em><span class="dot">.</span></span>
+            <blockquote class="quote-excerpt"></blockquote>
+            <span class="quote-deco" aria-hidden="true">«</span>
+        </div>
+        <div class="quote-body">
+            <p class="quote-snippet"></p>
+            <div class="quote-actions">
+                <a class="quote-more" href="${href}">voir plus →</a>
+                <button class="quote-riddle" type="button">Devinette</button>
+            </div>
+        </div>
+    `;
+    card.querySelector('.quote-excerpt').textContent = `« ${quote.excerpt} »`;
+    card.querySelector('.quote-snippet').textContent = truncated ? snippet + ' …' : snippet;
+    card.querySelector('.quote-more').setAttribute('aria-label', `Voir la référence « ${quote.excerpt} » sur Génie`);
+
+    // Pool de chansons distinctes (songId → titre) pour les choix de la devinette.
+    const songPool = Array.from(
+        new Map(quotes.map(q => [q.songId, q.songTitle])).entries()
+    ).map(([songId, songTitle]) => ({ songId, songTitle }));
+
+    card.querySelector('.quote-riddle').addEventListener('click', e => {
+        openRiddle(quote, songPool, e.currentTarget);
+    });
+
+    // Déclencher l'animation reveal comme pour les albums.
+    setTimeout(() => {
+        window.SMSUtils.createRevealObserver([card], el => el.classList.add('visible'));
+    }, 10);
+}
+
+/**
+ * RIDDLE MODAL — « De quelle chanson provient ce bar ? »
+ * Mini-jeu à choix multiple : le bon titre + 3 distracteurs. Modal légère et
+ * accessible (fermeture ✕ / backdrop / Échap, focus géré, focus-trap léger).
+ */
+function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+function openRiddle(quote, songPool, triggerEl) {
+    const modal = document.getElementById('riddle-modal');
+    if (!modal) return;
+
+    const excerptEl = modal.querySelector('.riddle-excerpt');
+    const optionsEl = modal.querySelector('.riddle-options');
+    const feedbackEl = modal.querySelector('.riddle-feedback');
+    const moreEl = modal.querySelector('.riddle-more');
+
+    // Réinitialiser l'état.
+    excerptEl.textContent = `« ${quote.excerpt} »`;
+    feedbackEl.textContent = '';
+    feedbackEl.className = 'riddle-feedback';
+    moreEl.hidden = true;
+    optionsEl.innerHTML = '';
+
+    // Choix : bonne réponse + 3 distracteurs (chansons distinctes) mélangés.
+    const distractors = shuffle(songPool.filter(s => s.songId !== quote.songId)).slice(0, 3);
+    const choices = shuffle([{ songId: quote.songId, songTitle: quote.songTitle }, ...distractors]);
+
+    const href = `search.html#song=${encodeURIComponent(quote.songId)}&ref=${encodeURIComponent(quote.refId)}`;
+
+    choices.forEach(choice => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'riddle-option';
+        btn.textContent = choice.songTitle;
+        btn.dataset.songId = choice.songId;
+        btn.addEventListener('click', () => answerRiddle(btn, quote, optionsEl, feedbackEl, moreEl, href));
+        optionsEl.appendChild(btn);
+    });
+
+    // Ouvrir.
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    lastRiddleTrigger = triggerEl || null;
+
+    const firstOption = optionsEl.querySelector('.riddle-option');
+    if (firstOption) firstOption.focus();
+
+    document.addEventListener('keydown', onRiddleKeydown);
+}
+
+function answerRiddle(btn, quote, optionsEl, feedbackEl, moreEl, href) {
+    const chosenId = btn.dataset.songId;
+    const correct = chosenId === quote.songId;
+
+    optionsEl.querySelectorAll('.riddle-option').forEach(opt => {
+        opt.disabled = true;
+        if (opt.dataset.songId === quote.songId) opt.classList.add('is-correct');
+    });
+    if (!correct) btn.classList.add('is-wrong');
+
+    feedbackEl.textContent = correct
+        ? `Bien joué ! Ce bar vient bien de « ${quote.songTitle} ».`
+        : `Raté ! Ce bar vient de « ${quote.songTitle} ».`;
+    feedbackEl.classList.add(correct ? 'is-correct' : 'is-wrong');
+
+    moreEl.href = href;
+    moreEl.hidden = false;
+}
+
+function closeRiddle() {
+    const modal = document.getElementById('riddle-modal');
+    if (!modal) return;
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', onRiddleKeydown);
+    if (lastRiddleTrigger && typeof lastRiddleTrigger.focus === 'function') {
+        lastRiddleTrigger.focus();
+    }
+    lastRiddleTrigger = null;
+}
+
+let lastRiddleTrigger = null;
+
+function onRiddleKeydown(e) {
+    if (e.key === 'Escape') {
+        closeRiddle();
+        return;
+    }
+    if (e.key !== 'Tab') return;
+    // Focus-trap léger : garder le focus dans le dialog.
+    const modal = document.getElementById('riddle-modal');
+    const focusables = modal.querySelectorAll(
+        'button:not([disabled]), a[href]:not([hidden])'
+    );
+    if (!focusables.length) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+    }
+}
+
+// Fermeture par ✕ ou clic sur le backdrop (délégation, une seule fois).
+document.addEventListener('click', e => {
+    if (e.target.closest('[data-riddle-close]')) closeRiddle();
+});
 
 /**
  * RENDER ALBUMS

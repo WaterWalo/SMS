@@ -39,7 +39,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=Oswald:wght@300;400;600&family=Raleway:wght@300;400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=Oswald:wght@300;400;600&family=Playfair+Display:ital,wght@0,900;1,700;1,900&family=Raleway:wght@300;400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
 
     <!-- Structured Data (JSON-LD) -->
@@ -114,6 +114,16 @@
 
         <div class="divider"></div>
 
+        <!-- ─── QUOTE OF THE DAY ──────────────────────── -->
+        <section id="quote-of-day">
+            <div class="section-inner">
+                <p class="section-label">La Quote of the Day</p>
+                <div class="quote-card reveal"><!-- rempli par data-renderer.js --></div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
         <!-- ─── ALBUMS ───────────────────────────────── -->
         <section id="albums">
             <div class="section-inner">
@@ -152,6 +162,21 @@
         </footer>
 
     </div><!-- /#main-content -->
+
+    <!-- ─── RIDDLE MODAL (Devinette : deviner la chanson) ──────────── -->
+    <div class="riddle-modal" id="riddle-modal" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-labelledby="riddle-title">
+        <div class="riddle-backdrop" data-riddle-close></div>
+        <div class="riddle-dialog" role="document">
+            <button class="riddle-close" type="button" data-riddle-close aria-label="Fermer">&#x2715;</button>
+            <p class="riddle-eyebrow">Devinette</p>
+            <h3 class="riddle-title" id="riddle-title">De quelle chanson provient ce bar&nbsp;?</h3>
+            <blockquote class="riddle-excerpt"></blockquote>
+            <div class="riddle-options"></div>
+            <p class="riddle-feedback" aria-live="polite"></p>
+            <a class="riddle-more" href="#" hidden>Voir la référence sur Génie →</a>
+        </div>
+    </div>
 
     <script>window.siteConfig = { lang: 'fr' };</script>
     <script src="assets/js/utils.js"></script>

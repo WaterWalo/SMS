@@ -284,6 +284,7 @@ nav.nav--scrolled {
    ───────────────────────────────────────────── */
 section {
     padding: 6rem 2rem;
+    padding-bottom: 1rem;
 }
 
 .section-inner {
@@ -1084,9 +1085,382 @@ section {
 }
 
 /* ─────────────────────────────────────────────
+   QUOTE OF THE DAY
+   ───────────────────────────────────────────── */
+.quote-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+    background: white;
+    border: 2px solid var(--blue-pastel);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.quote-card:hover {
+    border-color: var(--blue-ocean);
+    box-shadow: 0 12px 32px rgba(79, 168, 186, 0.25);
+}
+
+/* ── Panneau vedette (gauche, fond marine) ── */
+.quote-feature {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.4rem 2.4rem 2rem;
+    background: linear-gradient(150deg, #22303f 0%, var(--text-dark) 55%, #10192a 100%);
+}
+
+.quote-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+    padding: 2.4rem 2.4rem 2rem;
+    background: white;
+}
+
+/* Guillemet géant en filigrane, repris du logo « » (façon Playfair) */
+.quote-deco {
+    position: absolute;
+    right: 12px;
+    bottom: -32px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 900;
+    font-size: clamp(140px, 24vw, 220px);
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Logotype « Génie. » repris de la page de recherche (Playfair italique + point teal). */
+.quote-badge {
+    position: relative;
+    z-index: 1;
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: baseline;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.1rem;
+    letter-spacing: -0.025em;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.95);
+    background: rgba(79, 168, 186, 0.12);
+    border: 1px solid rgba(135, 212, 224, 0.5);
+    padding: 0.4rem 0.9rem 0.5rem;
+    border-radius: 999px;
+}
+
+.quote-badge em {
+    font-style: italic;
+}
+
+.quote-badge .dot {
+    font-style: normal;
+    color: var(--blue-ocean);
+}
+
+.quote-excerpt {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    line-height: 1.3;
+    color: white;
+}
+
+.quote-snippet {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    color: var(--text-muted);
+}
+
+.quote-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.7rem 1.4rem;
+    border: 2px solid var(--blue-ocean);
+    border-radius: 10px;
+    background: var(--blue-ocean);
+    box-shadow: 0 4px 14px rgba(79, 168, 186, 0.3);
+    transition: color 0.25s, border-color 0.25s, background 0.25s, box-shadow 0.25s, transform 0.2s;
+}
+
+.quote-more:hover {
+    color: white;
+    background: var(--blue-deep);
+    border-color: var(--blue-deep);
+    box-shadow: 0 6px 24px rgba(79, 168, 186, 0.45);
+    transform: translateY(-2px);
+}
+
+.quote-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 0.8rem;
+}
+
+/* Bouton secondaire (outline) pour différencier de « voir plus ». */
+.quote-riddle {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--blue-deep);
+    padding: 0.7rem 1.4rem;
+    border: 2px solid var(--blue-pastel);
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    transition: color 0.25s, border-color 0.25s, background 0.25s, box-shadow 0.25s, transform 0.2s;
+}
+
+.quote-riddle:hover {
+    color: var(--blue-deep);
+    border-color: var(--blue-ocean);
+    box-shadow: 0 6px 24px rgba(79, 168, 186, 0.25);
+    transform: translateY(-2px);
+}
+
+/* ─────────────────────────────────────────────
+   RIDDLE MODAL (Devinette)
+   ───────────────────────────────────────────── */
+.riddle-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.riddle-modal.is-open {
+    display: flex;
+}
+
+.riddle-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.riddle-dialog {
+    position: relative;
+    width: min(92vw, 480px);
+    max-height: 90vh;
+    overflow-y: auto;
+    background: white;
+    border: 2px solid var(--blue-pastel);
+    border-radius: 12px;
+    box-shadow: 0 24px 64px rgba(26, 35, 50, 0.35);
+    padding: 2.5rem 2rem 2rem;
+    animation: riddle-in 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes riddle-in {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.riddle-close {
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.riddle-close:hover {
+    color: var(--text-dark);
+    background: var(--bg-section);
+}
+
+.riddle-eyebrow {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.62rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--blue-ocean);
+    margin: 0 0 0.4rem;
+}
+
+.riddle-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: clamp(1.15rem, 3vw, 1.5rem);
+    color: var(--text-dark);
+    margin: 0 0 1rem;
+}
+
+.riddle-excerpt {
+    margin: 0 0 1.5rem;
+    padding-left: 1rem;
+    border-left: 4px solid var(--blue-ocean);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    color: var(--text-dark);
+}
+
+.riddle-options {
+    display: grid;
+    gap: 0.7rem;
+}
+
+.riddle-option {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    text-align: left;
+    color: var(--text-dark);
+    padding: 0.9rem 1.2rem;
+    border: 2px solid var(--blue-pastel);
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    transition: color 0.2s, border-color 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+.riddle-option:hover:not(:disabled) {
+    border-color: var(--blue-ocean);
+    box-shadow: 0 4px 16px rgba(79, 168, 186, 0.2);
+}
+
+.riddle-option:disabled {
+    cursor: default;
+}
+
+.riddle-option.is-correct {
+    border-color: #1f9d55;
+    background: #e7f7ee;
+    color: #1f6b3d;
+    font-weight: 600;
+}
+
+.riddle-option.is-wrong {
+    border-color: var(--accent-hot);
+    background: #fdeaf1;
+    color: #b0004b;
+}
+
+.riddle-feedback {
+    min-height: 1.2rem;
+    margin: 1.2rem 0 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.riddle-feedback.is-correct {
+    color: #1f6b3d;
+}
+
+.riddle-feedback.is-wrong {
+    color: #b0004b;
+}
+
+.riddle-more {
+    display: inline-block;
+    margin-top: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--blue-deep);
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border: 2px solid var(--blue-pastel);
+    border-radius: 10px;
+    background: var(--bg-section);
+    transition: color 0.25s, background 0.25s, border-color 0.25s;
+}
+
+.riddle-more:hover {
+    color: white;
+    background: var(--blue-ocean);
+    border-color: var(--blue-ocean);
+}
+
+/* ─────────────────────────────────────────────
    RESPONSIVE
    ───────────────────────────────────────────── */
+/* Tablettes et dessous : la Quote of the Day passe en pile verticale
+   (panneau vedette au-dessus, corps en dessous) car deux colonnes
+   deviennent trop serrées sous ~860px. */
+@media (max-width: 860px) {
+    .quote-card {
+        grid-template-columns: 1fr;
+    }
+
+    /* En pile, le contenu du panneau vedette se regroupe naturellement :
+       plus de « space-between » qui creusait un grand vide. */
+    .quote-feature {
+        justify-content: flex-start;
+        gap: 1.2rem;
+        padding: 2.2rem 2rem;
+    }
+
+    .quote-body {
+        padding: 2.2rem 2rem;
+    }
+
+    .quote-deco {
+        font-size: 150px;
+        right: 10px;
+        bottom: -28px;
+    }
+}
+
 @media (max-width: 680px) {
+    .quote-feature,
+    .quote-body {
+        padding: 2rem 1.6rem;
+    }
+
+    .quote-deco {
+        font-size: 128px;
+        right: 8px;
+        bottom: -24px;
+    }
+
     .album-grid {
         justify-content: center;
     }

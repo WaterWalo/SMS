@@ -28,9 +28,9 @@ jobs:
       - name: Régénérer data/lyrics.json
         run: python tools/build_lyrics.py
 
-      - name: Commit si le combiné a changé
+      - name: Commit si les combinés ont changé
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/lyrics.json
-          git diff --cached --quiet || (git commit -m "chore: rebuild lyrics.json [skip ci]" && git push)
+          git add data/lyrics.json data/quotes.json
+          git diff --cached --quiet || (git commit -m "chore: rebuild lyrics.json + quotes.json [skip ci]" && git push)

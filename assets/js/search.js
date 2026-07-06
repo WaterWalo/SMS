@@ -163,7 +163,7 @@
   }
 
   /* ── ANNOTATION ─────────────────────────────────────────────────── */
-  function showAnnotation(song, refId) {
+  function showAnnotation(song, refId, initial = false) {
     const ref = (song.references || []).find(r => r.id === refId);
     if (!ref) return;
 
@@ -179,6 +179,32 @@
       Lyrics.renderAnnotationDesktop(annotContent, song, ref, refIdx);
       document.querySelector('.page').classList.add('has-annotation');
       annotPanel.scrollTop = 0;
+    }
+
+    scrollToAnnotatedLine(refId, initial);
+  }
+
+  /* Amène la ligne annotée dans la vue (clic ou deep-link #ref=…). */
+  function scrollToAnnotatedLine(refId, initial = false) {
+    const sel = `#lyrics-container .line-ann[data-ref-id="${CSS.escape(refId)}"]`;
+
+    const doScroll = behavior => {
+      const para = document.querySelector(sel)?.closest('p');
+      if (para) para.scrollIntoView({ behavior, block: 'center' });
+    };
+
+    // Tentative animée une fois le layout initial posé (2 rAF).
+    requestAnimationFrame(() => requestAnimationFrame(() => doScroll('smooth')));
+
+    // Sur un deep-link (chargement à froid), les polices web et la pochette se chargent
+    // après coup et décalent la mise en page, ce qui annule / fausse le smooth-scroll.
+    // On recale donc, sans animation, une fois la page chargée puis peu après.
+    if (initial) {
+      const recale = () => requestAnimationFrame(() => doScroll('auto'));
+      if (document.readyState === 'complete') recale();
+      else window.addEventListener('load', recale, { once: true });
+      setTimeout(() => doScroll('auto'), 300);
+      setTimeout(() => doScroll('auto'), 700);
     }
   }
 
@@ -264,9 +290,13 @@
     // Determine initial song:
     // Hash (#song=X) takes absolute priority — hashes survive server redirects unlike query params.
     // Falls back to query param (?song=X), then localStorage, then first song.
-    const hashSong = new URLSearchParams(window.location.hash.slice(1)).get('song');
-    const querySong = new URLSearchParams(window.location.search).get('song');
+    const hashParams = new URLSearchParams(window.location.hash.slice(1));
+    const queryParams = new URLSearchParams(window.location.search);
+    const hashSong = hashParams.get('song');
+    const querySong = queryParams.get('song');
     const paramSong = hashSong || querySong;
+    // Deep-link vers une annotation précise (ex. depuis la « Quote of the Day »).
+    const paramRef = hashParams.get('ref') || queryParams.get('ref');
     const lastSongId = localStorage.getItem('genie-last-song');
     const sorted = [...songsData].sort((a, b) => a.albumOrder - b.albumOrder);
     const initialId = paramSong
@@ -277,6 +307,11 @@
     if (hashSong) history.replaceState({}, '', window.location.pathname + window.location.search);
 
     if (initialId) loadSong(initialId);
+
+    // Ouvrir l'annotation ciblée une fois la chanson chargée.
+    if (paramRef && currentSong && (currentSong.references || []).some(r => r.id === paramRef)) {
+      showAnnotation(currentSong, paramRef, true);
+    }
 
     /* ── Search input events ── */
     const debouncedSearch = Utils.debounce(handleSearch, 300);
