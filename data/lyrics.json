@@ -10665,6 +10665,220 @@
                 }
             ],
             "references": []
+        },
+        {
+            "id": "helen-quelle-heure",
+            "title": "Helen Quelle Heure",
+            "artist": "SMS",
+            "album": "Helen Quelle Heure",
+            "albumId": "helen-quelle-heure",
+            "year": 2026,
+            "duration": "0:00",
+            "spotifyUrl": "https://open.spotify.com/intl-fr/track/2OKLiEIW4hZPaNpb6kMtdL?si=e3dd59d7449e487a",
+            "lastSync": "2026-08-01",
+            "lyrics": [
+                {
+                    "line": 1,
+                    "text": "J't'un gros porc couvert de dough, j'suis un beef wellington"
+                },
+                {
+                    "line": 2,
+                    "text": "Formule magique pour du jambon rapide. Lewis Hamilton"
+                },
+                {
+                    "line": 3,
+                    "text": "Smack des moineaux au volant, j'suis champion de badminton"
+                },
+                {
+                    "line": 4,
+                    "text": "Je hate sur mon voisin d'en haut il ressemble à Yan England"
+                },
+                {
+                    "line": 5,
+                    "text": "J'ai des grosses bottes de pluies, j'ai l'air de Paddington"
+                },
+                {
+                    "line": 6,
+                    "text": "Grosse diversité d'soupes mais y'avait pas d'Lipton"
+                },
+                {
+                    "line": 7,
+                    "text": "Mon cousin y'a plein d'engelures aux doigts y'avait pas d'mitaines"
+                },
+                {
+                    "line": 8,
+                    "text": "J'ai essayé d'ouvrir une clémentine"
+                },
+                {
+                    "line": 9,
+                    "text": "AYOYE MON OEIL"
+                },
+                {
+                    "line": 10,
+                    "text": "Ray Charles avec le sens d'la vue, c'est Gregory Charles"
+                },
+                {
+                    "line": 11,
+                    "text": "Communiste avec de l'autotune c'est Melody Karl"
+                },
+                {
+                    "line": 12,
+                    "text": "Scatophile musicien y'a fait une mélodie d'marde"
+                },
+                {
+                    "line": 13,
+                    "text": "J'déteste les cochons j'en terrorise quatre"
+                },
+                {
+                    "line": 14,
+                    "text": "J'suis l'best pour mesurer des liquides, Erlenmeyer"
+                },
+                {
+                    "line": 15,
+                    "text": "J'ai d'la misère à voir les horloges, Helen Quelle Heure"
+                },
+                {
+                    "line": 16,
+                    "text": "Elle voulait j'joue avec sa G string, Helen Fender"
+                },
+                {
+                    "line": 17,
+                    "text": "J'fais des marathons dans mes cauchemars"
+                },
+                {
+                    "line": 18,
+                    "text": "J'me lève plein d'sueurs"
+                },
+                {
+                    "line": 19,
+                    "text": "Énorme paire de Jorts j'suis Adam Sandler"
+                },
+                {
+                    "line": 20,
+                    "text": "Prof de maths à sorti son 12 pis son 9 madame gangster"
+                },
+                {
+                    "line": 21,
+                    "text": "Mon bro à perdu son logement dans un feu mes condoléances"
+                },
+                {
+                    "line": 22,
+                    "text": "Mon bro à perdu son orteil au travail mes convalescences"
+                },
+                {
+                    "line": 23,
+                    "text": "J'me suis fait électrocuter par un humoriste"
+                },
+                {
+                    "line": 24,
+                    "text": "Philippe Laprise"
+                },
+                {
+                    "line": 25,
+                    "text": "Il m'a crier tellement fort dans bouche"
+                },
+                {
+                    "line": 26,
+                    "text": "Philippe Labrise"
+                },
+                {
+                    "line": 27,
+                    "text": "Il s'est perdu dans l'convoyeur Philippe Valise"
+                },
+                {
+                    "line": 28,
+                    "text": "Il s'est couché sur mon char Philippe Par-brise"
+                },
+                {
+                    "line": 29,
+                    "text": "Osti j'viens d'pelleter mon entrée y'avait genre 40 pouces"
+                },
+                {
+                    "line": 30,
+                    "text": "J'ai passé proche de planter"
+                },
+                {
+                    "line": 31,
+                    "text": "J'ai l'nez qui coule pis j'ai l'cul qui tousse"
+                },
+                {
+                    "line": 32,
+                    "text": "Faut j'mettes mes bottes ma suit pis mon manteau"
+                },
+                {
+                    "line": 33,
+                    "text": "Quand j'vais smoke mon kush"
+                },
+                {
+                    "line": 34,
+                    "text": "J'suis un chevalier pas J'enlèves pas mon armure"
+                },
+                {
+                    "line": 35,
+                    "text": "Faque j'ai saucé ma couche"
+                },
+                {
+                    "line": 36,
+                    "text": "Mon sport préféré quand j'tais p'tit"
+                },
+                {
+                    "line": 37,
+                    "text": "C'tait d'me faire crisser des volley"
+                },
+                {
+                    "line": 38,
+                    "text": "J'suis beef quand les matadors me voient"
+                },
+                {
+                    "line": 39,
+                    "text": "Ils disent HOLAY HOLAY!"
+                },
+                {
+                    "line": 40,
+                    "text": "J'étudie fuck all mais j'ai still eu 100 j'suis un osti d'bollé"
+                },
+                {
+                    "line": 41,
+                    "text": "J'voulais voir Elvis mourrir s'a toilette shout out Austin Butler"
+                },
+                {
+                    "line": 42,
+                    "text": "Ray Charles avec le sens d'la vue, c'est Gregory Charles"
+                },
+                {
+                    "line": 43,
+                    "text": "Communiste avec de l'autotune c'est Melody Karl"
+                },
+                {
+                    "line": 44,
+                    "text": "Scatophile musicien y'a fait une mélodie d'marde"
+                },
+                {
+                    "line": 45,
+                    "text": "J'déteste les cochons j'en terrorise quatre"
+                },
+                {
+                    "line": 46,
+                    "text": "J'suis l'best pour mesurer des liquides, Erlenmeyer"
+                },
+                {
+                    "line": 47,
+                    "text": "J'ai d'la misère à voir les horloges, Helen Quelle Heure"
+                },
+                {
+                    "line": 48,
+                    "text": "Elle voulait j'joue avec sa G string, Helen Fender"
+                },
+                {
+                    "line": 49,
+                    "text": "J'fais des marathons dans mes cauchemars"
+                },
+                {
+                    "line": 50,
+                    "text": "J'me lève plein d'sueurs"
+                }
+            ],
+            "references": []
         }
     ]
 }

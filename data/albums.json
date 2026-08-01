@@ -1,6 +1,21 @@
 {
   "albums": [
     {
+      "id": "helen-quelle-heure",
+      "title": "Helen Quelle Heure",
+      "year": 2026,
+      "type": "Single",
+      "coverImage": "/assets/img/helenquelheure.webp",
+      "coverAlt": {
+        "en": "Helen Quelle Heure – cover",
+        "fr": "Helen Quelle Heure – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/track/2OKLiEIW4hZPaNpb6kMtdL?si=e3dd59d7449e487a",
+      "geniusUrl": "search.html#song=helen-quelle-heure",
+      "isNew": true,
+      "order": 89
+    },
+    {
       "id": "hector",
       "title": "Hector",
       "year": 2026,
@@ -12,7 +27,7 @@
       },
       "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
       "geniusUrl": "search.html#song=ben-10",
-      "isNew": true,
+      "isNew": false,
       "order": 90
     },
     {
