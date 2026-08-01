@@ -1,167 +1,169 @@
 {
-    "albums": [{
-        "id": "hector",
-        "title": "Hector",
-        "year": 2026,
-        "type": "Album",
-        "coverImage": "/assets/img/Hector.jpg",
-        "coverAlt": {
-            "en": "Hector – cover",
-            "fr": "Hector – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
-        "geniusUrl": "search.html#song=ben-10",
-        "isNew": true,
-        "order": 0
+  "albums": [
+    {
+      "id": "hector",
+      "title": "Hector",
+      "year": 2026,
+      "type": "Album",
+      "coverImage": "/assets/img/Hector.jpg",
+      "coverAlt": {
+        "en": "Hector – cover",
+        "fr": "Hector – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO",
+      "geniusUrl": "search.html#song=ben-10",
+      "isNew": true,
+      "order": 90
     },
     {
-        "id": "gaufre-spaghetti",
-        "title": "Gaufre, spaghetti",
-        "year": 2026,
-        "type": "Single",
-        "coverImage": "/assets/img/gaufre_spaghetti.jpg",
-        "coverAlt": {
-            "en": "Gaufre, spaghetti – cover",
-            "fr": "Gaufre, spaghetti – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg",
-        "geniusUrl": "search.html#song=gaufre-spaghetti",
-        "isNew": false,
-        "order": 2
+      "id": "gaufre-spaghetti",
+      "title": "Gaufre, spaghetti",
+      "year": 2026,
+      "type": "Single",
+      "coverImage": "/assets/img/gaufre_spaghetti.jpg",
+      "coverAlt": {
+        "en": "Gaufre, spaghetti – cover",
+        "fr": "Gaufre, spaghetti – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/album/1xEBDepDUAx1mLTuF4I8hG?si=Pn96zkoFR-etsCOvXxrIdg",
+      "geniusUrl": "search.html#song=gaufre-spaghetti",
+      "isNew": false,
+      "order": 91
     },
     {
-        "id": "avec-politesse",
-        "title": "Avec Politesse",
-        "year": 2026,
-        "type": "Single",
-        "coverImage": "/assets/img/Avec_Politesse.jpg",
-        "coverAlt": {
-            "en": "Avec Politesse – cover",
-            "fr": "Avec Politesse – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA",
-        "geniusUrl": "search.html",
-        "isNew": false,
-        "order": 3
+      "id": "avec-politesse",
+      "title": "Avec Politesse",
+      "year": 2026,
+      "type": "Single",
+      "coverImage": "/assets/img/Avec_Politesse.jpg",
+      "coverAlt": {
+        "en": "Avec Politesse – cover",
+        "fr": "Avec Politesse – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/album/5tDlq1pWiJF57mSON5NQpK?si=gPvbelFKTYGo6HRrcFZToA",
+      "geniusUrl": "search.html",
+      "isNew": false,
+      "order": 92
     },
     {
-        "id": "eric-duhaime",
-        "title": "Éric Duhaime",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/Eric_Duhaime.jpg",
-        "coverAlt": {
-            "en": "Éric Duhaime – cover",
-            "fr": "Éric Duhaime – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw",
-        "geniusUrl": "search.html#song=eric-duhaime",
-        "isNew": false,
-        "order": 5
+      "id": "eric-duhaime",
+      "title": "Éric Duhaime",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/Eric_Duhaime.jpg",
+      "coverAlt": {
+        "en": "Éric Duhaime – cover",
+        "fr": "Éric Duhaime – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/album/2OPx5nJKq20wPHY1IMVbgW?si=mD2y943tTYuADwv6oQtHuw",
+      "geniusUrl": "search.html#song=eric-duhaime",
+      "isNew": false,
+      "order": 93
     },
     {
-        "id": "miss-steak",
-        "title": "Miss Steak",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/Miss_Steak.jpg",
-        "coverAlt": {
-            "en": "Miss Steak – cover",
-            "fr": "Miss Steak – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w",
-        "geniusUrl": "search.html#song=miss-steak",
-        "isNew": false,
-        "order": 4
+      "id": "miss-steak",
+      "title": "Miss Steak",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/Miss_Steak.jpg",
+      "coverAlt": {
+        "en": "Miss Steak – cover",
+        "fr": "Miss Steak – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/album/5It8UHobYHBN6DlpniUrOB?si=X1mhhCGpQ66guwsnnQ6l8w",
+      "geniusUrl": "search.html#song=miss-steak",
+      "isNew": false,
+      "order": 94
     },
     {
-        "id": "guy-a-lepage",
-        "title": "Guy A. Lepage",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/guy_a.jpg",
-        "coverAlt": {
-            "en": "Guy A. Lepage – cover",
-            "fr": "Guy A. Lepage – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
-        "geniusUrl": "search.html#song=guy-a-lepage",
-        "isNew": false,
-        "order": 6
+      "id": "guy-a-lepage",
+      "title": "Guy A. Lepage",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/guy_a.jpg",
+      "coverAlt": {
+        "en": "Guy A. Lepage – cover",
+        "fr": "Guy A. Lepage – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+      "geniusUrl": "search.html#song=guy-a-lepage",
+      "isNew": false,
+      "order": 95
     },
     {
-        "id": "bonne-fontaine",
-        "title": "Bonne fontaine",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/bonne_fontaine.jpg",
-        "coverAlt": {
-            "en": "Bonne fontaine – cover",
-            "fr": "Bonne fontaine – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
-        "geniusUrl": "search.html#song=bonne-fontaine",
-        "isNew": false,
-        "order": 10
+      "id": "bonne-fontaine",
+      "title": "Bonne fontaine",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/bonne_fontaine.jpg",
+      "coverAlt": {
+        "en": "Bonne fontaine – cover",
+        "fr": "Bonne fontaine – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+      "geniusUrl": "search.html#song=bonne-fontaine",
+      "isNew": false,
+      "order": 96
     },
     {
-        "id": "spin-le-block-en-hoverboard",
-        "title": "Spin le block en hoverboard",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/spin_le_block_en_hoverboard.jpg",
-        "coverAlt": {
-            "en": "Spin le block en hoverboard – cover",
-            "fr": "Spin le block en hoverboard – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
-        "geniusUrl": "search.html#song=spin-le-block-en-hoverboard",
-        "isNew": false,
-        "order": 9
+      "id": "spin-le-block-en-hoverboard",
+      "title": "Spin le block en hoverboard",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/spin_le_block_en_hoverboard.jpg",
+      "coverAlt": {
+        "en": "Spin le block en hoverboard – cover",
+        "fr": "Spin le block en hoverboard – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+      "geniusUrl": "search.html#song=spin-le-block-en-hoverboard",
+      "isNew": false,
+      "order": 97
     },
     {
-        "id": "gino-chouinard",
-        "title": "Gino Chouinard",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/gino_chouinard.jpg",
-        "coverAlt": {
-            "en": "Gino Chouinard – cover",
-            "fr": "Gino Chouinard – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
-        "geniusUrl": "search.html#song=gino-chouinard",
-        "isNew": false,
-        "order": 8
+      "id": "gino-chouinard",
+      "title": "Gino Chouinard",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/gino_chouinard.jpg",
+      "coverAlt": {
+        "en": "Gino Chouinard – cover",
+        "fr": "Gino Chouinard – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/artist/4j63HnohVGYEDn2K8HmhcW",
+      "geniusUrl": "search.html#song=gino-chouinard",
+      "isNew": false,
+      "order": 98
     },
     {
-        "id": "barbies-resto-bar-grillz",
-        "title": "Barbies Resto Bar Grillz",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/Barbies_Bar_Grillz.jpg",
-        "coverAlt": {
-            "en": "Barbies Resto Bar Grillz – cover",
-            "fr": "Barbies Resto Bar Grillz – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/track/2JGSAX8ZHyTMjrZCFT36Fs",
-        "geniusUrl": "search.html#song=barbies-resto-bar-grillz",
-        "isNew": false,
-        "order": 7
+      "id": "barbies-resto-bar-grillz",
+      "title": "Barbies Resto Bar Grillz",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/Barbies_Bar_Grillz.jpg",
+      "coverAlt": {
+        "en": "Barbies Resto Bar Grillz – cover",
+        "fr": "Barbies Resto Bar Grillz – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/track/2JGSAX8ZHyTMjrZCFT36Fs",
+      "geniusUrl": "search.html#song=barbies-resto-bar-grillz",
+      "isNew": false,
+      "order": 99
     },
     {
-        "id": "manon-masse",
-        "title": "Manon Massé",
-        "year": 2025,
-        "type": "Single",
-        "coverImage": "/assets/img/Manon_Masse.jpg",
-        "coverAlt": {
-            "en": "Manon Massé – cover",
-            "fr": "Manon Massé – cover"
-        },
-        "spotifyUrl": "https://open.spotify.com/intl-fr/track/2CpwG49FWVifN45QCsB0eD",
-        "geniusUrl": "search.html#song=manon-masse",
-        "isNew": false,
-        "order": 11
-    }]
+      "id": "manon-masse",
+      "title": "Manon Massé",
+      "year": 2025,
+      "type": "Single",
+      "coverImage": "/assets/img/Manon_Masse.jpg",
+      "coverAlt": {
+        "en": "Manon Massé – cover",
+        "fr": "Manon Massé – cover"
+      },
+      "spotifyUrl": "https://open.spotify.com/intl-fr/track/2CpwG49FWVifN45QCsB0eD",
+      "geniusUrl": "search.html#song=manon-masse",
+      "isNew": false,
+      "order": 100
+    }
+  ]
 }
