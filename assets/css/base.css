@@ -166,6 +166,22 @@ body::before {
     height: var(--banner-height);
     background: linear-gradient(90deg, var(--accent-hot), var(--accent-electric));
     overflow: hidden;
+    animation: banner-unfurl 0.65s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@keyframes banner-unfurl {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--banner-height);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #event-banner {
+        animation: none;
+    }
 }
 
 #event-banner a {
