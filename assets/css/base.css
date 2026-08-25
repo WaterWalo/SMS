@@ -25,6 +25,7 @@
     --text-dark: #1a2332;
     --text-muted: #5a6a7a;
     --nav-height: 64px;
+    --banner-height: 44px;
 
     /* Accent colors - intense energy */
     --accent-hot: #FF006E;
@@ -154,12 +155,116 @@ body::before {
 }
 
 /* ─────────────────────────────────────────────
+   EVENT BANNER
+   ───────────────────────────────────────────── */
+#event-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 101;
+    height: var(--banner-height);
+    background: linear-gradient(90deg, var(--accent-hot), var(--accent-electric));
+    overflow: hidden;
+    animation: banner-unfurl 0.65s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@keyframes banner-unfurl {
+    from {
+        height: 0;
+    }
+    to {
+        height: var(--banner-height);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #event-banner {
+        animation: none;
+    }
+}
+
+#event-banner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    height: 100%;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #0a121c;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    transition: filter 0.2s ease;
+}
+
+#event-banner a:hover {
+    filter: brightness(1.08);
+}
+
+#event-banner .event-banner-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    padding: 2px 8px;
+    background: rgba(10, 18, 28, 0.85);
+    color: #fff;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+#event-banner .event-banner-ticker {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#event-banner .event-banner-text {
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding-left: 100%;
+    animation: banner-ticker 11s linear infinite;
+    will-change: transform;
+}
+
+@keyframes banner-ticker {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #event-banner .event-banner-text {
+        animation: none;
+        padding-left: 0;
+    }
+}
+
+#event-banner .event-banner-cta {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* ─────────────────────────────────────────────
    NAV
    ───────────────────────────────────────────── */
 nav {
     --nav-progress: 1;
     position: fixed;
-    top: 0;
+    top: var(--banner-height);
     left: 0;
     right: 0;
     z-index: 100;

@@ -28,6 +28,11 @@
             "learnMore": "Learn more about SMS",
             "newBadge": "NEW"
         },
+        "eventBanner": {
+            "badge": "SHOW",
+            "text": "SMS live soon — tickets available now!",
+            "cta": "Get tickets →"
+        },
         "footer": {
             "rights": "All rights reserved",
             "location": "Quebec City, QC",
@@ -63,6 +68,11 @@
         "cta": {
             "learnMore": "En savoir plus sur SMS",
             "newBadge": "NOUVEAU"
+        },
+        "eventBanner": {
+            "badge": "SHOW",
+            "text": "SMS en spectacle bientôt — billets disponibles!",
+            "cta": "Voir les billets →"
         },
         "footer": {
             "rights": "Tous droits réservés",
