@@ -214,13 +214,40 @@ body::before {
     flex-shrink: 0;
 }
 
+#event-banner .event-banner-ticker {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
 #event-banner .event-banner-text {
     font-weight: 600;
     font-size: 0.85rem;
     letter-spacing: 0.3px;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    flex-shrink: 0;
+    padding-left: 100%;
+    animation: banner-ticker 11s linear infinite;
+    will-change: transform;
+}
+
+@keyframes banner-ticker {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #event-banner .event-banner-text {
+        animation: none;
+        padding-left: 0;
+    }
 }
 
 #event-banner .event-banner-cta {
@@ -229,12 +256,6 @@ body::before {
     text-decoration: underline;
     flex-shrink: 0;
     white-space: nowrap;
-}
-
-@media (max-width: 640px) {
-    #event-banner .event-banner-text {
-        display: none;
-    }
 }
 
 /* ─────────────────────────────────────────────
