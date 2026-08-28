@@ -869,6 +869,15 @@ footer {
    ces règles gagnent volontairement la cascade.
    ═══════════════════════════════════════════════════════════════════ */
 
+/* ── L'attribut hidden reste hidden ──────────────────────────────
+   N'importe quelle règle d'auteur posant un `display` sur un élément
+   porteur de [hidden] annule le `display: none` du navigateur, et
+   l'élément réapparaît. Ce garde-fou évite d'avoir à y penser à chaque
+   fois qu'on styles un élément affiché conditionnellement. */
+[hidden] {
+    display: none !important;
+}
+
 /* ── Focus clavier visible partout (le focus souris/tactile reste discret) ── */
 a:focus-visible,
 button:focus-visible,

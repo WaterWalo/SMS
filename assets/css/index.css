@@ -1960,7 +1960,12 @@ section {
         -webkit-tap-highlight-color: transparent;
     }
 
-    .riddle-more {
+    /* :not([hidden]) est indispensable : une déclaration `display` d'auteur
+       l'emporte sur le `display: none` que le navigateur applique à
+       [hidden]. Sans ça, « Voir la référence sur Génie » s'affichait dès
+       l'ouverture de la devinette, avec son href="#" de départ — un lien
+       visible qui ne menait nulle part tant qu'on n'avait pas répondu. */
+    .riddle-more:not([hidden]) {
         display: inline-flex;
         align-items: center;
         min-height: var(--tap-min);
