@@ -396,6 +396,15 @@
         mobileSearchInput.value = '';
         Lyrics.clearHighlights();
         restoreAllTracks();
+        return;
+      }
+      // La recherche surligne les vers dans les paroles, qui sont cachées
+      // derrière le tiroir : valider referme le tiroir sur le résultat.
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        handleSearch(mobileSearchInput.value);
+        mobileSearchInput.blur();
+        drawer.closeDrawer();
       }
     });
 
