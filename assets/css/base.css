@@ -1059,6 +1059,17 @@ nav {
         transform: scale(0.92);
     }
 
+    /* Le hamburger est statique, l'overlay du menu est positionné en
+       z-index 99 : dans le contexte d'empilement de la nav, l'overlay
+       passait donc PAR-DESSUS le bouton. La croix de fermeture était
+       recouverte par le voile sombre — invisible et intouchable, sans
+       autre issue que de taper un lien. Il faut positionner le bouton
+       pour qu'il participe à l'empilement. */
+    .nav-toggle {
+        position: relative;
+        z-index: 100;
+    }
+
     /* Menu plein écran : marges sûres, pas de scroll qui déborde sur la page. */
     .nav-links {
         padding: calc(var(--safe-top) + 4.5rem) 1.5rem calc(var(--safe-bottom) + 2rem);
@@ -1176,5 +1187,75 @@ body.menu-open {
 
     .footer-bottom {
         margin-top: 2rem;
+    }
+}
+
+/* ── Bannière spectacle : encoche, ancres et petits écrans ────────
+   La bannière est arrivée pendant ce chantier ; ces règles la
+   raccordent au reste du travail mobile. */
+
+/* Depuis viewport-fit=cover, un élément fixé à top:0 passe sous la barre
+   d'état. On fait porter l'encoche à --banner-height : la hauteur de la
+   bannière, la fin de son animation de déroulé et le décalage de la nav
+   (top: var(--banner-height)) suivent tous automatiquement. */
+:root {
+    --banner-height: calc(44px + var(--safe-top));
+}
+
+#event-banner {
+    padding-top: var(--safe-top);
+}
+
+#event-banner a {
+    padding-left: max(1rem, var(--safe-left));
+    padding-right: max(1rem, var(--safe-right));
+}
+
+/* Une ancre (#albums, #social depuis le footer) amenait sa cible juste
+   sous le bord haut, c'est-à-dire cachée derrière la bannière et la nav. */
+html {
+    scroll-padding-top: calc(var(--banner-height) + var(--nav-height) + 0.5rem);
+}
+
+@media (max-width: 680px) {
+
+    /* Sur 375px il ne restait que 179px de fenêtre au message qui défile,
+       124px sur un écran de 320px : on lit trois mots à la fois. On
+       resserre tout ce qui l'entoure pour lui rendre de la place. */
+    #event-banner a {
+        gap: 0.55rem;
+        padding-left: max(0.85rem, var(--safe-left));
+        padding-right: max(0.85rem, var(--safe-right));
+    }
+
+    #event-banner .event-banner-badge {
+        font-size: 0.62rem;
+        letter-spacing: 1.5px;
+        padding: 2px 7px;
+    }
+
+    #event-banner .event-banner-text {
+        font-size: 0.8rem;
+    }
+
+    #event-banner .event-banner-cta {
+        font-size: 0.75rem;
+    }
+
+    /* Menu ouvert : la nav passe au-dessus de la bannière (z-index 101),
+       sinon le bandeau rose flotte par-dessus l'overlay sombre et reste
+       cliquable au-dessus du menu. Élever la nav plutôt que l'overlay
+       garde le hamburger accessible : il est enfant de la nav. */
+    nav.nav--open {
+        z-index: 102;
+    }
+}
+
+/* Sous 400px, la pastille « SHOW » est ce qu'on peut sacrifier : elle est
+   décorative, le message dit déjà qu'il s'agit d'un spectacle, alors que
+   l'appel à l'action porte le clic. */
+@media (max-width: 360px) {
+    #event-banner .event-banner-badge {
+        display: none;
     }
 }
