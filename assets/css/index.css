@@ -1657,6 +1657,8 @@ section {
         animation: none;
         opacity: 0;
         height: var(--tap-min);
+        min-width: var(--tap-min);
+        padding-right: 4px;
         font-size: 1.15rem;
         letter-spacing: 3px;
         transition: opacity 0.35s ease, color 0.35s ease;
@@ -1827,15 +1829,15 @@ section {
     .album-meta {
         margin-top: auto;
         padding-top: 0.2rem;
-        font-size: 0.62rem;
-        letter-spacing: 1.2px;
+        font-size: 0.68rem;
+        letter-spacing: 1px;
     }
 
     .new-badge {
         top: -10px;
         right: 0.5rem;
-        padding: 0.25rem 0.5rem;
-        font-size: 0.58rem;
+        padding: 0.25rem 0.55rem;
+        font-size: 0.64rem;
         letter-spacing: 1px;
     }
 

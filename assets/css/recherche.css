@@ -1083,6 +1083,26 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
         transform: scale(0.96);
     }
 
+    /* ── Lisibilité des libellés ──────────────────────────────────
+       La typo mono de 9-10px fait partie du langage visuel de la page,
+       mais à bout de bras sur un téléphone ce sont des libellés qu'on
+       ne lit plus. On remonte d'un ou deux points ceux qui portent une
+       information, en gardant l'interlettrage large. */
+    .song-eyebrow,
+    .song-meta {
+        font-size: 11px;
+    }
+
+    .album-group__meta,
+    .mobile-drawer__sub,
+    .mobile-sheet__label {
+        font-size: 10px;
+    }
+
+    .album-group__title {
+        font-size: 15px;
+    }
+
     /* ── Tiroir catalogue ─────────────────────────────────────────── */
     .mobile-drawer {
         padding-top: var(--safe-top);
@@ -1103,7 +1123,7 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
         align-items: center;
         min-height: var(--tap-min, 44px);
         padding: 0 6px;
-        font-size: 10px;
+        font-size: 11px;
         -webkit-tap-highlight-color: transparent;
     }
 
@@ -1235,7 +1255,7 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
         background: var(--bg-side);
         color: var(--ink-soft);
         font-family: var(--font-mono);
-        font-size: 10px;
+        font-size: 11px;
         letter-spacing: 0.16em;
         text-transform: uppercase;
         -webkit-tap-highlight-color: transparent;
