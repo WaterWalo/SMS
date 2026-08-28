@@ -1625,9 +1625,12 @@ section {
         padding-right: max(1.25rem, var(--safe-right));
     }
 
+    /* #social porte son propre padding (sélecteur d'id) : sans ces lignes,
+       ses gouttières restaient à 2rem et la grille des réseaux était plus
+       étroite de 24px que celle des albums juste en dessous. */
     #social {
-        padding-top: 2.75rem;
-        padding-bottom: 2.75rem;
+        padding: 2.75rem max(1.25rem, var(--safe-left));
+        padding-right: max(1.25rem, var(--safe-right));
     }
 
     .section-label {
@@ -1685,6 +1688,10 @@ section {
     /* ── Réseaux : grille 2 colonnes plutôt que 5 pilules empilées ──
        Avant : 5 boutons de 220px de large centrés dans 311px, soit
        476px de hauteur pour cinq liens. */
+    #social .section-label {
+        margin-bottom: 1.1rem;
+    }
+
     .social-links {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1808,7 +1815,12 @@ section {
         letter-spacing: 0.4px;
     }
 
+    /* En grille, deux cartes voisines ont la même hauteur mais des titres
+       d'une ou deux lignes : on colle la ligne « année · type » en bas
+       pour qu'elle s'aligne d'une carte à l'autre. */
     .album-meta {
+        margin-top: auto;
+        padding-top: 0.2rem;
         font-size: 0.62rem;
         letter-spacing: 1.2px;
     }

@@ -57,7 +57,9 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
 .page {
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
-  min-height: 100vh;
+  /* svh plutôt que vh : vh compte la barre d'URL mobile comme si elle
+     était masquée, la page saute quand elle se rétracte. */
+  min-height: 100svh;
   width: 100%;
 }
 /* When an annotation is active, reveal the 3rd column */
@@ -78,7 +80,7 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
   border-right: 1px solid var(--hairline);
   position: sticky;
   top: 0;
-  height: 100vh;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -456,7 +458,7 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
   padding: 38px 28px 60px;
   position: sticky;
   top: 0;
-  height: 100vh;
+  height: 100svh;
   overflow-y: auto;
 }
 

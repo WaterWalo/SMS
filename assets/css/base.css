@@ -984,6 +984,36 @@ body.menu-open {
     touch-action: none;
 }
 
+/* ── Téléphone en paysage ────────────────────────────────────────
+   Le seuil du menu mobile est en largeur (680px) : un téléphone tourné
+   fait 812px de large et retombe donc sur la barre de nav horizontale,
+   avec ses libellés de 26px de haut. On leur rend une hauteur de doigt
+   sans toucher au desktop, et on écarte le contenu de l'encoche qui est
+   alors sur le côté. */
+@media (max-height: 500px) and (orientation: landscape) and (hover: none) {
+    nav {
+        height: 52px;
+    }
+
+    .nav-links {
+        gap: 1.5rem;
+    }
+
+    .nav-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: var(--tap-min);
+        padding-bottom: 0;
+    }
+
+    section,
+    footer,
+    .artist-intro-section {
+        padding-left: max(2rem, var(--safe-left));
+        padding-right: max(2rem, var(--safe-right));
+    }
+}
+
 /* ── Footer : cibles confortables et marges sûres sur mobile ─────── */
 @media (max-width: 720px) {
     footer {

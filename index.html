@@ -39,7 +39,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=Oswald:wght@300;400;600&family=Playfair+Display:ital,wght@0,900;1,700;1,900&family=Raleway:wght@300;400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=Oswald:wght@300;400;600&family=Playfair+Display:ital,wght@0,900;1,700;1,900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
 
     <!-- Structured Data (JSON-LD) -->
@@ -86,7 +86,8 @@
 
     <!-- ─── HERO ─── -->
     <section id="hero">
-        <img class="hero-bg-video" src="assets/img/background.jpg" alt="SMS Background" />
+        <img class="hero-bg-video" src="assets/img/background.jpg" alt="SMS Background"
+            fetchpriority="high" decoding="async" />
         <!-- dark overlay -->
         <div class="hero-overlay"></div>
 
@@ -108,7 +109,10 @@
 
         <!-- ─── SOCIAL ───────────────────────────────── -->
         <section id="social">
-            <div class="social-links">
+            <div class="section-inner">
+                <p class="section-label" data-i18n="sections.socialTitle">Suivez SMS</p>
+                <div class="social-links">
+                </div>
             </div>
         </section>
 
