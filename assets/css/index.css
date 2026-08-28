@@ -1688,6 +1688,12 @@ section {
     /* ── Réseaux : grille 2 colonnes plutôt que 5 pilules empilées ──
        Avant : 5 boutons de 220px de large centrés dans 311px, soit
        476px de hauteur pour cinq liens. */
+    /* #social est centré (héritage desktop) ; en mobile son intitulé
+       s'aligne à gauche comme ceux des autres sections. */
+    #social {
+        text-align: left;
+    }
+
     #social .section-label {
         margin-bottom: 1.1rem;
     }
