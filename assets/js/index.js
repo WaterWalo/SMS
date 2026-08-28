@@ -13,6 +13,7 @@
     const dockEl = document.querySelector('.social-dock');
     let navVisible = false;
     let ticking = false;
+    let heroFading = true;
 
     function onScroll() {
         if (!ticking) {
@@ -45,15 +46,67 @@
         }
 
         // ── hero title: fade + drift upward ─────────────────────────
-        heroContent.style.opacity = Math.max(1 - progress * 2, 0);
-        heroContent.style.transform = `translateY(${-progress * 60}px)`;
-
-        // ── scroll cue vanishes quickly ──────────────────────────────
-        if (scrollCue) scrollCue.style.opacity = Math.max(1 - progress * 5, 0);
+        // Une fois le hero dépassé, ses styles n'ont plus à bouger : on
+        // s'épargne deux écritures de style par frame sur tout le reste
+        // de la page (le style recalc est le coût du scroll sur mobile).
+        if (progress < 1 || heroFading) {
+            heroFading = progress < 1;
+            heroContent.style.opacity = Math.max(1 - progress * 2, 0);
+            heroContent.style.transform = `translateY(${-progress * 60}px)`;
+            if (scrollCue) scrollCue.style.opacity = Math.max(1 - progress * 5, 0);
+        }
     }
 
     window.addEventListener('scroll', onScroll, { passive: true });
     update();
+
+    // ── SCROLL CUE : descendre d'un écran au tap ─────────────────────
+    if (scrollCue) {
+        scrollCue.addEventListener('click', () => {
+            const target = document.getElementById('main-content');
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    }
+
+    // ── RETOUR EN HAUT ───────────────────────────────────────────────
+    // La page reste longue sur mobile : sans ce raccourci, revenir à la
+    // nav depuis le footer demande une dizaine de balayages.
+    const toTop = document.querySelector('.to-top');
+    if (toTop) {
+        const TO_TOP_TRIGGER = 1.2; // en hauteurs d'écran
+        const syncToTop = () => {
+            toTop.classList.toggle(
+                'is-visible',
+                window.scrollY > window.innerHeight * TO_TOP_TRIGGER
+            );
+        };
+        window.addEventListener('scroll', syncToTop, { passive: true });
+        syncToTop();
+        toTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    // ── TEXTE DE PRÉSENTATION REPLIABLE (mobile) ─────────────────────
+    // Le paragraphe reste entier dans le DOM (référencement) ; seul son
+    // affichage est tronqué par CSS tant que la section n'est pas ouverte.
+    const introToggle = document.querySelector('.artist-intro-toggle');
+    if (introToggle) {
+        const introSection = introToggle.closest('.artist-intro-section');
+        const introLabel = introToggle.querySelector('.artist-intro-toggle__label');
+        const LABELS = window.siteConfig?.lang === 'en'
+            ? { more: 'Read more', less: 'Show less' }
+            : { more: 'Lire la suite', less: 'Réduire' };
+
+        introToggle.addEventListener('click', () => {
+            const expanded = introSection.classList.toggle('is-expanded');
+            introToggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+            if (introLabel) introLabel.textContent = expanded ? LABELS.less : LABELS.more;
+            if (!expanded) {
+                introSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    }
 
     // ── SCROLL REVEAL ────────────────────────────────────────────────
     createRevealObserver(

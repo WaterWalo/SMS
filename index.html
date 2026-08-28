@@ -97,10 +97,10 @@
                 <p class="hero-subtitle" data-i18n="bio.heroSubtitle">Groupe de Rap Underground de Québec</p>
             </div>
 
-            <div class="scroll-cue">
+            <button class="scroll-cue" type="button" aria-label="Descendre vers le contenu">
                 <span>Scroll</span>
-                <div class="scroll-arrow"></div>
-            </div>
+                <span class="scroll-arrow" aria-hidden="true"></span>
+            </button>
         </div>
     </section>
 
@@ -139,7 +139,8 @@
         <!-- ─── ARTIST INTRO (SEO) ──────────────────── -->
         <section class="artist-intro-section">
             <div class="artist-intro-inner">
-                <p class="artist-intro">
+                <div class="artist-intro-wrap">
+                    <p class="artist-intro" id="artist-intro-text">
                     <strong>SMS / SadMazdaSongs</strong> est un collectif de rap québécois émergent basé à Québec. Actif
                     depuis 2024, le groupe assure lui-même l'écriture, la production et l'interprétation de chacun de
                     ses morceaux. En surface, leur musique peut sembler être seulement humoristique, mais on y trouve
@@ -148,7 +149,15 @@
                     une identité sonore unique dans le paysage du rap québécois. Retrouvez leur poésie dans leur nouvel
                     album <a href="https://open.spotify.com/intl-fr/album/3h7rvIoOGQX50pyPWcGJrO" target="_blank"
                         rel="noopener noreferrer"><strong>HECTOR</strong></a>, prévu pour l'été de 2026.
-                </p>
+                    </p>
+                </div>
+                <button class="artist-intro-toggle" type="button" aria-expanded="false"
+                    aria-controls="artist-intro-text">
+                    <span class="artist-intro-toggle__label">Lire la suite</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 15.5 5.5 9l1.4-1.4 5.1 5.1 5.1-5.1L18.5 9z" />
+                    </svg>
+                </button>
             </div>
         </section>
 
@@ -185,6 +194,13 @@
         </footer>
 
     </div><!-- /#main-content -->
+
+    <!-- ─── RETOUR EN HAUT (mobile / tablette) ─────────────────────── -->
+    <button class="to-top" type="button" aria-label="Revenir en haut de la page">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 8.5 18.5 15l-1.4 1.4-5.1-5.1-5.1 5.1L5.5 15z" />
+        </svg>
+    </button>
 
     <!-- ─── RIDDLE MODAL (Devinette : deviner la chanson) ──────────── -->
     <div class="riddle-modal" id="riddle-modal" aria-hidden="true" role="dialog" aria-modal="true"
