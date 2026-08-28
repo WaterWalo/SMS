@@ -27,6 +27,15 @@
   --ann-circle-bg: #87d4e0;
   --ann-circle-fg: #1a2332;
   --quote-bg: #f0f7f9;
+
+  /* Tactile : cible minimale recommandée (WCAG 2.5.5 / HIG / Material) */
+  --tap-min: 44px;
+
+  /* Encoches & barres système (nécessite viewport-fit=cover dans le <meta>) */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
 }
 
 * { box-sizing: border-box; }
@@ -883,7 +892,6 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
     transition: transform 300ms cubic-bezier(.4,0,.2,1);
     z-index: 400;
     max-height: 85svh;
-    padding-bottom: env(safe-area-inset-bottom, 0px);
   }
   .mobile-sheet.is-open { transform: translateY(0); }
 
@@ -971,4 +979,319 @@ button { font: inherit; border: 0; background: transparent; cursor: pointer; col
     color: var(--ink-soft);
   }
   .mobile-sheet__text strong { color: var(--ink); }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   MOBILE — reprise ergonomique (≤ 768px)
+   Le squelette (nav fixe, tiroir catalogue, feuille d'annotation) était
+   déjà là ; ce bloc corrige ce qui se voit au doigt : zoom iOS sur les
+   champs, encoches, cibles trop petites, défilements qui débordent.
+   ═══════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+    /* ── Hauteurs : svh, pas vh ───────────────────────────────────
+       Avec 100vh, la barre d'URL mobile est comptée alors qu'elle est
+       affichée : la page se met à sauter quand elle se rétracte. */
+    .page {
+        min-height: 100svh;
+    }
+
+    /* ── Champs de recherche : 16px minimum ───────────────────────
+       Sous 16px, iOS Safari zoome sur le champ à la mise au point et ne
+       dézoome jamais : on se retrouve coincé dans une page agrandie. */
+    .search input,
+    .mobile-drawer__search-input {
+        font-size: 16px;
+    }
+
+    /* ── Barre du haut : sous l'encoche ───────────────────────────── */
+    .mobile-nav {
+        height: calc(56px + var(--safe-top));
+        padding: var(--safe-top) max(8px, var(--safe-left)) 0 max(8px, var(--safe-left));
+        padding-right: max(8px, var(--safe-right));
+    }
+
+    .page {
+        padding-top: calc(56px + var(--safe-top));
+    }
+
+    .main {
+        padding: 20px max(16px, var(--safe-left)) 100px;
+        padding-right: max(16px, var(--safe-right));
+    }
+
+    .mobile-nav__btn:active {
+        background: var(--bg-side);
+        transform: scale(0.94);
+    }
+
+    /* ── Paroles : confort de lecture ─────────────────────────────
+       15px/1.75 pour du texte qu'on lit en entier, c'est court ; on
+       passe à 16px avec un interligne plus aéré et on empêche iOS
+       d'ajuster la taille tout seul en rotation. */
+    .lyrics {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .lyrics .stanza {
+        margin-bottom: 22px;
+    }
+
+    /* ── Lignes annotées : cible atteignable ──────────────────────
+       La pastille numérotée faisait 18x18. On l'agrandit et surtout on
+       lui donne une zone de touche invisible de 44px, sans décaler le
+       texte autour. */
+    .ann-sup {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .ann-sup::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: var(--tap-min, 44px);
+        height: var(--tap-min, 44px);
+        transform: translate(-50%, -50%);
+    }
+
+    .line-ann {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .line-ann:active {
+        background-color: color-mix(in oklab, var(--link) 22%, transparent);
+    }
+
+    /* ── En-tête de chanson ───────────────────────────────────────── */
+    .listen-btn {
+        min-height: var(--tap-min, 44px);
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    .listen-btn:active {
+        transform: scale(0.96);
+    }
+
+    /* ── Tiroir catalogue ─────────────────────────────────────────── */
+    .mobile-drawer {
+        padding-top: var(--safe-top);
+        padding-bottom: var(--safe-bottom);
+        overscroll-behavior: contain;
+    }
+
+    .mobile-drawer__header {
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* « ← Site principal » et « Fermer » faisaient 14 et 22px de haut :
+       deux liens qu'on rate une fois sur deux. */
+    .mobile-drawer__back,
+    .mobile-drawer__close {
+        display: inline-flex;
+        align-items: center;
+        min-height: var(--tap-min, 44px);
+        padding: 0 6px;
+        font-size: 10px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .mobile-drawer__back {
+        margin-left: -6px;
+    }
+
+    .mobile-drawer__close {
+        margin-right: -6px;
+    }
+
+    .mobile-drawer__back:active,
+    .mobile-drawer__close:active {
+        color: var(--ink);
+    }
+
+    .mobile-drawer__title-block {
+        padding-top: 8px;
+    }
+
+    .mobile-drawer__search-wrap {
+        padding: 11px 14px;
+    }
+
+    .mobile-drawer__content {
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Pistes du catalogue : 31px de haut, collées les unes aux autres.
+       44px minimum et un peu d'air pour viser sans effort. */
+    .mobile-drawer__content .track-list li {
+        min-height: var(--tap-min, 44px);
+        align-items: center;
+        padding: 8px 12px 8px 16px;
+        font-size: 14px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .mobile-drawer__content .track-list li:active {
+        background: var(--bg-card);
+        color: var(--ink);
+    }
+
+    .mobile-drawer__content .album-group__head {
+        padding-bottom: 6px;
+    }
+
+    /* Repère de position : la piste en cours reste identifiable dans le
+       tiroir comme elle l'est dans la sidebar desktop. */
+    .mobile-drawer__content .track-list li.is-current {
+        background: var(--bg-card);
+        font-weight: 600;
+    }
+
+    .mobile-drawer__content .track-list li.is-current::before {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* ── Feuille d'annotation ─────────────────────────────────────── */
+    .mobile-sheet {
+        max-height: 86svh;
+        overscroll-behavior: contain;
+    }
+
+    /* La poignée mesurait 4px de haut : on garde le trait fin, mais la
+       zone qu'on attrape fait 24px. */
+    .mobile-sheet__handle {
+        width: 44px;
+        height: 5px;
+        margin: 0;
+        border-radius: 3px;
+        background: var(--hairline);
+    }
+
+    .mobile-sheet__handle-zone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 24px;
+        flex-shrink: 0;
+        cursor: grab;
+        touch-action: none;
+    }
+
+    .mobile-sheet__close {
+        width: var(--tap-min, 44px);
+        height: var(--tap-min, 44px);
+        margin-right: -6px;
+    }
+
+    .mobile-sheet__body {
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 40px;
+    }
+
+    .mobile-sheet__text {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+    .mobile-sheet__quote {
+        font-size: 14.5px;
+    }
+
+    /* Naviguer d'une annotation à l'autre sans refermer la feuille :
+       sur un morceau qui en compte trente, c'est la manip principale. */
+    .mobile-sheet__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 12px 20px calc(16px + var(--safe-bottom));
+        border-top: 1px solid var(--hairline);
+        background: var(--bg);
+        flex-shrink: 0;
+    }
+
+    .mobile-sheet__nav-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: var(--tap-min, 44px);
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--hairline);
+        background: var(--bg-side);
+        color: var(--ink-soft);
+        font-family: var(--font-mono);
+        font-size: 10px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .mobile-sheet__nav-btn:disabled {
+        opacity: 0.35;
+    }
+
+    .mobile-sheet__nav-btn:active:not(:disabled) {
+        background: var(--teal);
+        color: var(--ink);
+    }
+
+    .mobile-sheet__nav-count {
+        font-family: var(--font-mono);
+        font-size: 10px;
+        letter-spacing: 0.16em;
+        color: var(--ink-mute);
+    }
+
+    /* La feuille couvre le bas de l'écran : la ligne active doit rester
+       visible au-dessus d'elle pendant la lecture de l'annotation. */
+    .lyrics p.is-sheet-active {
+        scroll-margin-bottom: 60svh;
+    }
+}
+
+/* ── Focus clavier visible (page Génie) ─────────────────────────── */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+.line-ann:focus-visible,
+.track-list li:focus-visible {
+    outline: 2px solid var(--teal-mid);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* ── Écrans tactiles : pas de survol collant ────────────────────── */
+@media (hover: none) {
+
+    .listen-btn:hover,
+    .track-list li:hover {
+        transform: none;
+    }
+
+    .line-ann:hover {
+        background-color: transparent;
+    }
+}
+
+/* ── Mouvement réduit ───────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }

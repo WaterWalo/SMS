@@ -32,6 +32,10 @@
   const mobileSearchInput = document.getElementById('mobile-search-input');
   const mobileProjectsCount = document.getElementById('mobile-projects-count');
 
+  const sheetPrev = document.getElementById('sheet-prev');
+  const sheetNext = document.getElementById('sheet-next');
+  const sheetCount = document.getElementById('sheet-count');
+
   const sheetRefs = {
     sheetNum: document.getElementById('sheet-num'),
     sheetLine: document.getElementById('sheet-line'),
@@ -163,6 +167,23 @@
   }
 
   /* ── ANNOTATION ─────────────────────────────────────────────────── */
+  /**
+   * Barre « précédente / suivante » de la feuille mobile. Sur un morceau
+   * qui compte trente références, enchaîner les annotations demandait de
+   * refermer la feuille et de retrouver la pastille suivante à l'œil.
+   */
+  function updateSheetNav(song, refIdx) {
+    if (!sheetCount || !sheetPrev || !sheetNext) return;
+    const refs = song.references || [];
+    sheetCount.textContent = `${refIdx} / ${refs.length}`;
+    sheetPrev.disabled = refIdx <= 1;
+    sheetNext.disabled = refIdx >= refs.length;
+    // Affectation directe plutôt qu'addEventListener : la feuille est
+    // réutilisée pour chaque annotation, les écouteurs s'empileraient.
+    sheetPrev.onclick = () => showAnnotation(song, refs[refIdx - 2].id);
+    sheetNext.onclick = () => showAnnotation(song, refs[refIdx].id);
+  }
+
   function showAnnotation(song, refId, initial = false) {
     const ref = (song.references || []).find(r => r.id === refId);
     if (!ref) return;
@@ -173,8 +194,9 @@
     if (Utils.isMobile()) {
       Lyrics.renderAnnotationSheet(sheetRefs, ref, refIdx);
       Lyrics.highlightActivePara(refId);
+      updateSheetNav(song, refIdx);
       drawer.openSheet();
-      document.getElementById('mobile-sheet').scrollTop = 0;
+      document.querySelector('.mobile-sheet__body').scrollTop = 0;
     } else {
       Lyrics.renderAnnotationDesktop(annotContent, song, ref, refIdx);
       document.querySelector('.page').classList.add('has-annotation');
@@ -349,7 +371,17 @@
     });
 
     /* ── Mobile drawer + sheet wiring ── */
-    mobileMenuBtn?.addEventListener('click', () => drawer.openDrawer(false));
+    // À l'ouverture du catalogue, on amène la piste en cours dans la vue :
+    // avec 22 titres répartis en albums, on ne sait pas où l'on est.
+    function revealCurrentTrack() {
+        const li = mobileDrawerContent?.querySelector('.track-list li.is-current');
+        if (li) li.scrollIntoView({ block: 'center' });
+    }
+
+    mobileMenuBtn?.addEventListener('click', () => {
+        drawer.openDrawer(false);
+        revealCurrentTrack();
+    });
     mobileSearchBtn?.addEventListener('click', () => drawer.openDrawer(true));
     drawer.bindEvents({
       onSheetClose: () => {

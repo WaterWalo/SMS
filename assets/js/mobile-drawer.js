@@ -17,6 +17,10 @@
       backdrop
     } = refs;
 
+    // Élément qui avait le focus avant l'ouverture : on le lui rend à la
+    // fermeture, sinon la navigation clavier repart du haut du document.
+    let lastFocused = null;
+
     function lockBody() { document.body.style.overflow = 'hidden'; }
     function maybeUnlockBody() {
       if (!drawer.classList.contains('is-open') &&
@@ -26,7 +30,20 @@
       }
     }
 
+    function rememberFocus() {
+      if (!drawer.classList.contains('is-open') && !sheet.classList.contains('is-open')) {
+        lastFocused = document.activeElement;
+      }
+    }
+
+    function restoreFocus() {
+      if (drawer.classList.contains('is-open') || sheet.classList.contains('is-open')) return;
+      if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+      lastFocused = null;
+    }
+
     function openDrawer(focusSearch = false) {
+      rememberFocus();
       drawer.classList.add('is-open');
       drawer.setAttribute('aria-hidden', 'false');
       backdrop.classList.add('is-visible');
@@ -40,9 +57,11 @@
       drawer.classList.remove('is-open');
       drawer.setAttribute('aria-hidden', 'true');
       maybeUnlockBody();
+      restoreFocus();
     }
 
     function openSheet() {
+      rememberFocus();
       sheet.classList.add('is-open');
       sheet.setAttribute('aria-hidden', 'false');
       backdrop.classList.add('is-visible');
@@ -50,10 +69,12 @@
     }
 
     function closeSheet(onClose) {
+      const wasOpen = sheet.classList.contains('is-open');
       sheet.classList.remove('is-open');
       sheet.setAttribute('aria-hidden', 'true');
       maybeUnlockBody();
       if (typeof onClose === 'function') onClose();
+      if (wasOpen) restoreFocus();
     }
 
     /**
@@ -69,15 +90,31 @@
         closeSheet(onSheetClose);
       });
 
+      // Échap ferme le panneau ouvert (clavier physique, iPad, Bluetooth).
+      document.addEventListener('keydown', e => {
+        if (e.key !== 'Escape') return;
+        if (sheet.classList.contains('is-open')) closeSheet(onSheetClose);
+        else if (drawer.classList.contains('is-open')) closeDrawer();
+      });
+
+      const sheetBody = sheet.querySelector('.mobile-sheet__body');
       let startY = 0;
       let delta = 0;
+      let dragging = false;
 
+      // Le glissé ne doit prendre la main que si l'on part de la poignée,
+      // ou si le texte est déjà en haut. Sinon, tirer vers le bas pour
+      // remonter dans une longue annotation refermait la feuille au lieu
+      // de faire défiler le texte.
       sheet.addEventListener('touchstart', e => {
+        const fromHandle = e.target.closest('.mobile-sheet__handle-zone');
+        dragging = !!fromHandle || !sheetBody || sheetBody.scrollTop <= 0;
         startY = e.touches[0].clientY;
         delta = 0;
       }, { passive: true });
 
       sheet.addEventListener('touchmove', e => {
+        if (!dragging) return;
         delta = e.touches[0].clientY - startY;
         if (delta > 0) {
           sheet.style.transition = 'none';
@@ -86,10 +123,12 @@
       }, { passive: true });
 
       sheet.addEventListener('touchend', () => {
+        if (!dragging) return;
         sheet.style.transition = '';
         sheet.style.transform = '';
         if (delta > 80) closeSheet(onSheetClose);
         delta = 0;
+        dragging = false;
       });
     }
 

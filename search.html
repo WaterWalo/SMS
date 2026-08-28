@@ -141,8 +141,13 @@
   </div>
 
   <!-- ─── Bottom sheet annotation ─── -->
-  <div class="mobile-sheet" id="mobile-sheet" aria-hidden="true">
-    <div class="mobile-sheet__handle"></div>
+  <div class="mobile-sheet" id="mobile-sheet" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Annotation">
+    <!-- Zone de préhension de 24px autour du trait : c'est elle qu'on
+         attrape pour refermer la feuille au glissé. -->
+    <div class="mobile-sheet__handle-zone">
+      <div class="mobile-sheet__handle"></div>
+    </div>
     <div class="mobile-sheet__header">
       <div class="mobile-sheet__badge">
         <span class="mobile-sheet__num" id="sheet-num">1</span>
@@ -155,6 +160,13 @@
       <h3 class="mobile-sheet__title" id="sheet-title"></h3>
       <div class="mobile-sheet__tags" id="sheet-tags"></div>
       <div class="mobile-sheet__text" id="sheet-body"></div>
+    </div>
+    <!-- Passer d'une annotation à la suivante sans refermer la feuille et
+         retrouver la ligne suivante à la main. -->
+    <div class="mobile-sheet__nav">
+      <button class="mobile-sheet__nav-btn" id="sheet-prev" type="button">← Préc.</button>
+      <span class="mobile-sheet__nav-count" id="sheet-count"></span>
+      <button class="mobile-sheet__nav-btn" id="sheet-next" type="button">Suiv. →</button>
     </div>
   </div>
 
