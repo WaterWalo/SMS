@@ -75,16 +75,20 @@ function renderNav(navLabels, lang) {
         ? `<a href="index.html" class="nav-logo"></a>`
         : `<a href="index.html" class="nav-logo"></a>`;
 
+    // Le menu mobile n'a qu'une seule affordance de fermeture : le hamburger
+    // qui se transforme en ✕, toujours au même endroit. L'ancien bouton ✕
+    // séparé faisait doublon (deux croix superposées) et était, en prime, un
+    // <button> enfant direct de <ul> — du HTML invalide.
     nav.innerHTML = `
     ${logoHtml}
-    <ul class="nav-links">
-      <button class="nav-close" aria-label="Fermer le menu">&#x2715;</button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="${homeUrl}">${navLabels.home}</a></li>
       <li><a href="${contactUrl}">${navLabels.contact}</a></li>
       <li><a href="${albumsUrl}">${navLabels.albums}</a></li>
       <li><a href="search.html" class="genius-link">${navLabels.genius}</a></li>
     </ul>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <button class="nav-toggle" type="button" aria-label="Ouvrir le menu"
+            aria-expanded="false" aria-controls="nav-links">
       <span></span><span></span><span></span>
     </button>
   `;
@@ -98,21 +102,39 @@ function initHamburgerMenu() {
     const navEl = document.querySelector('nav');
     const navToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelector('.nav-links');
-    const navClose = document.querySelector('.nav-close');
 
     if (!navToggle || !navEl || !navLinks) return;
 
+    function openMenu() {
+        navEl.classList.add('nav--open');
+        navToggle.setAttribute('aria-expanded', 'true');
+        navToggle.setAttribute('aria-label', 'Fermer le menu');
+        // Sans ce verrou, la page continue de défiler derrière l'overlay :
+        // on rouvre le menu et le contenu a bougé sous les doigts.
+        document.body.classList.add('menu-open');
+        document.addEventListener('keydown', onMenuKeydown);
+    }
+
     function closeMenu() {
+        const wasOpen = navEl.classList.contains('nav--open');
         navEl.classList.remove('nav--open');
         navToggle.setAttribute('aria-expanded', 'false');
+        navToggle.setAttribute('aria-label', 'Ouvrir le menu');
+        document.body.classList.remove('menu-open');
+        document.removeEventListener('keydown', onMenuKeydown);
+        // Le focus revient sur le hamburger, sinon il retombe sur <body>
+        // et la navigation clavier repart du haut de la page.
+        if (wasOpen) navToggle.focus();
+    }
+
+    function onMenuKeydown(e) {
+        if (e.key === 'Escape') closeMenu();
     }
 
     navToggle.addEventListener('click', function () {
-        const isOpen = navEl.classList.toggle('nav--open');
-        navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        if (navEl.classList.contains('nav--open')) closeMenu();
+        else openMenu();
     });
-
-    if (navClose) navClose.addEventListener('click', closeMenu);
 
     navLinks.querySelectorAll('a').forEach(function (link) {
         link.addEventListener('click', closeMenu);
